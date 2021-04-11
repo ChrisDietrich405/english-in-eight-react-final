@@ -1,0 +1,121 @@
+.home {
+    margin-top: 2rem; 
+    text-align: center; 
+    .title-span {
+        color: blue
+    }
+
+    .first-cards {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .first-cards p {
+        line-height: 28px;
+    }
+
+    .phrasal-verbs-card-examples,
+    .idiomatic-expressions-examples {
+        height: 10rem;
+        margin: 35px; 
+        padding-top: 150px; 
+        padding-bottom: 150px;
+        padding-left: 30px;  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        border-radius: 1rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .phrasal-verbs,
+    .idiomatic-expressions { 
+        display: flex;
+        justify-content: space-between;
+        width: 27rem;
+    }
+
+
+    .phrasal-verbs-icon {
+        display: flex;
+        justify-content: space-around;
+        padding: 4px 4px;
+    }
+
+    .phrasal-verbs-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-left: 3px;
+        line-height: 60; 
+    }
+
+    .phrasal-verbs-content p {
+        padding: 5px; 
+    }
+
+    .phrasal-verbs-content-definition {
+        line-height: 30;  
+    }
+
+    .phrasal-verbs-content-title,
+    .idiomatic-expressions-title {
+        font-weight: bold;
+        font-size: 1.4rem;
+        text-align: start;
+    }
+
+    .phrasal-verbs-content-definition,
+    .idiomatic-expression-definition {
+        color: blue;
+        line-height: 16;
+        text-align: start;
+    }
+
+    .idiomatic-expressions-example,
+    .phrasal-verbs-card-example {
+        font-size: 1.1rem;
+    }   
+
+    .second-cards {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        padding: 0 20px;
+        margin-bottom: 1777px; 
+    }
+
+    .second-cards i, 
+    .second-cards img {
+        margin-bottom: 7px; 
+    }
+    
+    
+
+    .noun-examples,
+    .verb-examples,
+    .adjective-examples,
+    .adverb-examples {
+        line-height: 20px; 
+        height: 10rem;
+        margin: 10px; 
+        padding: 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .noun-span,
+    .verb-span,
+    .adjective-span,
+    .adverb-span {
+        color: blue;
+    }
+
+    .strong-img {
+        width: 30px; 
+    }
+}

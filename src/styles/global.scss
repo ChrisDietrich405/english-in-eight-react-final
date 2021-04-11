@@ -1,0 +1,20 @@
+@import "~bootstrap/scss/functions";
+@import "./_variables.scss";
+@import "~bootstrap/scss/mixins";
+@import '~bootstrap/scss/bootstrap';
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
+@import "./components/navbar.scss"; 
+
+@import "./pages/home.scss";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
