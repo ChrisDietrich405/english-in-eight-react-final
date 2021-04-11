@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "./pages/Home"
-import Nouns from "./pages/Nouns"
-import Versus from "./pages/Versus"
+import PartsOfSpeech from "./pages/PartsOfSpeech"
+import PresentTenseVerbs from "./pages/verbs/PresentTenseVerbs"
 import Expressions from "./pages/Expressions"
 
 import Navbar from "./components/Navbar"
@@ -12,8 +12,8 @@ function App() {
       <Navbar/>
       <Switch>
         <Route path="/" exact={true} component={Home}/>
-        <Route path="/nouns"  component={Nouns}/>
-        <Route path="/versus" component={Versus}/>
+        <Route path="/parts-of-speech"  component={PartsOfSpeech}/>
+        <Route path="/present-tense-verbs" component={PresentTenseVerbs}/>
         <Route path="/expressions" component={Expressions}/>
       </Switch>     
     </Router>

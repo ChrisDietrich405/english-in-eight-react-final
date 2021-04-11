@@ -15,14 +15,16 @@ export default function Navbar() {
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="nounsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Nouns
+                        Verbs
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="nounsDropdown">
-                            <li><Link to="/nouns" className="dropdown-item">Action</Link></li>
+                            <li><Link to="/nouns" className="dropdown-item">Past Tense Verbs</Link></li>
                             <li><hr className="dropdown-divider"/></li>
-                            <li><a className="dropdown-item" href="#">Another action</a></li>
+                            <li><Link to="/present-tense-verbs" className="dropdown-item">Present Tense Verbs</Link></li>
                             <li><hr className="dropdown-divider"/></li>
-                            <li><a className="dropdown-item" href="#">Something else here</a></li>
+                            <li><a className="dropdown-item" href="#">Futures Verbs</a></li>
+                            <li><hr className="dropdown-divider"/></li>
+                            <li><a className="dropdown-item" href="#">Adverbs</a></li>
                         </ul>
                     </li>
                     <li className="nav-item dropdown">
@@ -30,11 +32,13 @@ export default function Navbar() {
                         Versus
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="verbsDropdown">
-                            <li><a className="dropdown-item" href="#">Action</a></li>
+                            <li><a className="dropdown-item" href="#">Remember versus Remind</a></li>
                             <li><hr className="dropdown-divider"/></li>
-                            <li><a className="dropdown-item" href="#">Another action</a></li>
+                            <li><a className="dropdown-item" href="#">Bring versus Take</a></li>
                             <li><hr className="dropdown-divider"/></li>
-                            <li><a className="dropdown-item" href="#">Something else here</a></li>
+                            <li><a className="dropdown-item" href="#">Say versus Tell</a></li>
+                            <li><hr className="dropdown-divider"/></li>
+                            <li><a className="dropdown-item" href="#">Speak versus Talk</a></li>
                         </ul>
                     </li>
                     <li className="nav-item dropdown">
