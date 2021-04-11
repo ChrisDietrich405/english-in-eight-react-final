@@ -27,7 +27,7 @@ export default function Navbar() {
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="verbsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Verbs
+                        Versus
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="verbsDropdown">
                             <li><a className="dropdown-item" href="#">Action</a></li>
