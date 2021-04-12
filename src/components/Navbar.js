@@ -20,7 +20,7 @@ export default function Navbar() {
                         <ul className="dropdown-menu" aria-labelledby="nounsDropdown">
                             <li><Link to="/nouns" className="dropdown-item">Past Tense Verbs</Link></li>
                             <li><hr className="dropdown-divider"/></li>
-                            <li><Link to="/present-tense-verbs" className="dropdown-item">Present Tense Verbs</Link></li>
+                            <li><Link to="/present-verb-tenses" className="dropdown-item">Present Tense Verbs</Link></li>
                             <li><hr className="dropdown-divider"/></li>
                             <li><a className="dropdown-item" href="#">Futures Verbs</a></li>
                             <li><hr className="dropdown-divider"/></li>
