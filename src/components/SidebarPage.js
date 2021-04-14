@@ -1,6 +1,5 @@
 import { Link, Switch, Route } from "react-router-dom";
-import SimplePresent from "../pages/verbs/present-verb-tenses/SimplePresent";
-import PresentContinuous from "../pages/verbs/present-verb-tenses/PresentContinuous";
+
 
 export default function SidebarPage(props) {
 	
@@ -9,7 +8,7 @@ export default function SidebarPage(props) {
 		<div className="sidebar-container">
 		
         	<div className="sidebar-left">
-				<div className="center">
+				<div className="sidebar-title">
 					<h4>{ props.title }</h4>
                 </div>
                 <ul>
@@ -34,19 +33,16 @@ export default function SidebarPage(props) {
 			
             
             <div className="sidebar-right">
-                <Switch>
+
+				
+                  <Switch>
                     {props.links.map(link => {
-                        <Route
+                        <Route 
                             path={link.path}
                             component={link.component}
                         />
-                    })}
-                    {/* 					
-					<Route
-						path={`/present-verb-tenses/present-continuous`}
-						component={PresentContinuous}
-					></Route> */}
-				</Switch>
+                    })}				
+			      </Switch>  
 			</div>
 		</div>
 	);

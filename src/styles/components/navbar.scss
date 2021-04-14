@@ -22,10 +22,9 @@
 
 .navbar-search-btn {
     color: blue; 
-    background-color: purple; 
+    
     transition: all ease 1s; 
     &:hover {
-        color: purple; 
         background-color: blue;  
     }
 }

@@ -15,24 +15,22 @@ export default function Navbar() {
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="nounsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Verbs
+                        Nouns
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="nounsDropdown">
-                            <li><Link to="/nouns" className="dropdown-item">Past Tense Verbs</Link></li>
+                            <li><Link to="/noun-categories" className="dropdown-item">Countable and Uncountable</Link></li>
                             <li><hr className="dropdown-divider"/></li>
-                            <li><Link to="/present-verb-tenses" className="dropdown-item">Present Tense Verbs</Link></li>
+                            <li><Link to="/noun-categories" className="dropdown-item">Collective</Link></li>
                             <li><hr className="dropdown-divider"/></li>
-                            <li><a className="dropdown-item" href="#">Futures Verbs</a></li>
-                            <li><hr className="dropdown-divider"/></li>
-                            <li><a className="dropdown-item" href="#">Adverbs</a></li>
+                            <li><Link to="/noun-categories" className="dropdown-item">Possessive</Link></li>
                         </ul>
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="verbsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Versus
+                        Verbs
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="verbsDropdown">
-                            <li><a className="dropdown-item" href="#">Remember versus Remind</a></li>
+                            <li><Link to="/present-verb-tenses" className="dropdown-item">Present Tense Verbs</Link></li>
                             <li><hr className="dropdown-divider"/></li>
                             <li><a className="dropdown-item" href="#">Bring versus Take</a></li>
                             <li><hr className="dropdown-divider"/></li>
@@ -43,7 +41,7 @@ export default function Navbar() {
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="phrasal-verbsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Phrasal Verbs
+                        Adjectives
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="phrasal-verbsDropdown">
                             <li><a className="dropdown-item" href="#">Action</a></li>
@@ -54,7 +52,7 @@ export default function Navbar() {
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="expressionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Expressions
+                        Misc
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="expressionsDropdown">
                             <li><a className="dropdown-item" href="#">Another action</a></li>
