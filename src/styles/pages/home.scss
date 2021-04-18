@@ -61,6 +61,7 @@
 
     .phrasal-verbs-content-title,
     .idiomatic-expressions-title {
+        color: black !important; 
         font-weight: bold;
         font-size: 1.4rem;
         text-align: start;
@@ -68,15 +69,20 @@
 
     .phrasal-verbs-content-definition,
     .idiomatic-expression-definition {
-        color: blue;
+        color: blue !important;
         line-height: 16;
         text-align: start;
     }
 
     .idiomatic-expressions-example,
     .phrasal-verbs-card-example {
+        color: black !important; 
         font-size: 1.1rem;
     }   
+
+    .fa-comments {
+        color: black !important; 
+    }
 
     .second-cards {
         display: grid;
@@ -96,6 +102,7 @@
     .verb-examples,
     .adjective-examples,
     .adverb-examples {
+        color: black !important; 
         line-height: 20px; 
         height: 10rem;
         margin: 10px; 
@@ -112,7 +119,7 @@
     .verb-span,
     .adjective-span,
     .adverb-span {
-        color: blue;
+        color: blue !important;
     }
 
     .strong-img {

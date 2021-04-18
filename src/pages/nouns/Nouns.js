@@ -2,6 +2,7 @@ import SidebarPage from "../../components/SidebarPage"
 import UncountableAndCountable from "./noun-categories/UncountableAndCountable";
 import Collective from "./noun-categories/Collective";
 import PossessivePronouns from "./noun-categories/PossessivePronouns";
+import NounDefinition from "./noun-categories/NounDefinition";
 
 
 
@@ -9,6 +10,11 @@ export default function Nouns() {
     return (
         <SidebarPage title="Nouns" links={
             [
+                {
+                    title: "Noun Definition",
+                    path: "/noun-categories/noun-definition",
+                    component: NounDefinition
+                }, 
                 {
                     title: "Uncountable and Countable",
                     path: "/noun-categories/uncountable-and-countable",
@@ -21,7 +27,7 @@ export default function Nouns() {
                 }, 
                 {
                     title: "Possessive Pronouns",
-                    path: "noun-categories/possessive-pronouns",
+                    path: "/noun-categories/possessive-pronouns",
                     component: PossessivePronouns
                 }
             ]

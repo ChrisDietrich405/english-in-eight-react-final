@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
@@ -12,7 +12,7 @@ export default function Home() {
 
             <section className="first-cards">
 
-
+            <Link to="/phrasal-verbs-categories/phrasal-verbs-definition">
                 <div className="phrasal-verbs-card">
 
                     <div className="phrasal-verbs-card-examples">
@@ -29,8 +29,9 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+            </Link>
 
-
+            <Link to="/expressions-categories/expressions-definition"> 
                 <div className="idiomatic-expressions-card">
                     <div className="idiomatic-expressions-examples">
                         <div className="idiomatic-expressions">
@@ -45,26 +46,29 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+            </Link>
 
             </section>
 
             <section className="second-cards">
         
-            
-                <div className="noun-examples">
-                    <i className="fas fa-tree"></i>
-                    <p>Nouns</p>
-                    <p><span className="noun-span">people, places and things</span></p>
-                    <p>woman, tree, car</p>
-                </div>
+                <Link to="/noun-categories/noun-definition">
+                    <div className="noun-examples" >
+                        <i className="fas fa-tree"></i>
+                        <p>Nouns</p>
+                        <p><span className="noun-span">people, places and things</span></p>
+                        <p>woman, tree, car</p>
+                    </div>
+                </Link>
 
-
+                <Link to="/present-verb-tenses/verb-definition">
                 <div className="verb-examples">
                     <i className="fas fa-running"></i>
                     <p>Verbs</p>
                     <p><span className="verb-span">action words</span></p>
                     <p>run, fight, sing</p>
                 </div>
+                </Link>
 
 
                 <div className="adjective-examples">

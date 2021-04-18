@@ -11,18 +11,18 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <a className="nav-link" aria-current="page" href="#">Home</a>
+                        <Link to="/" className="nav-link" aria-current="page" >Home</Link>
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="nounsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Nouns
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="nounsDropdown">
-                            <li><Link to="/noun-categories" className="dropdown-item">Countable and Uncountable</Link></li>
+                            <li><Link to="/noun-categories/uncountable-and-countable" className="dropdown-item">Uncountable and Countable</Link></li>
                             <li><hr className="dropdown-divider"/></li>
-                            <li><Link to="/noun-categories" className="dropdown-item">Collective</Link></li>
+                            <li><Link to="/noun-categories/collective" className="dropdown-item">Collective</Link></li>
                             <li><hr className="dropdown-divider"/></li>
-                            <li><Link to="/noun-categories" className="dropdown-item">Possessive</Link></li>
+                            <li><Link to="/noun-categories/possessive-pronouns" className="dropdown-item">Possessive</Link></li>
                         </ul>
                     </li>
                     <li className="nav-item dropdown">
@@ -32,11 +32,9 @@ export default function Navbar() {
                         <ul className="dropdown-menu" aria-labelledby="verbsDropdown">
                             <li><Link to="/present-verb-tenses" className="dropdown-item">Present Tense Verbs</Link></li>
                             <li><hr className="dropdown-divider"/></li>
-                            <li><a className="dropdown-item" href="#">Bring versus Take</a></li>
+                            <li><a className="dropdown-item" href="#">Past Tense Verbs</a></li>
                             <li><hr className="dropdown-divider"/></li>
-                            <li><a className="dropdown-item" href="#">Say versus Tell</a></li>
-                            <li><hr className="dropdown-divider"/></li>
-                            <li><a className="dropdown-item" href="#">Speak versus Talk</a></li>
+                            <li><a className="dropdown-item" href="#">Future Tense Verbs</a></li>
                         </ul>
                     </li>
                     <li className="nav-item dropdown">
@@ -52,12 +50,17 @@ export default function Navbar() {
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="expressionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Misc
+                        Other Topics
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="expressionsDropdown">
-                            <li><a className="dropdown-item" href="#">Another action</a></li>
+                            <li><a className="dropdown-item" href="#">Idiomatic Expressions</a></li>
+                            <li><hr className="dropdown-divider" /></li>
+                            <li><a className="dropdown-item" href="#"></a>Phrasal Verbs</li>
+                            <li><hr className="dropdown-divider" /></li>
+                            <li><a className="dropdown-item" href="#">Versus</a></li>
                             <li><hr className="dropdown-divider" /></li>
                             <li><a className="dropdown-item" href="#">Something else here</a></li>
+                            <li><hr className="dropdown-divider" /></li>
                         </ul>
 
                           
