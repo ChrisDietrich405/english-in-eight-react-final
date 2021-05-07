@@ -87,12 +87,12 @@ export default function UncountableAndCountable() {
                 <br/> 
                 <Quiz title="Quiz" questions={[ //because we are in react we need to start the array with a curly bracket (because it's inside of a component)
                     {
-                        title: 'Eating _____ chocolate is unhealthy',
+                        title: "Eating _____ chocolate is unhealthy",
                         possibleAnswers: [ 
-                            {title: 'a. a lot of', correctAnswer: true},
-                            {title: 'b. many'},                          
+                            {title: "a. a lot of", correctAnswer: true},
+                            {title: "b. many"},                          
                         ],
-                        userAnswer: '', 
+                        userAnswer: "", 
                     },
                     {
                         title: "We don't drink ____ coffee",
@@ -173,102 +173,7 @@ export default function UncountableAndCountable() {
                         userAnswer: '',
                     }
                     
-                ]}></Quiz>
-
-                        {/* questions: [
-                {
-                    title: 'Eating _____ chocolate is unhealthy',
-                    possibleAnswers: [ 
-                        {title: 'a. a lot of', correctAnswer: true},
-                        {title: 'b. many'},                          
-                    ],
-                    userAnswer: '', 
-                },
- 
-                {
-                    title: "We don't drink ____ coffee",
-                    possibleAnswers: [
-                        {title: 'a. much', correctAnswer: true}, 
-                        {title: 'b. many'}, 
-                    ], 
-                    userAnswer: '', 
-                }, 
-                
-                {
-                    title: "I ate _____ soup for lunch", 
-                    possibleAnswers: [
-                        {title: 'a. a few'},
-                        {title: 'b. a little', correctAnswer: true},
-                    ],
-                    userAnswer: '',
-                }, 
- 
-                {
-                    title: "How _________ rice do we need",
-                    possibleAnswers: [
-                        {title: 'a. much', correctAnswer: true},
-                        {title: 'b. many'},
-                    ], 
-                    userAnswer: '',
-                },
- 
-                {
-                    title: "How ________ soy milk do you want?",
-                    possibleAnswers: [
-                        {title: 'a. much', correctAnswer: true}, 
-                        {title: 'b. many'},
-                    ], 
-                    userAnswer: '',
-                }, 
- 
-                {
-                    title: "There _______ many beans in the soup.",
-                    possibleAnswers: [
-                        {title: 'a. are', correctAnswer: true},
-                        {title: 'b. is'},
-                    ], 
-                    userAnswer: '', 
-                }, 
- 
-                {
-                    title: "______ there tofu in the salad?",
-                    possibleAnswers: [
-                        {title: 'a. are'},
-                        {title: 'b. is', correctAnswer: true},
-                    ], 
-                    userAnswer: '', 
-                }, 
- 
-                {
-                    title: "How ___________ cups of coffee do you drink in the morning?",
-                    possibleAnswers: [
-                        {title: 'a. much',},
-                        {title: 'b. many', correctAnswer: true},
-                    ], 
-                    userAnswer: '', 
-                }, 
- 
-                {
-                    title: "There ______ juice in the refrigerator.",
-                    possibleAnswers: [
-                        {title: 'a. is', correctAnswer: true},
-                        {title: 'b. are'},
-                    ], 
-                    userAnswer: '', 
-                }, 
-                
-                {
-                    title: "I have ________ friends in Germany.",
-                    possibleAnswers: [
-                        {title: 'a. a few', correctAnswer: true},
-                        {title: 'b. a little'},
-                    ],
-                    userAnswer: '',
-                }, */}
-
-
-
-
+                ]}></Quiz>       
         </>
     )
 }

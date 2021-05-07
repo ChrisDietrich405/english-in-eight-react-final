@@ -1,10 +1,10 @@
 export default function PhrasalVerbs3() {
     return(
         <>
-        <div className="phrasal-verbs-title">
+        <div className="page-title">
             <h2>Phrasal Verbs List Three</h2>
         </div>
-        <div className="phrasal-verbs-body">
+        <div className="page-body">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum explicabo perspiciatis sequi quae doloribus optio voluptatem atque illo pariatur!</p>
         </div>
         </>

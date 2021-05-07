@@ -1,7 +1,7 @@
 export default function ExpressionsDefinition() {
     return(
         <>
-        <div className="expressions-definition-title">
+        <div className="page-title">
             <h2>Idiomatic Expressions Definition</h2>
         </div>
         <div className="expressions-definition-body">
@@ -16,7 +16,7 @@ export default function ExpressionsDefinition() {
             <img src="../../../images/timeismoney.png" className="image1" alt=""/>
             <img src="../../../images/MindYourOwnBusiness.jpg" className="image2" alt=""/>
             </div>
-
+            
         </div>
         </>
     )

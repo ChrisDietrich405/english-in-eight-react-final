@@ -1,10 +1,10 @@
 export default function PhrasalVerbs1() {
     return(
         <>
-        <div className="phrasal-verbs-title">
+        <div className="page-title">
             <h2>Phrasal Verbs List One</h2>
         </div>
-        <div className="phrasal-verbs-body">
+        <div className="page-body">
             <p>Take up - occupy time, space, or attention.</p>
             <p>I don't want to take up any more of your time.</p>
 

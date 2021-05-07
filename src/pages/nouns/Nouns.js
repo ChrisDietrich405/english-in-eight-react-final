@@ -16,7 +16,7 @@ export default function Nouns() {
                     component: NounDefinition
                 }, 
                 {
-                    title: "Uncountable and Countable",
+                    title: "Countable",
                     path: "/noun-categories/uncountable-and-countable",
                     component: UncountableAndCountable
                 }, 
@@ -26,7 +26,7 @@ export default function Nouns() {
                     component: Collective
                 }, 
                 {
-                    title: "Possessive Pronouns",
+                    title: "Possessive",
                     path: "/noun-categories/possessive-pronouns",
                     component: PossessivePronouns
                 }
