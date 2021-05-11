@@ -7,7 +7,7 @@ import ExpressionsDefinition from "./expressions-categories/ExpressionsDefinitio
 
 
 export default function Expressions() {
-    return <SidebarPage title="Expressions" links={
+    return <SidebarPage links={
             [
                 {
                     title: "Expressions Definition",

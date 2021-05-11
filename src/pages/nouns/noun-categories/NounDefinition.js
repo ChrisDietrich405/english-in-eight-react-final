@@ -8,9 +8,9 @@ export default function NounDefinition() {
                 <p>A noun is a word that functions as the name of a specific object or set of objects, such as living creatures, places, actions, qualities, states of existence, or ideas. </p>
             </div>
             <div className="noun-definition-pictures">
-                <img src="../../../images/person-nouns-definition.jpg" className="noun-picture-1" alt=""/>
-
+                <img src="../../../images/person-nouns-definition.jpg" alt=""/>
             </div>
+            
         </>
     )
 }

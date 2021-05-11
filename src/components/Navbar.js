@@ -138,12 +138,15 @@ export default function Navbar() {
 							>
 								<li>
 									<a className="dropdown-item" href="#">
-										Action
+										Adjectives Definition
 									</a>
 								</li>
 								<li>
+									<hr className="dropdown-divider" />
+								</li>
+								<li>
 									<a className="dropdown-item" href="#">
-										Another action
+										Possessive Adjectives
 									</a>
 								</li>
 								<li>
@@ -172,18 +175,17 @@ export default function Navbar() {
 								aria-labelledby="expressionsDropdown"
 							>
 								<li>
-									<a className="dropdown-item" href="#">
-										Idiomatic Expressions
-									</a>
+								<Link to="/expressions-categories/expressions-definition">
+								Idiomatic Expressions
+								</Link>
 								</li>
 								<li>
 									<hr className="dropdown-divider" />
 								</li>
-								<li>
-									<a className="dropdown-item" href="#">
-										Phrasal Verbs
-									</a>
-								</li>
+								
+								<Link to="/phrasal-verbs-categories/phrasal-verbs-definition">
+								Phrasal Verbs
+							    </Link>
 								<li>
 									<hr className="dropdown-divider" />
 								</li>

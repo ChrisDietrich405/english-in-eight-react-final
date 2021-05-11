@@ -8,30 +8,35 @@ import VerbDefinition from "./present-verb-tenses/PresentTense"
 
 export default function PresentTenseVerbs() {
     return (
-        <SidebarPage title="Present" links={
+        <SidebarPage links={
             [
                 {
-                    title: "Verbs",
+                    title: "Present Tense Verbs",
                     path: "/present-verb-tenses/present-tense",
                     component: VerbDefinition 
                 }, 
                 {
-                    title: "Simple",
+                    title: "Present Tense Verbs",
+                    path: "/present-verb-tenses/present-tense",
+                    component: VerbDefinition 
+                }, 
+                {
+                    title: "Simple Present",
                     path: "/present-verb-tenses/simple-present",
                     component: SimplePresent
                 }, 
                 {
-                    title: "Continuous", 
+                    title: "Present Continuous", 
                     path: "/present-verb-tenses/present-continuous",
                     component: PresentContinuous
                 }, 
                 {
-                    title: "Perfect",
+                    title: "Present Perfect",
                     path: "present-verb-tenses/present-perfect",
                     component: PresentPerfect
                 },
                 {
-                    title: "Perfect Continuous",
+                    title: "Present Perfect Continuous",
                     path: "present-verb-tenses/present-perfect-continuous",
                     component: PresentPerfectContinuous
                 } 

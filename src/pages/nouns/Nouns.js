@@ -3,12 +3,13 @@ import UncountableAndCountable from "./noun-categories/UncountableAndCountable";
 import Collective from "./noun-categories/Collective";
 import PossessivePronouns from "./noun-categories/PossessivePronouns";
 import NounDefinition from "./noun-categories/NounDefinition";
+import NounModifiers from "./noun-categories/NounModifiers";
 
 
 
 export default function Nouns() {
     return (
-        <SidebarPage title="Nouns" links={
+        <SidebarPage links={
             [
                 {
                     title: "Noun Definition",
@@ -16,19 +17,29 @@ export default function Nouns() {
                     component: NounDefinition
                 }, 
                 {
-                    title: "Countable",
+                    title: "Noun Definition",
+                    path: "/noun-categories/noun-definition",
+                    component: NounDefinition
+                }, 
+                {
+                    title: "Countable & Uncountable Nouns",
                     path: "/noun-categories/uncountable-and-countable",
                     component: UncountableAndCountable
                 }, 
                 {
-                    title: "Collective", 
+                    title: "Collective Nouns", 
                     path: "/noun-categories/collective",
                     component: Collective
                 }, 
                 {
-                    title: "Possessive",
+                    title: "Possessive Pronouns",
                     path: "/noun-categories/possessive-pronouns",
                     component: PossessivePronouns
+                },
+                {
+                    title: "Noun Modifiers",
+                    path: "/noun-categories/noun-modifiers",
+                    component: NounModifiers
                 }
             ]
         } />

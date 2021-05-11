@@ -5,7 +5,7 @@ import PossessiveAdjectives from "./adjective-categories/PossessiveAdjectives"
 
 export default function Adjectives() {
     return (
-        <Sidebar title="Adjectives" links={
+        <Sidebar links={
             [
                 {
                     title: "Adjective Definition",

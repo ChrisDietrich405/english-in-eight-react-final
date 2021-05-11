@@ -6,8 +6,13 @@ import PhrasalVerbs4 from "./phrasal-verbs-categories/PhrasalVerbs4";
 import PhrasalVerbsDefinition from "./phrasal-verbs-categories/PhrasalVerbsDefinition";
 
 export default function PhrasalVerbs() {
-    return <SidebarPage title="Phrasal Verbs" links={
+    return <SidebarPage links={
         [
+            {
+                title: "Phrasal Verbs Definition",
+                path: "/phrasal-verbs-categories/phrasal-verbs-definition",
+                component: PhrasalVerbsDefinition
+            },
             {
                 title: "Phrasal Verbs Definition",
                 path: "/phrasal-verbs-categories/phrasal-verbs-definition",
