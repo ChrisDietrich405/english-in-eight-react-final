@@ -14,11 +14,6 @@ export default function PhrasalVerbs() {
                 component: PhrasalVerbsDefinition
             },
             {
-                title: "Phrasal Verbs Definition",
-                path: "/phrasal-verbs-categories/phrasal-verbs-definition",
-                component: PhrasalVerbsDefinition
-            },
-            {
                 title: "Phrasal Verbs List One",
                 path: "/phrasal-verbs-categories/phrasal-verbs1",
                 component: PhrasalVerbs1

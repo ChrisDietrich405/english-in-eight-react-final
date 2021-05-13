@@ -14,12 +14,7 @@ export default function PresentTenseVerbs() {
                     title: "Present Tense Verbs",
                     path: "/present-verb-tenses/present-tense",
                     component: VerbDefinition 
-                }, 
-                {
-                    title: "Present Tense Verbs",
-                    path: "/present-verb-tenses/present-tense",
-                    component: VerbDefinition 
-                }, 
+                },  
                 {
                     title: "Simple Present",
                     path: "/present-verb-tenses/simple-present",

@@ -21,7 +21,7 @@ export default function Home() {
 			<div class="container">
 				
 					<div class="row">
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-xl-6 col-lg-7 col-md-12">
 							<Link to="/phrasal-verbs-categories/phrasal-verbs-definition">
 								<div className="card">
 									<div className="card-body">
@@ -40,7 +40,7 @@ export default function Home() {
 						</div>
 					
 						{/* Second Card */}
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-xl-6 col-lg-5 ">
 							<Link to="expressions-categories/expressions-definition">
 								<div className="card">
 									<div className="card-body">
@@ -62,7 +62,7 @@ export default function Home() {
 					
 					{/* Second Row */}
 					<div class="row">
-						<div class="col-12 col-sm-6 col-md-4">
+						<div class="col-12 col-md-4 col-sm-12 ">
 							<Link to="/noun-categories/noun-definition">
                         		<div className="noun-examples" >
                         			<i className="fas fa-tree"></i>
@@ -73,7 +73,7 @@ export default function Home() {
                         	</Link>
 
 						</div>
-						<div class="col-12 col-sm-6 col-md-4">
+						<div class="col-12 col-md-4 col-sm-6 ">
 						<Link to="/present-verb-tenses/verb-definition">
                 			<div className="verb-examples">
                     			<i className="fas fa-running"></i>
@@ -84,7 +84,7 @@ export default function Home() {
                 		</Link>
 
 						</div>
-						<div class="col-12 col-sm-6 col-md-4">
+						<div class="col-12 col-md-4 col-sm-6 ">
 						<Link to="/adjective-categories/adjective-definition">
 							<div className="adjective-examples">
                     			<img src="/images/strong.png" className="strong-img" alt=""/>

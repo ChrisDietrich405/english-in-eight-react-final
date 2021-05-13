@@ -10,12 +10,7 @@ import NounModifiers from "./noun-categories/NounModifiers";
 export default function Nouns() {
     return (
         <SidebarPage links={
-            [
-                {
-                    title: "Noun Definition",
-                    path: "/noun-categories/noun-definition",
-                    component: NounDefinition
-                }, 
+            [ 
                 {
                     title: "Noun Definition",
                     path: "/noun-categories/noun-definition",

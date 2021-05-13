@@ -50,6 +50,17 @@ export default function Navbar() {
 							>
 								<li>
 									<Link
+										to="/noun-categories/noun-definition"
+										className="dropdown-item"
+									>
+										Nouns Definition
+									</Link>
+								</li>
+								<li>
+									<hr className="dropdown-divider" />
+								</li>
+								<li>
+									<Link
 										to="/noun-categories/uncountable-and-countable"
 										className="dropdown-item"
 									>
@@ -137,9 +148,12 @@ export default function Navbar() {
 								aria-labelledby="phrasal-verbsDropdown"
 							>
 								<li>
-									<a className="dropdown-item" href="#">
+									<Link
+										to="/adjective-categories/adjective-definition"
+										className="dropdown-item"
+									>
 										Adjectives Definition
-									</a>
+									</Link>
 								</li>
 								<li>
 									<hr className="dropdown-divider" />
@@ -175,16 +189,24 @@ export default function Navbar() {
 								aria-labelledby="expressionsDropdown"
 							>
 								<li>
-								<Link to="/expressions-categories/expressions-definition">
-								Idiomatic Expressions
+
+								<Link 
+										to="/expressions-categories/expressions-definition"
+										className="dropdown-item"
+										>
+								        Idiomatic Expressions
 								</Link>
+
 								</li>
 								<li>
 									<hr className="dropdown-divider" />
 								</li>
 								
-								<Link to="/phrasal-verbs-categories/phrasal-verbs-definition">
-								Phrasal Verbs
+								<Link 
+										to="/phrasal-verbs-categories/phrasal-verbs-definition"
+										className="dropdown-item"
+										>
+								        Phrasal Verbs
 							    </Link>
 								<li>
 									<hr className="dropdown-divider" />

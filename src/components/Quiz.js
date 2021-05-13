@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { AiOutlineCheckCircle, AiOutlineCloseCircle }  from "react-icons/ai"
+import "../styles/components/quiz.scss"
 
 
 
@@ -43,13 +44,13 @@ export default function Quiz(props) {
                     {question.title} {submitted == true  && ( i in answers && answers[i]==true ? <AiOutlineCheckCircle className="check"/> : <AiOutlineCloseCircle className="close"/>)}
                         <ul>
                             {question.possibleAnswers.map(possibleAnswer => {
-                                return <li><input onClick={() => select(possibleAnswer, i) } name={"twoPossibleAnswers" + i} type="radio"/>{possibleAnswer.title}</li>
+                                return <li><input onClick={() => select(possibleAnswer, i) } name={"twoPossibleAnswers" + i} type="radio" className="radio"/>{possibleAnswer.title}</li>
                             })}
                         </ul>
                     </li>)}
                 </ol>
-                <button>Check your answers</button>
-                <button type="reset">Reset</button>
+                <button className="btn btn-primary">Check your answers</button>
+                <button className="btn btn-secondary" type="reset">Reset</button>
             </form>
         </div>
     )

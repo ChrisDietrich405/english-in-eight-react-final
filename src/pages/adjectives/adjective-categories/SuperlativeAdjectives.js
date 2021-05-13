@@ -1,3 +1,5 @@
+import Quiz from "../../../components/Quiz"
+
 export default function ComparativeAndSuperlativeAdjectives() {
     return (
         <div className="superlative-adjectives">
@@ -29,107 +31,137 @@ export default function ComparativeAndSuperlativeAdjectives() {
                 <li>busy → busiest</li>   
             </ul>
             <p>If the adjective ends in 'e', we don't add another 'e', just 'r'.</p>
-
-
-
-nice → nicest
-large → largest
-Even when the adjective has only one syllable, it's still not wrong to use 'most'. It's possible to say  'most tall'. This isn't incorrect.
-
-There are a few adjectives that we have to use 'more' or 'most' with, even though they only have one syllable. We CAN'T add 'er' or 'est'.
-fun → most fun (NOT  funnest)
-real → most real (NOT realest)
-right → most right (NOT rightest)
-wrong → most wrong (NOT wrongest)
-Adjectives with two syllables
-
-For adjectives with two syllables we generally use 'more' or 'most'.
-careful → most careful
-bored → most bored
-But some two syllable adjectives can take  'est'. It's also fine to use 'most' (for the superlative).
-clever → cleverest
-simple → simplest
-narrow → narrowest
-quiet → quietest
-Adjectives with two syllables that end in 'y' usually can add 'er' or 'est' (y generally changes to i). It's also fine to use 'more' or 'most'.
-dirty → dirtiest
-pretty → prettiest
-happy → happiest
-ugly → ugliest
-Adjectives with more than two syllables
-
-Adjectives with more than two syllables can only make their superlative by using 'most'.
-beautiful → most beautiful
-intelligent → most intelligent
-interesting → more most interesting
-expensive → most expensive
-Irregular adjectives
-
-There are also some irregular adjectives. We just need to learn these forms.
-good →  best
-bad → worst
-far →  furthest
-little → least
-much → most
-
-1. Dolphins are the ________________________(intelligent) animals
-
-
-
-
-2. Nia is the ___________________ (old) daughter.
-
-
-
-
-3. Whales are the ________________ (large) animals.
-
-
-
-
-4. My Latin class is my ______________ (boring) class. 
-
-
-
-
-5. The streets here are the _______________ (narrow) in the city. 
-
-
-
-
-6.  Malcolm is the _______________ (busy) man I know.
-
-
-
-
-7.  Samantha is the _______________ (quiet) person in the class.
-
-
-
-
-8.  Demetrius is the ________________ (ambitious) director at his company.
-
-
-
-
-9. My garden is the  ________________  (colorful) garden in my neighborhood.
-
-
-
-
-10. His house is the _______________ (comfortable) house I’ve ever been in.
-
-
-
-
-
-
-
-
-
-
-
-
+            <ul>
+                <li>nice → nicest</li>
+                <li>large → largest</li>   
+            </ul>
+            <p>There are a few adjectives that we have to use 'more' or 'most' with, even though they only have one syllable. We CAN'T add 'er' or 'est'.</p>
+            <ul>
+                <li>fun → most fun (NOT  funnest)</li>
+                <li>real → most real (NOT realest)</li> 
+                <li>right → most right (NOT rightest)fun → most fun (NOT  funnest)</li>
+                <li>wrong → most wrong (NOT wrongest)</li>    
+            </ul>
+            <p>Adjectives with two syllables</p>
+            <p>For adjectives with two syllables we generally use 'more' or 'most'.</p>
+            <ul>
+                <li>careful → most careful</li>
+                <li>bored → most bored</li>     
+            </ul>
+            <p>But some two syllable adjectives can take  'est'. It's also fine to use 'most' (for the superlative).</p>
+            <ul>
+                <li>clever → cleverest</li>
+                <li>simple → simplest</li>   
+                <li>narrow → narrowest</li>
+                <li>quiet → quietest</li>   
+            </ul>
+            <p>Adjectives with two syllables that end in 'y' usually can add 'er' or 'est' (y generally changes to i). It's also fine to use 'more' or 'most'.</p>
+            <ul>
+                <li>dirty → dirtiest</li>
+                <li>pretty → prettiest</li>   
+                <li>happy → happiest</li>
+                <li>ugly → ugliest</li>   
+            </ul>
+            <p>Adjectives with more than two syllables</p>
+            <p>Adjectives with more than two syllables can only make their superlative by using 'most'.</p>
+            <ul>
+                <li>beautiful → most beautiful</li>
+                <li>intelligent → most intelligent</li>   
+                <li>interesting → more most interesting</li>
+                <li>expensive → most expensive</li>   
+            </ul>
+            <p>Irregular adjectives</p>
+            <p>There are also some irregular adjectives. We just need to learn these forms.</p>
+            <ul>
+                <li>good →  best</li>
+                <li>bad → worst</li>   
+                <li>far →  furthest</li>
+                <li>little → least</li>   
+                <li>much → most</li>   
+            </ul>
+            <Quiz title="Quiz" questions={[
+                {
+                    title: "Dolphins are the ________________________(intelligent) animals",
+                    possibleAnswers: [
+                        {title: "most intelligent", correctAnswer: true},
+                        {title: "intelligentest"},
+                    ],
+                    userAnswer: "",
+                },
+                {
+                    title: "Nia is the ___________________ (old) daughter.",
+                    possibleAnswers: [
+                        {title: "oldest", correctAnswer: true},
+                        {title: "most old"},
+                    ],
+                    userAnswer: "",
+                },
+                {
+                    title: "Samantha is the _______________ (quiet) person in the class.",
+                    possibleAnswers: [
+                        {title: "quitest"},
+                        {title: "quietest", correctAnswer: true},
+                    ],
+                    userAnswer: "",
+                },
+                {
+                    title: "Whales are the ________________ (large) animals.",
+                    possibleAnswers: [
+                        {title: "most large"},
+                        {title: "largest", correctAnswer: true},
+                    ],
+                    userAnswer: "",
+                },
+                {
+                    title: "My Latin class is my ______________ (boring) class. ",
+                    possibleAnswers: [
+                        {title: "most boring", correctAnswer: true},
+                        {title: "boringest"},
+                    ],
+                    userAnswer: "",
+                },
+                {
+                    title: "The streets here are the _______________ (narrow) in the city.",
+                    possibleAnswers: [
+                        {title: "narrowest", correctAnswer: true},
+                        {title: "narroest"},
+                    ],
+                    userAnswer: "",
+                },
+                {
+                    title: "Malcolm is the _______________ (busy) man I know.",
+                    possibleAnswers: [
+                        {title: "busiest", correctAnswer: true},
+                        {title: "busyest"},
+                    ],
+                    userAnswer: "",
+                },
+                {
+                    title: "Demetrius is the ________________ (ambitious) director at his company.",
+                    possibleAnswers: [
+                        {title: "ambitiousest"},
+                        {title: "most ambitious", correctAnswer: true},
+                    ],
+                    userAnswer: "",
+                },
+                {
+                    title: "My garden is the  ________________  (colorful) garden in my neighborhood.",
+                    possibleAnswers: [
+                        {title: "colorfulest"},
+                        {title: "most colorful", correctAnswer: true},
+                    ],
+                    userAnswer: "",
+                },
+                {
+                    title: "His house is the _______________ (comfortable) house I’ve ever been in.",
+                    possibleAnswers: [
+                        {title: "most comfortable", correctAnswer: true},
+                        {title: "comfortableist"}
+                    ],
+                    userAnswer: "",
+                },
+                
+            ]}></Quiz>
 
         </div>
     )

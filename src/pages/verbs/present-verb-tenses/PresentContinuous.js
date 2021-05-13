@@ -1,3 +1,6 @@
+import Quiz from "../../../components/Quiz"
+import "../../../styles/components/tables.scss"
+
 export default function PresentContinuous() {
     return(
         <>
@@ -7,7 +10,7 @@ export default function PresentContinuous() {
         <div className="page-body">
             <p>The present continuous (also called present progressive) is a verb tense which is used to show that an ongoing action is happening now. The present continuous can also be used to show that an action is going to take place in the near future.</p>
         </div>
-        <table id="customers">
+        <table className="table-body">
                 <tr>
                   <th>Positive</th>
                   <th>Positive Short Form</th> 
@@ -34,7 +37,7 @@ export default function PresentContinuous() {
                   
                 </tr>
             </table>
-            <table id="customers">
+            <table className="table-body">
                 <tr>
                   <th>Negative</th>
                   <th>Negative Short Form</th> 
@@ -62,6 +65,91 @@ export default function PresentContinuous() {
                 </tr>
             </table>
 
+
+
+   <Quiz title="Quiz" questions={[
+            {
+                title: "I ___________ (study) at the moment",
+                possibleAnswers: [
+                    {title: "a. am study"},
+                    {title: "b. am studying", correctAnswer: true},
+                ],
+                userAnswer: "",
+            },
+            {
+              title: "I ___________ (sleep)",
+              possibleAnswers: [
+                  {title: "a. am not sleeping", correctAnswer: true},
+                  {title: "b. is not sleeping"},
+              ],
+              userAnswer: "",
+            },
+            {
+              title: "You ___________ (play) badminton tonight.",
+              possibleAnswers: [
+                  {title: "a. are not playing", correctAnswer: true},
+                  {title: "b. am not playing"},
+              ],
+              userAnswer: "",
+            },
+            {
+              title: "We ___________ (watch) TV.",
+              possibleAnswers: [
+                  {title: "a. are watch"},
+                  {title: "b. are watching", correctAnswer: true},
+              ],
+              userAnswer: "",
+            },
+            {
+              title: "She ____________ (work) in Spain",
+              possibleAnswers: [
+                  {title: "a. are not working", correctAnswer: true},
+                  {title: "b. is not working"},
+              ],
+              userAnswer: "",
+            },
+            {
+              title: "He ___________ (wait) for the bus",
+              possibleAnswers: [
+                  {title: "a. is not waiting", correctAnswer: true},
+                  {title: "b. are not waiting"},
+              ],
+              userAnswer: "",
+            }, 
+            {
+              title: "They __________ (read)",
+              possibleAnswers: [
+                  {title: "a. are reading", correctAnswer: true},
+                  {title: "b. is reading"},
+              ],
+              userAnswer: "",
+            },  
+            {
+              title: "We _______________ (go) to the movies tonight",
+              possibleAnswers: [
+                  {title: "a. are not going", correctAnswer: true},
+                  {title: "b. are not go"},
+              ],
+              userAnswer: "",
+            },  
+            {
+              title: "You ___________ (read) the newspaper",
+              possibleAnswers: [
+                  {title: "a. are not read",},
+                  {title: "b. are not reading", correctAnswer: true},
+              ],
+              userAnswer: "",
+            },  
+            {
+              title: "She _________ chocolate",
+              possibleAnswers: [
+                  {title: "a. am eating",},
+                  {title: "b. is eating", correctAnswer: true},
+              ],
+              userAnswer: "",
+            }    
+            
+        ]} ></Quiz>
         </>
     )
 }
