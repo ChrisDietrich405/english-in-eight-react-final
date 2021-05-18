@@ -1,4 +1,4 @@
-export default function PresentTense() {
+export default function PresentTenseVerbDefinition() {
     return(
         <>
         <div className="page-title">

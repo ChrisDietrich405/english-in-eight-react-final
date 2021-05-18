@@ -9,61 +9,66 @@ export default function PresentContinuous() {
         </div>
         <div className="page-body">
             <p>The present continuous (also called present progressive) is a verb tense which is used to show that an ongoing action is happening now. The present continuous can also be used to show that an action is going to take place in the near future.</p>
+            <div className="table-container">
+              <table className="table-body">
+                  <tr>
+                    <th>Positive</th>
+                    <th>Positive Short Form</th> 
+                  </tr>
+                  <tr>
+                    <td>I am swimming</td>
+                    <td>I'm swimming</td> 
+                  </tr>
+                  <tr>
+                    <td>You are working</td>
+                    <td>You're working</td>
+                  </tr>
+                  <tr>
+                    <td>She, he, it is fighting</td>
+                    <td>She's he's it's fighting</td> 
+                  </tr>
+                  <tr>
+                    <td>We are talking</td>
+                    <td>We're talking</td> 
+                  </tr>
+                  <tr>
+                    <td>They are dancing</td>
+                    <td>They're dancing</td>
+                    
+                  </tr>
+              </table>
+            </div>
+            <div className="table-container">
+              <table className="table-body">
+                  <tr>
+                    <th>Negative</th>
+                    <th>Negative Short Form</th> 
+                  </tr>
+                  <tr>
+                    <td>I am not swimming</td>
+                    <td>I'm not swimming</td> 
+                  </tr>
+                  <tr>
+                    <td>You are not working</td>
+                    <td>You're not working</td>
+                  </tr>
+                  <tr>
+                    <td>She, he's it's fighting</td>
+                    <td>She's he's it's notfighting</td> 
+                  </tr>
+                  <tr>
+                    <td>We are talking</td>
+                    <td>We're talking</td> 
+                  </tr>
+                  <tr>
+                    <td>They are dancing</td>
+                    <td>They're dancing</td>
+                    
+                  </tr>
+              </table>
+            </div>
         </div>
-        <table className="table-body">
-                <tr>
-                  <th>Positive</th>
-                  <th>Positive Short Form</th> 
-                </tr>
-                <tr>
-                  <td>I am swimming</td>
-                  <td>I'm swimming</td> 
-                </tr>
-                <tr>
-                  <td>You are working</td>
-                  <td>You're working</td>
-                </tr>
-                <tr>
-                  <td>She, he, it is fighting</td>
-                  <td>She's he's it's fighting</td> 
-                </tr>
-                <tr>
-                  <td>We are talking</td>
-                  <td>We're talking</td> 
-                </tr>
-                <tr>
-                  <td>They are dancing</td>
-                  <td>They're dancing</td>
-                  
-                </tr>
-            </table>
-            <table className="table-body">
-                <tr>
-                  <th>Negative</th>
-                  <th>Negative Short Form</th> 
-                </tr>
-                <tr>
-                  <td>I am notswimming</td>
-                  <td>I'm not swimming</td> 
-                </tr>
-                <tr>
-                  <td>You are not working</td>
-                  <td>You're not working</td>
-                </tr>
-                <tr>
-                  <td>She, h fighting</td>
-                  <td>She's he's it's notfighting</td> 
-                </tr>
-                <tr>
-                  <td>We are talking</td>
-                  <td>We're talking</td> 
-                </tr>
-                <tr>
-                  <td>They are dancing</td>
-                  <td>They're dancing</td>
-                  
-                </tr>
-            </table>
+        
 
 
 

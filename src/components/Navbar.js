@@ -105,7 +105,18 @@ export default function Navbar() {
 							<ul
 								className="dropdown-menu"
 								aria-labelledby="verbsDropdown"
-							>
+									>	
+								<li>
+									<Link
+									to="/verbs-definition/verbs-def"
+									className="dropdown-item"
+									>
+								    Verbs Definition
+									</Link>
+								</li>
+								<li>
+									<hr className="dropdown-divider" />
+								</li>
 								<li>
 									<Link
 										to="/present-verb-tenses/present-tense"
@@ -159,17 +170,34 @@ export default function Navbar() {
 									<hr className="dropdown-divider" />
 								</li>
 								<li>
-									<a className="dropdown-item" href="#">
+									<Link
+										to="/adjective-categories/possessive-adjectives"
+										className="dropdown-item"
+									>
 										Possessive Adjectives
-									</a>
+									</Link>
 								</li>
 								<li>
 									<hr className="dropdown-divider" />
 								</li>
 								<li>
-									<a className="dropdown-item" href="#">
-										Something else here
-									</a>
+									<Link
+										to="/adjective-categories/comparative-adjectives"
+										className="dropdown-item"
+									>
+										Comparative Adjectives
+									</Link>
+								</li>
+								<li>
+									<hr className="dropdown-divider" />
+								</li>
+								<li>
+									<Link
+										to="/adjective-categories/superlative-adjectives"
+										className="dropdown-item"
+									>
+										Superlatives Adjectives
+									</Link>
 								</li>
 							</ul>
 						</li>

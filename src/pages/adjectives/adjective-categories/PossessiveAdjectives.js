@@ -3,7 +3,7 @@ import Quiz from "../../../components/Quiz"
 export default function PossessiveAdjectives() {
     return (
         <>
-        <div className="superlative-adjectives">
+        <div className="possessive-adjectives">
             <div className="page-title">
                 <h2>Possessive Adjectives</h2>
             </div>

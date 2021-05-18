@@ -1,6 +1,19 @@
-.noun-picture-1 {
-    border-radius: 50%; 
-    width: 350px;
+//Nouns styling
+.noun-definition-pictures-container {
+    display: flex;
+    justify-content: space-around;  
+    align-items: center; 
+
+    .noun-definition-pictures {
+        display: flex;
+        flex-direction: column;  
+        align-items: center; 
+    
+    img {
+        border-radius: 50%; 
+        width: 150px;
+        }
+    }
 }
 
 .expressions-definition-body .image1 {

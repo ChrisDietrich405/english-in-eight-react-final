@@ -2,6 +2,7 @@ import Sidebar from "../../components/SidebarPage"
 import AdjectiveDefinition from "./adjective-categories/AdjectiveDefinition"
 import PossessiveAdjectives from "./adjective-categories/PossessiveAdjectives"
 import SuperlativeAdjectives from "./adjective-categories/SuperlativeAdjectives";
+import ComparativeAdjectives from "./adjective-categories/ComparativeAdjectives";
 
 
 export default function Adjectives() {
@@ -15,7 +16,7 @@ export default function Adjectives() {
                 },
                 {
                     title: "Possessive Adjectives",
-                    path: "/adjective-categories/possessive-adjective",
+                    path: "/adjective-categories/possessive-adjectives",
                     component: PossessiveAdjectives
                 }, 
                 {
@@ -23,9 +24,11 @@ export default function Adjectives() {
                     path: "/adjective-categories/superlative-adjectives",
                     component: SuperlativeAdjectives
                 }, 
-
-
-                
+                {
+                    title: "Comparative Adjectives",
+                    path: "/adjective-categories/comparative-adjectives",
+                    component: ComparativeAdjectives
+                },   
             ]
         } /> 
     )

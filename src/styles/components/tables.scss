@@ -1,5 +1,10 @@
 
 
+.table-container {
+    display: flex; 
+    justify-content: center; 
+}
+
 .table-body {
     border-collapse: collapse;
     width: 80%;

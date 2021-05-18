@@ -1,6 +1,6 @@
 import Quiz from "../../../components/Quiz"
 
-export default function ComparativeAndSuperlativeAdjectives() {
+export default function SuperlativeAdjectives() {
     return (
         <div className="superlative-adjectives">
             <div className="page-title">

@@ -23,12 +23,12 @@ export default function Home() {
 					<div class="row">
 						<div class="col-12 col-xl-6 col-lg-7 col-md-12">
 							<Link to="/phrasal-verbs-categories/phrasal-verbs-definition">
-								<div className="card">
+								<div className="card phrasal-verb-card">
 									<div className="card-body">
 										<div className="bs-phrasal-verbs-icon">
 											<i className="far fa-comments fa-6x"></i>
 										</div>
-										<div className="content">
+										<div className="content phrasal-verb-card">
 											<p className="content-title">Phrasal Verbs</p>
 											<p className="content-definition">Verb/Preposition combinations
 												<br/>with a specific meaning</p>
