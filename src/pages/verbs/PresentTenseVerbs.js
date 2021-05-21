@@ -27,12 +27,12 @@ export default function PresentTenseVerbs() {
                 }, 
                 {
                     title: "Present Perfect",
-                    path: "present-verb-tenses/present-perfect",
+                    path: "/present-verb-tenses/present-perfect",
                     component: PresentPerfect
                 },
                 {
                     title: "Present Perfect Continuous",
-                    path: "present-verb-tenses/present-perfect-continuous",
+                    path: "/present-verb-tenses/present-perfect-continuous",
                     component: PresentPerfectContinuous
                 } 
             ]
