@@ -35,15 +35,15 @@ export default function SuperlativeAdjectives() {
                 <li>nice → nicest</li>
                 <li>large → largest</li>   
             </ul>
-            <p>There are a few adjectives that we have to use 'more' or 'most' with, even though they only have one syllable. We CAN'T add 'er' or 'est'.</p>
+            <p>There are a few adjectives that we have to use'most' with, even though they only have one syllable. We CAN'T add 'er' or 'est'.</p>
             <ul>
                 <li>fun → most fun (NOT  funnest)</li>
                 <li>real → most real (NOT realest)</li> 
-                <li>right → most right (NOT rightest)fun → most fun (NOT  funnest)</li>
+                <li>right → most right (NOT rightest)</li>
                 <li>wrong → most wrong (NOT wrongest)</li>    
             </ul>
             <p>Adjectives with two syllables</p>
-            <p>For adjectives with two syllables we generally use 'more' or 'most'.</p>
+            <p>For adjectives with two syllables we generally use 'most'.</p>
             <ul>
                 <li>careful → most careful</li>
                 <li>bored → most bored</li>     
@@ -55,7 +55,7 @@ export default function SuperlativeAdjectives() {
                 <li>narrow → narrowest</li>
                 <li>quiet → quietest</li>   
             </ul>
-            <p>Adjectives with two syllables that end in 'y' usually can add 'er' or 'est' (y generally changes to i). It's also fine to use 'more' or 'most'.</p>
+            <p>Adjectives with two syllables that end in 'y' usually can add or 'est' (y generally changes to i). It's also fine to use 'more' or 'most'.</p>
             <ul>
                 <li>dirty → dirtiest</li>
                 <li>pretty → prettiest</li>   

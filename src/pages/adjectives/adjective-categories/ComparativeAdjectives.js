@@ -35,15 +35,15 @@ export default function ComparativeAdjectives() {
                 <li>nice → nicer</li>
                 <li>large → larger</li>   
             </ul>
-            <p>There are a few adjectives that we have to use 'more' or 'most' with, even though they only have one syllable. We CAN'T add 'er' or 'est'.</p>
+            <p>There are a few adjectives that we have to use 'more' with, even though they only have one syllable. We CAN'T add 'er' or 'est'.</p>
             <ul>
                 <li>fun → more fun (NOT  funner)</li>
                 <li>real → more real (NOT realer)</li> 
-                <li>right → more right (NOT righter)fun → more fun (NOT  funner)</li>
+                <li>right → more right (NOT righter)</li>
                 <li>wrong → more wrong (NOT wronger)</li>    
             </ul>
             <p>Adjectives with two syllables</p>
-            <p>For adjectives with two syllables we generally use 'more' or 'more'.</p>
+            <p>For adjectives with two syllables we generally use 'more'.</p>
             <ul>
                 <li>careful → more careful</li>
                 <li>bored → more bored</li>     
@@ -55,7 +55,7 @@ export default function ComparativeAdjectives() {
                 <li>narrow → narrower</li>
                 <li>quiet → quieter</li>   
             </ul>
-            <p>Adjectives with two syllables that end in 'y' usually can add 'er' (y generally changes to i). It's also fine to use 'more' or 'most'.</p>
+            <p>Adjectives with two syllables that end in 'y' usually can add 'er' (y generally changes to i). It's also fine to use 'more'.</p>
             <ul>
                 <li>dirty → dirtier</li>
                 <li>pretty → prettier</li>   

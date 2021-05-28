@@ -9,22 +9,22 @@ export default function Expressions() {
         <div className="page-body">
           <ul>
               <li><b>Time is money</b> -  time is a valuable resource, therefore it is better to do things as quickly as possible.
-                  Come on come on, time is money 
+                  <p>Come on hurry up! <b>Time is money</b></p>
               </li>
 
               <li><b>Foolproof</b> -  incapable of going wrong or being misused.
-                  a foolproof security system
+                  <p>a <b>foolproof</b> security system</p>
               </li>
 
               <li><b>Out of nowhere</b> - appearing or happening suddenly and unexpectedly.
-                 The car came out of nowhere and hit our van.
+                  <p>The car came <b>out of nowhere</b> and hit our van.</p>
               </li>
 
               <li><b>To one up someone</b> - To make a point of outdoing, outperforming, outclassing, etc., someone. 
-                  I hate telling stories around Jack because he always tries to one up you with some amazing story of his own.
+                  <p>I hate telling stories around Jack because he always tries <b>to one up</b> you with some amazing story of his own.</p>
               </li>
               <li><b>It's better to be safe than sorry</b> - it’s better to be careful now so that problems do not occur later on. 
-                  It's probably not necessary to check the figures again, but it's better to be safe than sorry.
+                  <p>It's probably not necessary to check the figures again, but <b>it's better to be safe than sorry.</b></p>
               </li>  
           </ul>
         </div>

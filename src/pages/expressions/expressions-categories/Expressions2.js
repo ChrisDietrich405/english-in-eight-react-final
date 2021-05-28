@@ -1,31 +1,77 @@
+import Quiz from "../../../components/Quiz"
+
 export default function Expressions2() {
     return(
         <>
         <div className="page-title">
-            <h2>Idiomatic Expressions List One</h2>
+            <h2>Idiomatic Expressions List Two</h2>
         </div>
         <div className="page-body">
           <ul>
-              <li>Time is money -  time is a valuable resource, therefore it is better to do things as quickly as possible.
-                  Come on come on, time is money 
-              </li>
+             <li><b>Hand me downs</b> - clothes that are received that were worn by older relatives.
+              <p>I wore a lot of my older brother’s <b>hand me downs.</b></p>
+             </li>
 
-              <li>Foolproof -  incapable of going wrong or being misused.
-                  a foolproof security system
-              </li>
+             <li><b>Second wind</b>- a new strength or energy to continue something that is an effort.
+                <p>I was tired around 11, but got a <b>second wind</b> and finished the project.</p>
+             </li> 
 
-              <li>Out of nowhere - appearing or happening suddenly and unexpectedly.
-                 The car came out of nowhere and hit our van.
-              </li>
+             <li><b>To wing it</b> -  to not plan 
+                <p>John didn’t have time to prepare for his interview so he needed <b>to wing it.</b></p> 
+             </li> 
+             <li><b>Out of one's hands</b>  - not being able to be controlled or managed
+                <p>The decision is <b>out of my hands.</b></p>
+             </li>
+                 
+             <li><b>To backfire</b>  - (of a plan or action) to have an opposite and undesirable effect to what was intended.
+                <p>Her plans to make him jealous <b>backfired</b> on her when he started dating her best friend.</p>
+             </li>
 
-              <li>To one up someone - To make a point of outdoing, outperforming, outclassing, etc., someone. 
-                  I hate telling stories around Jack because he always tries to one up you with some amazing story of his own.
-              </li>
-              <li>It’s better to be safe than sorry - it’s better to be careful now so that problems do not occur later on. 
-                  It's probably not necessary to check the figures again, but it's better to be safe than sorry.
-              </li>  
+
           </ul>
         </div>
+        <Quiz title="Quiz" questions={[
+            {
+                title: "The decision is _________________. The boss will decide now" ,
+                possibleAnswers: [
+                    {title: "a. backfired"},
+                    {title: "b. out of his hands", correctAnswer: true},
+                ],
+                userAnswer: "",
+            }, 
+            {
+                title: "I completely forgot about my presentation today. I needed _____________ the whole thing.",
+                possibleAnswers: [
+                    {title: "a. to wing", correctAnswer: true},
+                    {title: "b. second wind", },
+                ],
+                userAnswer: "",
+            }, 
+            {
+                title: "Working extra _____________ on me. They thought I was crazy and fired me",
+                possibleAnswers: [
+                    {title: "a. winged"},
+                    {title: "b. backfired", correctAnswer: true},
+                ],
+                userAnswer: "",
+            }, 
+            {
+                title: "It's better for the environment for children to wear _________________",
+                possibleAnswers: [
+                    {title: "a. hand me downs", correctAnswer: true},
+                    {title: "b. second winds"},
+                ],
+                userAnswer: "",
+            }, 
+            {
+                title: "Many marathon runners get a _____________ at about the 18km mark",
+                possibleAnswers: [
+                    {title: "a. backfire"},
+                    {title: "b. second wind", correctAnswer: true},
+                ],
+                userAnswer: "",
+            }, 
+        ]}></Quiz>
         </>
     )
 }

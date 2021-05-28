@@ -19,7 +19,7 @@ export default function VerbsDef() {
                     
                 </div>
                 <div className="noun-definition-pictures">
-                    <img src="../../../images/state-verbs-definition.png" alt=""/>
+                    <img src="../../../images/occurence-verbs-definition.png" alt=""/>
                     <p>Happen</p>
                     
                 </div>
