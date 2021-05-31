@@ -10,6 +10,40 @@ export default function PresentPerfect() {
         <div className="page-body">
             <p>The present perfect is used to indicate a connection between the past and the present. The time of the action is before now but not specified.</p>
         </div>
+        <div className="table-container">
+              <table className="table-body">
+                  <tr>
+                    <th>Positive</th>
+                    <th>Negative</th> 
+                    <th>Negative short form</th> 
+                  </tr>
+                  <tr>
+                    <td>I have swum</td>
+                    <td>I have not swum</td> 
+                    <td>I haven't swum</td> 
+                  </tr>
+                  <tr>
+                    <td>You have worked</td>
+                    <td>You have not worked</td>
+                    <td>You haven't worked</td>
+                  </tr>
+                  <tr>
+                    <td>She, he, it has fought</td>
+                    <td>She, he, it has not fought</td> 
+                    <td>She, he, it hasn't fought</td> 
+                  </tr>
+                  <tr>
+                    <td>We have talked</td>
+                    <td>We have not talked</td> 
+                    <td>We haven't talked</td> 
+                  </tr>
+                  <tr>
+                    <td>They have danced</td>
+                    <td>They have not danced</td>
+                    <td>They haven't danced</td>
+                  </tr>
+              </table>
+            </div>
         <h4>Actions started in the past and continuing in the present</h4>
             <ul>
                 <li>They haven't lived here for years.</li>

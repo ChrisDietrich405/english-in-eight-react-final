@@ -6,16 +6,42 @@ export default function SimplePresent() {
         <div className="page-title">
             <h2>Simple Present</h2>
         </div>
-        <div className="page-body">
-            <p>We use the simple present tense when an action is happening right now, or when it happens regularly. The positive form for regular verbs is really easy. It's just the verb with an extra 's' if the subject is 'he', 'she', or 'it'. Let's take the verb 'play' as an example:</p>
-            <p>Positive (of 'play')</p>
-            <p>I play</p>
-            <p>You play</p>
-            <p>She, He, it play<b>s</b></p>
-            <p>We play</p>
-            <p>They play</p>
-            <p>Don't forget the 's' for the third person singular (he, she, it)! Even really advanced students do this!</p>
-        </div>
+        <p>We use the simple present tense when an action is happening right now, or when it happens regularly. The positive form for regular verbs is really easy. It's just the verb with an extra 's' if the subject is 'he', 'she', or 'it'. Let's take the verb 'play' as an example:</p>
+        <div className="table-container">
+              <table className="table-body">
+                  <tr>
+                    <th>Positive</th>
+                    <th>Negative</th> 
+                    <th>Negative short form</th> 
+                  </tr>
+                  <tr>
+                    <td>I swim</td>
+                    <td>I do not swim</td> 
+                    <td>I don't swim</td> 
+                  </tr>
+                  <tr>
+                    <td>You working</td>
+                    <td>You do not work</td>
+                    <td>You don't work</td>
+                  </tr>
+                  <tr>
+                    <td>She, he, it fights</td>
+                    <td>She, he, it does not fight</td> 
+                    <td>She, he, it doesn't fight</td> 
+                  </tr>
+                  <tr>
+                    <td>We talk</td>
+                    <td>We do not talk</td> 
+                    <td>We don't talk</td> 
+                  </tr>
+                  <tr>
+                    <td>They dance</td>
+                    <td>They do not dance</td>
+                    <td>They don't dance</td>
+                  </tr>
+              </table>
+            </div>
+ 
         <div className="page-body">
             <h4>Present simple tense with irregular verbs</h4>
             <p>Some verbs have present simple spelling changes with 'he', 'she' or 'it':</p>

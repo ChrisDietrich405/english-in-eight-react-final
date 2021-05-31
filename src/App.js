@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "./pages/Home"
 import VerbsDefinition from "./pages/verbs/VerbsDefinition"
 import PresentTenseVerbs from "./pages/verbs/PresentTenseVerbs"
+import PastTenseVerbs from "./pages/verbs/PastTenseVerbs"
 import Nouns from "./pages/nouns/Nouns"
 import Expressions from "./pages/expressions/Expressions"
 import PhrasalVerbs from "./pages/phrasal-verbs/PhrasalVerbs"
@@ -19,6 +20,7 @@ function App() {
         <Route path="/home" component={Home}/>
         <Route path="/phrasal-verbs-categories"  component={PhrasalVerbs}/>
         <Route path="/present-verb-tenses" component={PresentTenseVerbs}/>
+        <Route path="/past-verb-tenses" component={PastTenseVerbs}/>
         <Route path="/verbs-definition" component={VerbsDefinition}/>
         <Route path="/noun-categories" component={Nouns}/>
         <Route path="/expressions-categories" component={Expressions}/>

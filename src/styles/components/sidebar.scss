@@ -11,7 +11,7 @@
     }
 
     li {
-        padding: .2rem .1px !important; 
+        
         font-size: 1rem; 
         margin-bottom: 10px;
         .check {
@@ -27,38 +27,26 @@
 }
 
 .sidebar-left {
-    min-width: 330px; 
-    width: 25vw; 
+    min-width: 250px; 
+    width: 20vw; 
     height: 80vh;
     background-color: white; 
     border-radius: 9px; 
     margin-top: 50px; 
-    margin-left: 30px; 
-
-    .li {
-        padding: 5rem !important; 
-    }
-     
-
-    .subtitle { 
-        width: 5rem !important; 
-        height: 5rem !important; 
-        display: block; 
-        padding: 1rem; 
-    }
-
+    margin-left: 30px;      
 }
 
-.sidebar-left-subtitle { 
-    padding: 1rem 1rem; 
+.sidebar-left-subtitle {
+    display: block;  
+    padding: .5rem .5rem; 
     white-space: nowrap;
     text-decoration: none;
     //it doesn't allow for words to go onto the next line
 }
 
 .sidebar-left-subtitle:hover {
-    background-color: lightgray; 
-    border-radius: 0 6px 6px 0; 
+    background-color: lightgray;
+    border-radius: 0 16px 16px 0; 
 }
 
 .sidebar-right {

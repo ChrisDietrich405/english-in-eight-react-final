@@ -1,4 +1,4 @@
-import SidebarPage from "../../components/SidebarPage";
+import SidebarPage  from "../../components/SidebarPage";
 import Expressions1 from "./expressions-categories/Expressions1";
 import Expressions2 from "./expressions-categories/Expressions2";
 import Expressions3 from "./expressions-categories/Expressions3";

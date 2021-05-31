@@ -129,9 +129,12 @@ export default function Navbar() {
 									<hr className="dropdown-divider" />
 								</li>
 								<li>
-									<a className="dropdown-item" href="#">
+									<Link
+										to="/past-verb-tenses/past-tense"
+										className="dropdown-item"
+									>
 										Past Tense Verbs
-									</a>
+									</Link>
 								</li>
 								<li>
 									<hr className="dropdown-divider" />

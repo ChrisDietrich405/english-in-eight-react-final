@@ -2,11 +2,11 @@ import { Link, Switch, Route } from "react-router-dom";
 import "../styles/components/sidebar.scss"
 import "../styles/pages/images.scss"
 import classnames from "classnames"
+import parser from "html-react-parser"
 
 
 export default function SidebarPage(props) {
 	
-
 	return (
 		<div className="sidebar-container">
 		
@@ -18,7 +18,7 @@ export default function SidebarPage(props) {
               <ul>
               {props.links.map(link => <li className="sidebar-left-links">    
                 <Link to={link.path}  className={classnames("sidebar-left-subtitle", {active: window.location.pathname==link.path})}>
-                {link.title}
+                {parser(link.title)}
                 </Link>
                   </li>)}
               </ul>      

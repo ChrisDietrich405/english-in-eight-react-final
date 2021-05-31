@@ -1,10 +1,10 @@
 import Quiz from "../../../components/Quiz"
 
-export default function SimplePast() {
+export default function PastContinuous() {
     return(
         <>
         <div className="page-title">
-            <h2>Simple Past</h2>
+            <h2>Past Continuous</h2>
         </div>
         
         <div className="page-body">

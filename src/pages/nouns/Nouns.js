@@ -17,7 +17,7 @@ export default function Nouns() {
                     component: NounDefinition
                 }, 
                 {
-                    title: "Countable & Uncountable Nouns",
+                    title: "Countable & <br/> Uncountable Nouns",
                     path: "/noun-categories/uncountable-and-countable",
                     component: UncountableAndCountable
                 }, 
