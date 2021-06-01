@@ -20,14 +20,14 @@ export default function SimplePresent() {
                     <td>I don't swim</td> 
                   </tr>
                   <tr>
-                    <td>You working</td>
-                    <td>You do not work</td>
-                    <td>You don't work</td>
+                    <td>You fight</td>
+                    <td>You do not fight</td>
+                    <td>You don't fight</td>
                   </tr>
                   <tr>
-                    <td>She, he, it fights</td>
-                    <td>She, he, it does not fight</td> 
-                    <td>She, he, it doesn't fight</td> 
+                    <td>She, he, it works</td>
+                    <td>She, he, it does not work</td> 
+                    <td>She, he, it doesn't work</td> 
                   </tr>
                   <tr>
                     <td>We talk</td>
