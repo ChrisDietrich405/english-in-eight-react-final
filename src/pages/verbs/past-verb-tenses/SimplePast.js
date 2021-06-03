@@ -6,8 +6,8 @@ export default function SimplePast() {
         <div className="page-title">
             <h2>Simple Past</h2>
         </div>
-        <p> The simple past is a verb tense that is used to talk about things that happened or existed before now. ... Unlike the past continuous tense, which is used to talk about past events that happened over a period of time, the simple past tense emphasizes that the action is finished. There are regular verbs and irregular verbs.
-        Below is a table to demonstrate how we conjugate irregular verbs in the simple past. 
+        <p> The simple past is a verb tense that is used to talk about things that happened or existed before now. There are regular verbs and irregular verbs.
+        Below is a table to demonstrate how we conjugate regular verbs in the simple past. 
         </p>
 
         
