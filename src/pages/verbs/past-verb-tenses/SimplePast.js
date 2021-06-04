@@ -83,7 +83,7 @@ export default function SimplePast() {
               </table>
             </div>
            <p> For other irregular verbs, the simple past forms are more extremely different:</p>
-           <ul>
+           <ul className="page-examples">
                <li>see changes to saw</li>
                <li>eat changes to ate</li>
                <li>build changes to built</li>

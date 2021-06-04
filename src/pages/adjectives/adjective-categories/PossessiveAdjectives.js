@@ -2,7 +2,7 @@ import Quiz from "../../../components/Quiz"
 
 export default function PossessiveAdjectives() {
     return (
-        <>
+        <div className="page-body">
         <div className="possessive-adjectives">
             <div className="page-title">
                 <h2>Possessive Adjectives</h2>
@@ -11,7 +11,7 @@ export default function PossessiveAdjectives() {
                 <p>The possessive adjectives in English  are: my, your, his, her, its, our and their.</p>
             </div>
             
-            <ul>
+            <ul className="page-examples">
                 <li>I have a bag - this is my bag.</li>
                 <li>You have a cat - that is your cat.</li>
                 <li>He has a car - it is his car.</li>
@@ -110,6 +110,6 @@ export default function PossessiveAdjectives() {
             ]}></Quiz>
  
 
-        </>
+        </div>
     )
 }

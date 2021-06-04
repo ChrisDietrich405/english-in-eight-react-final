@@ -68,10 +68,7 @@ export default function PresentContinuous() {
               </table>
             </div>
         </div>
-        
-
-
-
+        <br />
    <Quiz title="Quiz" questions={[
             {
                 title: "I ___________ (study) at the moment",

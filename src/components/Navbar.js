@@ -6,7 +6,7 @@ export default function Navbar() {
 			<div className="container-fluid">
 				<a className="navbar-brand" href="#">
 				{/* <h1 style={{color: "red"}}>Hello Style!</h1> */}
-					<img style={{width: "70px"}} src="/images/logo2.png" alt="" />
+					<img style={{width: "130px"}} src="/images/logo.svg" alt="" />
 				</a>
 				<button
 					className="navbar-toggler"

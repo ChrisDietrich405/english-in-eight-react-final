@@ -3,11 +3,11 @@ import Quiz from "../../../components/Quiz"
 
 export default function PresentPerfect() {
     return (
-        <>
+        <div className="page-body">
         <div className="page-title">
             <h2>Present Perfect </h2>
         </div>
-        <div className="page-body">
+        <div >
             <p>The present perfect is used to indicate a connection between the past and the present. The time of the action is before now but not specified.</p>
         </div>
         <div className="table-container">
@@ -45,38 +45,38 @@ export default function PresentPerfect() {
               </table>
             </div>
         <h4>Actions started in the past and continuing in the present</h4>
-            <ul>
+            <ul className="page-examples">
                 <li>They haven't lived here for years.</li>
                 <li>She has worked in the bank for five years.</li>
                 <li>We have had the same car for ten years.</li>
                 <li>Have you played the piano since you were a child?</li>
             </ul>
         <h4>When the time period referred to has not finished</h4>
-            <ul>
+            <ul className="page-examples">
                 <li>I have worked hard this week.</li>
                 <li>It has rained a lot this year.</li>
                 <li>We haven't seen her today.</li>
             </ul>
         <h4>Actions repeated in an unspecified period between the past and now.</h4>
-            <ul>
+            <ul className="page-examples">
                 <li>They have seen that movie six times.</li>
                 <li>It has happened several times already.</li>
                 <li>She has visited them frequently.</li>
                 <li>We have eaten at that restaurant many times.</li>
             </ul>
         <h4>Actions completed in the very recent past (+just)</h4>
-            <ul>
+            <ul className="page-examples">
                 <li>Have you just finished work?</li>
                 <li>I have just eaten.</li>
                 <li>We have just seen her.</li>
                 <li>Has he just left?</li>
             </ul>
         <h4>When the precise time of the action is not important or not known, including actions which are finished (not continuing into the present)</h4>
-            <ul>
-                Someone has eaten my soup!
-                I have been to Paris.
-                Have you seen  'Black Panther'?
-                She's studied Japanese, Swahili, and English.
+            <ul className="page-examples">
+                <li>Someone has eaten my soup!</li>
+                <li>I have been to Paris.</li>
+                <li>Have you seen  'Black Panther'?</li>
+                <li>She's studied Japanese, Swahili, and English.</li>
             </ul>
 
  
@@ -173,6 +173,6 @@ export default function PresentPerfect() {
 
         ]} ></Quiz>
 
-        </>
+        </div>
     )
 }

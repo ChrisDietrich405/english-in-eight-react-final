@@ -46,10 +46,10 @@ export default function PastContinuous() {
         <div className="page-body">
           <p>We use the past continuous to describe something that was happening in the past when some other event interrupted it</p>
     
-           <ul>
+           <ul className="page-examples">
              <li>I <b>was talking</b> to my sister when my son came home.</li>
-             <li>They<b>were dancing</b> when the rain started.</li>
-             <li>She<b>was watching a movie</b> when her husband told her the news.</li>
+             <li>They <b>were dancing</b> when the rain started.</li>
+             <li>She <b>was watching </b> a movie when her husband told her the news.</li>
              <li>We <b>were working</b> in the garden when the dog started barking.</li>
            </ul>
         </div>
