@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export default function PresentTenseVerbDefinition() {
     return(
         <>
@@ -11,6 +13,12 @@ export default function PresentTenseVerbDefinition() {
                thinking a lot about this recently. By the way I included all four tenses in 
                this paragraph. Challenge yourself and try to identify them. 
             </p>
+
+            
+            <Link to="/present-verb-tenses/simple-present" className=" btn btn-primary">Simple Present</Link>
+            <Link to="/present-verb-tenses/present-continuous" className="btn btn-primary">Present Continuous</Link>
+            <Link to="/present-verb-tenses/present-perfect" className="btn btn-primary">Present Perfect</Link>
+            <Link to="/present-verb-tenses/present-perfect-continuous" className="btn btn-primary">Present Perfect Continuous</Link>
         </div>
         </>
     )
