@@ -41,12 +41,13 @@ export default function Quiz(props) {
                 </div>
                 <ol>
                 {props.questions.map((question, i) => <li> 
-                    {question.title} {submitted == true  && ( i in answers && answers[i]==true ? <AiOutlineCheckCircle className="check"/> : <AiOutlineCloseCircle className="close"/>)}
+                    {question.title} 
                         <ul>
                             {question.possibleAnswers.map(possibleAnswer => {
                                 return <li><input onClick={() => select(possibleAnswer, i) } name={"twoPossibleAnswers" + i} type="radio" className="radio"/>{possibleAnswer.title}</li>
                             })}
                         </ul>
+                        {submitted == true  && ( i in answers && answers[i]==true ? <AiOutlineCheckCircle className="check"/> : <AiOutlineCloseCircle className="close"/>)}
                     </li>)}
                 </ol>
                 <button className="btn btn-primary">Check your answers</button>

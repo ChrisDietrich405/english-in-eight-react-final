@@ -24,80 +24,80 @@ export default function PossessivePronouns() {
                     {
                         title: " Jane has already eaten her lunch , but I'm saving (I) _____________  until later.",
                         possibleAnswers: [ 
-                            {title: "a. mine", correctAnswer: true},
-                            {title: "b. my"},                          
+                            {title: " mine", correctAnswer: true},
+                            {title: " my"},                          
                         ],
                         userAnswer: "", 
                     },
                     {
                         title: " My cell phone needs to be fixed, but (you) _____________ is working.",
                         possibleAnswers: [ 
-                            {title: "a. you"},
-                            {title: "b. yours", correctAnswer: true},                          
+                            {title: " you"},
+                            {title: " yours", correctAnswer: true},                          
                         ],
                         userAnswer: '', 
                     },
                     {
                         title: "My computer is a Mac, but (she) _______________ is a PC.",
                         possibleAnswers: [ 
-                            {title: "a. hers", correctAnswer: true},
-                            {title: "b. she"},                          
+                            {title: " hers", correctAnswer: true},
+                            {title: " she"},                          
                         ],
                         userAnswer: '', 
                     },
                     {
                         title: "We gave them our telephone number, and they gave us (they) __________________ .",
                         possibleAnswers: [ 
-                            {title: "a. theirs"},
-                            {title: "b. they", correctAnswer: true},                          
+                            {title: " theirs"},
+                            {title: " they", correctAnswer: true},                          
                         ],
                         userAnswer: '', 
                     },
                     {
                         title: "My pencil is broken. Can I borrow (you) ____________ ?",
                         possibleAnswers: [ 
-                            {title: "a. you"},
-                            {title: "b. yours", correctAnswer: true},                          
+                            {title: " you"},
+                            {title: " yours", correctAnswer: true},                          
                         ],
                         userAnswer: '', 
                     },
                     {
                         title: "My  car is old, but (he)  __________ is new .",
                         possibleAnswers: [ 
-                            {title: "a. he"},
-                            {title: "b. his", correctAnswer: true},                          
+                            {title: " he"},
+                            {title: " his", correctAnswer: true},                          
                         ],
                         userAnswer: '', 
                     },
                     {
                         title: "You can't have any chocolate! It's all (I)______________ !",
                         possibleAnswers: [ 
-                            {title: "a. my"},
-                            {title: "b. mine", correctAnswer: true},                          
+                            {title: " my"},
+                            {title: " mine", correctAnswer: true},                          
                         ],
                         userAnswer: '', 
                     },
                     {
                         title: "The books are (I) ____________.",
                         possibleAnswers: [ 
-                            {title: "a. mine", correctAnswer: true},
-                            {title: "b. my"},                          
+                            {title: " mine", correctAnswer: true},
+                            {title: " my"},                          
                         ],
                         userAnswer: '', 
                     },
                     {
                         title: "The dog is (we) ______________.",
                         possibleAnswers: [ 
-                            {title: "a. ours", correctAnswer: true},
-                            {title: "b. we"},                          
+                            {title: " ours", correctAnswer: true},
+                            {title: " we"},                          
                         ],
                         userAnswer: '', 
                     },
                     {
                         title: "The motorcycle is (she)_____________. ",
                         possibleAnswers: [ 
-                            {title: "a. hers", correctAnswer: true},
-                            {title: "b. she"},                          
+                            {title: " hers", correctAnswer: true},
+                            {title: " she"},                          
                         ],
                         userAnswer: '', 
                     },

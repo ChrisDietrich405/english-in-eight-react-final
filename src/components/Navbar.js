@@ -53,7 +53,7 @@ export default function Navbar() {
 										to="/noun-categories/noun-definition"
 										className="dropdown-item"
 									>
-										Nouns Definition
+										Noun Definition
 									</Link>
 								</li>
 								<li>
@@ -140,9 +140,12 @@ export default function Navbar() {
 									<hr className="dropdown-divider" />
 								</li>
 								<li>
-									<a className="dropdown-item" href="#">
+									<Link
+										to="/future-verb-tenses/future-tense"
+										className="dropdown-item"
+									>
 										Future Tense Verbs
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</li>

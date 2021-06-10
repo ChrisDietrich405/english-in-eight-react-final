@@ -1,8 +1,24 @@
+//for the quizzes get rid of the letters 
+//add the feedback underneath
+//add a third value alert that notifies the user that the question wasn't answered
+//after user submits disable all the questions (bullets) that were answered 
+//notification of the questions that the user didn't answer
+//after user clicks submit if some of the questions aren't answered change opacity
+//of the button and also add a notification at the end of the quiz that the user they didn't
+//answer for example questions 4, 5
+
+//for the sidebar active link make the font bolder 
+
+//the search button in the navbar should have the blue as the default
+
+
+
+
 import SidebarPage from "../../components/SidebarPage"
 import PastContinuous from "./past-verb-tenses/PastContinuous";
 import PastPerfect from "./past-verb-tenses/PastPerfect";
 import PastTenseVerbDefinition from "./past-verb-tenses/PastTenseVerbDefinition";
-import SimplePast from "./past-verb-tenses/SimplePast";
+import PastSimple from "./past-verb-tenses/PastSimple";
 import PastPerfectContinuous from "./past-verb-tenses/PastPerfectContinuous"
 
 export default function PastTenseVerbs() {
@@ -15,9 +31,9 @@ export default function PastTenseVerbs() {
                     component: PastTenseVerbDefinition 
                 },  
                 {
-                    title: "Simple Past",
-                    path: "/past-verb-tenses/simple-past",
-                    component: SimplePast
+                    title: "Past Simple",
+                    path: "/past-verb-tenses/past-simple",
+                    component: PastSimple
                 }, 
                 {
                     title: "Past Continuous",

@@ -30,7 +30,7 @@ export default function UncountableAndCountable() {
             <p>Uncountable nouns are for the things that we don’t count with numbers. They may be the names for
             abstract ideas or qualities or for physical objects that are too small or too amorphous (no definite
             shape) to be counted (liquids, powders, gases, etc.). Uncountable nouns are used with a singular
-            verb. They usually do not have a plural form.
+            ver They usually do not have a plural form.
             </p>
             </div>
             <div>
@@ -89,32 +89,32 @@ export default function UncountableAndCountable() {
                     {
                         title: "Eating _____ chocolate is unhealthy",
                         possibleAnswers: [ 
-                            {title: "a. a lot of", correctAnswer: true},
-                            {title: "b. many"},                          
+                            {title: " a lot of", correctAnswer: true},
+                            {title: " many"},                          
                         ],
                         userAnswer: "", 
                     },
                     {
                         title: "We don't drink ____ coffee",
                         possibleAnswers: [
-                            {title: 'a. many', }, 
-                            {title: 'b. much', correctAnswer: true}
+                            {title: ' many', }, 
+                            {title: ' much', correctAnswer: true}
                         ], 
                         userAnswer: '', 
                     },
                     {
                         title: "I ate _____ soup for lunch", 
                         possibleAnswers: [
-                            {title: 'a. a few'},
-                            {title: 'b. a little', correctAnswer: true},
+                            {title: ' a few'},
+                            {title: ' a little', correctAnswer: true},
                         ],
                         userAnswer: '',
                     }, 
                     {
                         title: "How _________ rice do we need",
                         possibleAnswers: [
-                            {title: 'a. much', correctAnswer: true},
-                            {title: 'b. many'},
+                            {title: ' much', correctAnswer: true},
+                            {title: ' many'},
                         ], 
                         userAnswer: '',
                     },
@@ -122,8 +122,8 @@ export default function UncountableAndCountable() {
                     {
                         title: "How ________ soy milk do you want?",
                         possibleAnswers: [
-                            {title: 'a. much', correctAnswer: true}, 
-                            {title: 'b. many'},
+                            {title: ' much', correctAnswer: true}, 
+                            {title: ' many'},
                         ], 
                         userAnswer: '',
                     }, 
@@ -131,8 +131,8 @@ export default function UncountableAndCountable() {
                     {
                         title: "There _______ many beans in the soup.",
                         possibleAnswers: [
-                            {title: 'a. are', correctAnswer: true},
-                            {title: 'b. is'},
+                            {title: ' are', correctAnswer: true},
+                            {title: ' is'},
                         ], 
                         userAnswer: '', 
                     }, 
@@ -140,8 +140,8 @@ export default function UncountableAndCountable() {
                     {
                         title: "______ there tofu in the salad?",
                         possibleAnswers: [
-                            {title: 'a. are'},
-                            {title: 'b. is', correctAnswer: true},
+                            {title: ' are'},
+                            {title: ' is', correctAnswer: true},
                         ], 
                         userAnswer: '', 
                     }, 
@@ -149,8 +149,8 @@ export default function UncountableAndCountable() {
                     {
                         title: "How ___________ cups of coffee do you drink in the morning?",
                         possibleAnswers: [
-                            {title: 'a. much',},
-                            {title: 'b. many', correctAnswer: true},
+                            {title: ' much',},
+                            {title: ' many', correctAnswer: true},
                         ], 
                         userAnswer: '', 
                     }, 
@@ -158,8 +158,8 @@ export default function UncountableAndCountable() {
                     {
                         title: "There ______ juice in the refrigerator.",
                         possibleAnswers: [
-                            {title: 'a. is', correctAnswer: true},
-                            {title: 'b. are'},
+                            {title: ' is', correctAnswer: true},
+                            {title: ' are'},
                         ], 
                         userAnswer: '', 
                     }, 
@@ -167,8 +167,8 @@ export default function UncountableAndCountable() {
                     {
                         title: "I have ________ friends in Germany.",
                         possibleAnswers: [
-                            {title: 'a. a few', correctAnswer: true},
-                            {title: 'b. a little'},
+                            {title: ' a few', correctAnswer: true},
+                            {title: ' a little'},
                         ],
                         userAnswer: '',
                     }

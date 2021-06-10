@@ -1,6 +1,6 @@
 import Quiz from "../../../components/Quiz"
 
-export default function SimplePast() {
+export default function PastSimple() {
     return(
         <>
         <div className="page-title">

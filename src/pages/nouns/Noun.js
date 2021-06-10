@@ -7,7 +7,7 @@ import NounModifiers from "./noun-categories/NounModifiers";
 
 
 
-export default function Nouns() {
+export default function Noun() {
     return (
         <SidebarPage links={
             [ 
