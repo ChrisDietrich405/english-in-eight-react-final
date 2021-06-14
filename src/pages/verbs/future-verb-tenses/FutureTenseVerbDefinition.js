@@ -7,12 +7,12 @@ export default function FutureTenseVerbDefinition() {
             <h2>Future Tense Verbs</h2>
         </div>
         <div className="page-body">
-            <p>There are four past tenses in English. The past tense refers to events that have happened in the past. The simple past refers to events that have started and ended in the past. For example I went to the store yesterday The past continuous refers to an event that was in progress at some point in the past. For example at 6 o'clock, I was eating dinner. The past perfect tense is used to make it clear that one event happened before another in the past. For example I had eaten before she arrived The past perfect continuous tense shows that an action that started in the past continued up until another time in the past. For example I had been working at the company for five years when I got the promotion.
+            <p>There are a number of different ways of referring to the future in English. It is important to remember that we are expressing more than simply the time of the action or event. Obviously, any 'future' tense will always refer to a time 'later than now', but it may also express our attitude to the future event.
             </p>
-            <Link to="/past-verb-tenses/simple-past" className=" btn btn-primary">Simple Past</Link>
-            <Link to="/past-verb-tenses/past-continuous" className="btn btn-primary">Past Continuous</Link>
-            <Link to="/past-verb-tenses/past-perfect" className="btn btn-primary">Past Perfect</Link>
-            <Link to="/past-verb-tenses/past-perfect-continuous" className="btn btn-primary">Past Perfect Continuous</Link>
+            <Link to="/future-verb-tenses/future-simple" className=" btn btn-primary">Future Simple</Link>
+            <Link to="/future-verb-tenses/future-continuous" className="btn btn-primary">Future Continuous</Link>
+            <Link to="/future-verb-tenses/future-perfect" className="btn btn-primary">Future Perfect</Link>
+            <Link to="/future-verb-tenses/future-perfect-continuous" className="btn btn-primary">Future Perfect Continuous</Link>
         </div>
         </>
     )

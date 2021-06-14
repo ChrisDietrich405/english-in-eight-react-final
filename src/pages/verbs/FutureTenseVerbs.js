@@ -5,13 +5,13 @@ import FutureTenseVerbDefinition from "./future-verb-tenses/FutureTenseVerbDefin
 import FutureSimple from "./future-verb-tenses/FutureSimple";
 import FuturePerfectContinuous from "./future-verb-tenses/FuturePerfectContinuous"
 
-export default function PastTenseVerbs() {
+export default function FutureTenseVerbs() {
     return (
         <SidebarPage links={
             [
                 {
                     title: "Future Tense Verbs",
-                    path: "/future-verb-tenses/past-tense",
+                    path: "/future-verb-tenses/future-tense",
                     component: FutureTenseVerbDefinition 
                 },  
                 {

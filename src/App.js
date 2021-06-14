@@ -1,4 +1,4 @@
-//for the quizzes get rid of the letters 
+
 //add the feedback underneath
 //add a third value alert that notifies the user that the question wasn't answered
 //after user submits disable all the questions (bullets) that were answered 
@@ -7,7 +7,6 @@
 //of the button and also add a notification at the end of the quiz that the user they didn't
 //answer for example questions 4, 5
 
-//for the sidebar active link make the font bolder 
 
 //the search button in the navbar should have the blue as the default
 

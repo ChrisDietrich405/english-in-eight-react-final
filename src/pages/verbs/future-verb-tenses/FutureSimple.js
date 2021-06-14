@@ -6,11 +6,10 @@ export default function FutureSimple() {
         <div className="page-title">
             <h2>Future Simple</h2>
         </div>
-        <p> The simple past is a verb tense that is used to talk about things that happened or existed before now. There are regular verbs and irregular verbs.
-        Below is a table to demonstrate how we conjugate regular verbs in the simple past. 
+        <p> The simple future is a verb tense that's used to talk about things that haven't happened yet. For example, this year I <b>will change</b> careers. Use the simple future to talk about an action or condition that will begin and end in the future.
+        There are two ways to express the future. You can use <b>will</b> or <b>going to</b> depending on the circumtances. 
         </p>
 
-        
         <div className="table-container">
               <table className="table-body">
                   <tr>
@@ -19,29 +18,29 @@ export default function FutureSimple() {
                     <th>Negative short form</th> 
                   </tr>
                   <tr>
-                    <td>I walked</td>
-                    <td>I did not walk</td> 
-                    <td>I didn't walk</td> 
+                    <td>I will walk</td>
+                    <td>I will not walk</td> 
+                    <td>I won't walk</td> 
                   </tr>
                   <tr>
-                    <td>You kissed</td>
-                    <td>You did not kiss</td>
-                    <td>You didn't kiss</td>
+                    <td>You will kiss</td>
+                    <td>You will not kiss</td>
+                    <td>You won't kiss</td>
                   </tr>
                   <tr>
-                    <td>She, he, it worked</td>
-                    <td>She, he, it did not work</td> 
-                    <td>She, he, it didn't work</td> 
+                    <td>She, he, it will work</td>
+                    <td>She, he, it will not work</td> 
+                    <td>She, he, it won't work</td> 
                   </tr>
                   <tr>
-                    <td>We talked</td>
-                    <td>We did not talk</td> 
-                    <td>We didn't talk</td> 
+                    <td>We will talk</td>
+                    <td>We will not talk</td> 
+                    <td>We won't talk</td> 
                   </tr>
                   <tr>
-                    <td>They greeted</td>
-                    <td>They did not greet</td>
-                    <td>They didn't greet</td>
+                    <td>They will greet</td>
+                    <td>They will not greet</td>
+                    <td>They won't greet</td>
                   </tr>
               </table>
             </div>
@@ -81,6 +80,7 @@ export default function FutureSimple() {
                     <td>They didn't hit</td>
                   </tr>
               </table>
+            
             </div>
            <p> For other irregular verbs, the simple past forms are more extremely different:</p>
            <ul className="page-examples">

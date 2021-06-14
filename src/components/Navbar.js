@@ -272,7 +272,7 @@ export default function Navbar() {
 							aria-label="Search"
 						/>
 						<button
-							className="btn btn-outline-primary navbar-search-btn"
+							className="btn btn-primary"
 							type="submit"
 						>
 							Search
