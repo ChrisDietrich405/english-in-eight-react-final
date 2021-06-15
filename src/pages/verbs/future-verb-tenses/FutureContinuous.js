@@ -6,7 +6,7 @@ export default function FutureContinuous() {
         <div className="page-title">
             <h2>Future Continuous</h2>
         </div>
-        <p>The past continuous tense refers to an ongoing action or state that was happening at some time in the past. The past continuous tense is formed by combining the past tense of to be (i.e., was/were) with the verb’s present participle (-ing word).</p>
+        <p>The future continuous refers to an unfinished action or event that will be in progress at a time later than now.</p>
         <div className="table-container">
               <table className="table-body">
                   <tr>
@@ -15,42 +15,41 @@ export default function FutureContinuous() {
                     <th>Negative short form</th> 
                   </tr>
                   <tr>
-                    <td>I was swimming</td>
-                    <td>I was not swimming</td> 
-                    <td>I wasn't swimming</td> 
+                    <td>I will be swimming</td>
+                    <td>I will not be swimming</td> 
+                    <td>I won't be swimming</td> 
                   </tr>
                   <tr>
-                    <td>You were fighting</td>
-                    <td>You were not fighting</td>
-                    <td>You weren't fighting</td>
+                    <td>You will be fighting</td>
+                    <td>You will not be fighting</td>
+                    <td>You won't be fighting</td>
                   </tr>
                   <tr>
-                    <td>She, he, it was working</td>
-                    <td>She, he, it was not working</td> 
-                    <td>She, he, it wasn't working</td> 
+                    <td>She, he, it will be working</td>
+                    <td>She, he, it will not be working</td> 
+                    <td>She, he, it won't be working</td> 
                   </tr>
                   <tr>
-                    <td>We were talking</td>
-                    <td>We weren't talking</td> 
-                    <td>We weren't talking</td> 
+                    <td>We will be talking</td>
+                    <td>We will not be talking</td> 
+                    <td>We won't be talking</td> 
                   </tr>
                   <tr>
-                    <td>They were dancing</td>
-                    <td>They were not dancing</td>
-                    <td>They weren't dancing</td>
+                    <td>They will be dancing</td>
+                    <td>They will not be dancing</td>
+                    <td>They won't be dancing</td>
                   </tr>
               </table>
             </div>
         
         
         <div className="page-body">
-          <p>We use the past continuous to describe something that was happening in the past when some other event interrupted it</p>
+         
     
            <ul className="page-examples">
-             <li>I <b>was talking</b> to my sister when my son came home.</li>
-             <li>They <b>were dancing</b> when the rain started.</li>
-             <li>She <b>was watching </b> a movie when her husband told her the news.</li>
-             <li>We <b>were working</b> in the garden when the dog started barking.</li>
+             <li>This time next week I will be sun-bathing in Bali.</li>
+             <li>By Christmas I will be skiing like a pro.</li>
+             <li>Just think, next Monday you will be working in your new job.</li>
            </ul>
         </div>
         <div className="page-body">
@@ -58,81 +57,57 @@ export default function FutureContinuous() {
            
         <Quiz title="Quiz" questions={[
             {
-                title: "He ___________ (make) dinner when she came home",
+                title: "In an hour I _______________ (clean) the kitchen",
                 possibleAnswers: [
-                    {title: "a. was making", correctAnswer: true},
-                    {title: "b. were making",},
+                    {title: "a. will be cleaning", correctAnswer: true},
+                    {title: "b. will be clean",},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "You ___________ (sing) loudly when the fight started",
+                title: "Next month he _______________ (complain) about his job",
                 possibleAnswers: [
-                    {title: "a. were singing", correctAnswer: true},
-                    {title: "b. was singing"},
+                    {title: "a. will be complain"},
+                    {title: "b. will be complaining", correctAnswer: true},
                 ],
                 userAnswer: "",
-            }, 
+            },
             {
-                title: "It __________ (rain) a lot when I noticed my car was gone",
+                title: "Unfortunately, sea levels will ____________ (rise) in 20 years.",
                 possibleAnswers: [
-                    {title: "a. were raining"},
-                    {title: "b. was raining", correctAnswer: true},
+                    {title: "a. will still be rise"},
+                    {title: "b. will still be rising", correctAnswer: true},
                 ],
                 userAnswer: "",
-            }, 
+            },
             {
-                title: "They _____________ (work) on the computer when the teacher came in the room",
+                title: "I ______________ (see) Jim at the conference next week.",
                 possibleAnswers: [
-                    {title: "a. was working"},
-                    {title: "b. were working", correctAnswer: true},
+                    {title: "a. will be see"},
+                    {title: "b. will be seeing", correctAnswer: true},
                 ],
                 userAnswer: "",
-            }, 
+            },
             {
-                title: "He __________ (leave) when she called him ",
+                title: "When they are in Australia they _____________ with friends.",
                 possibleAnswers: [
-                    {title: "a. were leaving"},
-                    {title: "b. was leaving", correctAnswer: true},
+                    {title: "a. will be stay"},
+                    {title: "b. will be staying", correctAnswer: true},
                 ],
                 userAnswer: "",
-            }, 
+            },
             {
-                title: "I __________ (cut) some vegetables when she told me she had already ordered our dinner",
+                title: "I ___________  with Jane this evening so I can tell her.",
                 possibleAnswers: [
-                    {title: "a. were cutting"},
-                    {title: "b. was cutting", correctAnswer: true},
+                    {title: "a. will be eat"},
+                    {title: "b. will be eating", correctAnswer: true},
                 ],
                 userAnswer: "",
-            }, {
-                title: "We _________ (talk) to our neighbors when they came",
-                possibleAnswers: [
-                    {title: "a. was talking" },
-                    {title: "b. were talking", correctAnswer: true},
-                ],
-                userAnswer: "",
-            }, {
-                title: "They ___________ (wash) the dishes when the baby started crying ",
-                possibleAnswers: [
-                    {title: "a. were washing", correctAnswer: true},
-                    {title: "b. was washing"},
-                ],
-                userAnswer: "",
-            }, {
-                title: "It ____________ (frustrate)",
-                possibleAnswers: [
-                    {title: "a. were frustrating"},
-                    {title: "b. was frustrating", correctAnswer: true},
-                ],
-                userAnswer: "",
-            }, {
-                title: "They ___________ (think) about a solution when Nia came up with a great idea",
-                possibleAnswers: [
-                    {title: "a. was thinking"},
-                    {title: "b. were thinking", correctAnswer: true},
-                ],
-                userAnswer: "",
-            }, 
+            },
+           
+            
+            
+     
         ]}></Quiz>
         </>
     )

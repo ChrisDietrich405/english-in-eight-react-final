@@ -46,7 +46,7 @@ export default function FutureSimple() {
             </div>
         <div className="page-body">
         <p>
-        For irregular verbs, things get more complicated. The simple past tense of some irregular verbs looks exactly like the root form:</p>
+        Here's the second way</p>
         <div className="table-container">
               <table className="table-body">
                   <tr>
@@ -55,39 +55,43 @@ export default function FutureSimple() {
                     <th>Negative short form</th> 
                   </tr>
                   <tr>
-                    <td>I put</td>
-                    <td>I did not put</td> 
-                    <td>I didn't put</td> 
+                    <td>I am going to walk</td>
+                    <td>I'm going to walk</td> 
+                    <td>I'm not going to walk</td> 
                   </tr>
                   <tr>
-                    <td>You let</td>
-                    <td>You did not let</td>
-                    <td>You didn't let</td>
+                    <td>You are going to kiss</td>
+                    <td>You're going to kiss</td>
+                    <td>You're not going to kiss</td>
                   </tr>
                   <tr>
-                    <td>She, he, it cost</td>
-                    <td>She, he, it did not cost</td> 
-                    <td>She, he, it didn't cost</td> 
+                    <td>She, he, it is going to work</td>
+                    <td>She, he, it's going to work</td> 
+                    <td>She, he, it's not going to work</td> 
                   </tr>
                   <tr>
-                    <td>We hurt</td>
-                    <td>We did not hurt</td> 
-                    <td>We didn't hurt</td> 
+                    <td>We are going to talk</td>
+                    <td>We're going to talk</td> 
+                    <td>We're not going to talk</td> 
                   </tr>
                   <tr>
-                    <td>They hit</td>
-                    <td>They did not hit</td>
-                    <td>They didn't hit</td>
+                    <td>They are going to greet</td>
+                    <td>They're going to greet</td>
+                    <td>They're not going to greet</td>
                   </tr>
               </table>
             
             </div>
-           <p> For other irregular verbs, the simple past forms are more extremely different:</p>
+           <p> We use will with offers, promises, and refusals</p>
            <ul className="page-examples">
-               <li>see changes to saw</li>
-               <li>eat changes to ate</li>
-               <li>build changes to built</li>
-               <li>go changes to went</li>
+               <li>You look tired. I will help you with the housework. (offer)</li>
+               <li>I'll always be your friend. I will never disappoint you. (promise)</li>
+               <li>He won't listen to you. (refusal)</li>
+           </ul>
+           <p> We use going to for previous plans and in situations where something is likely to happen</p>
+           <ul className="page-examples">
+               <li>We're going to go on vacation this weekend. (previous plan)</li>
+               <li>Our team is leading 65-23. They are going to win (likely to happen)</li>
            </ul>
 
         </div>
@@ -95,81 +99,86 @@ export default function FutureSimple() {
 
         <Quiz title="Quiz" questions={[
             {
-                title: "He ___________ that movie three movies",
+                title: "I don't have anything to eat. That's ok. I _______ share my food with you.",
                 possibleAnswers: [
-                    {title: "a. saw", correctAnswer: true},
-                    {title: "b. sawed",},
+                    {title: "a. will", correctAnswer: true},
+                    {title: "b. am going to"},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "I _____________ to the store",
+                title: "It's Nia's birthday next week, so we _____________ buy her a TV.",
                 possibleAnswers: [
-                    {title: "a. walk"},
-                    {title: "b. walked", correctAnswer: true},
+                    {title: "a. are going to", correctAnswer: true},
+                    {title: "b. will",},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "The car ___________ the tree",
+                title: "Could you lend me $10? I promise  _______________ pay you back  tomorrow.",
                 possibleAnswers: [
-                    {title: "a. hit", correctAnswer: true},
-                    {title: "b. hited"},
+                    {title: "a. am going to"},
+                    {title: "b. will", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "They _____________ house very well",
+                title: "They ______________ have a barbecue tomorrow. It's all planned, so I hope it won't rain.",
                 possibleAnswers: [
-                    {title: "a. builded"},
-                    {title: "b. built", correctAnswer: true},
+                    {title: "a. are going to", correctAnswer: true},
+                    {title: "b. will"},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "I _________ to her",
+                title: "TLook! The coach __________________! Run or we'll miss her",
                 possibleAnswers: [
-                    {title: "a. didn't talked"},
-                    {title: "b. didn't talk", correctAnswer: true},
+                    {title: "a. are going to"},
+                    {title: "b. will", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "She ____________ her hand with a knife",
+                title: "They ___________ get a new computer",
                 possibleAnswers: [
-                    {title: "a. cuted"},
-                    {title: "b. cut", correctAnswer: true},
+                    {title: "a. are going to", correctAnswer: true},
+                    {title: "b. will"},
                 ],
                 userAnswer: "",
-            }, {
-                title: "We ________ too much last night",
+            },
+            {
+                title: "Antonio's sister ____________________ have a baby.",
                 possibleAnswers: [
-                    {title: "a. ate", correctAnswer: true},
-                    {title: "b. eated"},
+                    {title: "a. is going to", correctAnswer: true},
+                    {title: "b. will"},
                 ],
                 userAnswer: "",
-            }, {
-                title: "I _________ him on the cheek",
+            },
+            {
+                title: "Just a moment. I __________________ help you with the bags.",
                 possibleAnswers: [
-                    {title: "a. kissed", correctAnswer: true},
-                    {title: "b. kiss"},
+                    {title: "a. am going to"},
+                    {title: "b. will", correctAnswer: true},
                 ],
                 userAnswer: "",
-            }, {
-                title: "It ____________ a lot of money",
+            },
+            {
+                title: "We ____________________ take a trip to Accra in June.",
                 possibleAnswers: [
-                    {title: "a. didn't costed"},
-                    {title: "b. didn't cost", correctAnswer: true},
+                    {title: "a. are going to", correctAnswer: true},
+                    {title: "b. will"},
                 ],
                 userAnswer: "",
-            }, {
-                title: "They ___________ to the movies",
+            },
+            {
+                title: "Look at the clouds! It _________________  rain soon. ",
                 possibleAnswers: [
-                    {title: "a. wented"},
-                    {title: "b. went", correctAnswer: true},
+                    {title: "a. is going to", correctAnswer: true},
+                    {title: "b. will"},
                 ],
                 userAnswer: "",
             }, 
+
         ]}></Quiz>
         </>
     )
