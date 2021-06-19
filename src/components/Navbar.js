@@ -6,7 +6,7 @@ export default function Navbar() {
 			<div className="container-fluid">
 				<a className="navbar-brand" href="#">
 				{/* <h1 style={{color: "red"}}>Hello Style!</h1> */}
-					<img style={{width: "130px"}} src="/images/logo.svg" alt="" />
+					<img style={{width: "130px"}} src="/images/logo.svg" alt="English in Eight Minutes Logo" />
 				</a>
 				<button
 					className="navbar-toggler"
@@ -268,7 +268,7 @@ export default function Navbar() {
 						<input
 							className="form-control me-2"
 							type="search"
-							placeholder="Search"
+							placeholder="e.g., phrasal verbs..."
 							aria-label="Search"
 						/>
 						<button

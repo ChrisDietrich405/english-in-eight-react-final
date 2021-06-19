@@ -54,13 +54,12 @@
     .idiomatic-expressions-title {
         color: black !important; 
         font-weight: bold;
-        font-size: 1.4rem;
+        font-size: 4.4rem;
         text-align: start;
     }
 
     .phrasal-verbs-content-definition,
     .idiomatic-expression-definition {
-        color: blue !important;
         line-height: 16;
         text-align: start;
     }
@@ -87,12 +86,9 @@
         margin-bottom: 7px; 
     }
     
-    
-
     .noun-examples,
     .verb-examples,
-    .adjective-examples,
-    .adverb-examples {
+    .adjective-examples {
         color: black !important; 
         line-height: 20px; 
         height: 10rem;
@@ -143,12 +139,22 @@
     }
 
     .content-definition {
-        color: blue; 
+        color: black; 
     }
 
     .row {
         margin-top: 40px;
         margin-bottom: 40px; 
+    }
+
+    .content-title {
+        margin-bottom: .9px; 
+        font-weight: 900; 
+    }
+
+    .content-title-second-row {
+        margin: .5rem 0; 
+        font-weight: 900;
     }
 }
 

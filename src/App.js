@@ -1,4 +1,7 @@
 
+
+// for the cards eliminate space between title and definition
+// for the cards on the home page change color to all black, add bold and font-weight to title
 //add the feedback underneath
 //add a third value alert that notifies the user that the question wasn't answered
 //after user submits disable all the questions (bullets) that were answered 
@@ -6,6 +9,7 @@
 //after user clicks submit if some of the questions aren't answered change opacity
 //of the button and also add a notification at the end of the quiz that the user they didn't
 //answer for example questions 4, 5
+
 
 
 //the search button in the navbar should have the blue as the default

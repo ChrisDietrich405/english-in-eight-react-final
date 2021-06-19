@@ -11,19 +11,19 @@ export default function NounDefinition() {
             </div>
             <div className="noun-definition-pictures-container">
                 <div className="noun-definition-pictures">
-                    <img src="../../../images/person-nouns-definition.jpg" alt=""/>
+                    <img src="../../../images/person-nouns-definition.jpg" alt="Picture of actor Terry Crews"/>
                     <p>Person</p>
-                    <p>(Terry Crews)</p>
+                    <p aria-hidden="true">(Terry Crews)</p>
                 </div>
                 <div className="noun-definition-pictures">
-                    <img src="../../../images/place-nouns-definition.jpg" alt=""/>
+                    <img src="../../../images/place-nouns-definition.jpg" alt="Picture of the Taj Mahal"/>
                     <p>Place</p>
-                    <p>(Taj Mahal)</p>
+                    <p aria-hidden="true">(Taj Mahal)</p>
                 </div>
                 <div className="noun-definition-pictures">
-                    <img src="../../../images/thing-nouns-definition.jpg" alt=""/>
+                    <img src="../../../images/thing-nouns-definition.jpg" alt="Picture of IPhone"/>
                     <p>Thing</p>
-                    <p>(IPhone)</p>
+                    <p aria-hidden="true">(IPhone)</p>
                 </div>
             </div>
 

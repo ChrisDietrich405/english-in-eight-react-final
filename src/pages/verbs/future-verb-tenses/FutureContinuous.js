@@ -97,17 +97,45 @@ export default function FutureContinuous() {
                 userAnswer: "",
             },
             {
-                title: "I ___________  with Jane this evening so I can tell her.",
+                title: "I ___________  with Nia this evening so I can tell her.",
                 possibleAnswers: [
                     {title: "a. will be eat"},
                     {title: "b. will be eating", correctAnswer: true},
                 ],
                 userAnswer: "",
             },
-           
-            
-            
-     
+            {
+                title: "Miguel _____________ (compete) in a triathlon this weekend.",
+                possibleAnswers: [
+                    {title: "a. will be competing", correctAnswer: true},
+                    {title: "b. will be compete"},
+                ],
+                userAnswer: "",
+            },
+            {
+                title: "Demarcus _______________ (run) in the race.",
+                possibleAnswers: [
+                    {title: "a. will also be running", correctAnswer: true},
+                    {title: "b. will also be run"},
+                ],
+                userAnswer: "",
+            },
+            {
+                title: "I _____________ (play) tennis at 10am tomorrow.",
+                possibleAnswers: [
+                    {title: "a. will be play"},
+                    {title: "b. will be playing", correctAnswer: true},
+                ],
+                userAnswer: "",
+            },
+            {
+                title: "She _____________ (sleep) when you telephone her.",
+                possibleAnswers: [
+                    {title: "a. will be sleep"},
+                    {title: "b. will be sleeping", correctAnswer: true},
+                ],
+                userAnswer: "",
+            },     
         ]}></Quiz>
         </>
     )

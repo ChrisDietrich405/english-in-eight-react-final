@@ -26,13 +26,13 @@ export default function Home() {
 								<div className="card phrasal-verb-card">
 									<div className="card-body">
 										<div className="bs-phrasal-verbs-icon">
-											<i className="far fa-comments fa-6x"></i>
+											<i className="far fa-comments fa-4x" aria-hidden="true"></i>
 										</div>
 										<div className="content phrasal-verb-card">
 											<p className="content-title">Phrasal Verbs</p>
-											<p className="content-definition">Verb/Preposition combinations
+											<p className="content-definition">Definition: Verb/Preposition combinations
 												<br/>with a specific meaning</p>
-											<p className="card-example">Get up, Break down, Speak out</p>
+											<p className="card-example">Examples: Get up, Break down, Speak out</p>
 										</div>									
 									</div>
 								</div>
@@ -45,12 +45,12 @@ export default function Home() {
 								<div className="card">
 									<div className="card-body">
 										<div>
-                            		    	<i className="far fa-comments fa-6x"></i>
+                            		    	<i className="far fa-comments fa-4x" aria-hidden="true"></i>
                             		    </div>
                             			<div className="content">
                             		    	<p className="content-title">Idiomatic Expressions</p>
-                            		    	<p className="content-definition">Informal Expressions</p>
-                            		    	<p className="card-example">To wing it, Foolproof, Second wind</p>
+                            		    	<p className="content-definition">Definition: Informal Expressions</p>
+                            		    	<p className="card-example">Examples: To wing it, Foolproof, Second wind</p>
                             			</div>
 
 									</div>
@@ -65,9 +65,9 @@ export default function Home() {
 						<div class="col-12 col-md-4 col-sm-12 ">
 							<Link to="/noun-categories/noun-definition">
                         		<div className="noun-examples" >
-                        			<i className="fas fa-tree"></i>
-                        			<p>Nouns</p>
-                        			<p><span className="noun-span">people, places and things</span></p>
+                        			<i className="fas fa-tree" aria-hidden="true"></i>
+                        			<p className="content-title-second-row">Nouns</p>
+                        			<p className="content-definition">people, places and things</p>
                         			<p>woman, tree, car</p>
                         		</div>
                         	</Link>
@@ -76,9 +76,9 @@ export default function Home() {
 						<div class="col-12 col-md-4 col-sm-6 ">
 						<Link to="/present-verb-tenses/verb-definition">
                 			<div className="verb-examples">
-                    			<i className="fas fa-running"></i>
-                    			<p>Verbs</p>
-                    			<p><span className="verb-span">action words</span></p>
+                    			<i className="fas fa-running" aria-hidden="true"></i>
+                    			<p className="content-title-second-row">Verbs</p>
+                    			<p>action words</p>
                     			<p>run, fight, sing</p>
               		  		</div>
                 		</Link>
@@ -87,9 +87,9 @@ export default function Home() {
 						<div class="col-12 col-md-4 col-sm-6 ">
 						<Link to="/adjective-categories/adjective-definition">
 							<div className="adjective-examples">
-                    			<img src="/images/strong.png" className="strong-img" alt=""/>
-                    			<p>Adjectives</p>
-                    			<p><span className="adjective-span">describe nouns</span></p>
+                    			<img src="/images/strong.png" className="strong-img" aria-hidden="true"/>
+                    			<p className="content-title-second-row">Adjectives</p>
+                    			<p>describe nouns</p>
                     			<p>smart, strong, funny</p>
                 			</div>
 						</Link>
