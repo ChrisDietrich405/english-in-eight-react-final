@@ -5,7 +5,7 @@ export default function VerbsDef() {
             <h2>Verbs Definition</h2>
         </div>
         <div className="page-body">
-            <p>a word used to describe an action (for example hear), state(for example become), or occurrence(for example happen)</p>
+            <p>A verb is a word used to describe an action (for example hear), state(for example become), or occurrence(for example happen)</p>
         </div>
         <div className="noun-definition-pictures-container">
                 <div className="noun-definition-pictures">

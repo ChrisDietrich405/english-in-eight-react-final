@@ -1,7 +1,4 @@
 
-
-// for the cards eliminate space between title and definition
-// for the cards on the home page change color to all black, add bold and font-weight to title
 //add the feedback underneath
 //add a third value alert that notifies the user that the question wasn't answered
 //after user submits disable all the questions (bullets) that were answered 
