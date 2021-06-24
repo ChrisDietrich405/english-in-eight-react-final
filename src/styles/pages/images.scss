@@ -1,18 +1,19 @@
 //Nouns styling
-.noun-definition-pictures-container {
+.definition-pictures-container {
     display: flex;
     justify-content: space-around;  
     align-items: center; 
 
-    .noun-definition-pictures {
+    .definition-pictures {
         display: flex;
         flex-direction: column;  
         align-items: center; 
     
     img {
         border-radius: 5px;
-        height: 260px;  
+        height: 220px;  
         width: 270px;
+        margin-bottom: 40px; 
         }
     }
 }

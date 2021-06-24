@@ -9,18 +9,18 @@ export default function NounDefinition() {
             <div className="page-body">
                 <p>A noun is a word that functions as the name of a specific object or set of objects, such as people, places or things </p>
             </div>
-            <div className="noun-definition-pictures-container">
-                <div className="noun-definition-pictures">
+            <div className="definition-pictures-container">
+                <div className="definition-pictures">
                     <img src="../../../images/person-nouns-definition.jpg" alt="Picture of actor Terry Crews"/>
                     <p>Person</p>
                     <p aria-hidden="true">(Terry Crews)</p>
                 </div>
-                <div className="noun-definition-pictures">
+                <div className="definition-pictures">
                     <img src="../../../images/place-nouns-definition.jpg" alt="Picture of the Taj Mahal"/>
                     <p>Place</p>
                     <p aria-hidden="true">(Taj Mahal)</p>
                 </div>
-                <div className="noun-definition-pictures">
+                <div className="definition-pictures">
                     <img src="../../../images/thing-nouns-definition.jpg" alt="Picture of IPhone"/>
                     <p>Thing</p>
                     <p aria-hidden="true">(IPhone)</p>

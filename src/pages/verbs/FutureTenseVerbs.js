@@ -16,7 +16,7 @@ export default function FutureTenseVerbs() {
                 },  
                 {
                     title: "Future Simple",
-                    path: "/future-verb-tenses/simple-future",
+                    path: "/future-verb-tenses/future-simple",
                     component: FutureSimple
                 }, 
                 {

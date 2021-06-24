@@ -1,8 +1,16 @@
 import { useState } from "react";
-import { AiOutlineCheckCircle, AiOutlineCloseCircle }  from "react-icons/ai"
+import { AiOutlineCheckCircle, AiOutlineCloseCircle, AiOutlineQuestionCircle }  from "react-icons/ai"
 import "../styles/components/quiz.scss"
 
-
+function AnswerIcon({isAnswered, isAnsweredCorrectly}) {  //this is component. components are returned in the JSX code
+    if(!isAnswered) {     //is Answered and is AnsweredCorrectly are props 
+        return <><AiOutlineQuestionCircle/> <span>Not answered</span></> 
+    } else if(isAnsweredCorrectly) {
+        return <AiOutlineCheckCircle className="check"/>
+    } else {
+        return <AiOutlineCloseCircle className="close"/>
+    }
+}
 
 export default function Quiz(props) {
 
@@ -44,10 +52,10 @@ export default function Quiz(props) {
                     {question.title} 
                         <ul>
                             {question.possibleAnswers.map(possibleAnswer => {
-                                return <li><input onClick={() => select(possibleAnswer, i) } name={"twoPossibleAnswers" + i} type="radio" className="radio"/>{possibleAnswer.title}</li>
+                                return <li><input disabled={submitted} onClick={() => select(possibleAnswer, i) } name={"twoPossibleAnswers" + i} type="radio" className="radio"/>{possibleAnswer.title}</li>
                             })}
                         </ul>
-                        {submitted == true  && ( i in answers && answers[i]==true ? <AiOutlineCheckCircle className="check"/> : <AiOutlineCloseCircle className="close"/>)}
+                        {submitted == true  && <AnswerIcon isAnswered={i in answers} isAnsweredCorrectly={i in answers && answers[i]==true}/>}
                     </li>)}
                 </ol>
                 <button className="btn btn-primary">Check your answers</button>

@@ -7,18 +7,18 @@ export default function VerbsDef() {
         <div className="page-body">
             <p>A verb is a word used to describe an action (for example hear), state(for example become), or occurrence(for example happen)</p>
         </div>
-        <div className="noun-definition-pictures-container">
-                <div className="noun-definition-pictures">
+        <div className="definition-pictures-container">
+                <div className="definition-pictures">
                     <img src="../../../images/action-verbs-definition.png" alt=""/>
                     <p>Hear</p>
                     
                 </div>
-                <div className="noun-definition-pictures">
+                <div className="definition-pictures">
                     <img src="../../../images/state-verbs-definition.png" alt=""/>
                     <p>Become</p>
                     
                 </div>
-                <div className="noun-definition-pictures">
+                <div className="definition-pictures">
                     <img src="../../../images/occurence-verbs-definition.png" alt=""/>
                     <p>Happen</p>
                     
