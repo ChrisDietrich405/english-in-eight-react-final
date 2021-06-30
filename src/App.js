@@ -1,5 +1,5 @@
 
-
+//navbar tabs need to be smaller maybe 16
 //add a third value alert that notifies the user that the question wasn't answered
 //https://youglish.com/pronounce/recently/english/us?https://youglish.com/pronounce/recently/english/us?
 //notification of the questions that the user didn't answer

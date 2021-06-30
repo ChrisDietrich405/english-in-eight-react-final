@@ -250,17 +250,6 @@ export default function Navbar() {
 										Versus
 									</a>
 								</li>
-								<li>
-									<hr className="dropdown-divider" />
-								</li>
-								<li>
-									<a className="dropdown-item" href="#">
-										Something else here
-									</a>
-								</li>
-								<li>
-									<hr className="dropdown-divider" />
-								</li>
 							</ul>
 						</li>
 					</ul>
