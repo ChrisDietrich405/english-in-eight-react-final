@@ -30,18 +30,18 @@ export default function Expressions() {
         </div>
         <Quiz title="Quiz" questions={[
             {
-                title: "The car came out of nowhere and hit our van.",
+                title: "Why didn't you laugh at my joke?",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. I guess it was ahead of schedule"},
+                    {title: "b. I guess you had to be there", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "Let's go! Hurry up! ____________.",
+                title: "__________ is a very ineffective way to get sales",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. B movie"},
+                    {title: "b. Cold calling", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 
