@@ -22,7 +22,7 @@ import Nouns from "./pages/nouns/Noun"
 import Expressions from "./pages/expressions/Expressions"
 import PhrasalVerbs from "./pages/phrasal-verbs/PhrasalVerbs"
 import Adjectives from "./pages/adjectives/Adjectives"
-
+import Versus from "./pages/versus/Versus"
 
 import Navbar from "./components/Navbar"
 
@@ -40,7 +40,8 @@ function App() {
         <Route path="/verbs-definition" component={VerbsDefinition}/>
         <Route path="/noun-categories" component={Nouns}/>
         <Route path="/expressions-categories" component={Expressions}/>
-        <Route path="/adjective-categories" component={Adjectives}></Route>
+        <Route path="/adjective-categories" component={Adjectives}/>
+        <Route path="/versus-categories" component={Versus}/>
       </Switch>     
     </Router>
   

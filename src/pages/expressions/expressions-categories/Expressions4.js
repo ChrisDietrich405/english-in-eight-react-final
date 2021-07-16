@@ -4,7 +4,7 @@ export default function Expressions() {
     return(
         <>
         <div className="page-title">
-            <h2>Idiomatic Expressions List One</h2>
+            <h2>Idiomatic Expressions List Four</h2>
         </div>
         <div className="page-body">
           <ul>
@@ -46,26 +46,26 @@ export default function Expressions() {
                 userAnswer: "",
             }, 
             {
-                title: "It's probably not necessary to check the figures again, but it's better to be safe than sorry.",
+                title: "I actually like ___________. They are so bad they make me laugh",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. Cold calling"},
+                    {title: "b. B movies", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "a foolproof security system",
+                title: "The project will be finished 3 weeks ________",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. you had to be there"},
+                    {title: "b. tops", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "I hate telling stories around Jack because he always tries to one up you with some amazing story of his own.",
+                title: "Hopefully we can finish the project ________________",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. tops"},
+                    {title: "b. ahead of schedule", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 

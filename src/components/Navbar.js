@@ -246,9 +246,12 @@ export default function Navbar() {
 									<hr className="dropdown-divider" />
 								</li>
 								<li>
-									<a className="dropdown-item" href="#">
+								<Link
+									to="/versus-categories/versus-definition"
+								    className="dropdown-item"
+									>
 										Versus
-									</a>
+								</Link>
 								</li>
 							</ul>
 						</li>
