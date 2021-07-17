@@ -7,10 +7,11 @@ export default function VersusDefinition() {
                 <h2>Versus Definition</h2>
             </div>
             <div className="body">
-                <p>Idiomatic expressions are a type of informal language that have a meaning
-                   different from the meaning of the words in the expression. 
+                <p>In this section let's compare different topics in order to clear 
+                    up any confusion. For example many students don't really understand the
+                    difference between the verbs talk and say. 
                 </p>
-                <div className="expressions-image1-container">
+                {/* <div className="expressions-image1-container">
                     <img src="../../../images/timeismoney.png" className="expressions-image1" alt=""/>
                     <p>In the expression <strong>time is money</strong> we are not literally saying that time
                        is actual currency. We are explaining that time is a valuable resource.</p>
@@ -19,7 +20,7 @@ export default function VersusDefinition() {
                     <img src="../../../images/MindYourOwnBusiness.jpg" className="expressions-image2" alt=""/>
                     <p> Some expressions don't have meaning even in a literal sense, e.g., &nbsp;
                     <strong>mind your own business</strong>. It means to have respect for other people's privacy.</p>
-                </div>
+                </div> */}
             </div>
         </div>
     )

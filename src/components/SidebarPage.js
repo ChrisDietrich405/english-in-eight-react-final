@@ -9,9 +9,7 @@ export default function SidebarPage(props) {
 	
 	return (
 		<div className="sidebar-container">
-		
-        	<div className="sidebar-left">
-            
+        	<div className="sidebar-left">       
 				    <div className="sidebar-title">
 					  <h4>{ props.title }</h4>
             </div>
