@@ -1,10 +1,9 @@
 import SidebarPage from "../../components/SidebarPage";
 import RememberVersusRemind from "./versus-categories/RememberVersusRemind";
-import SayVersusTell from "./versus-categories/PhrasalVerbs1";
+import AllVersusEvery from "./versus-categories/AllVersusEvery";
+import SayVersusTell from "./versus-categories/SayVersusTell";
 import SpeakVersusTalk from "./versus-categories/SpeakVersusTalk";
 import VersusDefinition from "./versus-categories/VersusDefinition";
-import PhrasalVerbs1 from "./versus-categories/PhrasalVerbs1";
-
 
 export default function Versus() {
     return <SidebarPage links={
@@ -20,9 +19,9 @@ export default function Versus() {
                     component: RememberVersusRemind
                 },
                 {
-                    title: "Phrasal",
-                    path: "./versus-categories/PhrasalVerbs1",
-                    component: PhrasalVerbs1
+                    title: "All Versus Every",
+                    path: "/versus-categories/all-versus-every",
+                    component: AllVersusEvery
                 },
                 {
                     title: "Say Versus Tell",
@@ -31,7 +30,7 @@ export default function Versus() {
                 },
                 {
                     title: "Speak Versus Talk",
-                    path: "/versus-expressions/speak-versus-talk",
+                    path: "/versus-categories/speak-versus-talk",
                     component: SpeakVersusTalk
                 },
             ]

@@ -27,9 +27,9 @@
     }
 
     .sidebar-left {
-        min-width: 250px; 
+        min-width: 300px; 
         width: 20vw; 
-        height: 80vh;
+        height: 90vh;
         background-color: white; 
         border-radius: 9px; 
         margin-top: 50px; 
@@ -38,7 +38,7 @@
 
     .sidebar-left-subtitle {
         display: block;  
-        padding: .5rem .5rem; 
+        padding: 1rem 1rem; 
         white-space: nowrap;
         text-decoration: none;
         //it doesn't allow for words to go onto the next line

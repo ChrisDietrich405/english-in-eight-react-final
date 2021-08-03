@@ -1,4 +1,4 @@
-// import "../../../styles/pages/versus.scss"
+import "../../../styles/pages/versus.scss"
 
 export default function VersusDefinition() {
     return(
@@ -9,18 +9,16 @@ export default function VersusDefinition() {
             <div className="body">
                 <p>In this section let's compare different topics in order to clear 
                     up any confusion. For example many students don't really understand the
-                    difference between the verbs talk and say. 
+                    difference between the verbs talk and say or the verbs remember and remind. 
                 </p>
-                {/* <div className="expressions-image1-container">
-                    <img src="../../../images/timeismoney.png" className="expressions-image1" alt=""/>
-                    <p>In the expression <strong>time is money</strong> we are not literally saying that time
-                       is actual currency. We are explaining that time is a valuable resource.</p>
+                <div className="versus-image-container">
+                    <div className="versus-expressions-image1-container">
+                        <img src="../../../images/remember-versus-remind.jpg" className="expressions-image1" alt=""/>
+                    </div>
+                    <div className="versus-expressions-image2-container">
+                        <img src="../../../images/speak-versus-talk.png" className="expressions-image2" alt=""/>
+                    </div>
                 </div>
-                <div className="expressions-image2-container">
-                    <img src="../../../images/MindYourOwnBusiness.jpg" className="expressions-image2" alt=""/>
-                    <p> Some expressions don't have meaning even in a literal sense, e.g., &nbsp;
-                    <strong>mind your own business</strong>. It means to have respect for other people's privacy.</p>
-                </div> */}
             </div>
         </div>
     )

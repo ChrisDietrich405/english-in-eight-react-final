@@ -10,12 +10,12 @@ export default function PhrasalVerbs() {
         <div className="expressions-image1-container">
             <img src="../../../images/break-down.jpg" className="expressions-image1" alt=""/>
             <p>In the phrasal verb <strong>break down</strong>, break is a verb and <strong>down</strong>  
-            &nbsp;is a preposition. <strong>Break down</strong> can mean that a vehicle stops functioning</p>
+            &nbsp;is a preposition. <strong>Break down</strong> can mean that a vehicle stops functioning.</p>
         </div>
         <div className="expressions-image2-container">
             <img src="../../../images/fall-for.jpg" className="expressions-image2" alt=""/>
             <p>In the phrasal verb <strong>fall for</strong>, fall is a verb and <strong>for</strong>  
-            &nbsp;is a preposition. <strong>Fall for</strong> can mean that someone falls in love</p>
+            &nbsp;is a preposition. <strong>Fall for</strong> can mean that someone falls in love.</p>
         </div>
         </>
     )

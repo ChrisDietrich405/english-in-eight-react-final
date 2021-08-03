@@ -9,7 +9,7 @@ export default function NounModifiers() {
             <div className="page-body">
                 <p>We often use two nouns together to show that one thing is a part of something else:</p>
             </div>
-            <ul>
+            <ul className="page-examples">
                 <li><b>Baltimore</b> residents</li>
                 <li>the <b>dog</b> leash</li>
                 <li>the <b>kitchen</b> window</li>
@@ -19,37 +19,37 @@ export default function NounModifiers() {
             <p>In these examples, the first noun is called a noun modifier.</p>
             <p><b>Be careful!</b></p>
             <p>We don’t use a possessive form for these things. We do NOT talk about:</p>
-            <ul>
+            <ul className="page-examples">
                 <li>the car's door</li>
                 <li>the kitchen's window</li>
                 <li>the chair's leg</li>
             </ul>
             <p>We say</p>
-            <ul>
+            <ul className="page-examples">
                 <li>the car door</li>
                 <li>the kitchen window</li>
                 <li>the chair leg</li>
             </ul>
             <p>We can use noun modifiers to show what something is made of:</p>
-            <ul>
+            <ul className="page-examples">
                 <li>a gold watch</li>
                 <li>a canvas purse</li>
                 <li>a metal box</li>
             </ul>
             <p>We often use noun modifiers with nouns ending in –er:</p>
-            <ul>
+            <ul className="page-examples">
                 <li>an office worker</li>
                 <li>a jewelry maker</li>
                 <li>a potato peeler</li>
             </ul>
             <p>We use measurements, age or value as noun modifiers:</p>
-            <ul>
+            <ul className="page-examples">
                 <li>a two-minute rest</li>
                 <li>a fifteen pound suitcase</li>
                 <li>a fifty-mile journey</li>
             </ul>
             <p>We often use nouns ending in -ing as noun modifiers:</p>
-            <ul>
+            <ul className="page-examples">
                 <li>a shopping list</li>
                 <li>a swimming lesson</li>
                 <li>a washing machine</li>

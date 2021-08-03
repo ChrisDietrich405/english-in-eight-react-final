@@ -8,6 +8,11 @@
 //answer for example questions 4, 5
 
 
+//on home page make subtext larger and titles larger in the cards
+//add space between idiomatic expressions 
+//try a border or background color around the long explanations
+//add a footer 
+
 
 
 
