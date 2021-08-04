@@ -6,6 +6,10 @@
         text-decoration: none !important; 
     }
 
+    .title-content {
+        font-size: 1.3rem; 
+    }
+
     .phrasal-verbs-card-examples,
     .idiomatic-expressions-examples {
         height: 10rem;
@@ -54,7 +58,7 @@
     .idiomatic-expressions-title {
         color: black !important; 
         font-weight: bold;
-        font-size: 4.4rem;
+        font-size: 8rem;
         text-align: start;
     }
 
@@ -64,14 +68,12 @@
         text-align: start;
     }
 
-    .idiomatic-expressions-example,
-    .phrasal-verbs-card-example {
-        color: black !important; 
-        font-size: 1.1rem;
-    }   
-
     .fa-comments {
         color: black !important; 
+    }
+
+    .card-container {
+        margin-bottom: 6rem;
     }
 
     .second-cards {
@@ -92,7 +94,7 @@
         color: black !important; 
         line-height: 20px; 
         height: 10rem;
-        margin: 10px; 
+        margin: 10px 10px 200px 10px; 
         padding: 1rem 1rem;
         display: flex;
         flex-direction: column;
@@ -115,13 +117,13 @@
 
     .card {
         max-width: 600px; 
-        min-height: 300px; 
+        min-height: 338px; 
         max-height: 350px; 
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         padding: 30px;
         border: none; 
         border-radius: 8px; 
-        outline: none;  
+        outline: none; 
     }
 
     .card-body {
@@ -133,9 +135,14 @@
         padding-left: 20px; 
     }
 
-    .content-title,
-    .card-example {
+    .content-title {
         color: black; 
+        font-size: 1.6rem; 
+    }
+
+    .card-example {
+        font-size: 1rem;
+        color: black;
     }
 
     .content-definition {
@@ -156,6 +163,7 @@
         margin: .5rem 0; 
         font-weight: 900;
     }
+
 }
 
 @media(max-width: 1000px) {

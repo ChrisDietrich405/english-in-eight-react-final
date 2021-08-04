@@ -8,7 +8,7 @@ export default function Home() {
 					Welcome to{" "}
 					<span className="title-span">English in Eight Minutes</span>
 				</h1>
-				<p>
+				<p className="title-content">
 					{" "}
 					This website offers English lessons you can complete in less
 					than 8 minutes. Pick a topic, study a few minutes, and then
@@ -18,10 +18,10 @@ export default function Home() {
 				</p>
 			</div>
 			
-			<div class="container">
+			<div className="container card-container">
 				
-					<div class="row">
-						<div class="col-12 col-xl-6 col-lg-7 col-md-12">
+					<div className="row">
+						<div className="col-12 col-xl-6 col-lg-7 col-md-12">
 							<Link to="/phrasal-verbs-categories/phrasal-verbs-definition">
 								<div className="card phrasal-verb-card">
 									<div className="card-body">
@@ -40,7 +40,7 @@ export default function Home() {
 						</div>
 					
 						{/* Second Card */}
-						<div class="col-12 col-xl-6 col-lg-5 ">
+						<div className="col-12 col-xl-6 col-lg-5 ">
 							<Link to="expressions-categories/expressions-definition">
 								<div className="card">
 									<div className="card-body">
@@ -61,8 +61,8 @@ export default function Home() {
 					</div>
 					
 					{/* Second Row */}
-					<div class="row">
-						<div class="col-12 col-md-4 col-sm-12 ">
+					<div className="row second-row">
+						<div className="col-12 col-md-4 col-sm-12 ">
 							<Link to="/noun-categories/noun-definition">
                         		<div className="noun-examples" >
                         			<i className="fas fa-tree" aria-hidden="true"></i>
@@ -73,7 +73,7 @@ export default function Home() {
                         	</Link>
 
 						</div>
-						<div class="col-12 col-md-4 col-sm-6 ">
+						<div className="col-12 col-md-4 col-sm-6 ">
 						<Link to="/present-verb-tenses/verb-definition">
                 			<div className="verb-examples">
                     			<i className="fas fa-running" aria-hidden="true"></i>
@@ -84,7 +84,7 @@ export default function Home() {
                 		</Link>
 
 						</div>
-						<div class="col-12 col-md-4 col-sm-6 ">
+						<div className="col-12 col-md-4 col-sm-6 ">
 						<Link to="/adjective-categories/adjective-definition">
 							<div className="adjective-examples">
                     			<img src="/images/strong.png" className="strong-img" aria-hidden="true"/>

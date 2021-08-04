@@ -60,11 +60,6 @@
         padding: 20px;  
     }
 
-    .page-title h2{
-        font-weight: 900; 
-        color: black; 
-    }
-
     .sidebar-title h4 {
         margin-left: 50px; 
         margin-top: 30px; 
@@ -73,7 +68,13 @@
 
     .page-title {
         display: flex; 
-        justify-content: center; 
+        justify-content: center;
+        margin-bottom: 25px;  
+    }
+
+    .page-title h2{
+        font-weight: 900; 
+        color: black; 
     }
     
     .page-body {
@@ -86,6 +87,13 @@
     
     .page-examples li {
         list-style-type: disc;
+    }
+
+    .grammar-explanation-paragraph {
+        text-align: center; 
+        padding: 10px; 
+        border-radius: 10px; 
+        background-color: lightgray; 
     }
     
     @media(max-width: 1250px) {

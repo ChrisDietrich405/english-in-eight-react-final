@@ -6,13 +6,13 @@ export default function UncountableAndCountable() {
             <div className="page-title">
                 <h2>Uncountable and Countable Nouns</h2>
             </div>
+
             <div>
                 <h4>Countable Nouns</h4>
-                <p>Countable nouns are for things we can count using numbers. They have a singular and a plural form.
+                <p className="grammar-explanation-paragraph">Countable nouns are for things we can count using numbers. They have a singular and a plural form.
                 The singular form can use "a" or "an". If you want to ask about the quantity of a countable noun,
                 you ask "How many?" combined with the plural countable noun.
                 </p>
-        
             </div>
             <div>
                 <p>Examples</p>
@@ -25,17 +25,16 @@ export default function UncountableAndCountable() {
                 </ul>
         
             </div>  
-            <div className="page-body">
-            <h2>Uncountable Nouns</h2>
-            <p>Uncountable nouns are for the things that we don’t count with numbers. They may be the names for
-            abstract ideas or qualities or for physical objects that are too small or too amorphous (no definite
-            shape) to be counted (liquids, powders, gases, etc.). Uncountable nouns are used with a singular
-            ver They usually do not have a plural form.
-            </p>
+            <div>
+                <h4>Uncountable Nouns</h4>
+                <p className="grammar-explanation-paragraph">Uncountable nouns are for the things that we don’t count with numbers. They may be the names for
+                abstract ideas or qualities or for physical objects that are too small or too amorphous (no definite
+                shape) to be counted (liquids, powders, gases, etc.). Uncountable nouns are used with a singular
+                ver They usually do not have a plural form.
+                </p>
             </div>
             <div>
                 <p>Examples</p>
-                <br/>
                 <ul className="page-examples">
                     <li>tea</li>
                     <li>sugar</li>
@@ -53,14 +52,14 @@ export default function UncountableAndCountable() {
                     <li>evidence</li>
                 </ul>
             </div>
-                     <p>We can’t use a/an with these nouns. To express a quantity of an uncountable noun, use a word or
+                     <p className="grammar-explanation-paragraph">We can’t use a/an with these nouns. To express a quantity of an uncountable noun, use a word or
                         expression like some, a lot of, much, a great deal of , or else use an exact measurement like a cup of,
                         a bag of, a slice of. If you want to ask about the quantity of an
-                        uncountable noun, you ask "How much?"</p><br/>
-                        <br/>
+                        uncountable noun, you ask "How much?"</p>
+
                     <p>Example</p>
                     <ul className="page-examples">
-                        <br/>
+                  
                         <li>There has been <b>a lot of</b> research into the causes of this disease.</li>
                         <li>Can you give me <b>some</b> information about uncountable nouns?</li>
                         <li>He did not have <b>much</b> sugar left.</li>
@@ -68,18 +67,18 @@ export default function UncountableAndCountable() {
                         <li><b>How much</b> rice do you want?</li>
                     </ul>
                     <p><b>Careful!!!</b></p>
-                    <br/>
-                    <p>Some nouns are countable in other languages but uncountable in English. Obviously they must follow the
-                    rules for uncountable nouns. The most common ones are:</p>
-                    <br/>
-                    <p>advice, baggage, behavior, br/ead, furniture, information, luggage, news, progress, stuff, traffic,
+            
+                    <p className="grammar-explanation-paragraph">Some nouns are countable in other languages but uncountable in English. Obviously they must follow the
+                    rules for uncountable nouns. The most common ones are:
+                  
+                    advice, baggage, behavior, br/ead, furniture, information, luggage, news, progress, stuff, traffic,
                     travel, trouble, weather, work</p>
-                    <br/>
+                
                     <p>Examples</p>
-                    <br/>
+                 
                     <ul className="page-examples">
                         <li>I would like to give you <b>some</b> advice.</li>
-                        <li><b>How much</b> br/ead should I br/ing?</li>
+                        <li><b>How much</b> bread should I bring?</li>
                         <li>I didn't make <b>much</b> progress today.</li>
                         <li>This looks like <b>a lot of</b> trouble to me.</li>
                         <li>We did an hour of work yesterday.</li>
