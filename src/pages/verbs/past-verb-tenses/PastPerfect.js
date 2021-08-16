@@ -6,7 +6,7 @@ export default function PastPerfect() {
           <div className="page-title">
               <h2>Past Perfect</h2>
           </div>
-          <p>The past perfect is used to describe an action that happened before another action</p>
+          <p className="grammar-explanation-paragraph">The past perfect is used to describe an action that happened before another action</p>
           <div className="table-container">
                 <table className="table-body">
                     <tr>

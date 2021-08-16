@@ -17,12 +17,12 @@ export default function Noun() {
                     component: NounDefinition
                 }, 
                 {
-                    title: "Countable & <br/> Uncountable Nouns",
+                    title: "Countable & Uncountable",
                     path: "/noun-categories/uncountable-and-countable",
                     component: UncountableAndCountable
                 }, 
                 {
-                    title: "Collective Nouns", 
+                    title: "Collective", 
                     path: "/noun-categories/collective",
                     component: Collective
                 }, 
@@ -32,7 +32,7 @@ export default function Noun() {
                     component: PossessivePronouns
                 },
                 {
-                    title: "Noun Modifiers",
+                    title: "Modifiers",
                     path: "/noun-categories/noun-modifiers",
                     component: NounModifiers
                 }

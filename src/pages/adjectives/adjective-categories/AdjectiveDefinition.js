@@ -5,7 +5,7 @@ export default function AdjectiveDefinition() {
         <h2>Adjectives Definition</h2>
     </div>
     <div className="expressions-definition-body">
-        <p> An adjective is a word that tells us more about a noun. It "describes" a noun. In these examples, the adjectives are in bold and the nouns are in italics.</p>
+        <p className="grammar-explanation-paragraph"> An adjective is a word that tells us more about a noun. It "describes" a noun. In these examples, the adjectives are in bold and the nouns are in italics.</p>
     </div>
     <div className="definition-pictures-container">
                 <div className="definition-pictures">

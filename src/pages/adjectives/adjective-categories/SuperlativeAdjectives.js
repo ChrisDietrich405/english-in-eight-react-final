@@ -7,7 +7,7 @@ export default function SuperlativeAdjectives() {
                 <h2>Superlative Adjectives</h2>
             </div>
             <div className="page-body">
-                <p>To make the superlative form (like 'biggest' or 'most expensive'), first we need to know how many syllables are in the adjective.</p>
+                <p className="grammar-explanation-paragraph">To make the superlative form (like 'biggest' or 'most expensive'), first we need to know how many syllables are in the adjective.</p>
             </div>
             <p>Adjectives with one syllable</p>
             <p>Usually if an adjective has only one syllable, we add 'est' to make the superlative form.</p>

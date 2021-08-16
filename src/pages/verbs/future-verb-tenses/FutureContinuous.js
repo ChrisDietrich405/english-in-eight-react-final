@@ -6,7 +6,7 @@ export default function FutureContinuous() {
         <div className="page-title">
             <h2>Future Continuous</h2>
         </div>
-        <p>The future continuous refers to an unfinished action or event that will be in progress at a time later than now.</p>
+        <p className="grammar-explanation-paragraph">The future continuous refers to an unfinished action or event that will be in progress at a time later than now.</p>
         <div className="table-container">
               <table className="table-body">
                   <tr>

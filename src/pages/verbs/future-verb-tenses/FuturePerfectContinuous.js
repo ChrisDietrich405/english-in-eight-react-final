@@ -6,7 +6,7 @@ export default function FuturePerfectContinuous() {
         <div className="page-title">
             <h2>Future Perfect Continuous</h2>
         </div>
-        <p>The past perfect continuous tense (also known as the past perfect progressive tense) shows that an action that started in the past continued up until00 another time in the past.</p>
+        <p className="grammar-explanation-paragraph">The past perfect continuous tense (also known as the past perfect progressive tense) shows that an action that started in the past continued up until00 another time in the past.</p>
         
         <div className="table-container">
               <table className="table-body">

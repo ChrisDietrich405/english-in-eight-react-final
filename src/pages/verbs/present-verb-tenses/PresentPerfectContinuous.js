@@ -6,7 +6,7 @@ export default function PresentPerfectContinuous() {
             <div className="page-title">
                 <h2>Present Perfect Continuous</h2>
             </div>
-            <p>The present perfect continuous tense (also known as the present perfect progressive tense) shows that something started in the past and is continuing at the present time. The present perfect continuous is formed using the construction has/have been + the present participle (root + -ing).</p>
+            <p className="grammar-explanation-paragraph">The present perfect continuous tense (also known as the present perfect progressive tense) shows that something started in the past and is continuing at the present time. The present perfect continuous is formed using the construction has/have been + the present participle (root + -ing).</p>
 
              <div className="table-container">
                   <table className="table-body">

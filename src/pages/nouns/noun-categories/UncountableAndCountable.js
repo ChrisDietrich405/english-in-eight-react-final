@@ -4,7 +4,7 @@ export default function UncountableAndCountable() {
     return(
         <div className="page-body">
             <div className="page-title">
-                <h2>Uncountable and Countable Nouns</h2>
+                <h2>Uncountable & Countable</h2>
             </div>
 
             <div>

@@ -8,7 +8,7 @@ export default function PresentPerfect() {
             <h2>Present Perfect </h2>
         </div>
         <div >
-            <p>The present perfect is used to indicate a connection between the past and the present. The time of the action is before now but not specified.</p>
+            <p className="grammar-explanation-paragraph">The present perfect is used to indicate a connection between the past and the present. The time of the action is before now but not specified.</p>
         </div>
         <div className="table-container">
               <table className="table-body">

@@ -8,7 +8,7 @@ export default function PresentContinuous() {
             <h2>Present Continuous</h2>
         </div>
         <div className="page-body">
-            <p>The present continuous (also called present progressive) is a verb tense which is used to show that an ongoing action is happening now. The present continuous can also be used to show that an action is going to take place in the near future.</p>
+            <p className="grammar-explanation-paragraph">The present continuous (also called present progressive) is a verb tense which is used to show that an ongoing action is happening now. The present continuous can also be used to show that an action is going to take place in the near future.</p>
             <div className="table-container">
               <table className="table-body">
                   <tr>

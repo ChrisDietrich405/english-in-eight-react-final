@@ -7,7 +7,7 @@ export default function ComparativeAdjectives() {
                 <h2>Comparative Adjectives</h2>
             </div>
             <div className="page-body">
-                <p>To make the comparative form (like 'bigger' or 'more expensive'), first we need to know how many syllables are in the adjective.</p>
+                <p className="grammar-explanation-paragraph">To make the comparative form (like 'bigger' or 'more expensive'), first we need to know how many syllables are in the adjective.</p>
             </div>
             <p>Adjectives with one syllable</p>
             <p>Usually if an adjective has only one syllable, we add 'er' to make the comparative form.</p>

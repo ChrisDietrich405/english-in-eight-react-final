@@ -6,7 +6,7 @@ export default function FutureSimple() {
         <div className="page-title">
             <h2>Future Simple</h2>
         </div>
-        <p> The simple future is a verb tense that's used to talk about things that haven't happened yet. For example, this year I <b>will change</b> careers. Use the simple future to talk about an action or condition that will begin and end in the future.
+        <p className="grammar-explanation-paragraph"> The simple future is a verb tense that's used to talk about things that haven't happened yet. For example, this year I <b>will change</b> careers. Use the simple future to talk about an action or condition that will begin and end in the future.
         There are two ways to express the future. You can use <b>will</b> or <b>going to</b> depending on the circumtances. 
         </p>
 

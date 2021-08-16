@@ -7,8 +7,8 @@ export default function NounModifiers() {
                 <h2>Noun Modifiers</h2>
             </div>
             <div className="page-body">
-                <p>We often use two nouns together to show that one thing is a part of something else:</p>
-            </div>
+                <p className="grammar-explanation-paragraph">We often use two nouns together to show that one thing is a part of something else. In the following examples, the first noun is called a noun modifier.</p>
+           
             <ul className="page-examples">
                 <li><b>Baltimore</b> residents</li>
                 <li>the <b>dog</b> leash</li>
@@ -16,7 +16,7 @@ export default function NounModifiers() {
                 <li>the <b>chair</b> leg</li>
                 <li>my <b>coat</b> pocket</li>
             </ul>
-            <p>In these examples, the first noun is called a noun modifier.</p>
+            <p></p>
             <p><b>Be careful!</b></p>
             <p>We don’t use a possessive form for these things. We do NOT talk about:</p>
             <ul className="page-examples">
@@ -54,6 +54,7 @@ export default function NounModifiers() {
                 <li>a swimming lesson</li>
                 <li>a washing machine</li>
             </ul>
+            </div>
 
             <Quiz title="Quiz" questions={[
                 {

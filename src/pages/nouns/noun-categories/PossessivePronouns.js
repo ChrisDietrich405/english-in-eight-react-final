@@ -7,7 +7,7 @@ export default function PossessivePronouns() {
                 <h2>Possessive Pronouns</h2>
             </div>
             <div className="page-body">
-            <p>Possessive pronouns say who something belongs to, and replace a noun. So we use them alone. In English, the possessive pronouns are: mine, yours, his, hers, ours and theirs.</p>
+            <p className="grammar-explanation-paragraph">Possessive pronouns say who something belongs to, and replace a noun. So we use them alone. In English, the possessive pronouns are: mine, yours, his, hers, ours and theirs.</p>
             </div>
             <div className="page-examples">
                 <p>Examples</p>

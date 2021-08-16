@@ -6,7 +6,7 @@ export default function SimplePresent() {
             <div className="page-title">
                 <h2>Simple Present</h2>
             </div>
-            <p>We use the simple present tense when an action is happening right now, or when it happens regularly. The positive form for regular verbs is really easy. It's just the verb with an extra 's' if the subject is 'he', 'she', or 'it'. Let's take the verb 'play' as an example:</p>
+            <p className="grammar-explanation-paragraph">We use the simple present tense when an action is happening right now, or when it happens regularly. The positive form for regular verbs is really easy. It's just the verb with an extra 's' if the subject is 'he', 'she', or 'it'. Let's take the verb 'play' as an example:</p>
             <div className="table-container">
                   <table className="table-body">
                       <tr>

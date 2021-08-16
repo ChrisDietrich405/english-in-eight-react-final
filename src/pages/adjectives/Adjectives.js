@@ -10,7 +10,7 @@ export default function Adjectives() {
         <Sidebar links={
             [
                 {
-                    title: "Adjective Definition",
+                    title: "<b>Adjective Definition</b>",
                     path: "/adjective-categories/adjective-definition",
                     component: AdjectiveDefinition
                 },

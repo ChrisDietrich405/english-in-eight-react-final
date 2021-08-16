@@ -1,6 +1,7 @@
 import SidebarPage from "../../components/SidebarPage"
 import PresentTenseVerbDefinition from "./present-verb-tenses/PresentTenseVerbDefinition"
 import PastTenseVerbDefinition from "./past-verb-tenses/PastTenseVerbDefinition"
+import FutureTenseVerbDefinition from "./future-verb-tenses/FutureTenseVerbDefinition"
 import VerbsDef from "./verbs-definition/VerbsDef"
 
 
@@ -26,8 +27,8 @@ export default function VerbsDefinition() {
                 }, 
                 {
                     title: "Future Tense Verbs",
-                    path: "/verbs-definition/present-tense",
-                    component: PresentTenseVerbDefinition 
+                    path: "/verbs-definition/future-tense",
+                    component: FutureTenseVerbDefinition 
                 }, 
             ]
         } />

@@ -6,7 +6,7 @@ export default function PastContinuous() {
         <div className="page-title">
             <h2>Past Continuous</h2>
         </div>
-        <p>The past continuous tense refers to an ongoing action or state that was happening at some time in the past. The past continuous tense is formed by combining the past tense of to be (i.e., was/were) with the verb’s present participle (-ing word).</p>
+        <p className="grammar-explanation-paragraph">The past continuous tense refers to an ongoing action or state that was happening at some time in the past. The past continuous tense is formed by combining the past tense of to be (i.e., was/were) with the verb’s present participle (-ing word).</p>
         <div className="table-container">
               <table className="table-body">
                   <tr>

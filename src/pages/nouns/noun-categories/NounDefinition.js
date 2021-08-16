@@ -4,7 +4,7 @@ export default function NounDefinition() {
     return(
         <>
             <div className="page-title">
-                <h2>Nouns Definition</h2>
+                <h2>Noun Definition</h2>
             </div>
             <div className="page-body">
                 <p>A noun is a word that functions as the name of a specific object or set of objects, such as people, places or things </p>

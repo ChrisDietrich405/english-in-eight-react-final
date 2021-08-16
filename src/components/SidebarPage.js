@@ -11,15 +11,17 @@ export default function SidebarPage(props) {
 		<div className="sidebar-container">
         	<div className="sidebar-left">       
 				    <div className="sidebar-title">
-					  <h4>{ props.title }</h4>
+					    <h4>{ props.title }</h4>
             </div>
-              <ul>
-              {props.links.map(link => <li className="sidebar-left-links">    
+            <ul>
+            {props.links.map(link => (
+              <li className="sidebar-left-links">    
                 <Link to={link.path}  className={classnames("sidebar-left-subtitle", {active: window.location.pathname==link.path})}>
-                {parser(link.title)}
+                  {parser(link.title)}
                 </Link>
-                  </li>)}
-              </ul>      
+              </li>
+              ))}
+            </ul>      
 		     	</div>
 
           <div className="sidebar-right">

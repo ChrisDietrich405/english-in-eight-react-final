@@ -7,7 +7,7 @@ export default function Collective() {
             <h2>Collective Nouns</h2>
         </div>
         <div className="page-body">
-            <p>Collective nouns are words for single things that are made up of more than one person, animal, place, thing, or ide You can’t have a team without individual members; even so, we discuss a team as a single entity.</p>
+            <p className="grammar-explanation-paragraph">Collective nouns are words for single things that are made up of more than one person, animal, place, thing, or ide You can’t have a team without individual members; even so, we discuss a team as a single entity.</p>
         </div>       
         <div className="page-examples">
             <p>Examples</p>

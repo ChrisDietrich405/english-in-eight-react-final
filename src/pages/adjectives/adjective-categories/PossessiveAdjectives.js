@@ -8,7 +8,7 @@ export default function PossessiveAdjectives() {
                 <h2>Possessive Adjectives</h2>
             </div>
             <div className="page-body">
-                <p>The possessive adjectives in English  are: my, your, his, her, its, our and their.</p>
+                <p className="grammar-explanation-paragraph">The possessive adjectives in English  are: my, your, his, her, its, our and their.</p>
             </div>
             
             <ul className="page-examples">
