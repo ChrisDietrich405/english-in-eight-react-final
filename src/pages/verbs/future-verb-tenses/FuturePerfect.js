@@ -86,55 +86,55 @@ export default function FuturePerfect() {
                   {title: "b. will have knew",},
               ],
               userAnswer: "",
-          }, 
-          {
-            title: "At 4 o'clock, she ______________ in this office for 24 hours.",
-            possibleAnswers: [
-                {title: "a. will have been", correctAnswer: true},
-                {title: "b. will have be",},
-            ],
-            userAnswer: "",
-        }, 
+            }, 
+            {
+              title: "At 4 o'clock, she ______________ in this office for 24 hours.",
+              possibleAnswers: [
+                  {title: "a. will have been", correctAnswer: true},
+                  {title: "b. will have be",},
+              ],
+              userAnswer: "",
+            }, 
         {
-          title: "<li>Mom will have cooked our favorite meal.</li>",
+          title: "Mom ______________ our favorite food by the time you get home",
           possibleAnswers: [
               {title: "a. will have grown",},
               {title: "b. will have grew", correctAnswer: true},
           ],
           userAnswer: "",
-      }, 
-      {
-        title: "Henry ______________ by ten o’clock.",
-        possibleAnswers: [
-            {title: "a. will have grown", correctAnswer: true},
-            {title: "b. will have grew",},
-        ],
-        userAnswer: "",
-    }, 
-    {
-      title: "Henry ______________ by ten o’clock.",
-      possibleAnswers: [
-          {title: "a. will have grown", correctAnswer: true},
-          {title: "b. will have grew",},
-      ],
-      userAnswer: "",
-  }, 
-  {
-    title: "Henry ______________ by ten o’clock.",
-    possibleAnswers: [
-        {title: "a. will have grown", correctAnswer: true},
-        {title: "b. will have grew",},
-    ],
-    userAnswer: "",
-}, 
-{
-  title: "Henry ______________ by ten o’clock.",
-  possibleAnswers: [
-      {title: "a. will have grown", correctAnswer: true},
-      {title: "b. will have grew",},
-  ],
-  userAnswer: "",
-}, 
+        }, 
+        {
+          title: "It _______________ raining by then.",
+          possibleAnswers: [
+              {title: "a. will have stopped", correctAnswer: true},
+              {title: "b. will have stop",},
+          ],
+          userAnswer: "",
+        }, 
+        {
+          title: "They _______________ Japan by the time you get home",
+          possibleAnswers: [
+              {title: "a. will have leave",},
+              {title: "b. will have left", correctAnswer: true},
+          ],
+          userAnswer: "",
+        }, 
+        {
+         title: "By Friday he _____________ 56 hours.",
+         possibleAnswers: [
+             {title: "a. will have worked", correctAnswer: true},
+             {title: "b. will have work",},
+         ],
+         userAnswer: "",
+        }, 
+        {
+          title: "I _________________ to work by then .",
+          possibleAnswers: [
+              {title: "a. will have gone", correctAnswer: true},
+              {title: "b. will have go",},
+          ],
+          userAnswer: "",
+        }, 
 
         ]}></Quiz>
       

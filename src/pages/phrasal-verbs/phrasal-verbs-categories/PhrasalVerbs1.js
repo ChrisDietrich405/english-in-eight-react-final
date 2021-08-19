@@ -31,23 +31,23 @@ export default function PhrasalVerbs1() {
         </div>
         <Quiz title="Quiz" questions={[
             {
-                title: "The car came out of nowhere and hit our van.",
+                title: "My daughter really ___________ with her new roommate. She's very excited",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. cheat on"},
+                    {title: "b. hit it off", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "Let's go! Hurry up! ____________.",
+                title: "After _________________ they went on a romantic date",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. cheating on"},
+                    {title: "b. talking it out", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "It's probably not necessary to check the figures again, but it's better to be safe than sorry.",
+                title: "My shoes ________________ a lot of space in my closet",
                 possibleAnswers: [
                     {title: "a. To one up someone"},
                     {title: "b. Time is money", correctAnswer: true},
