@@ -5,7 +5,7 @@ export default function PhrasalVerbs() {
             <h2>Phrasal Verbs</h2>
         </div>
         <div className="page-body">
-            <p>Phrasal Verbs are expressions consisting of a verb and another element, typically either an adverb, as in <b>break down</b>, or a preposition, for example <b>see to</b>, or a combination of both, such as <b>look down on.</b></p>
+            <p className="grammar-explanation-paragraph">Phrasal Verbs are expressions consisting of a verb and another element, typically either an adverb, as in <b>break down</b>, or a preposition, for example <b>see to</b>, or a combination of both, such as <b>look down on.</b></p>
         </div>
         <div className="expressions-image1-container">
             <img src="../../../images/break-down.jpg" className="expressions-image1" aria-hidden="true"/>

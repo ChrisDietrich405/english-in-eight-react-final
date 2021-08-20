@@ -76,7 +76,7 @@ export default function SimplePresent() {
             <br />
             <Quiz title="Quiz" questions={[
             {
-                title: "You ________ (wash) the dishes",
+                title: "You ________ (wash) the dishes.",
                 possibleAnswers: [
                     {title: "a. washes"},
                     {title: "b. wash", correctAnswer: true},
@@ -84,7 +84,7 @@ export default function SimplePresent() {
                 userAnswer: "",
             },
             {
-                title: "I _________ (like) swimming",
+                title: "I _________ (like) swimming.",
                 possibleAnswers: [
                     {title: "a. like", correctAnswer: true},
                     {title: "b. likes"},
@@ -92,7 +92,7 @@ export default function SimplePresent() {
                 userAnswer: "",
             },
             {
-                title: "He ____________ (play) badminton",
+                title: "He ____________ (play) badminton.",
                 possibleAnswers: [
                     {title: "a. plays", correctAnswer: true},
                     {title: "b. play"},
@@ -100,7 +100,7 @@ export default function SimplePresent() {
                 userAnswer: "",
             },
             {
-                title: "The class (it) __________ (begin) at 9am",
+                title: "The class (it) __________ (begin) at 9am.",
                 possibleAnswers: [
                     {title: "a. begin",},
                     {title: "b. begins",  correctAnswer: true},
@@ -108,7 +108,7 @@ export default function SimplePresent() {
                 userAnswer: "",
             },
             {
-                title: "He ________ (cry) when he watches sad movies",
+                title: "He ________ (cry) when he watches sad movies.",
                 possibleAnswers: [
                     {title: "a. crys",},
                     {title: "b. cries",  correctAnswer: true},
@@ -116,7 +116,7 @@ export default function SimplePresent() {
                 userAnswer: "",
             },
             {
-                title: "She ________ (love) chocolate",
+                title: "She ________ (love) chocolate.",
                 possibleAnswers: [
                     {title: "a. loves", correctAnswer: true},
                     {title: "b. love",  },
@@ -124,7 +124,7 @@ export default function SimplePresent() {
                 userAnswer: "",
             },
             {
-                title: "We ________ (study) Arabic",
+                title: "We ________ (study) Arabic.",
                 possibleAnswers: [
                     {title: "a. study", correctAnswer: true},
                     {title: "b. studies",  },
@@ -132,7 +132,7 @@ export default function SimplePresent() {
                 userAnswer: "",
             },
             {
-                title: "They _________ (live) in Tunisia",
+                title: "They _________ (live) in Tunisia.",
                 possibleAnswers: [
                     {title: "a. live", correctAnswer: true},
                     {title: "b. lives",  },
@@ -140,7 +140,7 @@ export default function SimplePresent() {
                 userAnswer: "",
             },
             {
-                title: "He _______ (work) in a restaurant",
+                title: "He _______ (work) in a restaurant.",
                 possibleAnswers: [
                     {title: "a. works", correctAnswer: true},
                     {title: "b. work",  },
@@ -148,7 +148,7 @@ export default function SimplePresent() {
                 userAnswer: "",
             },
             {
-                title: "Nia _______ (play) the guitar very well",
+                title: "Nia _______ (play) the guitar very well.",
                 possibleAnswers: [
                     {title: "a. play",},
                     {title: "b. plays", correctAnswer: true },

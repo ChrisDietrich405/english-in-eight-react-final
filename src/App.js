@@ -31,24 +31,34 @@ import Versus from "./pages/versus/Versus"
 
 import Navbar from "./components/Navbar"
 
+import {Helmet} from "react-helmet";
+
 function App() {
   return (
-    <Router>
-      <Navbar/>
-      <Switch>
-        <Route path="/" exact={true} component={Home}/>
-        <Route path="/home" component={Home}/>
-        <Route path="/phrasal-verbs-categories"  component={PhrasalVerbs}/>
-        <Route path="/present-verb-tenses" component={PresentTenseVerbs}/>
-        <Route path="/past-verb-tenses" component={PastTenseVerbs}/>
-        <Route path="/future-verb-tenses" component={FutureTenseVerbs}/>
-        <Route path="/verbs-definition" component={VerbsDefinition}/>
-        <Route path="/noun-categories" component={Nouns}/>
-        <Route path="/expressions-categories" component={Expressions}/>
-        <Route path="/adjective-categories" component={Adjectives}/>
-        <Route path="/versus-categories" component={Versus}/>
-      </Switch>     
-    </Router>
+    <div>
+       <Helmet>
+                <meta charSet="utf-8" />
+                <title>English in Eight Minutes</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="English in Eight Minutes Title" />
+            </Helmet>
+      <Router>
+        <Navbar/>
+        <Switch>
+          <Route path="/" exact={true} component={Home}/>
+          <Route path="/home" component={Home}/>
+          <Route path="/phrasal-verbs-categories"  component={PhrasalVerbs}/>
+          <Route path="/present-verb-tenses" component={PresentTenseVerbs}/>
+          <Route path="/past-verb-tenses" component={PastTenseVerbs}/>
+          <Route path="/future-verb-tenses" component={FutureTenseVerbs}/>
+          <Route path="/verbs-definition" component={VerbsDefinition}/>
+          <Route path="/noun-categories" component={Nouns}/>
+          <Route path="/expressions-categories" component={Expressions}/>
+          <Route path="/adjective-categories" component={Adjectives}/>
+          <Route path="/versus-categories" component={Versus}/>
+        </Switch>     
+      </Router>
+    </div>
   
    
   );

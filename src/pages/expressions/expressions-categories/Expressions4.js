@@ -30,7 +30,7 @@ export default function Expressions() {
         </div>
         <Quiz title="Quiz" questions={[
             {
-                title: "Why didn't you laugh at my joke?",
+                title: "Why didn't you laugh at my story?",
                 possibleAnswers: [
                     {title: "a. I guess it was ahead of schedule"},
                     {title: "b. I guess you had to be there", correctAnswer: true},
@@ -38,7 +38,7 @@ export default function Expressions() {
                 userAnswer: "",
             }, 
             {
-                title: "__________ is a very ineffective way to get sales",
+                title: "__________ is a very ineffective way to get sales.",
                 possibleAnswers: [
                     {title: "a. B movie"},
                     {title: "b. Cold calling", correctAnswer: true},
@@ -46,7 +46,7 @@ export default function Expressions() {
                 userAnswer: "",
             }, 
             {
-                title: "I actually like ___________. They are so bad they make me laugh",
+                title: "I actually like ___________. They are so bad they make me laugh.",
                 possibleAnswers: [
                     {title: "a. Cold calling"},
                     {title: "b. B movies", correctAnswer: true},
@@ -54,7 +54,7 @@ export default function Expressions() {
                 userAnswer: "",
             }, 
             {
-                title: "The project will be finished 3 weeks ________",
+                title: "The project will be finished 3 weeks ________.",
                 possibleAnswers: [
                     {title: "a. you had to be there"},
                     {title: "b. tops", correctAnswer: true},
@@ -62,7 +62,7 @@ export default function Expressions() {
                 userAnswer: "",
             }, 
             {
-                title: "Hopefully we can finish the project ________________",
+                title: "Hopefully we can finish the project ________________.",
                 possibleAnswers: [
                     {title: "a. tops"},
                     {title: "b. ahead of schedule", correctAnswer: true},

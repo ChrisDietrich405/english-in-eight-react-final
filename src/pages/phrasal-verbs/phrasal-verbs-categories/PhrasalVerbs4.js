@@ -39,7 +39,7 @@ export default function PhrasalVerbs4() {
                 userAnswer: "",
             }, 
             {
-                title: "Many people from the U.S. ______________ immigrants. It's very sad",
+                title: "Many people from the U.S. ______________ immigrants. It's very sad.",
                 possibleAnswers: [
                     {title: "a. go back"},
                     {title: "b. look down on", correctAnswer: true},
@@ -47,7 +47,7 @@ export default function PhrasalVerbs4() {
                 userAnswer: "",
             }, 
             {
-                title: "I hope they don't _____________ of their burritos today. I really want one for lunch",
+                title: "I hope they don't _____________ of their burritos today. I really want one for lunch.",
                 possibleAnswers: [
                     {title: "a. come back"},
                     {title: "b. sell out", correctAnswer: true},
@@ -63,7 +63,7 @@ export default function PhrasalVerbs4() {
                 userAnswer: "",
             }, 
             {
-                title: "You need a good interior designer for your new house? I can __________ for you",
+                title: "You need a good interior designer for your new house? I can __________ for you.",
                 possibleAnswers: [
                     {title: "a. sell out"},
                     {title: "b. ask around", correctAnswer: true},

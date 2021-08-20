@@ -58,7 +58,7 @@ export default function NounModifiers() {
 
             <Quiz title="Quiz" questions={[
                 {
-                    title: "It's a bridge made of rope. It's a _____________",
+                    title: "It's a bridge made of rope. It's a _____________.",
                     possibleAnswers: [
                         {title: "bridge's rope"},
                         {title: "rope bridge", correctAnswer: true},
@@ -66,7 +66,7 @@ export default function NounModifiers() {
                     userAnswer: "",
                 },
                 {
-                    title: "It's a bat for baseballs. It's a _____________",
+                    title: "It's a bat for baseballs. It's a _____________.",
                     possibleAnswers: [
                         {title: "batball"},
                         {title: "baseball bat", correctAnswer: true},
@@ -74,7 +74,7 @@ export default function NounModifiers() {
                     userAnswer: "",
                 },
                 {
-                    title: "It's a cloth that goes on top of the table. It's a _____________",
+                    title: "It's a cloth that goes on top of the table. It's a _____________.",
                     possibleAnswers: [
                         {title: "table cloth", correctAnswer: true},
                         {title: "cloth table"},
@@ -82,7 +82,7 @@ export default function NounModifiers() {
                     userAnswer: "",
                 },
                 {
-                    title: "It's a key for my car. It's a _____________",
+                    title: "It's a key for my car. It's a _____________.",
                     possibleAnswers: [
                         {title: "key car",},
                         {title: "car key", correctAnswer: true},
@@ -106,7 +106,7 @@ export default function NounModifiers() {
                     userAnswer: "",
                 },
                 {
-                    title: "We built a house in the trees. We built a _______________________________.",
+                    title: "We built a house in the trees. We built a ______________.",
                     possibleAnswers: [
                         {title: "tree house", correctAnswer: true},
                         {title: "house tree", },

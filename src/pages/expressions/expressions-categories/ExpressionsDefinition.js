@@ -7,7 +7,7 @@ export default function ExpressionsDefinition() {
                 <h2>Idiomatic Expressions Definition</h2>
             </div>
             <div className="body">
-                <p>Idiomatic expressions are a type of informal language that have a meaning
+                <p className="grammar-explanation-paragraph">Idiomatic expressions are a type of informal language that have a meaning
                    different from the meaning of the words in the expression. 
                 </p>
                 <div className="expressions-image1-container">

@@ -26,48 +26,48 @@ export default function PhrasalVerbs3() {
                 </li>
 
                 <li><b>Build up</b> - to increase in intensity. 
-                    <p>They had a big fight after the tension between them <b>built up</b> </p>
+                    <p>They had a big fight after the tension between them <b>built up</b>. </p>
                 </li>
             </ul>
         </div>
         <Quiz title="Quiz" questions={[
             {
-                title: "The car came out of nowhere and hit our van.",
+                title: "I need to _______________ our bed before we move.",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. take apart", correctAnswer: true},
+                    {title: "b. build up",},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "Let's go! Hurry up! ____________.",
+                title: "He ________________ her after their first date.",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. put up with"},
+                    {title: "b. fell for", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "It's probably not necessary to check the figures again, but it's better to be safe than sorry.",
+                title: "It's a great job offer, but because it means moving I need to __________.",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. build up"},
+                    {title: "b. think it over", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "a foolproof security system",
+                title: "I'm going to tell her how I feel today. It's better than letting things _______________.",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. take apart"},
+                    {title: "b. build up", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "I hate telling stories around Jack because he always tries to one up you with some amazing story of his own.",
+                title: "She couldn't _____________ her job anymore so she quit.",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. think over"},
+                    {title: "b. put up with", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 

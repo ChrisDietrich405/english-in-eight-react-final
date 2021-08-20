@@ -22,7 +22,7 @@ export default function Collective() {
         </div> 
         <Quiz title="Quiz" questions={[ //because we are in react we need to start the array with a curly bracket (because it's inside of a component)
                     {
-                        title: "The students __________ fighting in the cafeteria",
+                        title: "The students __________ fighting in the cafeteria.",
                         possibleAnswers: [ 
                             {title: " are", correctAnswer: true},
                             {title: " is"},                          
@@ -30,7 +30,7 @@ export default function Collective() {
                         userAnswer: '', 
                     },
                     {
-                        title: "The group __________ decided together to file the petition",
+                        title: "The group __________ decided together to file the petition.",
                         possibleAnswers: [
                             {title: "has", correctAnswer: true},
                             {title: "have"},
@@ -38,7 +38,7 @@ export default function Collective() {
                         userAnswer: '',
                     }, 
                     {
-                        title: "The United States army _____________ a budget much larger than any other countries",
+                        title: "The United States army _____________ a budget much larger than any other countries.",
                         possibleAnswers: [
                             {title: "have"},
                             {title: "has", correctAnswer: true},
@@ -46,7 +46,7 @@ export default function Collective() {
                         userAnswer: '',
                     }, 
                     {
-                        title: "My sisters ____________ to go to the beach this weekend",
+                        title: "My sisters ____________ to go to the beach this weekend.",
                         possibleAnswers: [
                             {title: "want", correctAnswer: true},
                             {title: "wants"},
@@ -54,7 +54,7 @@ export default function Collective() {
                         userAnswer: "",
                     },
                     {
-                        title: "___________ the parents' committee made a decision",
+                        title: "___________ the parents' committee made a decision.",
                         possibleAnswers: [
                             {title: "Has", correctAnswer: true},
                             {title: "have"}, 
@@ -70,7 +70,7 @@ export default function Collective() {
                         userAnswer: "",
                     },
                     {
-                        title: "That team __________ every game",
+                        title: "That team __________ every game.",
                         possibleAnswers: [
                             {title: "wins", correctAnswer: true},
                             {title: "win"},
@@ -93,7 +93,7 @@ export default function Collective() {
                         userAnswer: "",
                     },
                     {
-                        title: "His family ______________ very big. He has 10 uncles and 11 aunts",
+                        title: "His family ______________ very big. He has 10 uncles and 11 aunts.",
                         possibleAnswers: [
                             {title: "are"},
                             {title: "is", correctAnswer: true},

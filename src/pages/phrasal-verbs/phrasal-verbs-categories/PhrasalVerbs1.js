@@ -31,7 +31,7 @@ export default function PhrasalVerbs1() {
         </div>
         <Quiz title="Quiz" questions={[
             {
-                title: "My daughter really ___________ with her new roommate. She's very excited",
+                title: "My daughter really ___________ with her new roommate. She's very excited.",
                 possibleAnswers: [
                     {title: "a. cheat on"},
                     {title: "b. hit it off", correctAnswer: true},
@@ -39,7 +39,7 @@ export default function PhrasalVerbs1() {
                 userAnswer: "",
             }, 
             {
-                title: "After _________________ they went on a romantic date",
+                title: "After _________________ they went on a romantic date.",
                 possibleAnswers: [
                     {title: "a. cheating on"},
                     {title: "b. talking it out", correctAnswer: true},
@@ -47,26 +47,26 @@ export default function PhrasalVerbs1() {
                 userAnswer: "",
             }, 
             {
-                title: "My shoes ________________ a lot of space in my closet",
+                title: "My shoes ________________ a lot of space in my closet.",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. take up", correctAnswer: true},
+                    {title: "b. fed up with",},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "a foolproof security system",
+                title: "He ____________ his math test and got caught by the teacher.",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. hit it off"},
+                    {title: "b. cheated on", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 
             {
-                title: "I hate telling stories around Jack because he always tries to one up you with some amazing story of his own.",
+                title: "I'm ________________ my boss. He's such a jerk.",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
-                    {title: "b. Time is money", correctAnswer: true},
+                    {title: "a. fed up with", correctAnswer: true},
+                    {title: "b. talking it out",},
                 ],
                 userAnswer: "",
             }, 

@@ -103,7 +103,7 @@ export default function PastSimple() {
                 userAnswer: "",
             }, 
             {
-                title: "I _____________ to the store",
+                title: "I _____________ to the store.",
                 possibleAnswers: [
                     {title: "a. walk"},
                     {title: "b. walked", correctAnswer: true},
@@ -111,7 +111,7 @@ export default function PastSimple() {
                 userAnswer: "",
             }, 
             {
-                title: "The car ___________ the tree",
+                title: "The car ___________ the tree.",
                 possibleAnswers: [
                     {title: "a. hit", correctAnswer: true},
                     {title: "b. hited"},
@@ -119,7 +119,7 @@ export default function PastSimple() {
                 userAnswer: "",
             }, 
             {
-                title: "They _____________ house very well",
+                title: "They _____________ house very well.",
                 possibleAnswers: [
                     {title: "a. builded"},
                     {title: "b. built", correctAnswer: true},
@@ -127,7 +127,7 @@ export default function PastSimple() {
                 userAnswer: "",
             }, 
             {
-                title: "I _________ to her",
+                title: "I _________ to her.",
                 possibleAnswers: [
                     {title: "a. didn't talked"},
                     {title: "b. didn't talk", correctAnswer: true},
@@ -135,35 +135,35 @@ export default function PastSimple() {
                 userAnswer: "",
             }, 
             {
-                title: "She ____________ her hand with a knife",
+                title: "She ____________ her hand with a knife.",
                 possibleAnswers: [
                     {title: "a. cuted"},
                     {title: "b. cut", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, {
-                title: "We ________ too much last night",
+                title: "We ________ too much last night.",
                 possibleAnswers: [
                     {title: "a. ate", correctAnswer: true},
                     {title: "b. eated"},
                 ],
                 userAnswer: "",
             }, {
-                title: "I _________ him on the cheek",
+                title: "I _________ him on the cheek.",
                 possibleAnswers: [
                     {title: "a. kissed", correctAnswer: true},
                     {title: "b. kiss"},
                 ],
                 userAnswer: "",
             }, {
-                title: "It ____________ a lot of money",
+                title: "It ____________ a lot of money.",
                 possibleAnswers: [
                     {title: "a. didn't costed"},
                     {title: "b. didn't cost", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, {
-                title: "They ___________ to the movies",
+                title: "They ___________ to the movies.",
                 possibleAnswers: [
                     {title: "a. wented"},
                     {title: "b. went", correctAnswer: true},
