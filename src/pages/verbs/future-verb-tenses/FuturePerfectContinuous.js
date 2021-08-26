@@ -16,19 +16,19 @@ export default function FuturePerfectContinuous() {
                     <th>Negative short form</th> 
                   </tr>
                   <tr>
-                    <td>I had been swimming</td>
-                    <td>I had not been swimming</td> 
-                    <td>I hadn't been swimming</td> 
+                    <td>I will have been swimming</td>
+                    <td>I will not have been swimming</td> 
+                    <td>I won't have been swimming</td> 
                   </tr>
                   <tr>
-                    <td>You had been fighting</td>
-                    <td>You had not been fighting</td>
-                    <td>You hadn't been fighting</td>
+                    <td>You will have been fighting</td>
+                    <td>You will not have been fighting</td>
+                    <td>You won't have been fighting</td>
                   </tr>
                   <tr>
-                    <td>She, he, it had been working</td>
-                    <td>She, he, it had not been working</td> 
-                    <td>She, he, it hadn't been working</td> 
+                    <td>She, he, it will have been working</td>
+                    <td>She, he, it will not have been working</td> 
+                    <td>She, he, it won't have been working</td> 
                   </tr>
                   <tr>
                     <td>We had been talking</td>

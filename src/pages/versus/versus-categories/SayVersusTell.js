@@ -6,7 +6,7 @@ export default function SayVersusTell() {
                 <div className="page-title">
                    <h2>Say versus Tell</h2>
                 </div>
-                <p>The verbs say and tell have similar meanings. They both mean "to communicate verbally with someone". But we often use them differently.</p>
+                <p className="grammar-explanation-paragraph">The verbs say and tell have similar meanings. They both mean "to communicate verbally with someone". But we often use them differently.</p>
                 <p>The simple way to think of say and tell is:</p>
                 <ul className="page-examples">
                     <li>You say something</li>

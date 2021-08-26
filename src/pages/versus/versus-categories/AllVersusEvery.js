@@ -7,7 +7,7 @@ export default function AllVersusEvery() {
                    <h2>All Versus Every</h2>
                 </div>
                 
-                <p>We use both all and every to refer to the total number of something. All refers to a complete group. Every refers to each member of a complete group:</p>
+                <p className="grammar-explanation-paragraph">We use both all and every to refer to the total number of something. All refers to a complete group. Every refers to each member of a complete group:</p>
                 <ul className="page-examples">
                     <li>The questionnaire was sent to all employees.</li>
                     <li>The questionnaire was sent to every employee.</li>

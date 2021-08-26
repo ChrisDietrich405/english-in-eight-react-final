@@ -82,16 +82,16 @@ export default function FutureSimple() {
               </table>
             
             </div>
-           <p> We use will with offers, promises, and refusals</p>
+           <p> We use <b>will</b> with offers, promises, and refusals.</p>
            <ul className="page-examples">
                <li>You look tired. I will help you with the housework. (offer)</li>
                <li>I'll always be your friend. I will never disappoint you. (promise)</li>
                <li>He won't listen to you. (refusal)</li>
            </ul>
-           <p> We use going to for previous plans and in situations where something is likely to happen</p>
+           <p> We use <b>going</b> to for previous plans and in situations where something is likely to happen.</p>
            <ul className="page-examples">
                <li>We're going to go on vacation this weekend. (previous plan)</li>
-               <li>Our team is leading 65-23. They are going to win (likely to happen)</li>
+               <li>Our team is leading 65-23. They are going to win. (likely to happen)</li>
            </ul>
 
         </div>
@@ -131,7 +131,7 @@ export default function FutureSimple() {
                 userAnswer: "",
             }, 
             {
-                title: "TLook! The coach __________________! Run or we'll miss her",
+                title: "Look! The coach __________________! Run or we'll miss her.",
                 possibleAnswers: [
                     {title: "a. are going to"},
                     {title: "b. will", correctAnswer: true},
@@ -139,7 +139,7 @@ export default function FutureSimple() {
                 userAnswer: "",
             }, 
             {
-                title: "They ___________ get a new computer",
+                title: "They ___________ get a new computer.",
                 possibleAnswers: [
                     {title: "a. are going to", correctAnswer: true},
                     {title: "b. will"},

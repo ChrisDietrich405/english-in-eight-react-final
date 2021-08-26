@@ -118,6 +118,14 @@ export default function PresentPerfectContinuous() {
                         userAnswer: "", 
                     },
                     {
+                        title: "They _____________________ all day.",
+                        possibleAnswers: [ 
+                            {title: "a. have fought"},
+                            {title: "b. have been fighting", correctAnswer: true},                          
+                        ],
+                        userAnswer: "", 
+                    },
+                    {
                         title: "He ______________________ (play) tennis for five hours.",
                         possibleAnswers: [ 
                             {title: "a. have played"},

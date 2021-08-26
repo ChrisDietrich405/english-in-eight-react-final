@@ -63,7 +63,7 @@ export default function PastPerfectContinuous() {
               userAnswer: "",
           }, 
           {
-              title: "Martha ____________ three miles a day she broke her leg",
+              title: "Martha ____________ three miles a day she broke her leg.",
               possibleAnswers: [
                   {title: "a. had walked"},
                   {title: "b. had been walking", correctAnswer: true},
@@ -71,7 +71,7 @@ export default function PastPerfectContinuous() {
               userAnswer: "",
           }, 
           {        
-              title: "She _______________ (go) to that store since 2005 when it closed",
+              title: "She _______________ (go) to that store since 2005 when it closed.",
               possibleAnswers: [
                   {title: "a. had been going", correctAnswer: true},
                   {title: "b. had gone"},
@@ -79,7 +79,7 @@ export default function PastPerfectContinuous() {
               userAnswer: "",
           }, 
           {
-              title: "I _________________ (study) for hours when I fell asleep at my desk",
+              title: "I _________________ (study) for hours when I fell asleep at my desk.",
               possibleAnswers: [
                   {title: "a. had studied"},
                   {title: "b. had been studying", correctAnswer: true},
@@ -87,7 +87,7 @@ export default function PastPerfectContinuous() {
               userAnswer: "",
           }, 
           {
-              title: "We ________________ (argue) for days when Elizabeth came up with a solution",
+              title: "We ________________ (argue) for days when Elizabeth came up with a solution.",
               possibleAnswers: [
                   {title: "a. had argued"},
                   {title: "b. had been arguing", correctAnswer: true},
@@ -95,7 +95,7 @@ export default function PastPerfectContinuous() {
               userAnswer: "",
           }, 
           {
-              title: "They were angry because they ________________ (wait) for me for hours",
+              title: "They were angry because they ________________ (wait) for me for hours.",
               possibleAnswers: [
                   {title: "a. had waited"},
                   {title: "b. had been waiting", correctAnswer: true},

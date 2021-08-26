@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom"
 
+
+
 export default function Home() {
 	return (
 		<div className="home">
 			<div className="container">
+				
 				<h1>
 					Welcome to{" "}
 					<span className="title-span">English in Eight Minutes</span>

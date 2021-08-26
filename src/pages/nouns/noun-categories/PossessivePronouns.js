@@ -46,7 +46,7 @@ export default function PossessivePronouns() {
                         userAnswer: '', 
                     },
                     {
-                        title: "We gave them our telephone number, and they gave us (they) __________________ .",
+                        title: "We gave them our telephone number, and they gave us (they) __________________.",
                         possibleAnswers: [ 
                             {title: " theirs"},
                             {title: " they", correctAnswer: true},                          
@@ -62,7 +62,7 @@ export default function PossessivePronouns() {
                         userAnswer: '', 
                     },
                     {
-                        title: "My  car is old, but (he)  __________ is new .",
+                        title: "My  car is old, but (he)  __________ is new.",
                         possibleAnswers: [ 
                             {title: " he"},
                             {title: " his", correctAnswer: true},                          

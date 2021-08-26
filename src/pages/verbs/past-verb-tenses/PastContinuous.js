@@ -44,7 +44,7 @@ export default function PastContinuous() {
         
         
         <div className="page-body">
-          <p>We use the past continuous to describe something that was happening in the past when some other event interrupted it</p>
+          <p>We use the past continuous to describe something that was happening in the past when some other event interrupted it.</p>
     
            <ul className="page-examples">
              <li>I <b>was talking</b> to my sister when my son came home.</li>
@@ -58,7 +58,7 @@ export default function PastContinuous() {
            
         <Quiz title="Quiz" questions={[
             {
-                title: "He ___________ (make) dinner when she came home",
+                title: "He ___________ (make) dinner when she came home.",
                 possibleAnswers: [
                     {title: "a. was making", correctAnswer: true},
                     {title: "b. were making",},
@@ -66,7 +66,7 @@ export default function PastContinuous() {
                 userAnswer: "",
             }, 
             {
-                title: "You ___________ (sing) loudly when the fight started",
+                title: "You ___________ (sing) loudly when the fight started.",
                 possibleAnswers: [
                     {title: "a. were singing", correctAnswer: true},
                     {title: "b. was singing"},
@@ -74,7 +74,7 @@ export default function PastContinuous() {
                 userAnswer: "",
             }, 
             {
-                title: "It __________ (rain) a lot when I noticed my car was gone",
+                title: "It __________ (rain) a lot when I noticed my car was gone.",
                 possibleAnswers: [
                     {title: "a. were raining"},
                     {title: "b. was raining", correctAnswer: true},
@@ -82,7 +82,7 @@ export default function PastContinuous() {
                 userAnswer: "",
             }, 
             {
-                title: "They _____________ (work) on the computer when the teacher came in the room",
+                title: "They _____________ (work) on the computer when the teacher came in the room.",
                 possibleAnswers: [
                     {title: "a. was working"},
                     {title: "b. were working", correctAnswer: true},
@@ -90,7 +90,7 @@ export default function PastContinuous() {
                 userAnswer: "",
             }, 
             {
-                title: "He __________ (leave) when she called him ",
+                title: "He __________ (leave) when she called him.",
                 possibleAnswers: [
                     {title: "a. were leaving"},
                     {title: "b. was leaving", correctAnswer: true},
@@ -98,35 +98,35 @@ export default function PastContinuous() {
                 userAnswer: "",
             }, 
             {
-                title: "I __________ (cut) some vegetables when she told me she had already ordered our dinner",
+                title: "I __________ (cut) some vegetables when she told me she had already ordered our dinner.",
                 possibleAnswers: [
                     {title: "a. were cutting"},
                     {title: "b. was cutting", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, {
-                title: "We _________ (talk) to our neighbors when they came",
+                title: "We _________ (talk) to our neighbors when they came.",
                 possibleAnswers: [
                     {title: "a. was talking" },
                     {title: "b. were talking", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, {
-                title: "They ___________ (wash) the dishes when the baby started crying ",
+                title: "They ___________ (wash) the dishes when the baby started crying.",
                 possibleAnswers: [
                     {title: "a. were washing", correctAnswer: true},
                     {title: "b. was washing"},
                 ],
                 userAnswer: "",
             }, {
-                title: "It ____________ (frustrate)",
+                title: "It ____________ (frustrate).",
                 possibleAnswers: [
                     {title: "a. were frustrating"},
                     {title: "b. was frustrating", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, {
-                title: "They ___________ (think) about a solution when Nia came up with a great idea",
+                title: "They ___________ (think) about a solution when Nia came up with a great idea.",
                 possibleAnswers: [
                     {title: "a. was thinking"},
                     {title: "b. were thinking", correctAnswer: true},

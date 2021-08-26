@@ -30,7 +30,7 @@ export default function Expressions() {
         </div>
         <Quiz title="Quiz" questions={[
             {
-                title: "The car came _______________ and hit our van.",
+                title: "She started yelling me and honestly it scared me. It came _______________.",
                 possibleAnswers: [
                     {title: "a. to one up someone"},
                     {title: "b. out of nowhere ", correctAnswer: true},
@@ -46,7 +46,7 @@ export default function Expressions() {
                 userAnswer: "",
             }, 
             {
-                title: "It's probably not necessary to check the figures again, but ______________ .",
+                title: "I bought a face shield and a mask because I don't want to take any chances. _____________.",
                 possibleAnswers: [
                     {title: "a. foolproof"},
                     {title: "b. it's better to be safe than sorry", correctAnswer: true},
@@ -54,7 +54,7 @@ export default function Expressions() {
                 userAnswer: "",
             }, 
             {
-                title: "He tried to devise a _________ plan for getting rid of termites ",
+                title: "He tried to devise a _________ plan for getting rid of termites.",
                 possibleAnswers: [
                     {title: "a. out of nowhere"},
                     {title: "b. foolproof", correctAnswer: true},
@@ -62,9 +62,9 @@ export default function Expressions() {
                 userAnswer: "",
             }, 
             {
-                title: "I hate telling stories around Jack because he always tries to one up you with some amazing story of his own.",
+                title: "I can tell he's insecure. He's always explaining how much better his life is compared to mine and trying ____________.",
                 possibleAnswers: [
-                    {title: "a. To one up someone"},
+                    {title: "a.  to one up me"},
                     {title: "b. Time is money", correctAnswer: true},
                 ],
                 userAnswer: "",

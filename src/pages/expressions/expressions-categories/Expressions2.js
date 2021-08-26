@@ -12,7 +12,7 @@ export default function Expressions2() {
               <p>I wore a lot of my older brother’s <b>hand me downs.</b></p>
              </li>
 
-             <li><b>Second wind</b>- a new strength or energy to continue something that is an effort.
+             <li><b>Second wind</b> - a new strength or energy to continue something that is an effort.
                 <p>I was tired around 11, but got a <b>second wind</b> and finished the project.</p>
              </li> 
 
@@ -20,7 +20,7 @@ export default function Expressions2() {
                 <p>John didn’t have time to prepare for his interview so he needed <b>to wing it.</b></p> 
              </li> 
              <li><b>Out of one's hands</b>  - not being able to be controlled or managed
-                <p>The decision is <b>out of my hands.</b></p>
+                <p>The decision is <b>out of my hands.</b>I have no control in this situation.</p>
              </li>
                  
              <li><b>To backfire</b>  - (of a plan or action) to have an opposite and undesirable effect to what was intended.
@@ -32,7 +32,7 @@ export default function Expressions2() {
         </div>
         <Quiz title="Quiz" questions={[
             {
-                title: "The decision is _________________. The boss will decide now" ,
+                title: "The decision is _________________. The boss will decide now." ,
                 possibleAnswers: [
                     {title: "a. backfired"},
                     {title: "b. out of his hands", correctAnswer: true},
@@ -48,7 +48,7 @@ export default function Expressions2() {
                 userAnswer: "",
             }, 
             {
-                title: "Working extra _____________ on me. They thought I was crazy and fired me",
+                title: "Working extra _____________ on me. They thought I was crazy and fired me.",
                 possibleAnswers: [
                     {title: "a. winged"},
                     {title: "b. backfired", correctAnswer: true},
@@ -56,7 +56,7 @@ export default function Expressions2() {
                 userAnswer: "",
             }, 
             {
-                title: "It's better for the environment for children to wear _________________",
+                title: "It's better for the environment for children to wear _________________.",
                 possibleAnswers: [
                     {title: "a. hand me downs", correctAnswer: true},
                     {title: "b. second winds"},
@@ -64,7 +64,7 @@ export default function Expressions2() {
                 userAnswer: "",
             }, 
             {
-                title: "Many marathon runners get a _____________ at about the 18km mark",
+                title: "Many marathon runners get a _____________ at about the 18km mark.",
                 possibleAnswers: [
                     {title: "a. backfire"},
                     {title: "b. second wind", correctAnswer: true},

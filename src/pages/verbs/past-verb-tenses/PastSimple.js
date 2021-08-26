@@ -95,7 +95,7 @@ export default function PastSimple() {
 
         <Quiz title="Quiz" questions={[
             {
-                title: "He ___________ that movie three movies",
+                title: "He ___________ that movie three movies.",
                 possibleAnswers: [
                     {title: "a. saw", correctAnswer: true},
                     {title: "b. sawed",},

@@ -107,14 +107,6 @@ export default function PresentPerfect() {
                 userAnswer: "",
             },
             {
-                title: "They ___________ (go) to Tanzania.",
-                possibleAnswers: [
-                    {title: "a. has gone",},
-                    {title: "b. have gone", correctAnswer: true},
-                ],
-                userAnswer: "",
-            },
-            {
                 title: "We ___________ (read) that book.",
                 possibleAnswers: [
                     {title: "a. has read",},

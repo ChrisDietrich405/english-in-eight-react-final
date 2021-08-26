@@ -8,33 +8,33 @@ export default function Expressions3() {
         </div>
         <div className="page-body">
           <ul>
-              <li><b>If it’s not broke don’t fix it</b> - when a situation is going well we should leave it alone
+              <li><b>If it’s not broke don’t fix it</b> - when a situation is going well it's a bad idea to interfere with it <br />
                   My refrigerator was making a very small noise, but it was working. I was about to investigate with a screwdriver when my wife said leave it alone. <b>If it’s not broke don’t fix it</b>.  
               </li>
 
-              <li><b>Read someone’s mind</b> - to guess correctly what someone was thinking
+              <li><b>Read someone’s mind</b> - to guess correctly what someone is thinking <br />
                   When I told my wife that we should order Chinese she said “Wow! <b>You read my mind</b>. That’s exactly what I wanted to have for dinner. 
               </li>
 
-              <li><b>Spread the word</b> - to help a business by telling other people about it 
-                  I ask my students to please <b>spread the word</b> about my services 
+              <li><b>Spread the word</b> - to help a business by telling other people about it <br />
+                  I ask my students to please <b>spread the word</b> about my English classes. 
               </li>
 
-              <li><b>Measure twice cut once</b> - to double check your work before you submit
-              I have to go back to the store because I cut the wrong size out of my last piece of material. <b>"Measure twice, cut once"</b> should be my new motto!
+              <li><b>Measure twice cut once</b> - to double check your work before making a final decision <br />
+                  I have to go back to the store because I cut the wrong size. I forgot to <b>"measure twice, cut once"</b>.
               </li>
 
-              <li><b>Binge watch</b> - watching a lot of episodes of a series in a short period of time 
+              <li><b>Binge watch</b> - watching a lot of episodes of a series in a short period of time <br />
                   Over the weekend I <b>binge watched</b> Breaking Bad. I watched the first three seasons.
               </li>  
           </ul>
         </div>
         <Quiz title="Quiz" questions={[
             {
-                title: "Another way to say check your work before making a final decision is....",
+                title: "Check your final numbers before you submit them to the boss. Remember ______________.",
                 possibleAnswers: [
-                    {title: "a. Spread the word"},
-                    {title: "b. Measure once, cut twice", correctAnswer: true},
+                    {title: "a. spread the word"},
+                    {title: "b. measure once, cut twice", correctAnswer: true},
                 ],
                 userAnswer: "",
             }, 

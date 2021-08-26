@@ -57,7 +57,7 @@ export default function FutureContinuous() {
            
         <Quiz title="Quiz" questions={[
             {
-                title: "In an hour I _______________ (clean) the kitchen",
+                title: "In an hour I _______________ (clean) the kitchen.",
                 possibleAnswers: [
                     {title: "a. will be cleaning", correctAnswer: true},
                     {title: "b. will be clean",},
@@ -65,7 +65,7 @@ export default function FutureContinuous() {
                 userAnswer: "",
             }, 
             {
-                title: "Next month he _______________ (complain) about his job",
+                title: "Next month he _______________ (complain) about his job.",
                 possibleAnswers: [
                     {title: "a. will be complain"},
                     {title: "b. will be complaining", correctAnswer: true},

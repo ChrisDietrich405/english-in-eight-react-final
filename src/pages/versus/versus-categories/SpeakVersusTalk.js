@@ -6,7 +6,7 @@ export default function SpeakVersusTalk() {
                 <div className="page-title">
                    <h2>Speak versus Talk</h2>
                 </div>
-                <p>The verbs speak and talk both generally mean ‘say words’, but there are some small differences in how they are used. Speak is more formal than talk.</p>
+                <p className="grammar-explanation-paragraph">The verbs speak and talk both generally mean ‘say words’, but there are some small differences in how they are used. Speak is more formal than talk.</p>
                 <p>We usually use speak for more formal presentations and lectures, and talk for more informal ones:</p>
                 <ul className="page-examples">
                     <li>Dr Graham Foster will speak about the history of the region.</li>
@@ -24,7 +24,7 @@ export default function SpeakVersusTalk() {
                     <li>Can I speak with you for a moment?</li>
                 </ul>
                
-                <p>Certain phrasal verbs require speak or talk. The two verbs in these situations are not interchangeableCertain phrasal verbs require speak or talk. The two verbs in these situations are not interchangeable</p>
+                <p className="grammar-explanation-paragraph">Certain phrasal verbs require speak or talk. The two verbs in these situations are not interchangeable. Certain phrasal verbs require speak or talk. The two verbs in these situations are not interchangeable</p>
                 <ul className="page-examples">
                     <li>I need to talk it over with my wife before making a decision (to have a conversation to resolve an issue)</li>
                     <li>Speak up! You’re talking too softly. (to speak louder)</li>
@@ -62,7 +62,7 @@ export default function SpeakVersusTalk() {
                     userAnswer: "",
                 },
                 {
-                    title: "It's just ____- they'll never actually do it.",
+                    title: "It's just _______. They'll never actually do it.",
                     possibleAnswers: [
                         {title: "speak" },
                         {title: "talk",correctAnswer: true},

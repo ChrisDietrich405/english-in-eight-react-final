@@ -13,6 +13,8 @@
 //try a border or background color around the long explanations
 //add a footer 
 
+//navbar and sidebar fixed
+
 
 
 

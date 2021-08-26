@@ -8,20 +8,20 @@ export default function Expressions() {
         </div>
         <div className="page-body">
           <ul>
-              <li><b>Cold calling</b> -  working in sales when you contact people to sell to them and you don’t know them at all.
+              <li><b>Cold calling</b> -  make an unsolicited call to (someone), by phone or in person, in an attempt to sell goods or services.
                   <p>I hate <b>cold calling</b>. I never get any sales from it. </p>
               </li>
 
-              <li><b>B movie</b> - A film that is a low-budget commercial motion picture
-                  <p>My friends and I like to watch <b>B movies</b>. We like making fun of them</p>
+              <li><b>B movie</b> - a low-budget commercial motion picture
+                  <p>My friends and I like to watch <b>B movies</b>. We like making fun of them.</p>
               </li>
 
               <li><b>You had to be there</b> - when retelling a funny story that isn’t as funny when being told 
-                  <p>After I told my mom what happened, she didn’t laugh at all and so I said <b>“you had to be there"</b></p>
+                  <p>After I told my mom what happened, she didn’t laugh at all and so I said <b>“you had to be there".</b></p>
               </li>
 
               <li><b>(period of time) tops</b> - the longest time something will take. 
-                  <p>I’ll finish this website in <b>one week tops</b></p>
+                  <p>I’ll finish this website in <b>one week tops.</b></p>
               </li>
               <li><b>Ahead of schedule</b> - earlier than planned or expected. 
                   <p>They finished the project 2 weeks <b>ahead of schedule.</b></p>
@@ -30,7 +30,7 @@ export default function Expressions() {
         </div>
         <Quiz title="Quiz" questions={[
             {
-                title: "Why didn't you laugh at my story?",
+                title: "Why didn't you laugh at my story? ____________________",
                 possibleAnswers: [
                     {title: "a. I guess it was ahead of schedule"},
                     {title: "b. I guess you had to be there", correctAnswer: true},
@@ -54,7 +54,7 @@ export default function Expressions() {
                 userAnswer: "",
             }, 
             {
-                title: "The project will be finished 3 weeks ________.",
+                title: "The project will be finished in 3 weeks ________.",
                 possibleAnswers: [
                     {title: "a. you had to be there"},
                     {title: "b. tops", correctAnswer: true},

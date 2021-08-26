@@ -6,7 +6,7 @@ export default function RememberVersusRemind() {
                 <div className="page-title">
                    <h2>Remember versus Remind</h2>
                 </div>
-                <h3>Remember</h3>
+                <span className="grammar-explanation-paragraph">Remember</span>
                 <p>If we remember someone or something, we keep that person or thing in our mind or we bring that person or thing back to our mind:</p>
                 <ul className="page-examples">
                     <li>I’ll always remember you. You have helped me so much.</li>

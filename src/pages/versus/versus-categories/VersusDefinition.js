@@ -7,7 +7,7 @@ export default function VersusDefinition() {
                 <h2>Versus Definition</h2>
             </div>
             <div className="body">
-                <p>In this section let's compare different topics in order to clear 
+                <p className="grammar-explanation-paragraph">In this section let's compare different topics in order to clear 
                     up any confusion. For example many students don't really understand the
                     difference between the verbs talk and say or the verbs remember and remind. 
                 </p>
