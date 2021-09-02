@@ -1,3 +1,10 @@
+// all five cards need to be the same size fit and on one page
+// add versus card 
+//for the icons in the cards make them all fill and add a square background
+//with a blue background 
+//add a border line to separate the navbar  
+
+
 
 //navbar tabs need to be smaller maybe 16
 //add a third value alert that notifies the user that the question wasn't answered
@@ -14,6 +21,8 @@
 //add a footer 
 
 //navbar and sidebar fixed
+
+
 
 
 
