@@ -1,9 +1,5 @@
 import { Link } from "react-router-dom"
 
-import VerusPic from ". "
-
-
-
 export default function Home() {
 	return (
 		<div className="home">
@@ -69,10 +65,10 @@ export default function Home() {
 						<div className="col-12 col-md-4 col-sm-12">
 							<Link to="/noun-categories/noun-definition">
                         		<div className="noun-examples" >
-								<i className="far fa-comments fa-2x" aria-hidden="true"></i>
+								<i className="far fa-comments fa-1.5x" aria-hidden="true"></i>
                         			<p className="content-title-second-row">Idiomatic Expressions</p>
-                        			<p className="content-definition">Definition: Informal Expressions</p>
-                        			<p>Examples: To wing it, Foolproof, Second wind</p>
+                        			<p className="content-definition">Informal Expressions</p>
+                        			<p>Foolproof, Second wind</p>
                         		</div>
                         	</Link>
 
@@ -80,11 +76,10 @@ export default function Home() {
 						<div className="col-12 col-md-4 col-sm-6 ">
 						<Link to="/present-verb-tenses/verb-definition">
                 			<div className="verb-examples">
-							    <i className="far fa-comments fa-2x" aria-hidden="true"></i>
+							    <i className="far fa-comments fa-1.5x" aria-hidden="true"></i>
                     			<p className="content-title-second-row">Phrasal Verbs</p>
-                    			<p>Definition: Verb/Preposition combinations
-								<br/>with a specific meaning</p>
-                    			<p>Examples: Get up, Break down, Speak out</p>
+                    			<p>Verb/Preposition combinations</p>
+                    			<p>Get up, Break down, Speak out</p>
               		  		</div>
                 		</Link>
 
@@ -92,8 +87,10 @@ export default function Home() {
 						<div className="col-12 col-md-4 col-sm-6 ">
 						<Link to="/adjective-categories/adjective-definition">
 							<div className="adjective-examples">
-                    			<img src="/images/strong.png" className="strong-img" aria-hidden="true"/>
-                    			<p className="content-title-second-row">Versus</p>
+								<div className="versus-img-container">
+                    				<img src="/images/versus.jpg" className="versus-img" aria-hidden="true"/>
+                    			</div>
+								<p className="content-title-second-row">Versus</p>
                     			<p>Speak versus Talk</p>
                     			<p>Remember versus Remind</p>
                 			</div>
