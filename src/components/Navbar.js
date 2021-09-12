@@ -270,8 +270,12 @@ export default function Navbar() {
 							Search
 						</button>
 					</form>
+				
 				</div>
+				
 			</div>
+			<hr />
 		</nav>
+		
 	);
 }

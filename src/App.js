@@ -1,26 +1,4 @@
-// all five cards need to be the same size fit and on one page
-// add versus card 
-//for the icons in the cards make them all fill and add a square background
-//with a blue background 
-//add a border line to separate the navbar  
 
-
-
-//navbar tabs need to be smaller maybe 16
-//add a third value alert that notifies the user that the question wasn't answered
-//https://youglish.com/pronounce/recently/english/us?https://youglish.com/pronounce/recently/english/us?
-//notification of the questions that the user didn't answer
-//after user clicks submit if some of the questions aren't answered change opacity
-//of the button and also add a notification at the end of the quiz that the user didn't
-//answer for example questions 4, 5
-
-
-//on home page make subtext larger and titles larger in the cards
-//add space between idiomatic expressions 
-//try a border or background color around the long explanations
-//add a footer 
-
-//navbar and sidebar fixed
 
 
 
@@ -41,6 +19,7 @@ import Adjectives from "./pages/adjectives/Adjectives"
 import Versus from "./pages/versus/Versus"
 
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 
 import {Helmet} from "react-helmet";
 
@@ -48,11 +27,11 @@ function App() {
   return (
     <div>
        <Helmet>
-                <meta charSet="utf-8" />
-                <title>English in Eight Minutes</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-                <meta name="description" content="English in Eight Minutes Title" />
-            </Helmet>
+          <meta charSet="utf-8" />
+          <title>English in Eight Minutes</title>
+          <link rel="canonical" href="http://mysite.com/example" />
+          <meta name="description" content="English in Eight Minutes Title" />
+        </Helmet>
       <Router>
         <Navbar/>
         <Switch>
@@ -69,6 +48,8 @@ function App() {
           <Route path="/versus-categories" component={Versus}/>
         </Switch>     
       </Router>
+
+      <Footer/>
     </div>
   
    

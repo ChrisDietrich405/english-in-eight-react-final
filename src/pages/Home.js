@@ -5,7 +5,7 @@ export default function Home() {
 		<div className="home">
 			
 			<div className="container">
-				
+				<hr />
 				<h1>
 					Welcome to{" "}
 					<span className="title-span">English in Eight Minutes</span>
@@ -85,7 +85,7 @@ export default function Home() {
 
 						</div>
 						<div className="col-12 col-md-4 col-sm-6 ">
-						<Link to="/adjective-categories/adjective-definition">
+						<Link to="/versus-categories/versus-definition">
 							<div className="adjective-examples">
 								<div className="versus-img-container">
                     				<img src="/images/versus.jpg" className="versus-img" aria-hidden="true"/>
