@@ -88,7 +88,7 @@ export default function Home() {
 						<Link to="/versus-categories/versus-definition">
 							<div className="adjective-examples">
 								<div className="versus-img-container">
-                    				<img src="/images/versus.jpg" className="versus-img" aria-hidden="true"/>
+                    				<img src="/images/versus.png" className="versus-img" aria-hidden="true"/>
                     			</div>
 								<p className="content-title-second-row">Versus</p>
                     			<p>Speak versus Talk</p>
