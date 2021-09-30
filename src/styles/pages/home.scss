@@ -61,8 +61,14 @@ hr {
 
     .fa-running, .fa-tree, .fa-angry, .fa-comments {
         padding: 15px; 
+        color: #fff;
         background-color: #0d6efd;
         border-radius: 8px;     
+    }
+
+    .fa-comments::before {
+        color: #fff;
+        background-color: #0d6efd;
     }
 
     .versus-img-container {
@@ -72,7 +78,9 @@ hr {
     }
 
     .versus-img {
-        height: 21px; 
+        height: 21px;
+        background-color: #fff;
+        color: #fff; 
     }
 
     .card {

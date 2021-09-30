@@ -1,5 +1,20 @@
 
+//make the border of the dropdown the same color as the divider
+//the shadow from the search input should be lighter (the same as the cards below)
+//the hr line should be thinner and the same size as the divider lines
+//for the footer change the input box shadow (same as the cards)
+// submit button for the message in the footer
 
+//sidebar links should be black and when you hover over them they change to blue
+//reduce the margin between the sidebar and the content (they should be closer together)
+//instead of the explanations having the gray background color have a background of just white
+//with a gray border
+//lighten the color of the background to a lighter gray
+
+// change the color of the bullet red or green depending on whether the answer is right or wrong
+// for the questions that weren't answered add the message to the right of the question
+// make sure that all questions have punctuation 
+// noun definition text needs to be closer together 
 
 
 

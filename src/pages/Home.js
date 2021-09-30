@@ -76,7 +76,7 @@ export default function Home() {
 						<div className="col-12 col-md-4 col-sm-6 ">
 						<Link to="/present-verb-tenses/verb-definition">
                 			<div className="verb-examples">
-							    <i className="far fa-comments fa-1.5x" aria-hidden="true"></i>
+							    <i className="far fa-comments comments fa-1.5x" aria-hidden="true"></i>
                     			<p className="content-title-second-row">Phrasal Verbs</p>
                     			<p>Verb/Preposition combinations</p>
                     			<p>Get up, Break down, Speak out</p>
