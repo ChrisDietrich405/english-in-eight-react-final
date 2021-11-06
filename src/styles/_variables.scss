@@ -708,7 +708,7 @@ $input-focus-bg:                        $input-bg !default;
 $input-focus-border-color:              tint-color($component-active-bg, 50%) !default;
 $input-focus-color:                     $input-color !default;
 $input-focus-width:                     $input-btn-focus-width !default;
-$input-focus-box-shadow:                5px 10px 5px #888888 !default;
+$input-focus-box-shadow:                0 10px 30px rgba(0, 0, 0, .1) !default;
 // box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;
 
 $input-placeholder-color:               $gray-600 !default;
@@ -994,11 +994,11 @@ $dropdown-spacer:                   .125rem !default;
 $dropdown-font-size:                $font-size-base !default;
 $dropdown-color:                    $body-color !default;
 $dropdown-bg:                       $white !default;
-$dropdown-border-color:             black !default;
+$dropdown-border-color:             #212529 !default;
 $dropdown-border-radius:            $border-radius !default;
 $dropdown-border-width:             $border-width !default;
 $dropdown-inner-border-radius:      subtract($dropdown-border-radius, $dropdown-border-width) !default;
-$dropdown-divider-bg:               black !default;
+$dropdown-divider-bg:               #212529 !default;
 $dropdown-divider-margin-y:         $spacer / 2 !default;
 $dropdown-box-shadow:               $box-shadow !default;
 

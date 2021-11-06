@@ -86,7 +86,7 @@ export default function UncountableAndCountable() {
                     <br/> 
                     <Quiz title="Quiz" questions={[ //because we are in react we need to start the array with a curly bracket (because it's inside of a component)
                     {
-                        title: "Eating _____ chocolate is unhealthy",
+                        title: "Eating _____ chocolate is unhealthy.",
                         possibleAnswers: [ 
                             {title: " a lot of", correctAnswer: true},
                             {title: " many"},                          
@@ -94,7 +94,7 @@ export default function UncountableAndCountable() {
                         userAnswer: "", 
                     },
                     {
-                        title: "We don't drink ____ coffee",
+                        title: "We don't drink ____ coffee.",
                         possibleAnswers: [
                             {title: ' many', }, 
                             {title: ' much', correctAnswer: true}
@@ -102,7 +102,7 @@ export default function UncountableAndCountable() {
                         userAnswer: '', 
                     },
                     {
-                        title: "I ate _____ soup for lunch", 
+                        title: "I ate _____ soup for lunch.", 
                         possibleAnswers: [
                             {title: ' a few'},
                             {title: ' a little', correctAnswer: true},
@@ -110,7 +110,7 @@ export default function UncountableAndCountable() {
                         userAnswer: '',
                     }, 
                     {
-                        title: "How _________ rice do we need",
+                        title: "How _________ rice do we need.",
                         possibleAnswers: [
                             {title: ' much', correctAnswer: true},
                             {title: ' many'},

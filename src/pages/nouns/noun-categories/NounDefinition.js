@@ -12,17 +12,17 @@ export default function NounDefinition() {
             <div className="definition-pictures-container">
                 <div className="definition-pictures">
                     <img src="../../../images/person-nouns-definition.jpg" alt="Picture of actor Terry Crews"/>
-                    <p>Person</p>
-                    <p aria-hidden="true">(Terry Crews)</p>
+                    <p className="noun-example">Person</p>
+                    <p aria-hidden="true" className="noun-example">(Terry Crews)</p>
                 </div>
                 <div className="definition-pictures">
                     <img src="../../../images/place-nouns-definition.jpg" alt="Picture of the Taj Mahal"/>
-                    <p>Place</p>
-                    <p aria-hidden="true">(Taj Mahal)</p>
+                    <p className="noun-example">Place</p>
+                    <p aria-hidden="true" >(Taj Mahal)</p>
                 </div>
                 <div className="definition-pictures">
                     <img src="../../../images/thing-nouns-definition.jpg" alt="Picture of IPhone"/>
-                    <p>Thing</p>
+                    <p className="noun-example">Thing</p>
                     <p aria-hidden="true">(IPhone)</p>
                 </div>
             </div>

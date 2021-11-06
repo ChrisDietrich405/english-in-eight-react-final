@@ -22,13 +22,18 @@ export default function Footer() {
                         <label for="exampleFormControlInput1" className="form-label">Email address</label>
                         <input type="email" className="form-control footer-form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
                     </div>
+                </div>
+                <div>
                     <div className="mb-3">
                         <label for="exampleFormControlTextarea1" className="form-label"></label>
-                        <textarea className="form-control footer-form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea className="form-control footer-form-control text-area" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                 </div>
-
-               
+                <div>
+                    <button className="btn btn-primary footer-submit-btn" type="submit">
+							Submit
+					</button>
+                </div> 
             </div>
         </div>
 

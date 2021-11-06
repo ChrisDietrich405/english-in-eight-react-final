@@ -3,10 +3,15 @@
 .footer { 
     display: flex; 
     justify-content: space-around; 
-    align-items: center; 
+    align-items: center;
+    padding-bottom: 600px;  
 
     .footer-logo {
-        margin-left: -1.6rem; 
+        margin-left: -1.6rem;
+    }
+
+    .footer-logo img {
+        margin-bottom: 4rem; 
     }
 
     .logo-email {
@@ -17,6 +22,18 @@
 
     .contact-info-container {
         margin: 1rem 0 1rem 0; 
+    }
+
+    h3 {
+        margin-bottom: 4rem; 
+    }
+
+    .text-area {
+        margin-bottom: -3rem; 
+    }
+
+    .footer-submit-btn {
+        margin-bottom: -6rem; 
     }
 
 }
