@@ -1,8 +1,10 @@
 import { Link, Switch, Route } from "react-router-dom";
-import "../styles/components/sidebar.scss"
-import "../styles/pages/images.scss"
 import classnames from "classnames"
 import parser from "html-react-parser"
+
+import "../styles/components/sidebar.scss"
+import "../styles/pages/images.scss"
+
 
 
 export default function SidebarPage(props) {
@@ -25,7 +27,6 @@ export default function SidebarPage(props) {
 		     	</div>
 
           <div className="sidebar-right">
-
                 <Switch>
                   {props.links.map(link => {
                     return  <Route 

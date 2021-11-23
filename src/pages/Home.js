@@ -76,6 +76,9 @@ export default function Home() {
 						<div className="col-12 col-md-4 col-sm-6 ">
 						<Link to="/present-verb-tenses/verb-definition">
                 			<div className="verb-examples">
+								{/* <span class="material-icons-outlined">
+chat_bubble
+</span> */}
 							    <i className="far fa-comments comments fa-1.5x" aria-hidden="true"></i>
                     			<p className="content-title-second-row">Phrasal Verbs</p>
                     			<p>Verb/Preposition combinations</p>
@@ -88,6 +91,10 @@ export default function Home() {
 						<Link to="/versus-categories/versus-definition">
 							<div className="adjective-examples">
 								<div className="versus-img-container">
+
+								{/* <span class="material-icons">
+mic_off
+</span> */}
                     				<img src="/images/versus.png" className="versus-img" aria-hidden="true"/>
                     			</div>
 								<p className="content-title-second-row">Versus</p>

@@ -3,7 +3,7 @@ import "../../../styles/components/tables.scss"
 
 export default function PresentContinuous() {
     return(
-        <>
+        <div className="page-body">
         <div className="page-title">
             <h2>Present Continuous</h2>
         </div>
@@ -68,10 +68,9 @@ export default function PresentContinuous() {
               </table>
             </div>
         </div>
-        <br />
-   <Quiz title="Quiz" questions={[
+        <Quiz title="Quiz" questions={[
             {
-                title: "I ___________ (study) at the moment",
+                title: "I ___________ (study) at the moment.",
                 possibleAnswers: [
                     {title: "a. am study"},
                     {title: "b. am studying", correctAnswer: true},
@@ -79,7 +78,7 @@ export default function PresentContinuous() {
                 userAnswer: "",
             },
             {
-              title: "I ___________ (sleep)",
+              title: "I ___________ (sleep).",
               possibleAnswers: [
                   {title: "a. am not sleeping", correctAnswer: true},
                   {title: "b. is not sleeping"},
@@ -103,7 +102,7 @@ export default function PresentContinuous() {
               userAnswer: "",
             },
             {
-              title: "She ____________ (work) in Spain",
+              title: "She ____________ (work) in Spain.",
               possibleAnswers: [
                   {title: "a. are not working", correctAnswer: true},
                   {title: "b. is not working"},
@@ -111,7 +110,7 @@ export default function PresentContinuous() {
               userAnswer: "",
             },
             {
-              title: "He ___________ (wait) for the bus",
+              title: "He ___________ (wait) for the bus.",
               possibleAnswers: [
                   {title: "a. is not waiting", correctAnswer: true},
                   {title: "b. are not waiting"},
@@ -119,7 +118,7 @@ export default function PresentContinuous() {
               userAnswer: "",
             }, 
             {
-              title: "They __________ (read)",
+              title: "They __________ (read).",
               possibleAnswers: [
                   {title: "a. are reading", correctAnswer: true},
                   {title: "b. is reading"},
@@ -127,7 +126,7 @@ export default function PresentContinuous() {
               userAnswer: "",
             },  
             {
-              title: "We _______________ (go) to the movies tonight",
+              title: "We _______________ (go) to the movies tonight.",
               possibleAnswers: [
                   {title: "a. are not going", correctAnswer: true},
                   {title: "b. are not go"},
@@ -135,7 +134,7 @@ export default function PresentContinuous() {
               userAnswer: "",
             },  
             {
-              title: "You ___________ (read) the newspaper",
+              title: "You ___________ (read) the newspaper.",
               possibleAnswers: [
                   {title: "a. are not read",},
                   {title: "b. are not reading", correctAnswer: true},
@@ -143,7 +142,7 @@ export default function PresentContinuous() {
               userAnswer: "",
             },  
             {
-              title: "She _________ chocolate",
+              title: "She _________ chocolate.",
               possibleAnswers: [
                   {title: "a. am eating",},
                   {title: "b. is eating", correctAnswer: true},
@@ -152,6 +151,6 @@ export default function PresentContinuous() {
             }    
             
         ]} ></Quiz>
-        </>
+        </div>
     )
 }

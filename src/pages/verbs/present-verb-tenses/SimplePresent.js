@@ -55,7 +55,7 @@ export default function SimplePresent() {
                     <li>cry becomes cries</li>
                 </ul>
                 <p>She tries very hard</p>
-                <p>Be careful! 'y' doesn't change to 'ie' if the ending is 'ay', 'ey', 'oy', 'uy'.</p>
+                <p>Be careful! <b>'y'</b> doesn't change to <b>'ie'</b> if the ending is 'ay', 'ey', 'oy', 'uy'.</p>
                 <ul className="page-examples">
                     <li>play becomes plays</li>
                     <li>buy becomes buys</li>

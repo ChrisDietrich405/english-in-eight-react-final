@@ -14,7 +14,7 @@ export default function PresentTenseVerbDefinition() {
                this paragraph. Challenge yourself and try to identify them. 
             </p>
 
-            <div className="btn-container">
+            <div className="btn-container btn-flex">
                 <Link to="/present-verb-tenses/simple-present" className=" btn btn-primary">Simple Present</Link>
                 <Link to="/present-verb-tenses/present-continuous" className="btn btn-primary">Present Continuous</Link>
                 <Link to="/present-verb-tenses/present-perfect" className="btn btn-primary">Present Perfect</Link>

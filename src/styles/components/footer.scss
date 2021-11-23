@@ -3,8 +3,7 @@
 .footer { 
     display: flex; 
     justify-content: space-around; 
-    align-items: center;
-    padding-bottom: 600px;  
+    align-items: flex-start;
 
     .footer-logo {
         margin-left: -1.6rem;
@@ -25,17 +24,18 @@
     }
 
     h3 {
-        margin-bottom: 4rem; 
+        margin-bottom: 30px; 
     }
 
     .text-area {
-        margin-bottom: -3rem; 
+        height: 117px; 
+        margin-top: 67px;
+        width: 200px;  
     }
 
     .footer-submit-btn {
-        margin-bottom: -6rem; 
+        margin-bottom: -86px; 
     }
-
 }
 
 @media screen and (max-width: 800px) {

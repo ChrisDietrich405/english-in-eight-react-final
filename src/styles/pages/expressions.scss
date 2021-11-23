@@ -5,30 +5,37 @@
     .body p {
         margin-bottom: 2rem !important; 
     }
-}
 
-.expressions-image1-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
-    margin-bottom: 2rem; 
-    p {
-        margin: 0 10px 0 30px !important; 
+    .expressions-image1-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; 
+        margin-bottom: 2rem; 
+        p {
+            margin: 0 10px 0 30px !important; 
+        }
+    }
+    
+    .expressions-image2-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; 
+        margin-bottom: 2rem; 
+        p {
+            margin: 0 10px 0 30px !important; 
+        }
+    }
+    
+    .expressions-image1,
+    .expressions-image2 {
+        width: 250px; 
+        border-radius: 10px;  
     }
 }
 
-.expressions-image2-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
-    margin-bottom: 2rem; 
-    p {
-        margin: 0 10px 0 30px !important; 
+@media only screen and (max-width: 900px) {
+    .expressions-container {
+        
     }
 }
 
-.expressions-image1,
-.expressions-image2 {
-    width: 250px; 
-    border-radius: 10px;  
-}

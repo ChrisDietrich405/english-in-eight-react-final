@@ -4,7 +4,7 @@ export default function PastSimple() {
     return(
         <>
         <div className="page-title">
-            <h2>Simple Past</h2>
+            <h2>Past Simple</h2>
         </div>
         <p  className="grammar-explanation-paragraph"> The simple past is a verb tense that is used to talk about things that happened or existed before now. There are regular verbs and irregular verbs.
         Below is a table to demonstrate how we conjugate regular verbs in the simple past. 
@@ -47,7 +47,7 @@ export default function PastSimple() {
             </div>
         <div className="page-body">
         <p>
-        For irregular verbs, things get more complicated. The simple past tense of some irregular verbs looks exactly like the root form:</p>
+        For irregular verbs, things get more complicated. The simple past tense of some irregular verbs look exactly like the root form:</p>
         <div className="table-container">
               <table className="table-body">
                   <tr>
@@ -82,7 +82,7 @@ export default function PastSimple() {
                   </tr>
               </table>
             </div>
-           <p> For other irregular verbs, the simple past forms are more extremely different:</p>
+           <p> For other irregular verbs, the simple past forms are much different than their infinitive forms:</p>
            <ul className="page-examples">
                <li>see changes to saw</li>
                <li>eat changes to ate</li>

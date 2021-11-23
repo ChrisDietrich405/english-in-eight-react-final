@@ -40,4 +40,10 @@
     align-items: center; 
 }
 
+@media only screen and (max-width: 1000px) {
+    .definition-pictures-container {
+      display: flex;
+      flex-direction: column; 
+    }
+  }
 

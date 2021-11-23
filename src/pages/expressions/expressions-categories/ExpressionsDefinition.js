@@ -2,7 +2,7 @@ import "../../../styles/pages/expressions.scss"
 
 export default function ExpressionsDefinition() {
     return(
-        <div className="expressions">
+        <div className="expressions-container">
             <div className="page-title">
                 <h2>Idiomatic Expressions Definition</h2>
             </div>
@@ -17,8 +17,8 @@ export default function ExpressionsDefinition() {
                 </div>
                 <div className="expressions-image2-container">
                     <img src="../../../images/MindYourOwnBusiness.jpg" className="expressions-image2" aria-hidden="true"/>
-                    <p> Some expressions don't have meaning even in a literal sense, e.g., &nbsp;
-                    <strong>mind your own business</strong>. It means to have respect for other people's privacy.</p>
+                    <p> In the expression <strong>mind your own business</strong> we aren't referring to any business at all.
+                    We are telling another person to not invade our privacy</p>
                 </div>
             </div>
         </div>
