@@ -1,8 +1,4 @@
-//FOOTER
-//footer the last column should be moved to the left a little
-//move email and Contact us down to be centered horizontally with the logo
-//give the inputs some additional height
-//submit move to the right (opposite of where it is right now)
+
 
 //speech bubble icons need to be filled with white
 //replace versus icon with this <span class="material-icons">

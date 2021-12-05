@@ -1,50 +1,68 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 
+  .footer-logo {
+    margin-left: -1.6rem;
+  }
 
-.footer { 
-    display: flex; 
-    justify-content: space-around; 
+  .footer-logo img {
+    margin-bottom: 64px;
+  }
+
+  .logo-email {
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
+  }
 
-    .footer-logo {
-        margin-left: -1.6rem;
-    }
+  .contact-form {
+    margin-bottom: 200px;
+  }
 
-    .footer-logo img {
-        margin-bottom: 4rem; 
-    }
+  .contact-info-container {
+    margin: 16px 0 16px 0;
+  }
 
-    .logo-email {
-        display: flex; 
-        flex-direction: column; 
-        align-items: flex-start; 
-    }
+  h3 {
+    margin-top: 11px;
+  }
 
-    .contact-info-container {
-        margin: 1rem 0 1rem 0; 
-    }
+  .form-control {
+    height: 45px;
+  }
 
-    h3 {
-        margin-bottom: 30px; 
-    }
+  .text-area {
+    height: 136px;
+    margin-bottom: 38px;
+    width: 234px;
+  }
 
-    .text-area {
-        height: 117px; 
-        margin-top: 67px;
-        width: 200px;  
-    }
+  .footer-submit-btn {
+    margin-bottom: 86px;
+    margin-left: 238px;
+  }
 
-    .footer-submit-btn {
-        margin-bottom: -86px; 
-    }
+  .contact-form-text-area-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #text-area-container {
+    margin-left: 80px;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .footer {
-        display: flex; 
-        flex-direction: column; 
+  .footer {
+    display: flex;
+    flex-direction: column;
 
-    .logo-email, .contact-form {
-        margin: 1rem 3rem; 
-        }
+    .logo-email,
+    .contact-form {
+      margin: 1rem 3rem;
     }
+  }
 }
