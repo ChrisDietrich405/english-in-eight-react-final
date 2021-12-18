@@ -4,8 +4,6 @@ import PastTenseVerbDefinition from "./past-verb-tenses/PastTenseVerbDefinition"
 import FutureTenseVerbDefinition from "./future-verb-tenses/FutureTenseVerbDefinition"
 import VerbsDef from "./verbs-definition/VerbsDef"
 
-
-
 export default function VerbsDefinition() {
     return (
         <SidebarPage links={

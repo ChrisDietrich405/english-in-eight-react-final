@@ -1,5 +1,3 @@
-
-
 //speech bubble icons need to be filled with white
 //replace versus icon with this <span class="material-icons">
 //join_right
@@ -36,13 +34,19 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>English in Eight Minutes</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
         <link rel="canonical" href="http://mysite.com/example" />
         <meta name="description" content="English in Eight Minutes Title" />
       </Helmet>
       <Router>
         <Navbar />
-        <script async src="https://cse.google.com/cse.js?cx=3ead13e6e58599c1e"></script>
+        <script
+          async
+          src="https://cse.google.com/cse.js?cx=3ead13e6e58599c1e"
+        ></script>
         <div className="gcse-search"></div>
         <Switch>
           <Route path="/" exact={true} component={Home} />

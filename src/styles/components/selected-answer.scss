@@ -1,0 +1,16 @@
+.answer-option {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  p {
+    margin: 0 !important;
+  }
+}
+
+.right-answer {
+  color: green;
+}
+
+.wrong-answer {
+  color: red;
+}
