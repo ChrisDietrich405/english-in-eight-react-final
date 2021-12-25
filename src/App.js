@@ -1,3 +1,6 @@
+//questions - the answers have too much space between them
+//for the questions that the user didn't answser change the incorrect answer to red
+
 //speech bubble icons need to be filled with white
 //replace versus icon with this <span class="material-icons">
 //join_right
