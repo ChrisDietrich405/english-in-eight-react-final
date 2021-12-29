@@ -11,6 +11,7 @@ const SelectAnswer = ({
   selectedAnswerTexts,
   isAnsweredCorrectly,
   index,
+  isAnswered,
 }) => {
   console.log(selectedAnswerTexts);
   console.log(possibleAnswer);
