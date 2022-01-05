@@ -1,18 +1,6 @@
-//questions - the answers have too much space between them
-//for the questions that the user didn't answser change the incorrect answer to red
+//add padding to all the grammar boxes
 
-//speech bubble icons need to be filled with white
-//replace versus icon with this <span class="material-icons">
-//join_right
-//</span> from material icons
-
-//navbar links are too small
-
-//add numbers to the quizzes
-//for quizzes if answer is correct correct answer font color changes to green
-//if answer is incorrect incorrect answer changes to red
-//if not answered under the submit button notify user that they didn't answer for example
-//number 4
+//after MVP add images to all the idiomatic expressions and phrasal verbs
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";

@@ -4,7 +4,7 @@ export default function UncountableAndCountable() {
   return (
     <div className="page-body">
       <div className="page-title">
-        <h2>Uncountable & Countable</h2>
+        <h1>Uncountable & Countable</h1>
       </div>
 
       <div>
@@ -124,9 +124,8 @@ export default function UncountableAndCountable() {
       </ul>
       <br />
       <Quiz
-        title="Quiz"
+        title="Take a quiz!"
         questions={[
-          //because we are in react we need to start the array with a curly bracket (because it's inside of a component)
           {
             title: "Eating _____ chocolate is unhealthy.",
             possibleAnswers: [

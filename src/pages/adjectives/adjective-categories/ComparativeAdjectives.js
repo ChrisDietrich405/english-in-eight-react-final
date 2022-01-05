@@ -105,7 +105,7 @@ export default function ComparativeAdjectives() {
         </ul>
       </div>
       <Quiz
-        title="Quiz"
+        title="Take a Quiz!"
         questions={[
           {
             title: "Dogs are _______________ (loyal) than cats",
