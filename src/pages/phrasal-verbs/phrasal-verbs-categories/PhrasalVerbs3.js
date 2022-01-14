@@ -30,7 +30,7 @@ export default function PhrasalVerbs3() {
                 </li>
             </ul>
         </div>
-        <Quiz title="Quiz" questions={[
+        <Quiz title="Take a quiz!" questions={[
             {
                 title: "I need to _______________ our bed before we move.",
                 possibleAnswers: [
