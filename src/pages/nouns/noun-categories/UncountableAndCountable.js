@@ -26,7 +26,7 @@ export default function UncountableAndCountable() {
             I own <b>a</b> bike.
           </li>
           <li>
-            I would like <b>two</b> please.
+            I would like <b>two</b> books please.
           </li>
           <li>
             <b>How many</b> friends do you have?
@@ -43,7 +43,7 @@ export default function UncountableAndCountable() {
           They may be the names for abstract ideas or qualities or for physical
           objects that are too small or too amorphous (no definite shape) to be
           counted (liquids, powders, gases, etc.). Uncountable nouns are used
-          with a singular ver They usually do not have a plural form.
+          with a singular verb. They usually do not have a plural form.
         </p>
       </div>
       <div>
@@ -67,10 +67,11 @@ export default function UncountableAndCountable() {
       </div>
       <p className="grammar-explanation-paragraph">
         We can’t use a/an with these nouns. To express a quantity of an
-        uncountable noun, use a word or expression like some, a lot of, much, a
-        great deal of , or else use an exact measurement like a cup of, a bag
-        of, a slice of. If you want to ask about the quantity of an uncountable
-        noun, you ask "How much?"
+        uncountable noun, use a word or expression like <b>some</b>,{" "}
+        <b>a lot of</b>, <b>much</b>, <b>a great deal of</b> , or else use an
+        exact measurement like <b>a cup of</b>, <b>a bag of</b>,
+        <b> a slice of</b>. If you want to ask about the quantity of an
+        uncountable noun, you ask <b>"How much?"</b>
       </p>
 
       <p>Example</p>
@@ -100,9 +101,10 @@ export default function UncountableAndCountable() {
       <p className="grammar-explanation-paragraph">
         Some nouns are countable in other languages but uncountable in English.
         Obviously they must follow the rules for uncountable nouns. The most
-        common ones are: advice, baggage, behavior, br/ead, furniture,
-        information, luggage, news, progress, stuff, traffic, travel, trouble,
-        weather, work
+        common ones are: <b>advice</b>, <b>baggage</b>, <b>behavior</b>,{" "}
+        <b>bread</b>, <b>furniture</b>, <b>information</b>, <b>luggage</b>,{" "}
+        <b>news</b>, <b>progress</b>, <b>stuff</b>, <b>traffic</b>,{" "}
+        <b>travel</b>, <b>trouble</b>, <b>weather</b>, <b>work</b>.
       </p>
 
       <p>Examples</p>
@@ -180,8 +182,8 @@ export default function UncountableAndCountable() {
           {
             title: "______ there tofu in the salad?",
             possibleAnswers: [
-              { title: " are" },
-              { title: " is", correctAnswer: true },
+              { title: " Are" },
+              { title: " Is", correctAnswer: true },
             ],
             userAnswer: "",
           },

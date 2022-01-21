@@ -18,7 +18,7 @@
   }
 
   .contact-form {
-    margin-bottom: 200px;
+    padding-bottom: 200px;
   }
 
   .contact-info-container {
@@ -77,6 +77,14 @@
     .contact-form-text-area-container {
       display: flex;
       flex-direction: column;
+    }
+
+    #text-area-container {
+      margin-left: 26px;
+    }
+
+    .footer-submit-btn {
+      margin-left: 26px;
     }
   }
 }

@@ -52,13 +52,13 @@ export default function Expressions3() {
               "Check your final numbers before you submit them to the boss. Remember ______________.",
             possibleAnswers: [
               { title: "a. spread the word" },
-              { title: "b. measure once, cut twice", correctAnswer: true },
+              { title: "b. measure twice, cut once", correctAnswer: true },
             ],
             userAnswer: "",
           },
           {
             title:
-              "Would you please help me to ________________ about my new restaurant",
+              "Would you please help me to ________________ about my new restaurant.",
             possibleAnswers: [
               { title: "a. spread the word", correctAnswer: true },
               { title: "b. binge watch" },
@@ -67,7 +67,7 @@ export default function Expressions3() {
           },
           {
             title:
-              "I told my wife I wanted Chinese food for dinner. She responded 'you ________________! I want Chinese food too'",
+              "I told my wife I wanted Italian food for dinner. She responded 'you ________________! I want Italian food too'.",
             possibleAnswers: [
               { title: "a. read my mind", correctAnswer: true },
               { title: "b. if it's not broke don't fix it" },
@@ -76,7 +76,7 @@ export default function Expressions3() {
           },
           {
             title:
-              "I don't like watching series, because sometimes I get addicted to one and ________________ watch it",
+              "I don't like watching series, because sometimes I get addicted to one and ________________ watch it.",
             possibleAnswers: [
               { title: "a. spread the word" },
               { title: "b. binge watch", correctAnswer: true },
@@ -85,7 +85,7 @@ export default function Expressions3() {
           },
           {
             title:
-              "My wife wanted to change her resume, but it was perfect the way it was so I told her _______________",
+              "My wife wanted to change her resume, but it was perfect the way it was so I told her _______________.",
             possibleAnswers: [
               { title: "a. read my mind" },
               {

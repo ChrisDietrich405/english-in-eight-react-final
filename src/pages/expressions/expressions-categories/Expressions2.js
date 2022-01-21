@@ -18,9 +18,9 @@ export default function Expressions2() {
 
           <li>
             <b>Second wind</b> - a new strength or energy to continue something
-            that is an effort.
+            that is difficult.
             <p>
-              I was tired around 11, but got a <b>second wind</b> and finished
+              I was tired around 11pm, but got a <b>second wind</b> and finished
               the project.
             </p>
           </li>
@@ -36,7 +36,7 @@ export default function Expressions2() {
             <b>Out of one's hands</b> - not being able to be controlled or
             managed
             <p>
-              The decision is <b>out of my hands.</b>I have no control in this
+              The decision is <b>out of my hands.</b> I have no control in this
               situation.
             </p>
           </li>
@@ -65,9 +65,9 @@ export default function Expressions2() {
           },
           {
             title:
-              "I completely forgot about my presentation today. I needed _____________ the whole thing.",
+              "I completely forgot about my presentation today. I needed _____________.",
             possibleAnswers: [
-              { title: "a. to wing", correctAnswer: true },
+              { title: "a. to wing it", correctAnswer: true },
               { title: "b. second wind" },
             ],
             userAnswer: "",

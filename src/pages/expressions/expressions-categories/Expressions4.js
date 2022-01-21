@@ -10,7 +10,7 @@ export default function Expressions() {
         <ul>
           <li>
             <b>Cold calling</b> - make an unsolicited call to (someone), by
-            phone or in person, in an attempt to sell goods or services.
+            phone or in person, in an attempt to sell goods or services
             <p>
               I hate <b>cold calling</b>. I never get any sales from it.{" "}
             </p>
@@ -34,13 +34,13 @@ export default function Expressions() {
           </li>
 
           <li>
-            <b>(period of time) tops</b> - the longest time something will take.
+            <b>(period of time) tops</b> - the longest time something will take
             <p>
               I’ll finish this website in <b>one week tops.</b>
             </p>
           </li>
           <li>
-            <b>Ahead of schedule</b> - earlier than planned or expected.
+            <b>Ahead of schedule</b> - earlier than planned or expected
             <p>
               They finished the project 2 weeks <b>ahead of schedule.</b>
             </p>
@@ -51,7 +51,7 @@ export default function Expressions() {
         title="Take a quiz!"
         questions={[
           {
-            title: "Why didn't you laugh at my story? ____________________",
+            title: "Why didn't you laugh at my story? ____________________.",
             possibleAnswers: [
               { title: "a. I guess it was ahead of schedule" },
               { title: "b. I guess you had to be there", correctAnswer: true },

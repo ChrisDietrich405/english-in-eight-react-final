@@ -33,15 +33,16 @@ export default function PhrasalVerbs2() {
             <b>Live off of</b> - to be able to survive with a minimum amount of
             something
             <p>
-              She <b>lives off of </b>R$2,000,00 a month. I don’t know how she
-              does it.
+              She <b>lives off of </b>$2,000 a month. I don’t know how she does
+              it.
             </p>
           </li>
 
           <li>
             <b>Talk into</b> -to persuade someone to do something .
             <p>
-              Gabriela<b>talked Caio into </b>going to Bahia for their vacation.
+              Gabriela <b>talked Caio into </b>going to Bahia for their
+              vacation.
             </p>
           </li>
         </ul>

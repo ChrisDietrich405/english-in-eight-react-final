@@ -41,7 +41,7 @@ export default function PhrasalVerbs4() {
           <li>
             <b>Go back</b> - to return to a place where you aren’t right now
             <p>
-              I’m <b>going back</b>to Colombia in December.{" "}
+              I’m <b>going back</b> to Colombia in December.{" "}
             </p>
           </li>
         </ul>

@@ -33,7 +33,7 @@ export default function Expressions() {
           </li>
 
           <li>
-            <b>To one up someone</b> - To make a point of outdoing,
+            <b>To one up someone</b> - to make a point of outdoing,
             outperforming, outclassing, etc., someone
             <p>
               I hate telling stories around Jack because he always tries{" "}
@@ -74,9 +74,9 @@ export default function Expressions() {
             title:
               "I bought a face shield and a mask because I don't want to take any chances. _____________.",
             possibleAnswers: [
-              { title: "a. foolproof" },
+              { title: "a. Foolproof" },
               {
-                title: "b. it's better to be safe than sorry",
+                title: "b. It's better to be safe than sorry",
                 correctAnswer: true,
               },
             ],
@@ -96,7 +96,7 @@ export default function Expressions() {
               "I can tell he's insecure. He's always explaining how much better his life is compared to mine and trying ____________.",
             possibleAnswers: [
               { title: "a.  to one up me" },
-              { title: "b. Time is money", correctAnswer: true },
+              { title: "b. time is money", correctAnswer: true },
             ],
             userAnswer: "",
           },

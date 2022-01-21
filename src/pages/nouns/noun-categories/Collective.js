@@ -8,26 +8,33 @@ export default function Collective() {
       </div>
       <div className="page-body">
         <p className="grammar-explanation-paragraph">
-          Collective nouns are words for single things that are made up of more
-          than one person, animal, place, thing, or ide You can’t have a team
-          without individual members; even so, we discuss a team as a single
-          entity.
+          Collective nouns are nouns which stand for a group or collection of
+          people or things. They include words such as <b>audience</b>,{" "}
+          <b>committee</b>, <b>police</b>, <b>crew</b>, <b>family</b>,{" "}
+          <b>government</b>, <b>group</b>, and <b>team</b>. Most collective
+          nouns are treated as singular, with a singular verb
         </p>
       </div>
       <div className="page-examples">
         <p>Examples</p>
         <ul>
           <li>
-            Our class takes a field trip to the natural history museum every
-            year.
+            Our <b>class takes</b> a field trip to the natural history museum
+            every year.
           </li>
-          <li>The jury is made up of 12 people.</li>
           <li>
-            This year’s basketball team includes three players who are over six
-            feet tall.
+            The <b>jury is</b> made up of 12 people.
           </li>
-          <li>Napoleon’s army was finally defeated at Waterloo.</li>
-          <li>The town council has approved plans to create a new park.</li>
+          <li>
+            This year’s basketball <b>team includes</b> three players who are
+            over six feet tall.
+          </li>
+          <li>
+            Napoleon’s <b>army was</b> finally defeated at Waterloo.
+          </li>
+          <li>
+            The town <b>council has</b> approved plans to create a new park.
+          </li>
         </ul>
       </div>
       <Quiz
@@ -72,7 +79,7 @@ export default function Collective() {
             title: "___________ the parents' committee made a decision.",
             possibleAnswers: [
               { title: "Has", correctAnswer: true },
-              { title: "have" },
+              { title: "Have" },
             ],
             userAnswer: "",
           },
@@ -103,7 +110,10 @@ export default function Collective() {
           },
           {
             title: "The school choir ______________ won many competitions.",
-            possibleAnswers: [{ title: "have", correctAnswer: true }],
+            possibleAnswers: [
+              { title: "have" },
+              { title: "has", correctAnswer: true },
+            ],
             userAnswer: "",
           },
           {
