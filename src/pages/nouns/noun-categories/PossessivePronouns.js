@@ -16,12 +16,24 @@ export default function PossessivePronouns() {
       <div className="page-examples">
         <p>Examples</p>
         <ul>
-          <li>I have a bag - this is mine.</li>
-          <li>You have a cat - that cat is yours.</li>
-          <li>He has a car - it is his.</li>
-          <li>She has a book - it is hers.</li>
-          <li>We have an apartment - it is ours.</li>
-          <li>They have a daughter - she is theirs.</li>
+          <li>
+            I have a bag - this is <b>mine.</b>
+          </li>
+          <li>
+            You have a cat - that cat is <b>yours.</b>
+          </li>
+          <li>
+            He has a car - it is <b>his.</b>
+          </li>
+          <li>
+            She has a book - it is <b>hers.</b>
+          </li>
+          <li>
+            We have an apartment - it is <b>ours.</b>
+          </li>
+          <li>
+            They have a daughter - she is <b>theirs.</b>
+          </li>
         </ul>
       </div>
       <Quiz
