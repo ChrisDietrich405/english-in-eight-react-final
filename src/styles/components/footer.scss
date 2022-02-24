@@ -60,13 +60,36 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
+  .logo-container {
+    margin-top: 10px;
+  }
+
+  .logo-contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-info-container {
+    margin: 16px 0px 16px 10px !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
   .footer {
     display: flex;
     flex-direction: column;
 
     .contact-info-container {
-      margin-left: 30px;
+      margin: 16px 0 16px 0px !important;
+    }
+
+    .logo-contact-container {
+      width: 60%;
+    }
+
+    .contact-form {
+      padding-bottom: 0;
     }
 
     .logo-email,
@@ -84,6 +107,7 @@
     }
 
     .footer-submit-btn {
+      width: 90%;
       margin-left: 26px;
     }
   }
