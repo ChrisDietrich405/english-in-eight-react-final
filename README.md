@@ -17,5 +17,6 @@ You will also see any lint errors in the console.
 ## Screenshots
 
 ![](public/images/githubreadme1.png)
+
 ![](public/images/githubreadme2.png)
 
