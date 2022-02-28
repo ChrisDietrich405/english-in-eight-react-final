@@ -1,4 +1,4 @@
-![](images/githubreadme2.png)
+![](public/images/githubreadme2.png)
 
 # Getting Started with Create React App
 
