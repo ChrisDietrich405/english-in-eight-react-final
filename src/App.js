@@ -1,4 +1,4 @@
-//PROOFREADING - FINISHED WITH  PRESENT TENSE VERBS
+//PROOFREADING - start with past simple verbs
 
 //add padding to all the grammar boxes
 
