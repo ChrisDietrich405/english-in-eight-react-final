@@ -1,6 +1,6 @@
 
-This app is an online cel phone store. 
-This project includes bootstrap and also the useContext React Hook
+This app is an English teaching website. 
+This project includes bootstrap, react-icons and SASS
 
 ## How To Run This Project
 
