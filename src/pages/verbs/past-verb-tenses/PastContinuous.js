@@ -48,7 +48,7 @@ export default function PastContinuous() {
       </div>
 
       <div className="page-body">
-        <p>
+        <p className="grammar-explanation-paragraph">
           We use the past continuous to describe something that was happening in
           the past when some other event interrupted it.
         </p>

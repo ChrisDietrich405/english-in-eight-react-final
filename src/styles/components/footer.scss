@@ -76,20 +76,74 @@
 }
 
 @media screen and (max-width: 450px) {
+  .sidebar-container {
+    align-items: center;
+  }
+
+  .sidebar-left,
+  .sidebar-right {
+    margin: 20px 0px !important;
+    padding: 0px !important;
+  }
+
+  .page-title {
+    padding: 15px 10px 0px 10px;
+  }
+
+  .definition-pictures-container .definition-pictures img {
+    height: 150px !important;
+    width: 280px !important;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
 
+    .logo-email-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      .logo {
+        width: 40%;
+      }
+
+      .email {
+        padding-right: 15px !important;
+        width: 49%;
+      }
+    }
+
     .contact-info-container {
-      margin: 16px 0 16px 0px !important;
+      margin: 16px 0 16px 10px !important;
     }
 
     .logo-contact-container {
-      width: 60%;
+      display: flex !important;
+    }
+
+    .footer-logo img {
+      margin-bottom: 20px !important;
     }
 
     .contact-form {
       padding-bottom: 0;
+      width: 70% !important;
+      margin-bottom: 6px !important;
+    }
+
+    #text-area-container {
+      margin-left: 0px !important;
+    }
+
+    #text-area-container {
+      width: 70% !important;
+      margin-left: 0px;
+    }
+
+    .text-area {
+      width: 100%;
+      margin-bottom: 15px !important;
     }
 
     .logo-email,
@@ -98,8 +152,10 @@
     }
 
     .contact-form-text-area-container {
+      width: 100%;
       display: flex;
       flex-direction: column;
+      padding: 0px 30px;
     }
 
     #text-area-container {
@@ -107,8 +163,8 @@
     }
 
     .footer-submit-btn {
-      width: 90%;
-      margin-left: 26px;
+      width: 70%;
+      margin-left: 0px;
     }
   }
 }

@@ -170,8 +170,8 @@ export default function PastSimple() {
           {
             title: "It ____________ a lot of money.",
             possibleAnswers: [
-              { title: "a. didn't costed" },
-              { title: "b. didn't cost", correctAnswer: true },
+              { title: "a. costed" },
+              { title: "b. cost", correctAnswer: true },
             ],
             userAnswer: "",
           },

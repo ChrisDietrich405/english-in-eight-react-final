@@ -1,4 +1,4 @@
-//PROOFREADING - start with past simple verbs
+//PROOFREADING - start with past continuous verbs
 
 //add padding to all the grammar boxes
 
