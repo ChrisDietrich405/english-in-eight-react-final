@@ -85,8 +85,8 @@ export default function PastPerfect() {
             title:
               "She _____________________ (write) the email before he apologized.",
             possibleAnswers: [
-              { title: "a. had leave" },
-              { title: "b. had left", correctAnswer: true },
+              { title: "a. had wrote" },
+              { title: "b. had written", correctAnswer: true },
             ],
             userAnswer: "",
           },

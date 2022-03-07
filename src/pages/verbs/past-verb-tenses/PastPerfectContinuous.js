@@ -130,7 +130,7 @@ export default function PastPerfectContinuous() {
           {
             title: "They ____________ (teach) at the university since June.",
             possibleAnswers: [
-              { title: "a. have been teaching", correctAnswer: true },
+              { title: "a. had been teaching", correctAnswer: true },
               { title: "b. had taught" },
             ],
             userAnswer: "",
@@ -138,8 +138,17 @@ export default function PastPerfectContinuous() {
           {
             title: "I ______________ (feel) a little depressed.",
             possibleAnswers: [
-              { title: "a. have been feeling", correctAnswer: true },
+              { title: "a. had been feeling", correctAnswer: true },
               { title: "b. have felt" },
+            ],
+            userAnswer: "",
+          },
+          {
+            title:
+              "She ______________ (eat) too much and that's why they think she got sick.",
+            possibleAnswers: [
+              { title: "a. had been eating", correctAnswer: true },
+              { title: "b. have eat" },
             ],
             userAnswer: "",
           },
