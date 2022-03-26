@@ -15,36 +15,40 @@ export default function PresentPerfect() {
       </div>
       <div className="table-container">
         <table className="table-body">
-          <tr>
-            <th>Positive</th>
-            <th>Negative</th>
-            <th>Negative short form</th>
-          </tr>
-          <tr>
-            <td>I have swum</td>
-            <td>I have not swum</td>
-            <td>I haven't swum</td>
-          </tr>
-          <tr>
-            <td>You have worked</td>
-            <td>You have not worked</td>
-            <td>You haven't worked</td>
-          </tr>
-          <tr>
-            <td>She, he, it has fought</td>
-            <td>She, he, it has not fought</td>
-            <td>She, he, it hasn't fought</td>
-          </tr>
-          <tr>
-            <td>We have talked</td>
-            <td>We have not talked</td>
-            <td>We haven't talked</td>
-          </tr>
-          <tr>
-            <td>They have danced</td>
-            <td>They have not danced</td>
-            <td>They haven't danced</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Positive</th>
+              <th>Negative</th>
+              <th>Negative short form</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>I have swum</td>
+              <td>I have not swum</td>
+              <td>I haven't swum</td>
+            </tr>
+            <tr>
+              <td>You have worked</td>
+              <td>You have not worked</td>
+              <td>You haven't worked</td>
+            </tr>
+            <tr>
+              <td>She, he, it has fought</td>
+              <td>She, he, it has not fought</td>
+              <td>She, he, it hasn't fought</td>
+            </tr>
+            <tr>
+              <td>We have talked</td>
+              <td>We have not talked</td>
+              <td>We haven't talked</td>
+            </tr>
+            <tr>
+              <td>They have danced</td>
+              <td>They have not danced</td>
+              <td>They haven't danced</td>
+            </tr>
+          </tbody>
         </table>
       </div>
       <h4>Actions started in the past and continuing in the present</h4>

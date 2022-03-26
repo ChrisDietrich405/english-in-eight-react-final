@@ -1,4 +1,5 @@
 import "../styles/components/footer.scss";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -6,13 +7,21 @@ export default function Footer() {
       <hr />
       <div className="logo-email-container">
         <div className="logo">
-          <a className="footer-logo" href="#">
+          <Link to="/home" className="footer-logo">
             <img
               style={{ width: "130px" }}
               src="/images/logo.svg"
               alt="English in Eight Minutes Logo"
             />
-          </a>
+          </Link>
+          {/* <Link to="/noun-categories/noun-definition">
+              <div className="noun-examples">
+                <i className="fas fa-tree" aria-hidden="true"></i>
+                <p className="content-title-second-row">Nouns</p>
+                <p className="content-definition">people, places and things</p>
+                <p>woman, tree, car</p>
+              </div>
+            </Link> */}
         </div>
         <div className="email">
           {" "}
@@ -40,12 +49,11 @@ export default function Footer() {
           <h3>Contact us</h3>
           <div className="mb-3">
             <label
-              for="exampleFormControlInput1"
+              htmlFor="exampleFormControlInput1"
               className="form-label"
             ></label>
             <input
               type="text"
-              id="footer-input"
               className="form-control footer-form-control"
               id="exampleFormControlInput1"
               placeholder="name"
@@ -53,12 +61,11 @@ export default function Footer() {
           </div>
           <div className="mb-3">
             <label
-              for="exampleFormControlInput1"
+              htmlFor="exampleFormControlInput1"
               className="form-label"
             ></label>
             <input
               type="email"
-              id="footer-input"
               className="form-control footer-form-control"
               id="exampleFormControlInput1"
               placeholder="name@example.com"
@@ -68,9 +75,10 @@ export default function Footer() {
 
         <div className="mb-3" id="text-area-container">
           <label
-            for="exampleFormControlTextarea1"
+            htmlFor="exampleFormControlTextarea1"
             className="form-label"
           ></label>
+
           <textarea
             placeholder="add your message here"
             className="form-control footer-form-control text-area"

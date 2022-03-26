@@ -3,16 +3,18 @@ import { AiOutlineQuestionCircle } from "react-icons/ai";
 import "../styles/components/quiz.scss";
 import SelectAnswer from "./SelectAnswer";
 
+//kdkdkddkdk
+
 function AnswerIcon({ isAnswered, isAnsweredCorrectly }) {
   //this is component. components are returned in the JSX code
   if (!isAnswered) {
     //is Answered and is AnsweredCorrectly are props
     return (
       <>
-        <AiOutlineQuestionCircle
+        {/* <AiOutlineQuestionCircle
           size={20}
           style={{ marginLeft: "10px", marginBottom: "5px" }}
-        />{" "}
+        />{" "} */}
         <span>Not answered</span>
       </>
     );
@@ -52,28 +54,28 @@ export default function Quiz(props) {
         </div>
         <ol>
           {props.questions.map((question, i) => (
-            <li className="questions-and-answers">
+            <li key={i} className="questions-and-answers">
               {`${i + 1}. ${question.title}`}
 
-              {submitted == true && (
+              {submitted === true && (
                 <AnswerIcon
                   className="answer-icon"
                   isAnswered={i in answers}
-                  isAnsweredCorrectly={i in answers && answers[i] == true}
+                  isAnsweredCorrectly={i in answers && answers[i] === true}
                 />
               )}
               <ul>
                 {question.possibleAnswers.map((possibleAnswer, index) => {
-                  console.log(answers);
                   return (
                     <SelectAnswer
+                      key={`answer${index}`}
                       submitted={submitted}
                       onClick={() => select(possibleAnswer, i)}
                       possibleAnswer={possibleAnswer}
                       answers={answers}
                       i={i}
                       selectedAnswerTexts={selectedAnswerTexts}
-                      isAnsweredCorrectly={i in answers && answers[i] == true}
+                      isAnsweredCorrectly={i in answers && answers[i] === true}
                       index={index}
 
                       //if i in answers and answers[i] is true then return the green value

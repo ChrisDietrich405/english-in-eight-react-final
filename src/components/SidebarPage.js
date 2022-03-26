@@ -13,12 +13,13 @@ export default function SidebarPage(props) {
           <h1>{props.title}</h1>
         </div>
         <ul>
-          {props.links.map((link) => (
-            <li className="sidebar-left-links">
+          {props.links.map((link, i) => (
+            <li key={i} className="sidebar-left-links">
+              <div></div>
               <Link
                 to={link.path}
                 className={classnames("sidebar-left-subtitle", {
-                  active: window.location.pathname == link.path,
+                  active: window.location.pathname === link.path,
                 })}
               >
                 {parser(link.title)}
@@ -26,12 +27,15 @@ export default function SidebarPage(props) {
             </li>
           ))}
         </ul>
+        <div>he</div>
       </div>
 
       <div className="sidebar-right">
         <Switch>
-          {props.links.map((link) => {
-            return <Route path={link.path} component={link.component} />;
+          {props.links.map((link, i) => {
+            return (
+              <Route key={i} path={link.path} component={link.component} />
+            );
           })}
         </Switch>
       </div>

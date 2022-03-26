@@ -1,9 +1,7 @@
-//PROOFREADING - start with past continuous verbs
-
-//add padding to all the grammar boxes
-
+//PROOFREADING - finished all past tense verbs
+//wwwrtr5rr/////////
 //after MVP add images to all the idiomatic expressions and phrasal verbs
-
+/////////////////////
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import VerbsDefinition from "./pages/verbs/VerbsDefinition";
@@ -54,9 +52,9 @@ function App() {
           <Route path="/adjective-categories" component={Adjectives} />
           <Route path="/versus-categories" component={Versus} />
         </Switch>
-      </Router>
 
-      <Footer />
+        <Footer />
+      </Router>
     </div>
   );
 }

@@ -12,36 +12,40 @@ export default function PastPerfect() {
       </p>
       <div className="table-container">
         <table className="table-body">
-          <tr>
-            <th>Positive</th>
-            <th>Negative</th>
-            <th>Negative short form</th>
-          </tr>
-          <tr>
-            <td>I had swum</td>
-            <td>I had not swum</td>
-            <td>I hadn't swum</td>
-          </tr>
-          <tr>
-            <td>You had fought</td>
-            <td>You had not fought</td>
-            <td>You hadn't fought</td>
-          </tr>
-          <tr>
-            <td>She, he, it had worked</td>
-            <td>She, he, it had not worked</td>
-            <td>She, he, it had not worked</td>
-          </tr>
-          <tr>
-            <td>We had talked</td>
-            <td>We had not talked</td>
-            <td>We hadn't talked</td>
-          </tr>
-          <tr>
-            <td>They had danced</td>
-            <td>They had not danced</td>
-            <td>They hadn't danced</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Positive</th>
+              <th>Negative</th>
+              <th>Negative short form</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>I had swum</td>
+              <td>I had not swum</td>
+              <td>I hadn't swum</td>
+            </tr>
+            <tr>
+              <td>You had fought</td>
+              <td>You had not fought</td>
+              <td>You hadn't fought</td>
+            </tr>
+            <tr>
+              <td>She, he, it had worked</td>
+              <td>She, he, it had not worked</td>
+              <td>She, he, it had not worked</td>
+            </tr>
+            <tr>
+              <td>We had talked</td>
+              <td>We had not talked</td>
+              <td>We hadn't talked</td>
+            </tr>
+            <tr>
+              <td>They had danced</td>
+              <td>They had not danced</td>
+              <td>They hadn't danced</td>
+            </tr>
+          </tbody>
         </table>
       </div>
 

@@ -16,30 +16,35 @@ export default function PresentContinuous() {
         </p>
         <div className="table-container">
           <table className="table-body">
-            <tr>
-              <th>Positive</th>
-              <th>Positive Short Form</th>
-            </tr>
-            <tr>
-              <td>I am swimming</td>
-              <td>I'm swimming</td>
-            </tr>
-            <tr>
-              <td>You are working</td>
-              <td>You're working</td>
-            </tr>
-            <tr>
-              <td>She, he, it is fighting</td>
-              <td>She's he's it's fighting</td>
-            </tr>
-            <tr>
-              <td>We are talking</td>
-              <td>We're talking</td>
-            </tr>
-            <tr>
-              <td>They are dancing</td>
-              <td>They're dancing</td>
-            </tr>
+            <thead>
+              <tr>
+                <th>Positive</th>
+                <th>Positive Short Form</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>I am swimming</td>
+                <td>I'm swimming</td>
+              </tr>
+              <tr>
+                <td>You are working</td>
+                <td>You're working</td>
+              </tr>
+              <tr>
+                <td>She, he, it is fighting</td>
+                <td>She's he's it's fighting</td>
+              </tr>
+              <tr>
+                <td>We are talking</td>
+                <td>We're talking</td>
+                <td>heleel</td>
+              </tr>
+              <tr>
+                <td>They are dancing</td>
+                <td>They're dancing</td>
+              </tr>
+            </tbody>
           </table>
         </div>
         <div className="table-container">

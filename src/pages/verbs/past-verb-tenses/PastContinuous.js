@@ -14,36 +14,40 @@ export default function PastContinuous() {
       </p>
       <div className="table-container">
         <table className="table-body">
-          <tr>
-            <th>Positive</th>
-            <th>Negative</th>
-            <th>Negative short form</th>
-          </tr>
-          <tr>
-            <td>I was swimming</td>
-            <td>I was not swimming</td>
-            <td>I wasn't swimming</td>
-          </tr>
-          <tr>
-            <td>You were fighting</td>
-            <td>You were not fighting</td>
-            <td>You weren't fighting</td>
-          </tr>
-          <tr>
-            <td>She, he, it was working</td>
-            <td>She, he, it was not working</td>
-            <td>She, he, it wasn't working</td>
-          </tr>
-          <tr>
-            <td>We were talking</td>
-            <td>We weren't talking</td>
-            <td>We weren't talking</td>
-          </tr>
-          <tr>
-            <td>They were dancing</td>
-            <td>They were not dancing</td>
-            <td>They weren't dancing</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Positive</th>
+              <th>Negative</th>
+              <th>Negative short form</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>I was swimming</td>
+              <td>I was not swimming</td>
+              <td>I wasn't swimming</td>
+            </tr>
+            <tr>
+              <td>You were fighting</td>
+              <td>You were not fighting</td>
+              <td>You weren't fighting</td>
+            </tr>
+            <tr>
+              <td>She, he, it was working</td>
+              <td>She, he, it was not working</td>
+              <td>She, he, it wasn't working</td>
+            </tr>
+            <tr>
+              <td>We were talking</td>
+              <td>We weren't talking</td>
+              <td>We weren't talking</td>
+            </tr>
+            <tr>
+              <td>They were dancing</td>
+              <td>They were not dancing</td>
+              <td>They weren't dancing</td>
+            </tr>
+          </tbody>
         </table>
       </div>
 
