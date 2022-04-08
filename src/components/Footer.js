@@ -14,36 +14,12 @@ export default function Footer() {
               alt="English in Eight Minutes Logo"
             />
           </Link>
-          {/* <Link to="/noun-categories/noun-definition">
-              <div className="noun-examples">
-                <i className="fas fa-tree" aria-hidden="true"></i>
-                <p className="content-title-second-row">Nouns</p>
-                <p className="content-definition">people, places and things</p>
-                <p>woman, tree, car</p>
-              </div>
-            </Link> */}
         </div>
         <div className="email">
           {" "}
           <p>englishineight@gmail.com</p>
         </div>
       </div>
-      {/* <div className="logo-contact-container">
-        <div className="logo-email">
-          <div className="logo-container">
-            <a className="footer-logo" href="#">
-              <img
-                style={{ width: "130px" }}
-                src="/images/logo.svg"
-                alt="English in Eight Minutes Logo"
-              />
-            </a>
-          </div>
-        </div>
-        <div className="contact-info-container">
-          <p>englishineight@gmail.com</p>
-        </div>
-      </div> */}
       <div className="contact-form-text-area-container">
         <div className="contact-form">
           <h3>Contact us</h3>

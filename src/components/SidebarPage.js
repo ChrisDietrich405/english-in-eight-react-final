@@ -27,7 +27,6 @@ export default function SidebarPage(props) {
             </li>
           ))}
         </ul>
-        <div>he</div>
       </div>
 
       <div className="sidebar-right">

@@ -244,17 +244,6 @@ export default function Navbar() {
               </ul>
             </li>
           </ul>
-          <form className="d-flex">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="e.g., phrasal verbs..."
-              aria-label="Search"
-            />
-            <button className="btn btn-primary" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
       <hr />
