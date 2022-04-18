@@ -18,7 +18,7 @@
     align-items: flex-start;
   }
 
-  .contact-form {
+  .form {
     padding-bottom: 200px;
   }
 
@@ -41,14 +41,10 @@
     margin-left: 238px;
   }
 
-  .contact-form-text-area-container {
+  .contact-form-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-
-  #text-area-container {
-    margin-left: 80px;
   }
 
   .logo-contact-container {
@@ -71,16 +67,12 @@
     margin: 16px 0px 16px 10px !important;
   }
 
-  .contact-form-text-area-container {
+  .contact-form-container {
     flex-direction: column;
   }
 
-  .footer .contact-form {
+  .footer .form {
     padding-bottom: 0px;
-  }
-
-  .footer #text-area-container {
-    margin-left: 27px;
   }
 }
 
@@ -136,19 +128,10 @@
       margin-bottom: 20px !important;
     }
 
-    .contact-form {
+    .form {
       padding-bottom: 0;
       width: 70% !important;
       margin-bottom: 6px !important;
-    }
-
-    #text-area-container {
-      margin-left: 0px !important;
-    }
-
-    #text-area-container {
-      width: 70% !important;
-      margin-left: 0px;
     }
 
     .text-area {
@@ -157,15 +140,14 @@
     }
 
     .logo-email,
-    .contact-form {
+    .form {
       margin: 1rem 3rem;
     }
 
-    .contact-form-text-area-container {
+    .contact-form-container {
       width: 100%;
       display: flex;
       flex-direction: column;
-      padding: 0px 30px;
     }
 
     #text-area-container {

@@ -20,51 +20,45 @@ export default function Footer() {
           <p>englishineight@gmail.com</p>
         </div>
       </div>
-      <div className="contact-form-text-area-container">
-        <div className="contact-form">
-          <h3>Contact us</h3>
+      <div className="contact-form-container">
+        <h3>Contact us</h3>
+        <div className="form">
           <div className="mb-3">
-            <label
-              htmlFor="exampleFormControlInput1"
-              className="form-label"
-            ></label>
+            <label htmlFor="nameControlInput" className="form-label"></label>
             <input
               type="text"
-              className="form-control footer-form-control"
-              id="exampleFormControlInput1"
+              className="form-control"
+              id="nameControlInput"
               placeholder="name"
             />
           </div>
           <div className="mb-3">
-            <label
-              htmlFor="exampleFormControlInput1"
-              className="form-label"
-            ></label>
+            <label htmlFor="emailControlInput" className="form-label"></label>
             <input
               type="email"
-              className="form-control footer-form-control"
-              id="exampleFormControlInput1"
+              className="form-control"
+              id="emailControlInput"
               placeholder="name@example.com"
             />
           </div>
+          <div className="mb-3">
+            <label
+              htmlFor="textAreaControlInput"
+              className="form-label"
+            ></label>
+            <textarea
+              placeholder="add your message here"
+              className="form-control text-area"
+              id="textAreaControlInput"
+              rows="3"
+            ></textarea>
+          </div>
+          <div className="button-container">
+            <button className="btn btn-primary" type="submit">
+              Submit
+            </button>
+          </div>
         </div>
-
-        <div className="mb-3" id="text-area-container">
-          <label
-            htmlFor="exampleFormControlTextarea1"
-            className="form-label"
-          ></label>
-
-          <textarea
-            placeholder="add your message here"
-            className="form-control footer-form-control text-area"
-            id="exampleFormControlTextarea1"
-            rows="3"
-          ></textarea>
-        </div>
-        <button className="btn btn-primary footer-submit-btn" type="submit">
-          Submit
-        </button>
       </div>
     </div>
   );
