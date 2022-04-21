@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import { BiOutline } from "react-icons/bi";
 
 export default function Home() {
   return (
@@ -21,9 +20,8 @@ export default function Home() {
       </div>
 
       <div className="container card-container">
-        {/* Second Row */}
-        <div className="row second-row">
-          <div className="col-12 col-md-4 col-sm-12 ">
+        <div className="row">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <Link to="/noun-categories/noun-definition">
               <div className="noun-examples">
                 <i className="fas fa-tree" aria-hidden="true"></i>
@@ -33,7 +31,7 @@ export default function Home() {
               </div>
             </Link>
           </div>
-          <div className="col-12 col-md-4 col-sm-6 ">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <Link to="/verbs-definition/verbs-def">
               <div className="verb-examples">
                 <i className="fas fa-running" aria-hidden="true"></i>
@@ -43,7 +41,7 @@ export default function Home() {
               </div>
             </Link>
           </div>
-          <div className="col-12 col-md-4 col-sm-6 ">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <Link to="/adjective-categories/adjective-definition">
               <div className="adjective-examples">
                 <i className="fas fa-angry" aria-hidden="true"></i>
@@ -53,9 +51,8 @@ export default function Home() {
               </div>
             </Link>
           </div>
-        </div>
-        <div className="row second-row">
-          <div className="col-12 col-md-4 col-sm-12">
+
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <Link to="/expressions-categories/expressions-definition">
               <div className="noun-examples">
                 <i className="fas fa-comments fa-1.5x" aria-hidden="true"></i>
@@ -67,7 +64,7 @@ export default function Home() {
               </div>
             </Link>
           </div>
-          <div className="col-12 col-md-4 col-sm-6 ">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <Link to="/phrasal-verbs-categories/phrasal-verbs-definition">
               <div className="verb-examples">
                 <i
@@ -80,7 +77,7 @@ export default function Home() {
               </div>
             </Link>
           </div>
-          <div className="col-12 col-md-4 col-sm-6 ">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <Link to="/versus-categories/versus-definition">
               <div className="adjective-examples">
                 <i

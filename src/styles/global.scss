@@ -1,28 +1,30 @@
 @import "~bootstrap/scss/functions";
 @import "./_variables.scss";
 @import "~bootstrap/scss/mixins";
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 
-@import '~bootstrap/scss/bootstrap.scss';
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "~bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 @import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "~@fortawesome/fontawesome-free/scss/brands.scss";
 @import "~@fortawesome/fontawesome-free/scss/regular.scss";
 @import "~@fortawesome/fontawesome-free/scss/solid.scss";
 
-@import "./components/navbar.scss"; 
+@import "./components/navbar.scss";
 @import "./pages/home.scss";
 
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box;
-    height: 100vh;   
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
 }
 
-// li {
-//     list-style: disc; 
-//     // list-style: unset !important; //unset returns a style to its original value
-// }
+hr {
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-bottom: 1rem !important;
+}

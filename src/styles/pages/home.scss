@@ -1,138 +1,132 @@
-hr {
-    height: 1px !important;
-    margin: 0 !important; 
-    padding: 0 !important;  
-    margin-bottom: 1rem !important; 
+.home {
+  text-align: center;
+
+  a {
+    text-decoration: none !important;
+  }
+
+  .title-content {
+    font-size: 1.3rem;
+  }
+
+  .card-container {
+    margin-bottom: 2.5rem;
+  }
+
+  .second-cards {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0 20px;
+  }
+
+  .second-cards i,
+  .second-cards img {
+    margin-bottom: 7px;
+  }
+
+  .noun-examples,
+  .verb-examples,
+  .adjective-examples {
+    color: black !important;
+    line-height: 20px;
+    height: 15rem;
+    margin: 10px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .noun-span,
+  .verb-span,
+  .adjective-span,
+  .adverb-span {
+    color: blue !important;
+  }
+
+  .fa-running,
+  .fa-tree,
+  .fa-angry,
+  .fa-comments {
+    padding: 15px;
+    color: #fff;
+    background-color: #0d6efd;
+    border-radius: 8px;
+  }
+
+  .fa-comments::before {
+    color: #fff;
+    background-color: #0d6efd;
+  }
+
+  .versus-img-container {
+    padding: 15px;
+    background-color: #0d6efd;
+    border-radius: 8px;
+  }
+
+  .versus-img {
+    height: 21px;
+    background-color: #fff;
+    color: #fff;
+  }
+
+  .card {
+    max-width: 600px;
+    min-height: 338px;
+    max-height: 350px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+  }
+
+  .card-body {
+    display: flex;
+  }
+
+  .content {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .content-title {
+    color: black;
+    font-size: 1.6rem;
+  }
+
+  .card-example {
+    font-size: 1rem;
+    color: black;
+  }
+
+  .content-definition {
+    color: rgb(116, 106, 106);
+  }
+
+  .row {
+    margin-top: 40px;
+  }
+
+  .content-title {
+    margin-bottom: 0.9px;
+    font-weight: 900;
+  }
+
+  .content-title-second-row {
+    margin: 0.5rem 0;
+    font-weight: 900;
+  }
 }
 
-.home { 
-    text-align: center; 
-
-    a {
-        text-decoration: none !important; 
-    }
-
-    .title-content {
-        font-size: 1.3rem; 
-    }
-
-    .card-container {
-        margin-bottom: 6rem;
-    }
-
-    .second-cards {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        padding: 0 20px;
-    }
-
-    .second-cards i, 
-    .second-cards img {
-        margin-bottom: 7px; 
-    }
-    
-    .noun-examples,
-    .verb-examples,
-    .adjective-examples {
-        color: black !important; 
-        line-height: 20px; 
-        height: 15rem;
-        margin: 10px 10px 20px 10px; 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 1rem;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
-    }
-
-    .noun-span,
-    .verb-span,
-    .adjective-span,
-    .adverb-span {
-        color: blue !important;
-    }
-
-    .fa-running, .fa-tree, .fa-angry, .fa-comments {
-        padding: 15px; 
-        color: #fff;
-        background-color: #0d6efd;
-        border-radius: 8px;     
-    }
-
-    .fa-comments::before {
-        color: #fff;
-        background-color: #0d6efd;
-    }
-
-    .versus-img-container {
-        padding: 15px; 
-        background-color: #0d6efd; 
-        border-radius: 8px; 
-    }
-
-    .versus-img {
-        height: 21px;
-        background-color: #fff;
-        color: #fff; 
-    }
-
-    .card {
-        max-width: 600px; 
-        min-height: 338px; 
-        max-height: 350px; 
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        padding: 30px;
-        border: none; 
-        border-radius: 8px; 
-        outline: none; 
-    }
-
-    .card-body {
-        display: flex; 
-    }
-
-    .content {
-        text-align: left;  
-        padding-left: 20px; 
-    }
-
-    .content-title {
-        color: black; 
-        font-size: 1.6rem; 
-    }
-
-    .card-example {
-        font-size: 1rem;
-        color: black;
-    }
-
-    .content-definition {
-        color: rgb(116, 106, 106); 
-    }
-
-    .row {
-        margin-top: 40px; 
-    }
-
-    .content-title {
-        margin-bottom: .9px; 
-        font-weight: 900; 
-    }
-
-    .content-title-second-row {
-        margin: .5rem 0; 
-        font-weight: 900;
-    }
-
-}
-
-@media(max-width: 1000px) {
-    .card {
-    margin-bottom: 50px; 
-    }
-    .phrasal-verb-card {
-        max-width: 300px;
-        // margin: 1px !important;
-    }
+@media (max-width: 1000px) {
+  .card {
+    margin-bottom: 50px;
+  }
+  .phrasal-verb-card {
+    max-width: 300px;
+  }
 }
