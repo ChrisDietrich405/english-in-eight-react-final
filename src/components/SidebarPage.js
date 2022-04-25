@@ -7,8 +7,8 @@ import "../styles/pages/images.scss";
 
 export default function SidebarPage(props) {
   return (
-    <div className="sidebar-container">
-      <div className="sidebar-left">
+    <div className="main-container">
+      <div className="sidebar">
         <div className="sidebar-title">
           <h1>{props.title}</h1>
         </div>
@@ -29,7 +29,7 @@ export default function SidebarPage(props) {
         </ul>
       </div>
 
-      <div className="sidebar-right">
+      <div className="content">
         <Switch>
           {props.links.map((link, i) => {
             return (

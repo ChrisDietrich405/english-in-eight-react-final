@@ -81,12 +81,11 @@
 }
 
 @media screen and (max-width: 450px) {
-  .sidebar-container {
+  .main-container {
     align-items: center;
   }
 
-  .sidebar-left,
-  .sidebar-right {
+  .sidebar -right {
     margin: 20px 0px !important;
     padding: 0px !important;
   }
