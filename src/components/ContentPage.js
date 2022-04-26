@@ -5,7 +5,7 @@ import parser from "html-react-parser";
 import "../styles/components/sidebar.scss";
 import "../styles/pages/images.scss";
 
-export default function SidebarPage(props) {
+export default function ContentPage(props) {
   return (
     <div className="main-container">
       <div className="sidebar">
