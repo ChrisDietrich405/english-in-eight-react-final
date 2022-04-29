@@ -1,4 +1,4 @@
-import Sidebar from "../../components/ContentPage";
+import ContentPage from "../../components/ContentPage";
 import AdjectiveDefinition from "./adjective-categories/AdjectiveDefinition";
 import PossessiveAdjectives from "./adjective-categories/PossessiveAdjectives";
 import SuperlativeAdjectives from "./adjective-categories/SuperlativeAdjectives";
@@ -6,7 +6,7 @@ import ComparativeAdjectives from "./adjective-categories/ComparativeAdjectives"
 
 export default function Adjectives() {
   return (
-    <Sidebar
+    <ContentPage
       links={[
         {
           title: "<b>Adjective Definition</b>",

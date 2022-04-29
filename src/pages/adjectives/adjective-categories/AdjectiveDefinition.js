@@ -14,27 +14,36 @@ export default function AdjectiveDefinition() {
       </div>
       <div className="definition-pictures-container">
         <div className="definition-pictures">
-          <img
-            src="../../../images/strong-man-adjectives-definition.jpg"
-            alt=""
-          />
+          <div className="picture-wrapper">
+            <img
+              src="../../../images/strong-man-adjectives-definition.jpg"
+              alt=""
+            />
+          </div>
           <p>
             <strong>Strong</strong> <em>man</em>
           </p>
         </div>
         <div className="definition-pictures">
-          <img
-            src="../../../images/happy-child-adjectives-definition.jpg"
-            alt=""
-          />
+          <div className="picture-wrapper">
+            <img
+              src="../../../images/happy-child-adjectives-definition.jpg"
+              alt=""
+            />
+          </div>
           <p>
             <strong>Happy</strong> <em>child</em>
           </p>
         </div>
         <div className="definition-pictures">
-          <img src="../../../images/big-dog-adjectives-definition.jpg" alt="" />
+          <div className="picture-wrapper">
+            <img
+              src="../../../images/small-dog-adjectives-definition.jpg"
+              alt=""
+            />
+          </div>
           <p>
-            <strong>Big</strong> <em>dog</em>
+            <strong>Small</strong> <em>dog</em>
           </p>
         </div>
       </div>

@@ -12,28 +12,34 @@ export default function NounDefinition() {
       </div>
       <div className="definition-pictures-container">
         <div className="definition-pictures">
-          <img
-            src="../../../images/person-nouns-definition.jpg"
-            alt="Picture of actor Terry Crews"
-          />
+          <div className="picture-wrapper">
+            <img
+              src="../../../images/person-nouns-definition.jpg"
+              alt="Picture of actor Terry Crews"
+            />
+          </div>
           <p className="noun-example">Person</p>
           <p aria-hidden="true" className="noun-example">
             (Terry Crews)
           </p>
         </div>
         <div className="definition-pictures">
-          <img
-            src="../../../images/place-nouns-definition.jpg"
-            alt="Picture of the Taj Mahal"
-          />
+          <div className="picture-wrapper">
+            <img
+              src="../../../images/place-nouns-definition.jpg"
+              alt="Picture of the Taj Mahal"
+            />
+          </div>
           <p className="noun-example">Place</p>
           <p aria-hidden="true">(Taj Mahal)</p>
         </div>
         <div className="definition-pictures">
-          <img
-            src="../../../images/thing-nouns-definition.jpg"
-            alt="Picture of IPhone"
-          />
+          <div className="picture-wrapper">
+            <img
+              src="../../../images/thing-nouns-definition.jpg"
+              alt="Picture of IPhone"
+            />
+          </div>
           <p className="noun-example">Thing</p>
           <p aria-hidden="true">(IPhone)</p>
         </div>
