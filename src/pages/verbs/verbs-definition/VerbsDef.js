@@ -15,19 +15,19 @@ export default function VerbsDef() {
           <div className="picture-wrapper">
             <img src="../../../images/action-verbs-definition.png" alt="" />
           </div>
-          <p>Hear</p>
+          <p className="picture-subtitle">Hear</p>
         </div>
         <div className="definition-pictures">
           <div className="picture-wrapper">
             <img src="../../../images/state-verbs-definition.png" alt="" />
           </div>
-          <p>Become</p>
+          <p className="picture-subtitle">Become</p>
         </div>
         <div className="definition-pictures">
           <div className="picture-wrapper">
             <img src="../../../images/occurence-verbs-definition.png" alt="" />
           </div>
-          <p>Happen</p>
+          <p className="picture-subtitle">Happen</p>
         </div>
       </div>
     </>

@@ -18,8 +18,8 @@ export default function NounDefinition() {
               alt="Picture of actor Terry Crews"
             />
           </div>
-          <p className="noun-example">Person</p>
-          <p aria-hidden="true" className="noun-example">
+          <p className="picture-subtitle">Person</p>
+          <p aria-hidden="true" className="picture-subtitle">
             (Terry Crews)
           </p>
         </div>
@@ -30,8 +30,10 @@ export default function NounDefinition() {
               alt="Picture of the Taj Mahal"
             />
           </div>
-          <p className="noun-example">Place</p>
-          <p aria-hidden="true">(Taj Mahal)</p>
+          <p className="picture-subtitle">Place</p>
+          <p aria-hidden="true" className="picture-subtitle">
+            (Taj Mahal)
+          </p>
         </div>
         <div className="definition-pictures">
           <div className="picture-wrapper">
@@ -40,8 +42,10 @@ export default function NounDefinition() {
               alt="Picture of IPhone"
             />
           </div>
-          <p className="noun-example">Thing</p>
-          <p aria-hidden="true">(IPhone)</p>
+          <p className="picture-subtitle">Thing</p>
+          <p aria-hidden="true" className="picture-subtitle">
+            (IPhone)
+          </p>
         </div>
       </div>
     </>
