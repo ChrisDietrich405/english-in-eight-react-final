@@ -1,3 +1,4 @@
+import "../../../styles/pages/other-topics.scss";
 import "../../../styles/pages/expressions.scss";
 
 export default function ExpressionsDefinition() {

@@ -1,3 +1,5 @@
+import "../../../styles/pages/other-topics.scss";
+
 export default function PhrasalVerbs() {
   return (
     <>

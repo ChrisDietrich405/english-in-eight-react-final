@@ -1,4 +1,5 @@
 import "../../../styles/pages/versus.scss";
+import "../../../styles/pages/other-topics.scss";
 
 export default function VersusDefinition() {
   return (
