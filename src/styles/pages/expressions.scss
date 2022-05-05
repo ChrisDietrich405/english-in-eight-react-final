@@ -6,17 +6,7 @@
     margin-bottom: 2rem !important;
   }
 
-  .expressions-image1-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 2rem;
-    p {
-      margin: 0 10px 0 30px !important;
-    }
-  }
-
-  .expressions-image2-container {
+  .content-wrapper {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,7 +23,8 @@
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .expressions-container {
+@media only screen and (max-width: 450px) {
+  .content-wrapper {
+    flex-wrap: wrap;
   }
 }

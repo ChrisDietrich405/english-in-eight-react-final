@@ -12,7 +12,7 @@ export default function PhrasalVerbs() {
           as <b>look down on.</b>
         </p>
       </div>
-      <div className="expressions-image1-container">
+      <div className="content-wrapper">
         <img
           src="../../../images/break-down.jpg"
           className="expressions-image1"
@@ -25,7 +25,7 @@ export default function PhrasalVerbs() {
           vehicle stops functioning.
         </p>
       </div>
-      <div className="expressions-image2-container">
+      <div className="content-wrapper">
         <img
           src="../../../images/fall-for.jpg"
           className="expressions-image2"
