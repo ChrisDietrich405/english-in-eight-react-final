@@ -9,15 +9,21 @@ export default function Expressions() {
       <div className="page-body">
         <ul>
           <li>
-            <b>Time is money</b> - time is a valuable resource, therefore it is
-            better to do things as quickly as possible
+            <p>
+              <b>Time is money</b> - time is a valuable resource, therefore it
+              is better to do things as quickly as possible
+            </p>
+            <br />
             <p>
               Come on hurry up! <b>Time is money.</b>
             </p>
           </li>
 
           <li>
-            <b>Foolproof</b> - incapable of going wrong or being misused
+            <p>
+              <b>Foolproof</b> - incapable of going wrong or being misused
+            </p>
+            <br />
             <p>
               I have a <b>foolproof</b> security system. As dumb as I am even
               I'm able to use it.
@@ -25,24 +31,33 @@ export default function Expressions() {
           </li>
 
           <li>
-            <b>Out of nowhere</b> - appearing or happening suddenly and
-            unexpectedly
+            <p>
+              <b>Out of nowhere</b> - appearing or happening suddenly and
+              unexpectedly
+            </p>
+            <br />
             <p>
               The car came <b>out of nowhere</b> and hit our van.
             </p>
           </li>
 
           <li>
-            <b>To one up someone</b> - to make a point of outdoing,
-            outperforming, outclassing, etc., someone
+            <p>
+              <b>To one up someone</b> - to make a point of outdoing,
+              outperforming, outclassing, etc., someone
+            </p>
+            <br />
             <p>
               I hate telling stories around Jack because he always tries{" "}
               <b>to one up</b> you with some amazing story of his own.
             </p>
           </li>
           <li>
-            <b>It's better to be safe than sorry</b> - it’s better to be careful
-            now so that problems do not occur later on
+            <p>
+              <b>It's better to be safe than sorry</b> - it’s better to be
+              careful now so that problems do not occur later on
+            </p>
+            <br />
             <p>
               It's probably not necessary to check the figures again, but{" "}
               <b>it's better to be safe than sorry.</b>
@@ -55,7 +70,7 @@ export default function Expressions() {
         questions={[
           {
             title:
-              "She started yelling me and honestly it scared me. It came _______________.",
+              "She started yelling at me and honestly it scared me. It came _______________.",
             possibleAnswers: [
               { title: "a. to one up someone" },
               { title: "b. out of nowhere ", correctAnswer: true },

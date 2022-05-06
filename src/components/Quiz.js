@@ -3,8 +3,6 @@ import { AiOutlineQuestionCircle } from "react-icons/ai";
 import "../styles/components/quiz.scss";
 import SelectAnswer from "./SelectAnswer";
 
-//kdkdkddkdk
-
 function AnswerIcon({ isAnswered, isAnsweredCorrectly }) {
   //this is component. components are returned in the JSX code
   if (!isAnswered) {
@@ -52,9 +50,9 @@ export default function Quiz(props) {
         <div className="quiz-title">
           <h4>{props.title}</h4>
         </div>
-        <ol>
+        <ol className="questions-and-answers">
           {props.questions.map((question, i) => (
-            <li key={i} className="questions-and-answers">
+            <li key={i}>
               {`${i + 1}. ${question.title}`}
 
               {submitted === true && (

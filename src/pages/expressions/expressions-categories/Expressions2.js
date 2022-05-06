@@ -9,16 +9,22 @@ export default function Expressions2() {
       <div className="page-body">
         <ul>
           <li>
-            <b>Hand me downs</b> - clothes that are received that were worn by
-            older relatives.
+            <p>
+              <b>Hand me downs</b> - clothes that are received that were worn by
+              older relatives.
+            </p>
+            <br />
             <p>
               I wore a lot of my older brother’s <b>hand me downs.</b>
             </p>
           </li>
 
           <li>
-            <b>Second wind</b> - a new strength or energy to continue something
-            that is difficult.
+            <p>
+              <b>Second wind</b> - a new strength or energy to continue
+              something that is difficult.
+            </p>
+            <br />
             <p>
               I was tired around 11pm, but got a <b>second wind</b> and finished
               the project.
@@ -26,15 +32,21 @@ export default function Expressions2() {
           </li>
 
           <li>
-            <b>To wing it</b> - to not plan
+            <p>
+              <b>To wing it</b> - to not plan
+            </p>
+            <br />
             <p>
               John didn’t have time to prepare for his interview so he needed{" "}
               <b>to wing it.</b>
             </p>
           </li>
           <li>
-            <b>Out of one's hands</b> - not being able to be controlled or
-            managed
+            <p>
+              <b>Out of one's hands</b> - not being able to be controlled or
+              managed
+            </p>
+            <br />
             <p>
               The decision is <b>out of my hands.</b> I have no control in this
               situation.
@@ -42,8 +54,11 @@ export default function Expressions2() {
           </li>
 
           <li>
-            <b>To backfire</b> - (of a plan or action) to have an opposite and
-            undesirable effect to what was intended.
+            <p>
+              <b>To backfire</b> - (of a plan or action) to have an opposite and
+              undesirable effect to what was intended.
+            </p>
+            <br />
             <p>
               Her plans to make him jealous <b>backfired</b> on her when he
               started dating her best friend.

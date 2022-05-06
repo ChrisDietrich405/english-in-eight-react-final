@@ -13,7 +13,7 @@ export default function SuperlativeAdjectives() {
         </p>
       </div>
       <div className="page-body">
-        <p>Adjectives with one syllable</p>
+        <h5>Adjectives with one syllable</h5>
         <p>
           Usually if an adjective has only one syllable, we add 'est' to make
           the superlative form.
@@ -54,7 +54,7 @@ export default function SuperlativeAdjectives() {
           <li>right → most right (NOT rightest)</li>
           <li>wrong → most wrong (NOT wrongest)</li>
         </ul>
-        <p>Adjectives with two syllables</p>
+        <h5>Adjectives with two syllables</h5>
         <p>For adjectives with two syllables we generally use 'most'.</p>
         <ul className="page-examples">
           <li>careful → most careful</li>
@@ -80,7 +80,7 @@ export default function SuperlativeAdjectives() {
           <li>happy → happiest</li>
           <li>ugly → ugliest</li>
         </ul>
-        <p>Adjectives with more than two syllables</p>
+        <h5>Adjectives with more than two syllables</h5>
         <p>
           Adjectives with more than two syllables can only make their
           superlative by using 'most'.

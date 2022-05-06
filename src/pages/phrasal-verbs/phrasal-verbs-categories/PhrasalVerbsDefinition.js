@@ -4,7 +4,7 @@ export default function PhrasalVerbs() {
   return (
     <>
       <div className="page-title">
-        <h1>Phrasal Verbs</h1>
+        <h2>Phrasal Verbs</h2>
       </div>
       <div className="page-body">
         <p className="grammar-explanation-paragraph">
@@ -17,7 +17,7 @@ export default function PhrasalVerbs() {
       <div className="content-wrapper">
         <img
           src="../../../images/break-down.jpg"
-          className="expressions-image1"
+          className="other-topics-image"
           aria-hidden="true"
         />
         <p>
@@ -30,7 +30,7 @@ export default function PhrasalVerbs() {
       <div className="content-wrapper">
         <img
           src="../../../images/fall-for.jpg"
-          className="expressions-image2"
+          className="other-topics-image"
           aria-hidden="true"
         />
         <p>

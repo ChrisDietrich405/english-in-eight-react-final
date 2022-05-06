@@ -7,8 +7,6 @@
 //of the button and also add a notification at the end of the quiz that the user they didn't
 //answer for example questions 4, 5
 
-//for the sidebar active link make the font bolder
-
 //the search button in the navbar should have the blue as the default
 
 import ContentPage from "../../components/ContentPage";

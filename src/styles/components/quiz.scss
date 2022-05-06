@@ -4,16 +4,6 @@
   left: 450px;
 }
 
-.btn-container {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 25px;
-}
-
-.btn-primary {
-  margin-right: 20px;
-}
-
 .quiz-container {
   margin-bottom: 100px;
 }
@@ -54,5 +44,15 @@
   .quiz-buttons {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  ol {
+    padding: 0 !important;
+  }
+
+  .quiz-title h4 {
+    margin-left: 0;
   }
 }

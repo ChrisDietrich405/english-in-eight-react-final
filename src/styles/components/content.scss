@@ -102,15 +102,21 @@
   }
 
   .sidebar {
-    width: 90vw;
+    // width: 90vw;
     margin: 2rem 0;
   }
 
   .content {
     display: flex;
     flex-direction: column;
-    width: 90vw !important;
+    // width: 90vw !important;
     border-radius: 9px;
     margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .sidebar {
+    width: 100%;
   }
 }

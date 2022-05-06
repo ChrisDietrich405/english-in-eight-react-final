@@ -28,3 +28,12 @@ hr {
   padding: 0 !important;
   margin-bottom: 1rem !important;
 }
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-primary {
+  margin-right: 20px;
+}

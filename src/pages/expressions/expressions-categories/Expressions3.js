@@ -9,38 +9,61 @@ export default function Expressions3() {
       <div className="page-body">
         <ul>
           <li>
-            <b>If it’s not broke don’t fix it</b> - when a situation is going
-            well it's a bad idea to interfere with it <br />
+            <p>
+              <b>If it’s not broke don’t fix it</b> - when a situation is going
+              well it's a bad idea to interfere with it
+            </p>
+            <br />
             My refrigerator was making a very small noise, but it was working. I
             was about to investigate with a screwdriver when my wife said leave
             it alone. <b>If it’s not broke don’t fix it</b>.
           </li>
 
           <li>
-            <b>Read someone’s mind</b> - to guess correctly what someone is
-            thinking <br />
+            <p>
+              <b>Read someone’s mind</b> - to guess correctly what someone is
+              thinking
+            </p>
+            <br />
             When I told my wife that we should order Chinese she said “Wow!{" "}
             <b>You read my mind</b>. That’s exactly what I wanted to have for
             dinner.
           </li>
 
           <li>
-            <b>Spread the word</b> - to help a business by telling other people
-            about it <br />I ask my students to please <b>spread the word</b>{" "}
-            about my English classes.
+            <p>
+              <b>Spread the word</b> - to help a business by telling other
+              people about it
+            </p>{" "}
+            <br />
+            <p>
+              I ask my students to please <b>spread the word</b> about my
+              English classes.
+            </p>
           </li>
 
           <li>
-            <b>Measure twice cut once</b> - to double check your work before
-            making a final decision <br />I have to go back to the store because
-            I cut the wrong size. I forgot to <b>"measure twice, cut once"</b>.
+            <p>
+              <b>Measure twice cut once</b> - to double check your work before
+              making a final decision
+            </p>{" "}
+            <br />
+            <p>
+              I have to go back to the store because I cut the wrong size. I
+              forgot to <b>"measure twice, cut once"</b>.
+            </p>
           </li>
 
           <li>
-            <b>Binge watch</b> - watching a lot of episodes of a series in a
-            short period of time <br />
-            Over the weekend I <b>binge watched</b> Breaking Bad. I watched the
-            first three seasons.
+            <p>
+              <b>Binge watch</b> - watching a lot of episodes of a series in a
+              short period of time
+            </p>{" "}
+            <br />
+            <p>
+              Over the weekend I <b>binge watched</b> Breaking Bad. I watched
+              the first three seasons.
+            </p>
           </li>
         </ul>
       </div>

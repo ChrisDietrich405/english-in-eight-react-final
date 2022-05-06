@@ -9,15 +9,21 @@ export default function Expressions() {
       <div className="page-body">
         <ul>
           <li>
-            <b>Cold calling</b> - make an unsolicited call to (someone), by
-            phone or in person, in an attempt to sell goods or services
+            <p>
+              <b>Cold calling</b> - make an unsolicited call to (someone), by
+              phone or in person, in an attempt to sell goods or services
+            </p>
+            <br />
             <p>
               I hate <b>cold calling</b>. I never get any sales from it.{" "}
             </p>
           </li>
 
           <li>
-            <b>B movie</b> - a low-budget commercial motion picture
+            <p>
+              <b>B movie</b> - a low-budget commercial motion picture
+            </p>
+            <br />
             <p>
               My friends and I like to watch <b>B movies</b>. We like making fun
               of them.
@@ -25,8 +31,11 @@ export default function Expressions() {
           </li>
 
           <li>
-            <b>You had to be there</b> - when retelling a funny story that isn’t
-            as funny when being told
+            <p>
+              <b>You had to be there</b> - when retelling a funny story that
+              isn’t as funny when being told
+            </p>
+            <br />
             <p>
               After I told my mom what happened, she didn’t laugh at all and so
               I said <b>“you had to be there".</b>
@@ -34,13 +43,20 @@ export default function Expressions() {
           </li>
 
           <li>
-            <b>(period of time) tops</b> - the longest time something will take
+            <p>
+              <b>(period of time) tops</b> - the longest time something will
+              take
+            </p>
+            <br />
             <p>
               I’ll finish this website in <b>one week tops.</b>
             </p>
           </li>
           <li>
-            <b>Ahead of schedule</b> - earlier than planned or expected
+            <p>
+              <b>Ahead of schedule</b> - earlier than planned or expected
+            </p>
+            <br />
             <p>
               They finished the project 2 weeks <b>ahead of schedule.</b>
             </p>

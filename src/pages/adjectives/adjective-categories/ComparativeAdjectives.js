@@ -13,7 +13,7 @@ export default function ComparativeAdjectives() {
         </p>
       </div>
       <div className="page-body">
-        <p>Adjectives with one syllable</p>
+        <h5>Adjectives with one syllable</h5>
         <p>
           Usually if an adjective has only one syllable, we add 'er' to make the
           comparative form.
@@ -54,7 +54,7 @@ export default function ComparativeAdjectives() {
           <li>right → more right (NOT righter)</li>
           <li>wrong → more wrong (NOT wronger)</li>
         </ul>
-        <p>Adjectives with two syllables</p>
+        <h5>Adjectives with two syllables</h5>
         <p>For adjectives with two syllables we generally use 'more'.</p>
         <ul className="page-examples">
           <li>careful → more careful</li>
@@ -80,7 +80,7 @@ export default function ComparativeAdjectives() {
           <li>happy → happier</li>
           <li>ugly → uglier</li>
         </ul>
-        <p>Adjectives with more than two syllables</p>
+        <h5>Adjectives with more than two syllables</h5>
         <p>
           Adjectives with more than two syllables can only make their
           comparative by using 'more'.

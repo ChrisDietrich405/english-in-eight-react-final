@@ -1,5 +1,4 @@
 import "../../../styles/pages/other-topics.scss";
-import "../../../styles/pages/expressions.scss";
 
 export default function ExpressionsDefinition() {
   return (
@@ -15,7 +14,7 @@ export default function ExpressionsDefinition() {
         <div className="content-wrapper">
           <img
             src="../../../images/timeismoney.png"
-            className="expressions-image1"
+            className="other-topics-image"
             aria-hidden="true"
           />
           <p>
@@ -27,7 +26,7 @@ export default function ExpressionsDefinition() {
         <div className="content-wrapper">
           <img
             src="../../../images/MindYourOwnBusiness.jpg"
-            className="expressions-image2"
+            className="other-topics-image"
             aria-hidden="true"
           />
           <p>

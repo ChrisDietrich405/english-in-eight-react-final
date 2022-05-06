@@ -50,6 +50,7 @@ export default function FutureContinuous() {
       </div>
 
       <div className="page-body">
+        <p>Examples</p>
         <ul className="page-examples">
           <li>This time next week I will be sun-bathing in Bali.</li>
           <li>By Christmas I will be skiing like a pro.</li>

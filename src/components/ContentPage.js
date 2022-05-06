@@ -2,7 +2,7 @@ import { Link, Switch, Route } from "react-router-dom";
 import classnames from "classnames";
 import parser from "html-react-parser";
 
-import "../styles/components/sidebar.scss";
+import "../styles/components/content.scss";
 import "../styles/pages/images.scss";
 
 export default function ContentPage(props) {

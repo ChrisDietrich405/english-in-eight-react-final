@@ -38,7 +38,6 @@ export default function PresentContinuous() {
               <tr>
                 <td>We are talking</td>
                 <td>We're talking</td>
-                <td>heleel</td>
               </tr>
               <tr>
                 <td>They are dancing</td>

@@ -57,7 +57,7 @@ export default function Navbar() {
                     to="/noun-categories/uncountable-and-countable"
                     className="dropdown-item"
                   >
-                    Uncountable & Countable
+                    Countable & Uncountable Nouns
                   </Link>
                 </li>
                 <li>
