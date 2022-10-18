@@ -2,17 +2,17 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar bg-light sticky-top navbar-expand-lg navbar-light ">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img
-            style={{ width: "130px" }}
+            style={{ width: "70px" }}
             src="/images/logo.svg"
             alt="English in Eight Minutes Logo"
           />
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler " 
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -22,10 +22,10 @@ export default function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link to="/" className="nav-link" aria-current="page">
+              <Link to="/" className="nav-link ml-4" aria-current="page">
                 Home
               </Link>
             </li>

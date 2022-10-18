@@ -1,7 +1,4 @@
-//PROOFREADING - finished all past tense verbs
-//wwwrtr5rr/////////
-//after MVP add images to all the idiomatic expressions and phrasal verbs
-/////////////////////
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import VerbsDefinition from "./pages/verbs/VerbsDefinition";

@@ -36,7 +36,7 @@ export default function Home() {
               <div className="verb-examples">
                 <i className="fas fa-running" aria-hidden="true"></i>
                 <p className="content-title-second-row">Verbs</p>
-                <p>action words</p>
+                <p className="content-definition">action words</p>
                 <p>run, fight, sing</p>
               </div>
             </Link>
@@ -46,7 +46,7 @@ export default function Home() {
               <div className="adjective-examples">
                 <i className="fas fa-angry" aria-hidden="true"></i>
                 <p className="content-title-second-row">Adjectives</p>
-                <p>describe nouns</p>
+                <p className="content-definition">describe nouns</p>
                 <p>smart, strong, funny</p>
               </div>
             </Link>
@@ -72,7 +72,9 @@ export default function Home() {
                   aria-hidden="true"
                 ></i>
                 <p className="content-title-second-row">Phrasal Verbs</p>
-                <p>Verb/Preposition combinations</p>
+                <p className="content-definition">
+                  Verb/Preposition combinations
+                </p>
                 <p>Get up, Break down, Speak out</p>
               </div>
             </Link>
@@ -85,7 +87,7 @@ export default function Home() {
                   aria-hidden="true"
                 ></i>
                 <p className="content-title-second-row">Versus</p>
-                <p>Speak versus Talk</p>
+                <p className="content-definition">Speak versus Talk</p>
                 <p>Remember versus Remind</p>
               </div>
             </Link>
