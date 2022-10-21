@@ -109,7 +109,7 @@ export default function SuperlativeAdjectives() {
         questions={[
           {
             title:
-              "Dolphins are the ________________________(intelligent) animals",
+              "Dolphins are the ________________________(intelligent) animals.",
             possibleAnswers: [
               { title: "most intelligent", correctAnswer: true },
               { title: "intelligentest" },

@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="navbar bg-light sticky-top navbar-expand-lg navbar-light ">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand ps-5" href="#">
           <img
             style={{ width: "70px" }}
             src="/images/logo.svg"
@@ -12,7 +12,7 @@ export default function Navbar() {
           />
         </a>
         <button
-          className="navbar-toggler " 
+          className="navbar-toggler "
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -22,8 +22,8 @@ export default function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <div className="collapse pe-5 justify-content-end navbar-collapse d-flex" id="navbarSupportedContent">
+          <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
               <Link to="/" className="nav-link ml-4" aria-current="page">
                 Home
@@ -244,6 +244,17 @@ export default function Navbar() {
               </ul>
             </li>
           </ul>
+          {/* <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-primary" type="submit">
+              Search
+            </button>
+          </form> */}
         </div>
       </div>
       <hr />

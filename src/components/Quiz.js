@@ -3,17 +3,17 @@ import { AiOutlineQuestionCircle } from "react-icons/ai";
 import "../styles/components/quiz.scss";
 import SelectAnswer from "./SelectAnswer";
 
-function AnswerIcon({ isAnswered, isAnsweredCorrectly }) {
-  //this is component. components are returned in the JSX code
+function AnswerIcon({ isAnswered }) {
   if (!isAnswered) {
-    //is Answered and is AnsweredCorrectly are props
     return (
       <>
-        {/* <AiOutlineQuestionCircle
-          size={20}
-          style={{ marginLeft: "10px", marginBottom: "5px" }}
-        />{" "} */}
-        <span>Not answered</span>
+        <span
+          style={{ marginLeft: "10px", color: "green" }}
+          role="img"
+          aria-label="dog"
+        >
+          Not answered 😓
+        </span>
       </>
     );
   }
@@ -32,7 +32,7 @@ export default function Quiz(props) {
     setSelectedAnswerTexts({ ...selectedAnswerTexts, [i]: answer });
   };
 
-  const [submitted, setSubmitted] = useState(false); //if this is true the correct answers are already shown
+  const [submitted, setSubmitted] = useState(false);
 
   const submit = (e) => {
     e.preventDefault();
@@ -75,8 +75,6 @@ export default function Quiz(props) {
                       selectedAnswerTexts={selectedAnswerTexts}
                       isAnsweredCorrectly={i in answers && answers[i] === true}
                       index={index}
-
-                      //if i in answers and answers[i] is true then return the green value
                     />
                   );
                 })}

@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="home">
       <div className="container">
-        <hr />
+      
         <h1>
           Welcome to{" "}
           <span className="title-span">English in Eight Minutes</span>

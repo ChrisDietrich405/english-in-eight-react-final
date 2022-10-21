@@ -31,6 +31,21 @@ const SelectAnswer = ({
     }
   };
 
+  const getEmoji = () => {
+    if (!(i in answers)) {
+      return "";
+    }
+    if (submitted === true) {
+      if (isAnsweredCorrectly && possibleAnswer.correctAnswer) {
+        return "😄";
+      } else if (!isAnsweredCorrectly && !possibleAnswer.correctAnswer) {
+        return "😭";
+      } else {
+        return "";
+      }
+    }
+  };
+
   return (
     <li className="answer-option">
       <input
@@ -40,11 +55,9 @@ const SelectAnswer = ({
         type="radio"
         className="radio"
       />
-      <p className={getTextColor()}>{possibleAnswer.title}</p>
+      <p className={getTextColor()}>{possibleAnswer.title} {getEmoji()}</p>
     </li>
   );
 };
 
 export default SelectAnswer;
-// {i in answers && answers[i] == true}
-// onClick={() => select(possibleAnswer, i)}
