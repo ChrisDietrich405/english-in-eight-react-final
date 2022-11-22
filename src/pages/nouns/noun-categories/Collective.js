@@ -40,7 +40,6 @@ export default function Collective() {
       <Quiz
         title="Take a Quiz!"
         questions={[
-          //because we are in react we need to start the array with a curly bracket (because it's inside of a component)
           {
             title: "The students __________ fighting in the cafeteria.",
             possibleAnswers: [

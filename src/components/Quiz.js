@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { AiOutlineQuestionCircle } from "react-icons/ai";
 import "../styles/components/quiz.scss";
 import SelectAnswer from "./SelectAnswer";
 

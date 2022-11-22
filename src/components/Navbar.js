@@ -4,13 +4,13 @@ export default function Navbar() {
   return (
     <nav className="navbar bg-light sticky-top navbar-expand-lg navbar-light ">
       <div className="container-fluid">
-        <a className="navbar-brand ps-5" href="#">
+        <Link to="/" className="navbar-brand ps-5">
           <img
             style={{ width: "70px" }}
             src="/images/logo.svg"
             alt="English in Eight Minutes Logo"
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler "
           type="button"
@@ -22,7 +22,10 @@ export default function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse pe-5 justify-content-end navbar-collapse d-flex" id="navbarSupportedContent">
+        <div
+          className="collapse pe-5 justify-content-end navbar-collapse d-flex"
+          id="navbarSupportedContent"
+        >
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
               <Link to="/" className="nav-link ml-4" aria-current="page">
@@ -30,16 +33,15 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item dropdown">
-              <a
+              <span
                 className="nav-link dropdown-toggle"
-                href="#"
                 id="nounsDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Nouns
-              </a>
+              </span>
               <ul className="dropdown-menu" aria-labelledby="nounsDropdown">
                 <li>
                   <Link
@@ -85,16 +87,15 @@ export default function Navbar() {
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a
+              <span
                 className="nav-link dropdown-toggle"
-                href="#"
                 id="verbsDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Verbs
-              </a>
+              </span>
               <ul className="dropdown-menu" aria-labelledby="verbsDropdown">
                 <li>
                   <Link
@@ -140,7 +141,7 @@ export default function Navbar() {
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a
+              <span
                 className="nav-link dropdown-toggle"
                 href="#"
                 id="phrasal-verbsDropdown"
@@ -149,7 +150,7 @@ export default function Navbar() {
                 aria-expanded="false"
               >
                 Adjectives
-              </a>
+              </span>
               <ul
                 className="dropdown-menu"
                 aria-labelledby="phrasal-verbsDropdown"
@@ -198,16 +199,15 @@ export default function Navbar() {
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a
+              <span
                 className="nav-link dropdown-toggle"
-                href="#"
                 id="expressionsDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Other Topics
-              </a>
+              </span>
               <ul
                 className="dropdown-menu"
                 aria-labelledby="expressionsDropdown"
@@ -244,17 +244,6 @@ export default function Navbar() {
               </ul>
             </li>
           </ul>
-          {/* <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-primary" type="submit">
-              Search
-            </button>
-          </form> */}
         </div>
       </div>
       <hr />
