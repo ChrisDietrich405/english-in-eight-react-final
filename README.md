@@ -1,6 +1,8 @@
 
-This app is an English teaching website. 
-This project includes bootstrap, react-icons and SASS
+   An English grammar website, built for my students after a few of
+   them started teaching me programming. I used react-router-dom for
+   the routing and SASS for the styling. I also used Bootstrap to
+   build the navbar and some tables.
 
 ## How To Run This Project
 
