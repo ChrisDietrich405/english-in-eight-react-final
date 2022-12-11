@@ -23,12 +23,16 @@ Home page
 <br>
 <br>
 
+Grammar page
+
 ![](public/images/githubreadme2.png)
 
 
 <br>
 <br>
 <br>
+
+Grammar page
 
 ![](public/images/githubreadme3.png)
 
