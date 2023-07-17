@@ -62,7 +62,7 @@ export default function PresentContinuous() {
             </tr>
             <tr>
               <td>She, he's it's fighting</td>
-              <td>She's he's it's notfighting</td>
+              <td>She's he's it's not fighting</td>
             </tr>
             <tr>
               <td>We are talking</td>

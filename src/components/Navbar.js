@@ -1,8 +1,15 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
+  const [isCollapsed, setIsCollapsed] = useState(false);
+
+  const toggleCollapse = () => {
+    setIsCollapsed(!isCollapsed);
+  };
+
   return (
-    <nav className="navbar bg-light sticky-top navbar-expand-lg navbar-light ">
+    <nav className="navbar bg-light sticky-top navbar-expand-lg navbar-light">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand ps-5">
           <img
@@ -12,23 +19,24 @@ export default function Navbar() {
           />
         </Link>
         <button
-          className="navbar-toggler "
+          className="navbar-toggler"
           type="button"
+          onClick={toggleCollapse}
+          aria-controls="navbarSupportedContent"
+          aria-expanded={isCollapsed}
+          aria-label="Toggle navigation"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className="collapse pe-5 justify-content-end navbar-collapse d-flex"
+          className={`collapse navbar-collapse ${isCollapsed ? "show" : ""}`}
           id="navbarSupportedContent"
         >
-          <ul className="navbar-nav mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link to="/" className="nav-link ml-4" aria-current="page">
+              <Link to="/" className="nav-link" aria-current="page">
                 Home
               </Link>
             </li>
@@ -38,7 +46,7 @@ export default function Navbar() {
                 id="nounsDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
+                aria-expanded={isCollapsed}
               >
                 Nouns
               </span>
@@ -92,7 +100,7 @@ export default function Navbar() {
                 id="verbsDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
+                aria-expanded={isCollapsed}
               >
                 Verbs
               </span>
@@ -143,11 +151,10 @@ export default function Navbar() {
             <li className="nav-item dropdown">
               <span
                 className="nav-link dropdown-toggle"
-                href="#"
                 id="phrasal-verbsDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
+                aria-expanded={isCollapsed}
               >
                 Adjectives
               </span>
@@ -204,7 +211,7 @@ export default function Navbar() {
                 id="expressionsDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
+                aria-expanded={isCollapsed}
               >
                 Other Topics
               </span>
@@ -223,13 +230,14 @@ export default function Navbar() {
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
-
-                <Link
-                  to="/phrasal-verbs-categories/phrasal-verbs-definition"
-                  className="dropdown-item"
-                >
-                  Phrasal Verbs
-                </Link>
+                <li>
+                  <Link
+                    to="/phrasal-verbs-categories/phrasal-verbs-definition"
+                    className="dropdown-item"
+                  >
+                    Phrasal Verbs
+                  </Link>
+                </li>
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
