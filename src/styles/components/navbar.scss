@@ -33,3 +33,9 @@ nav.navbar {
     background-color: rgb(176, 176, 207);
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .logo {
+    padding-left: 0 !important;
+  }
+}

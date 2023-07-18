@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav className="navbar bg-light sticky-top navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand ps-5">
+        <Link to="/" className="navbar-brand ps-5 logo">
           <img
             style={{ width: "70px" }}
             src="/images/logo.svg"
