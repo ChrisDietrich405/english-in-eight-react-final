@@ -36,14 +36,7 @@ export default function FutureContinuous() {
               <td>She, he, it won't be working</td>
             </tr>
             <tr>
-              <td>We will be talking</td>
-              <td>We will not be talking</td>
-              <td>We won't be talking</td>
-            </tr>
-            <tr>
-              <td>They will be dancing</td>
-              <td>They will not be dancing</td>
-              <td>They won't be dancing</td>
+       
             </tr>
           </tbody>
         </table>

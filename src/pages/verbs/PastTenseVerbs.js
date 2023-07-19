@@ -1,13 +1,6 @@
 //for the quizzes get rid of the letters
 //add the feedback underneath
-//add a third value alert that notifies the user that the question wasn't answered
-//after user submits disable all the questions (bullets) that were answered
-//notification of the questions that the user didn't answer
-//after user clicks submit if some of the questions aren't answered change opacity
-//of the button and also add a notification at the end of the quiz that the user they didn't
-//answer for example questions 4, 5
 
-//the search button in the navbar should have the blue as the default
 
 import ContentPage from "../../components/ContentPage";
 import PastContinuous from "./past-verb-tenses/PastContinuous";

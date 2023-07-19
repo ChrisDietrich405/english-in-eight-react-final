@@ -93,7 +93,7 @@ export default function PastSimple() {
         </div>
         <p>
           {" "}
-          For other irregular verbs, the simple past forms are much different
+          For irregular verbs, the simple past forms are much different
           than their infinitive forms:
         </p>
         <ul className="page-examples">
