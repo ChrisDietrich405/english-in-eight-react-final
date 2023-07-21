@@ -23,16 +23,17 @@ export default function Collective() {
             The U.S.<b>government</b> is made up of 3 branches.
           </li>
           <li>
-            This hockey <b>team includes</b> three players from Canad.
+            This hockey <b>team includes</b> three players from Canada.
+          </li>
+
+          <li>
+            Our <b>class takes</b> a field trip to the natural history museum
+            every year.
           </li>
           <li>
-            <li>
-              Our <b>class takes</b> a field trip to the natural history museum
-              every year.
-            </li>
-            My <p>family</p>
-            is important to me.
+            My <b>family</b> is important to me.
           </li>
+
           <li>
             The city <b>council</b> is rejecting the proposal.
           </li>

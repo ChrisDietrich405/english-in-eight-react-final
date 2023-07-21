@@ -89,7 +89,16 @@ export default function Navbar() {
                     to="/noun-categories/possessive-pronouns"
                     className="dropdown-item"
                   >
-                    Possessive
+                    Possessive Pronouns
+                  </Link>
+                  <hr className="dropdown-divider" />
+                </li>
+                <li>
+                  <Link
+                    to="/noun-categories/noun-modifiers"
+                    className="dropdown-item"
+                  >
+                    Modifiers
                   </Link>
                 </li>
               </ul>
