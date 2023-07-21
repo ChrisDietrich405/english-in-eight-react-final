@@ -1,6 +1,24 @@
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import Quiz from "../../../components/Quiz";
 
 export default function SimplePresent() {
+  const [verbs, setVerbs] = useState([]);
+
+  const handleGetVerbs = async () => {
+    const response = await axios.get("http://localhost:5000/verb");
+    console.log(response.data);
+  };
+
+  useEffect(() => {
+    async function fetchData() {
+      // You can await here
+      await handleGetVerbs();
+      // ...
+    }
+    fetchData();
+  }, []); // Or [] if effect doesn't need props or state
+
   return (
     <div className="page-body">
       <div className="page-title">

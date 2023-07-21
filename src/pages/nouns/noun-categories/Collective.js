@@ -1,4 +1,5 @@
 import Quiz from "../../../components/Quiz";
+//DONE))
 
 export default function Collective() {
   return (
@@ -8,32 +9,32 @@ export default function Collective() {
       </div>
       <div className="page-body">
         <p className="grammar-explanation-paragraph">
-          Collective nouns are nouns which stand for a group or collection of
+          Collective nouns are nouns which represent a group or collection of
           people or things. They include words such as <b>audience</b>,{" "}
-          <b>committee</b>, <b>police</b>, <b>crew</b>, <b>family</b>,{" "}
-          <b>government</b>, <b>group</b>, and <b>team</b>. Most collective
-          nouns are treated as singular, with a singular verb
+          <b>family</b>, <b>government</b>, <b>group</b>, and <b>team</b>. Most
+          collective nouns are treated as a singular entity, using the singular
+          verb form.
         </p>
       </div>
       <div className="page-examples">
         <p>Examples</p>
         <ul>
           <li>
-            Our <b>class takes</b> a field trip to the natural history museum
-            every year.
+            The U.S.<b>government</b> is made up of 3 branches.
           </li>
           <li>
-            The <b>jury is</b> made up of 12 people.
+            This hockey <b>team includes</b> three players from Canad.
           </li>
           <li>
-            This year’s basketball <b>team includes</b> three players who are
-            over six feet tall.
+            <li>
+              Our <b>class takes</b> a field trip to the natural history museum
+              every year.
+            </li>
+            My <p>family</p>
+            is important to me.
           </li>
           <li>
-            Napoleon’s <b>army was</b> finally defeated at Waterloo.
-          </li>
-          <li>
-            The town <b>council has</b> approved plans to create a new park.
+            The city <b>council</b> is rejecting the proposal.
           </li>
         </ul>
       </div>

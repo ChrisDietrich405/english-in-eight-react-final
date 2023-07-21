@@ -2,12 +2,12 @@ import { useState } from "react";
 import "../styles/components/footer.scss";
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from "react-toastify";
+// import { ToastContainer, toast } from "react-toastify";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const notify = () => toast("Email was successfully sent");
+  // const notify = () => toast("Email was successfully sent");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -27,7 +27,7 @@ export default function Footer() {
       )
       .then(
         (result) => {
-          notify();
+          // notify();
           setEmail("");
           setMessage("");
         },
@@ -88,7 +88,7 @@ export default function Footer() {
                 className={` form-control`}
               ></textarea>
             </div>
-            <ToastContainer />
+            {/* <ToastContainer /> */}
             <div className="button-container text-center">
               <button className="btn btn-primary" type="submit">
                 Submit
