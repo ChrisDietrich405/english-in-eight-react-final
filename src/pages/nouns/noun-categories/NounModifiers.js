@@ -1,6 +1,6 @@
 import Quiz from "../../../components/Quiz";
 
-//FINISH QUESTIONS 7-10 
+//Done
 
 export default function NounModifiers() {
   return (
@@ -10,9 +10,9 @@ export default function NounModifiers() {
       </div>
       <div className="page-body">
         <p className="grammar-explanation-paragraph">
-          We sometimes have two nouns together to demonstrate that one thing is a part of
-          something else. In the following examples, the first noun is called a
-          noun modifier.
+          We sometimes have two nouns together to demonstrate that one thing is
+          a part of something else. In the following examples, the first noun is
+          called a noun modifier.
         </p>
 
         <ul className="page-examples">
@@ -39,19 +39,14 @@ export default function NounModifiers() {
         <p>
           We don’t use a possessive form for these things. We do NOT talk about:
         </p>
-      
+
         <p>Noun modifiers can be used to show what something is made of:</p>
         <ul className="page-examples">
           <li>a metal chair</li>
           <li>a gold watch</li>
           <li>a wood table</li>
         </ul>
-        <p>Noun modifiers can be used with nouns ending in –er:</p>
-        <ul className="page-examples">
-          <li>a dress maker</li>
-          <li>a club manager</li>
-          <li>a factory worker</li>
-        </ul>
+
         <p>Noun modifiers can be used for values or measurements:</p>
         <ul className="page-examples">
           <li>an hour drive</li>
@@ -63,6 +58,12 @@ export default function NounModifiers() {
           <li>a time machine</li>
           <li>a waiting list</li>
           <li>a guitar lesson</li>
+        </ul>
+        <p>Noun modifiers can be used with nouns ending in –er:</p>
+        <ul className="page-examples">
+          <li>a dress maker</li>
+          <li>a club manager</li>
+          <li>a factory worker</li>
         </ul>
       </div>
 
@@ -79,7 +80,7 @@ export default function NounModifiers() {
           },
           {
             title:
-            "It's a cloth that you put on a table. It's a _____________.",
+              "It's a cloth that you put on a table. It's a _____________.",
             possibleAnswers: [
               { title: "table cloth", correctAnswer: true },
               { title: "cloth table" },
@@ -111,7 +112,8 @@ export default function NounModifiers() {
             userAnswer: "",
           },
           {
-            title: "They have a house in the trees. They have a ______________.",
+            title:
+              "They have a house in the trees. They have a ______________.",
             possibleAnswers: [
               { title: "tree house", correctAnswer: true },
               { title: "house tree" },
@@ -128,10 +130,10 @@ export default function NounModifiers() {
           },
           {
             title:
-              "These are my slippers that I wear in the house .   They’re my ________________",
+              "Meet me where there is a station for a train. It's a ________________",
             possibleAnswers: [
-              { title: "house slippers", correctAnswer: true },
-              { title: "slippers house" },
+              { title: "train station", correctAnswer: true },
+              { title: "station train" },
             ],
             userAnswer: "",
           },
@@ -145,10 +147,10 @@ export default function NounModifiers() {
           },
           {
             title:
-              "My grandmother gave me a plate that is used for serving desserts.   It’s a _____________.",
+              "I paid for lessons for swimming. They are _____________.",
             possibleAnswers: [
-              { title: "dessert plate", correctAnswer: true },
-              { title: "plate dessert" },
+              { title: "swimming lessons", correctAnswer: true },
+              { title: "swimmings lesson" },
             ],
             userAnswer: "",
           },
