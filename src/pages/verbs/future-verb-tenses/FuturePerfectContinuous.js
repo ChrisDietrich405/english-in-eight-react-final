@@ -1,5 +1,7 @@
 import Quiz from "../../../components/Quiz";
 
+//DONE
+
 export default function FuturePerfectContinuous() {
   return (
     <div>
@@ -7,9 +9,9 @@ export default function FuturePerfectContinuous() {
         <h2>Future Perfect Continuous</h2>
       </div>
       <p className="grammar-explanation-paragraph">
-        The past perfect continuous tense (also known as the past perfect
-        progressive tense) shows that an action that started in the past
-        continued up until00 another time in the past.
+        The future perfect continuous tense is a verb form used to talk about
+        actions or events that will have been happening continuously until a
+        specific point in the future.
       </p>
 
       <div className="table-container">
@@ -38,14 +40,14 @@ export default function FuturePerfectContinuous() {
               <td>She, he, it won't have been working</td>
             </tr>
             <tr>
-              <td>We had been talking</td>
-              <td>We had not been talking</td>
-              <td>We hadn't been talking</td>
+              <td>We have been talking</td>
+              <td>We have not been talking</td>
+              <td>We haven't been talking</td>
             </tr>
             <tr>
-              <td>They had been dancing</td>
-              <td>They had not been dancing</td>
-              <td>They hadn't been dancing</td>
+              <td>They have been dancing</td>
+              <td>They have not been dancing</td>
+              <td>They haven't been dancing</td>
             </tr>
           </tbody>
         </table>
@@ -56,80 +58,83 @@ export default function FuturePerfectContinuous() {
         questions={[
           {
             title:
-              "He ______________ juice out the carton when mom walked into the kitchen.",
+              " By next month, she will ______________ in that city for five years.",
             possibleAnswers: [
-              { title: "a. had been drinking", correctAnswer: true },
-              { title: "b. has drunk" },
+              { title: "a. have lived" },
+              { title: "b. have been living", correctAnswer: true },
+            ],
+            userAnswer: "",
+          },
+          {
+            title:
+              "By the time the project is completed, they will ___________ on it for six months.",
+            possibleAnswers: [
+              { title: "a. have worked" },
+              { title: "b. have been working", correctAnswer: true },
+            ],
+            userAnswer: "",
+          },
+          {
+            title:
+              "By this time next year, they will __________________ around the world for six months.",
+            possibleAnswers: [
+              { title: "a. have been traveling", correctAnswer: true },
+              { title: "b. have traveled" },
+            ],
+            userAnswer: "",
+          },
+          {
+            title:
+              "By the party's start, we will ___________ the decorations for two days.",
+            possibleAnswers: [
+              { title: "a. have worked on" },
+              { title: "b. have been working on", correctAnswer: true },
+            ],
+            userAnswer: "",
+          },
+          {
+            title:
+              "By the time you get here, I will ____________ for you at the airport for two hours..",
+            possibleAnswers: [
+              { title: "a. have been waiting", correctAnswer: true },
+              { title: "b. have waited" },
             ],
             userAnswer: "",
           },
 
           {
             title:
-              "I ________________ (work) at the company for five years when I got the promotion.",
+              "By the end of the week, she will ______________ the piano for five years.",
             possibleAnswers: [
-              { title: "a. had worked" },
-              { title: "b. had been working", correctAnswer: true },
-            ],
-            userAnswer: "",
-          },
-          {
-            title: "Martha ____________ three miles a day she broke her leg",
-            possibleAnswers: [
-              { title: "a. had walked" },
-              { title: "b. had been walking", correctAnswer: true },
+              { title: "a. have practiced" },
+              { title: "b. have been practicing", correctAnswer: true },
             ],
             userAnswer: "",
           },
           {
             title:
-              "She _______________ (go) to that store since 2005 when it closed",
+              "By the concert date, the band will ____________ the new songs for weeks.",
             possibleAnswers: [
-              { title: "a. had been going", correctAnswer: true },
-              { title: "b. had gone" },
+              { title: "a. have rehearsed" },
+              { title: "b. have been rehearsing", correctAnswer: true },
             ],
             userAnswer: "",
           },
           {
             title:
-              "I _________________ (study) for hours when I fell asleep at my desk",
+              "By the wedding day, they will have been planning it for a whole year.",
             possibleAnswers: [
-              { title: "a. had studied" },
-              { title: "b. had been studying", correctAnswer: true },
+              { title: "a. have been planning", correctAnswer: true },
+              { title: "b. have planned" },
             ],
             userAnswer: "",
           },
           {
             title:
-              "We ________________ (argue) for days when Elizabeth came up with a solution",
+              "By the deadline, he will _______________ on the report for three days straight..",
             possibleAnswers: [
-              { title: "a. had argued" },
-              { title: "b. had been arguing", correctAnswer: true },
-            ],
-            userAnswer: "",
-          },
-          {
-            title:
-              "They were angry because they ________________ (wait) for me for hours",
-            possibleAnswers: [
-              { title: "a. had waited" },
-              { title: "b. had been waiting", correctAnswer: true },
-            ],
-            userAnswer: "",
-          },
-          {
-            title: "They ____________ (teach) at the university since June.",
-            possibleAnswers: [
-              { title: "a. have been teaching", correctAnswer: true },
-              { title: "b. had taught" },
-            ],
-            userAnswer: "",
-          },
-          {
-            title: "I ______________ (feel) a little depressed.",
-            possibleAnswers: [
-              { title: "a. have been feeling", correctAnswer: true },
-              { title: "b. have felt" },
+              { title: "a. have been working", correctAnswer: true },
+              { title: "b. have worked" },
             ],
             userAnswer: "",
           },

@@ -1,8 +1,10 @@
 import Quiz from "../../../components/Quiz";
 
+//DONE
+
 export default function FuturePerfect() {
   return (
-    <div className="page-body">
+    <main className="page-body">
       <div className="page-title">
         <h2>Future Perfect</h2>
       </div>
@@ -158,6 +160,6 @@ export default function FuturePerfect() {
           },
         ]}
       ></Quiz>
-    </div>
+    </main>
   );
 }

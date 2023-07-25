@@ -2,9 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="home">
+    <main className="home" style={{ backgroundColor: "#f3f0f0" }}>
       <div className="container">
-      
         <h1>
           Welcome to{" "}
           <span className="title-span">English in Eight Minutes</span>
@@ -94,6 +93,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

@@ -38,7 +38,7 @@ export default function Footer() {
   };
   return (
     <>
-      <div className="container">
+      {/* <div className="container">
         <hr />
       </div>
       <div className="footer">
@@ -89,14 +89,78 @@ export default function Footer() {
               ></textarea>
             </div>
             {/* <ToastContainer /> */}
-            <div className="button-container text-center">
+      {/* <div className="button-container text-center">
               <button className="btn btn-primary" type="submit">
                 Submit
               </button>
             </div>
           </form>
         </div>
-      </div>
+      </div> */}
+
+      <footer class="container">
+        <div class="row my-4">
+          <div class="col col-lg-4">
+            {" "}
+            <div className="logo">
+              <Link to="/home" className="footer-logo">
+                <img
+                  style={{ width: "130px" }}
+                  src="/images/logo.svg"
+                  alt="English in Eight Minutes Logo"
+                />
+              </Link>
+            </div>
+            <div className="email">
+              {" "}
+              <p>englishineight@gmail.com</p>
+            </div>
+          </div>
+          <div class="col col-lg-8">
+            {" "}
+            <h3>Contact us</h3>
+            <form onSubmit={sendEmail} className="form">
+              <div className="mb-3">
+                <label
+                  htmlFor="nameControlInput"
+                  className="form-label"
+                ></label>
+                <input
+                  type="text"
+                  className="form-control"
+                  id="nameControlInput"
+                  placeholder="name"
+                />
+              </div>
+              <div className="mb-3">
+                <label htmlFor="exampleFormControlInput1">Email</label>
+                <input
+                  onChange={(e) => setEmail(e.target.value)}
+                  className={`form-control`}
+                  type="email"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div className="mb-3">
+                <label htmlFor="exampleFormControlTextarea1">Message</label>
+                <textarea
+                  onChange={(e) => setMessage(e.target.value)}
+                  id="exampleFormControlTextarea1"
+                  placeholder="Add message here"
+                  className={` form-control`}
+                ></textarea>
+              </div>
+              {/* <ToastContainer /> */}
+              <div className="button-container text-center">
+                <button className="btn btn-primary" type="submit">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
