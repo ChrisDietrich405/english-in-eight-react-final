@@ -98,8 +98,8 @@ export default function Footer() {
         </div>
       </div> */}
 
-      <footer class="container">
-        <div class="row my-4">
+      <footer class="container my-4">
+        <div class="row ">
           <div class="col col-lg-4">
             {" "}
             <div className="logo">
