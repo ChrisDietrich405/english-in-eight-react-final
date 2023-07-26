@@ -1,5 +1,7 @@
 import Quiz from "../../../components/Quiz";
 
+//DONE
+
 export default function PastPerfect() {
   return (
     <div className="page-body">
@@ -7,8 +9,8 @@ export default function PastPerfect() {
         <h2>Past Perfect</h2>
       </div>
       <p className="grammar-explanation-paragraph">
-        The past perfect is used to describe an action that happened before
-        another action.
+        The past perfect is used to explain that one action in the past happened before
+        another action in the past.
       </p>
       <div className="table-container">
         <table className="table-body">
@@ -51,34 +53,26 @@ export default function PastPerfect() {
 
       <ul className="page-examples">
         <li>
-          I <b>had finished</b> eating by the time she came home.
+          We <b>had already eaten</b> before you ordered lunch.
         </li>
         <li>
-          We <b>had already eaten</b> before you ordered the food.
+          We had told her to get ready, but she <b>had already prepared</b> her
+          bags
         </li>
         <li>
-          She told him to move out, but he <b>had already moved</b> out most of
-          his stuff.
+          They <b>had started</b> the project before their boss told them to{" "}
         </li>
         <li>
-          They <b>had started</b> the project before their boss directed them
-          to.{" "}
+          I <b>had finished</b> eating dinner by the time my wife came home.
         </li>
       </ul>
       <Quiz
         title="Take a Quiz!"
         questions={[
-          {
-            title: "He ___________ (meet) him before the party.",
-            possibleAnswers: [
-              { title: "a. had met", correctAnswer: true },
-              { title: "b. has meet" },
-            ],
-            userAnswer: "",
-          },
+      
           {
             title:
-              "The plane ____________ (leave) by the time I got to the airport.",
+              "The train ____________ (leave) by the time I got to the station.",
             possibleAnswers: [
               { title: "a. had leave" },
               { title: "b. had left", correctAnswer: true },
@@ -86,22 +80,23 @@ export default function PastPerfect() {
             userAnswer: "",
           },
           {
-            title:
-              "She _____________________ (write) the email before he apologized.",
+            title: "I wished I ______________.",
             possibleAnswers: [
-              { title: "a. had wrote" },
-              { title: "b. had written", correctAnswer: true },
+              { title: "a. had lied", correctAnswer: true },
+              { title: "b. has lied" },
             ],
             userAnswer: "",
           },
           {
-            title: "We _____________ (establish) our company before 2003.",
+            title:
+              "She _____________________ (send) the message before her brother apologized.",
             possibleAnswers: [
-              { title: "a. had established", correctAnswer: true },
-              { title: "b. has established" },
+              { title: "a. had send" },
+              { title: "b. had sent", correctAnswer: true },
             ],
             userAnswer: "",
           },
+      
           {
             title: "He _____________ (play) football until last week.",
             possibleAnswers: [
@@ -111,10 +106,27 @@ export default function PastPerfect() {
             userAnswer: "",
           },
           {
+            title: "After the storm _______________ (pass) we went outside to assess the damage.",
+            possibleAnswers: [
+              { title: "a. had pass" },
+              { title: "b. had passed", correctAnswer: true },
+            ],
+            userAnswer: "",
+          },
+        
+          {
             title: "They ___________ (get) engaged before last year.",
             possibleAnswers: [
               { title: "a. had get" },
               { title: "b. had gotten", correctAnswer: true },
+            ],
+            userAnswer: "",
+          },
+          {
+            title: "We ___________ (meet) them before the party.",
+            possibleAnswers: [
+              { title: "a. had met", correctAnswer: true },
+              { title: "b. has meet" },
             ],
             userAnswer: "",
           },
@@ -134,14 +146,7 @@ export default function PastPerfect() {
             ],
             userAnswer: "",
           },
-          {
-            title: "I wished I ______________ (tell) the truth.",
-            possibleAnswers: [
-              { title: "a. had told", correctAnswer: true },
-              { title: "b. has tell" },
-            ],
-            userAnswer: "",
-          },
+        
         ]}
       ></Quiz>
     </div>

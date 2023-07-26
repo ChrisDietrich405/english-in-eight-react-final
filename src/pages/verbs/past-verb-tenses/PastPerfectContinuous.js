@@ -1,5 +1,7 @@
 import Quiz from "../../../components/Quiz";
 
+//DONE
+
 export default function PastPerfectContinuous() {
   return (
     <div>
@@ -7,9 +9,9 @@ export default function PastPerfectContinuous() {
         <h2>Past Perfect Continuous</h2>
       </div>
       <p className="grammar-explanation-paragraph">
-        The past perfect continuous tense (also known as the past perfect
-        progressive tense) shows that an action that started in the past
-        continued up until another time in the past.
+        The past perfect continuous tense, also known as the past perfect
+        progressive, refers to an action that was ongoing in the past and that
+        was completed before another past action or point in time.
       </p>
 
       <div className="table-container">
@@ -52,16 +54,19 @@ export default function PastPerfectContinuous() {
       </div>
       <ul className="page-examples">
         <li>
-          They <b>hadn't been studying</b> very hard.
+          Marcus <b>had been working </b> on the project all day before he
+          realized he forgot his laptop at home.
         </li>
         <li>
-          He <b>had been drinking</b> all day.
+          The children <b>had been playing</b> outside in the rain and were very
+          happy when they came inside.
         </li>
         <li>
-          John was very tired. He <b>had been running</b>.
+          Before the concert began, the musicians <b>had been practicing</b>{" "}
+          hard for weeks.
         </li>
         <li>
-          I could smell cigarettes. Somebody <b>had been smoking</b>.
+          I could smell cigarettes. My mom <b>had been smoking</b>.
         </li>
       </ul>
 
@@ -70,7 +75,34 @@ export default function PastPerfectContinuous() {
         questions={[
           {
             title:
-              "He ______________ juice out the carton when mom walked into the kitchen.",
+              "She ________________ (work) at the company for three years when she got the promotion.",
+            possibleAnswers: [
+              { title: "a. had worked" },
+              { title: "b. had been working", correctAnswer: true },
+            ],
+            userAnswer: "",
+          },
+          {
+            title:
+              "Alisha _______________ (go) to that store since 2013 when it moved.",
+            possibleAnswers: [
+              { title: "a. had been going", correctAnswer: true },
+              { title: "b. had gone" },
+            ],
+            userAnswer: "",
+          },
+          {
+            title:
+              "The mechanic knew exactly what the problem was because he ____________  (examine) the car for a long time.",
+            possibleAnswers: [
+              { title: "a. had examined" },
+              { title: "b. had been examining", correctAnswer: true },
+            ],
+            userAnswer: "",
+          },
+          {
+            title:
+              "He ______________ (drink) apple juice directly out of the carton when his dad walked into the kitchen.",
             possibleAnswers: [
               { title: "a. had been drinking", correctAnswer: true },
               { title: "b. has drunk" },
@@ -80,51 +112,17 @@ export default function PastPerfectContinuous() {
 
           {
             title:
-              "I ________________ (work) at the company for five years when I got the promotion.",
-            possibleAnswers: [
-              { title: "a. had worked" },
-              { title: "b. had been working", correctAnswer: true },
-            ],
-            userAnswer: "",
-          },
-          {
-            title: "Martha ____________ three miles a day she broke her leg.",
-            possibleAnswers: [
-              { title: "a. had walked" },
-              { title: "b. had been walking", correctAnswer: true },
-            ],
-            userAnswer: "",
-          },
-          {
-            title:
-              "She _______________ (go) to that store since 2005 when it closed.",
-            possibleAnswers: [
-              { title: "a. had been going", correctAnswer: true },
-              { title: "b. had gone" },
-            ],
-            userAnswer: "",
-          },
-          {
-            title:
-              "I _________________ (study) for hours when I fell asleep at my desk.",
+              "I _________________ (study) for hours when I fell asleep on the couch.",
             possibleAnswers: [
               { title: "a. had studied" },
               { title: "b. had been studying", correctAnswer: true },
             ],
             userAnswer: "",
           },
+
           {
             title:
-              "We ________________ (argue) for days when Elizabeth came up with a solution.",
-            possibleAnswers: [
-              { title: "a. had argued" },
-              { title: "b. had been arguing", correctAnswer: true },
-            ],
-            userAnswer: "",
-          },
-          {
-            title:
-              "They were angry because they ________________ (wait) for me for hours.",
+              "She was angry because she ________________ (wait) for me for hours.",
             possibleAnswers: [
               { title: "a. had waited" },
               { title: "b. had been waiting", correctAnswer: true },
@@ -132,7 +130,8 @@ export default function PastPerfectContinuous() {
             userAnswer: "",
           },
           {
-            title: "They ____________ (teach) at the university since June.",
+            title:
+              "Demetrius ____________ (teach) at the university since May.",
             possibleAnswers: [
               { title: "a. had been teaching", correctAnswer: true },
               { title: "b. had taught" },
@@ -140,7 +139,7 @@ export default function PastPerfectContinuous() {
             userAnswer: "",
           },
           {
-            title: "I ______________ (feel) a little depressed.",
+            title: "I ______________ (feel) a little sad.",
             possibleAnswers: [
               { title: "a. had been feeling", correctAnswer: true },
               { title: "b. have felt" },
@@ -149,10 +148,19 @@ export default function PastPerfectContinuous() {
           },
           {
             title:
-              "She ______________ (eat) too much and that's why they think she got sick.",
+              "He ______________ (eat) too much and that's why they think he got sick.",
             possibleAnswers: [
               { title: "a. had been eating", correctAnswer: true },
               { title: "b. have eat" },
+            ],
+            userAnswer: "",
+          },
+          {
+            title:
+              "They ________________ (argue) for days when Bia came up with a solution.",
+            possibleAnswers: [
+              { title: "a. had argued" },
+              { title: "b. had been arguing", correctAnswer: true },
             ],
             userAnswer: "",
           },
