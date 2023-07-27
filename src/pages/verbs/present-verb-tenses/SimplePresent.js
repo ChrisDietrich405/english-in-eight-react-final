@@ -7,7 +7,7 @@ export default function SimplePresent() {
 
   const handleGetVerbs = async () => {
     const response = await axios.get("http://localhost:5000/verb");
-    console.log(response.data);
+    setVerbs(response.data);
   };
 
   useEffect(() => {
@@ -32,6 +32,9 @@ export default function SimplePresent() {
       </p>
       <div className="table-container">
         <table className="table-body">
+          {verbs.map((verb) => {
+            return <h1>{verb.positive}</h1>;
+          })}
           <tr>
             <th>Positive</th>
             <th>Negative</th>
