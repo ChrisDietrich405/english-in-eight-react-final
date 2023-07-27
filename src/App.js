@@ -47,10 +47,8 @@ function App() {
           <Route path="/noun-categories" component={Nouns} />
           <Route path="/expressions-categories" component={Expressions} />
           <Route path="/adjective-categories" component={Adjectives} />
-          <Route path="/versus-categories" component={Versus} />
-          
+          <Route path="/versus-categories" component={Versus} />         
         </Switch>
-
         <Footer />
       </Router>
     </div>

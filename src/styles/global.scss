@@ -14,6 +14,14 @@
 @import "./components/navbar.scss";
 @import "./pages/home.scss";
 
+:root {
+  --primary: #0b3a60;
+  --secondary: #da4747;
+  --tertiary: #e07339;
+  --four: #808984;
+  --five: #e2e1e7;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;

@@ -1,7 +1,3 @@
-//for the quizzes get rid of the letters
-//add the feedback underneath
-
-
 import ContentPage from "../../components/ContentPage";
 import PastContinuous from "./past-verb-tenses/PastContinuous";
 import PastPerfect from "./past-verb-tenses/PastPerfect";

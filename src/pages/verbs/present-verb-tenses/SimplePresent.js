@@ -1,3 +1,5 @@
+//DONE
+
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Quiz from "../../../components/Quiz";
@@ -7,14 +9,13 @@ export default function SimplePresent() {
 
   const handleGetVerbs = async () => {
     const response = await axios.get("http://localhost:5000/verb");
+    console.log(response.data);
     setVerbs(response.data);
   };
 
   useEffect(() => {
     async function fetchData() {
-      // You can await here
       await handleGetVerbs();
-      // ...
     }
     fetchData();
   }, []); // Or [] if effect doesn't need props or state
@@ -24,22 +25,33 @@ export default function SimplePresent() {
       <div className="page-title">
         <h2>Simple Present</h2>
       </div>
+      {verbs.map((verb) => {
+        return <h1>{verb.positive}</h1>;
+      })}
       <p className="grammar-explanation-paragraph">
-        We use the simple present tense when an action is happening right now,
-        or when it happens regularly. The positive form for regular verbs is
-        really easy. It's just the verb with an extra 's' if the subject is
-        'he', 'she', or 'it'.
+        The simple present tense in English is used to describe actions, events,
+        or states that are habitual, repeated, or generally true. It is one of
+        the basic tenses and is used when the action is happening in the present
+        time or when something is a permanent fact. The positive form for
+        regular verbs is really easy. It's just the verb with an extra 's' if
+        the subject is 'he', 'she', or 'it'.
       </p>
       <div className="table-container">
         <table className="table-body">
-          {verbs.map((verb) => {
-            return <h1>{verb.positive}</h1>;
-          })}
           <tr>
             <th>Positive</th>
             <th>Negative</th>
             <th>Negative short form</th>
           </tr>
+          {verbs.map((verb) => {
+            return (
+              <>
+                <td>{verb.positive}</td>
+                <td>{verb.negative}</td>
+                <td>{verb.negativeShortForm}</td>
+              </>
+            );
+          })}
           <tr>
             <td>I swim</td>
             <td>I do not swim</td>
@@ -70,59 +82,55 @@ export default function SimplePresent() {
 
       <div className="page-body">
         <h4>Present simple tense with irregular verbs</h4>
-        <p>
-          Some verbs have present simple spelling changes with 'he', 'she' or
-          'it':
-        </p>
+        <p>Some verbs have spelling changes with 'he', 'she' or 'it':</p>
 
+        <p>
+          Verbs that end in 's', 'sh', 'ch' or 'x' usually add <b>'e'</b> before{" "}
+          <b>'s'</b>:
+        </p>
+        <ul className="page-examples">
+          <li>watch becomes watches</li>
+          <li>pass becomes passes</li>
+          <li>crash becomes crashes</li>
+        </ul>
+        <p>She boxes on Friday nights</p>
         <p>
           Verbs that end in <b>'y'</b> often change to <b>'ie'</b> before 's':
         </p>
         <ul className="page-examples">
+          <li>cry becomes cries</li>
           <li>study becomes studies</li>
-          <li>try becomes tries</li>
+          <li>fry becomes fries</li>
           <li>marry becomes marries</li>
           <li>fly becomes flies</li>
-          <li>cry becomes cries</li>
         </ul>
-        <p>She tries very hard</p>
+        <p>He cries a lot</p>
         <p>
           Be careful! <b>'y'</b> doesn't change to <b>'ie'</b> if the ending is
           'ay', 'ey', 'oy', 'uy'.
         </p>
         <ul className="page-examples">
-          <li>play becomes plays</li>
+          <li>display becomes displays</li>
+          <li>say becomes says</li>
           <li>buy becomes buys</li>
           <li>enjoy becomes enjoys</li>
-          <li>stay becomes stays</li>
         </ul>
         <p>He buys a lot of clothes</p>
-
-        <p>
-          Verbs that end in 's', 'sh', 'ch' or 'x' often add <b>'e'</b> before{" "}
-          <b>'s'</b>:
-        </p>
-        <ul className="page-examples">
-          <li>pass becomes passes</li>
-          <li>wash becomes washes</li>
-          <li>teach becomes teaches</li>
-        </ul>
-        <p>He washes the dishes</p>
       </div>
       <br />
       <Quiz
         title="Take a Quiz!"
         questions={[
           {
-            title: "You ________ (wash) the dishes.",
+            title: "He ________ (love) tea.",
             possibleAnswers: [
-              { title: "a. washes" },
-              { title: "b. wash", correctAnswer: true },
+              { title: "a. loves", correctAnswer: true },
+              { title: "b. love" },
             ],
             userAnswer: "",
           },
           {
-            title: "I _________ (like) swimming.",
+            title: "I _________ (like) dancing.",
             possibleAnswers: [
               { title: "a. like", correctAnswer: true },
               { title: "b. likes" },
@@ -130,7 +138,7 @@ export default function SimplePresent() {
             userAnswer: "",
           },
           {
-            title: "He ____________ (play) badminton.",
+            title: "She ____________ (play) badminton.",
             possibleAnswers: [
               { title: "a. plays", correctAnswer: true },
               { title: "b. play" },
@@ -138,7 +146,7 @@ export default function SimplePresent() {
             userAnswer: "",
           },
           {
-            title: "The class (it) __________ (begin) at 9am.",
+            title: "The class (it) __________ (begin) at 11am.",
             possibleAnswers: [
               { title: "a. begin" },
               { title: "b. begins", correctAnswer: true },
@@ -154,15 +162,16 @@ export default function SimplePresent() {
             userAnswer: "",
           },
           {
-            title: "She ________ (love) chocolate.",
+            title: "They ________ (wash) the dishes.",
             possibleAnswers: [
-              { title: "a. loves", correctAnswer: true },
-              { title: "b. love" },
+              { title: "a. washes" },
+              { title: "b. wash", correctAnswer: true },
             ],
             userAnswer: "",
           },
+
           {
-            title: "We ________ (study) Arabic.",
+            title: "I ________ (study) Arabic.",
             possibleAnswers: [
               { title: "a. study", correctAnswer: true },
               { title: "b. studies" },
@@ -178,7 +187,7 @@ export default function SimplePresent() {
             userAnswer: "",
           },
           {
-            title: "He _______ (work) in a restaurant.",
+            title: "She _______ (work) at a mall.",
             possibleAnswers: [
               { title: "a. works", correctAnswer: true },
               { title: "b. work" },
@@ -186,7 +195,7 @@ export default function SimplePresent() {
             userAnswer: "",
           },
           {
-            title: "Nia _______ (play) the guitar very well.",
+            title: "Nia _______ (play) the piano very well.",
             possibleAnswers: [
               { title: "a. play" },
               { title: "b. plays", correctAnswer: true },
