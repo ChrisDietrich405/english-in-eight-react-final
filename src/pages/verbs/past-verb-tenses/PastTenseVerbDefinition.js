@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+//DONE
+
 export default function PastTenseVerbDefinition() {
   return (
     <>
@@ -8,10 +10,10 @@ export default function PastTenseVerbDefinition() {
       </div>
       <div className="page-body">
         <p className="grammar-explanation-paragraph">
-          There are four past tenses in English. The past tense refers to events
-          that have happened in the past. The <b>simple past</b> refers to
-          events that have started and ended in the past. The{" "}
-          <b>past continuous</b> refers to an event that was in progress at some
+          There are four past tenses in English. The past tense describes events
+          that have happened in the past. The <b>simple past</b> describes
+          events that have started and finished in the past. The{" "}
+          <b>past continuous</b> describes an event that was in progress at some
           point in the past. The <b>past perfect</b> is used to make it clear
           that one event happened before another in the past. The{" "}
           <b>past perfect continuous</b> shows that an action that started in

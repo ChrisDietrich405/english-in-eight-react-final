@@ -1,6 +1,8 @@
 import Quiz from "../../../components/Quiz";
 import "../../../styles/components/tables.scss";
 
+//DONE
+
 export default function PresentContinuous() {
   return (
     <div className="page-body">
@@ -9,10 +11,13 @@ export default function PresentContinuous() {
       </div>
       <div className="page-body">
         <p className="grammar-explanation-paragraph">
-          The present continuous (also called present progressive) is a verb
-          tense which is used to show that an ongoing action is happening now.
-          The present continuous can also be used to show that an action is
-          going to take place in the near future.
+          The present progressive tense is a verb form used to describe an
+          ongoing action or event that is happening at the current moment. It is
+          formed by using the auxiliary verb "to be" in the present tense,
+          followed by the main verb with "-ing" added to the end. For example,
+          in the sentence "She is reading a book," the present progressive tense
+          is "is reading," indicating that the action of reading is happening
+          right now.
         </p>
         <div className="table-container">
           <table className="table-body">
@@ -79,23 +84,7 @@ export default function PresentContinuous() {
         title="Take a Quiz"
         questions={[
           {
-            title: "I ___________ (study) at the moment.",
-            possibleAnswers: [
-              { title: "a. am study" },
-              { title: "b. am studying", correctAnswer: true },
-            ],
-            userAnswer: "",
-          },
-          {
-            title: "I ___________ (sleep).",
-            possibleAnswers: [
-              { title: "a. am not sleeping", correctAnswer: true },
-              { title: "b. is not sleeping" },
-            ],
-            userAnswer: "",
-          },
-          {
-            title: "You ___________ (play) badminton tonight.",
+            title: "You ___________ (play) tennis tonight right?",
             possibleAnswers: [
               { title: "a. are not playing", correctAnswer: true },
               { title: "b. am not playing" },
@@ -103,7 +92,24 @@ export default function PresentContinuous() {
             userAnswer: "",
           },
           {
-            title: "We ___________ (watch) TV.",
+            title: "I ___________ (study) now. Please call me later",
+            possibleAnswers: [
+              { title: "a. am study" },
+              { title: "b. am studying", correctAnswer: true },
+            ],
+            userAnswer: "",
+          },
+          {
+            title: "She ___________ (sleep).",
+            possibleAnswers: [
+              { title: "a. isn't sleeping", correctAnswer: true },
+              { title: "b. am not sleeping" },
+            ],
+            userAnswer: "",
+          },
+
+          {
+            title: "We ___________ (watch) the game.",
             possibleAnswers: [
               { title: "a. are watch" },
               { title: "b. are watching", correctAnswer: true },
@@ -111,7 +117,7 @@ export default function PresentContinuous() {
             userAnswer: "",
           },
           {
-            title: "She ____________ (work) in Spain.",
+            title: "He ____________ (work) in Baltimore.",
             possibleAnswers: [
               { title: "a. are not working", correctAnswer: true },
               { title: "b. is not working" },
@@ -119,23 +125,23 @@ export default function PresentContinuous() {
             userAnswer: "",
           },
           {
-            title: "He ___________ (wait) for the bus.",
+            title: "He ___________ (wait) for the taxi.",
             possibleAnswers: [
-              { title: "a. is not waiting", correctAnswer: true },
-              { title: "b. are not waiting" },
+              { title: "a. is waiting", correctAnswer: true },
+              { title: "b. are waiting" },
             ],
             userAnswer: "",
           },
           {
-            title: "They __________ (read).",
+            title: "They __________ (fight).",
             possibleAnswers: [
-              { title: "a. are reading", correctAnswer: true },
-              { title: "b. is reading" },
+              { title: "a. are fighting", correctAnswer: true },
+              { title: "b. is fighting" },
             ],
             userAnswer: "",
           },
           {
-            title: "We _______________ (go) to the movies tonight.",
+            title: "We _______________ (go) to the mall tonight.",
             possibleAnswers: [
               { title: "a. are not going", correctAnswer: true },
               { title: "b. are not go" },
@@ -143,15 +149,15 @@ export default function PresentContinuous() {
             userAnswer: "",
           },
           {
-            title: "You ___________ (read) the newspaper.",
+            title: "You ___________ (read) The Shining.",
             possibleAnswers: [
-              { title: "a. are not read" },
-              { title: "b. are not reading", correctAnswer: true },
+              { title: "a. are read" },
+              { title: "b. are reading", correctAnswer: true },
             ],
             userAnswer: "",
           },
           {
-            title: "She _________ chocolate.",
+            title: "She _________ (eat) a Kit Kat bar.",
             possibleAnswers: [
               { title: "a. am eating" },
               { title: "b. is eating", correctAnswer: true },

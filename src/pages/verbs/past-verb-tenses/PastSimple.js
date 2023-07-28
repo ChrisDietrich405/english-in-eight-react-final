@@ -1,5 +1,5 @@
 import Quiz from "../../../components/Quiz";
-
+//DONE
 export default function PastSimple() {
   return (
     <>
@@ -8,10 +8,11 @@ export default function PastSimple() {
       </div>
       <p className="grammar-explanation-paragraph">
         {" "}
-        The simple past is a verb tense that is used to talk about things that
-        happened or existed before now. There are regular verbs and irregular
-        verbs. Below is a table to demonstrate how we conjugate regular verbs in
-        the simple past.
+        The simple past, also known as the past simple, is a verb tense used to
+        describe actions, events, or states that occurred and were completed in
+        the past. It is one of the basic verb tenses in English and is generally
+        used to express actions that happened at a specific time in the past, or
+        to narrate a sequence of events in the past.
       </p>
 
       <div className="table-container">
@@ -54,8 +55,9 @@ export default function PastSimple() {
       </div>
       <div className="page-body">
         <p>
-          For irregular verbs, things get more complicated. The simple past
-          tense of some irregular verbs look exactly like the root form:
+          For irregular verbs, things are more challenging. For example the
+          simple past tense of some irregular verbs look exactly like the root
+          form:
         </p>
         <div className="table-container">
           <table className="table-body">
@@ -70,9 +72,14 @@ export default function PastSimple() {
               <td>I didn't put</td>
             </tr>
             <tr>
-              <td>You let</td>
-              <td>You did not let</td>
-              <td>You didn't let</td>
+              <td>They hit</td>
+              <td>They did not hit</td>
+              <td>They didn't hit</td>
+            </tr>
+            <tr>
+              <td>You set</td>
+              <td>You did not set</td>
+              <td>You didn't set</td>
             </tr>
             <tr>
               <td>She, he, it cost</td>
@@ -80,26 +87,22 @@ export default function PastSimple() {
               <td>She, he, it didn't cost</td>
             </tr>
             <tr>
-              <td>We hurt</td>
-              <td>We did not hurt</td>
-              <td>We didn't hurt</td>
-            </tr>
-            <tr>
-              <td>They hit</td>
-              <td>They did not hit</td>
-              <td>They didn't hit</td>
+              <td>We cut</td>
+              <td>We did not cut</td>
+              <td>We didn't cut</td>
             </tr>
           </table>
         </div>
         <p>
           {" "}
-          For irregular verbs, the simple past forms are much different
-          than their infinitive forms:
+          For other irregular verbs, the simple past forms are much different than
+          their infinitive forms:
         </p>
         <ul className="page-examples">
-          <li>see changes to saw</li>
+          <li>buy changes to bought</li>
           <li>eat changes to ate</li>
           <li>build changes to built</li>
+          <li>see changes to saw</li>
           <li>go changes to went</li>
         </ul>
       </div>
@@ -107,30 +110,16 @@ export default function PastSimple() {
       <Quiz
         title="Take a Quiz!"
         questions={[
-          {
-            title: "He ___________ that movie three movies.",
-            possibleAnswers: [
-              { title: "a. saw", correctAnswer: true },
-              { title: "b. sawed" },
-            ],
-            userAnswer: "",
-          },
+        
           {
             title: "I _____________ to the store.",
             possibleAnswers: [
-              { title: "a. walk" },
-              { title: "b. walked", correctAnswer: true },
+              { title: "a. go" },
+              { title: "b. went", correctAnswer: true },
             ],
             userAnswer: "",
           },
-          {
-            title: "The car ___________ the tree.",
-            possibleAnswers: [
-              { title: "a. hit", correctAnswer: true },
-              { title: "b. hited" },
-            ],
-            userAnswer: "",
-          },
+         
           {
             title: "They _____________ house very well.",
             possibleAnswers: [
@@ -148,7 +137,15 @@ export default function PastSimple() {
             userAnswer: "",
           },
           {
-            title: "She ____________ her hand with a knife.",
+            title: "She ___________ that movie yesterday.",
+            possibleAnswers: [
+              { title: "a. saw", correctAnswer: true },
+              { title: "b. sawed" },
+            ],
+            userAnswer: "",
+          },
+          {
+            title: "He ____________ his hand with a knife .",
             possibleAnswers: [
               { title: "a. cuted" },
               { title: "b. cut", correctAnswer: true },
@@ -156,7 +153,7 @@ export default function PastSimple() {
             userAnswer: "",
           },
           {
-            title: "We ________ too much last night.",
+            title: "We ________ too much this morning.",
             possibleAnswers: [
               { title: "a. ate", correctAnswer: true },
               { title: "b. eated" },
@@ -164,7 +161,7 @@ export default function PastSimple() {
             userAnswer: "",
           },
           {
-            title: "I _________ him on the cheek.",
+            title: "I _________ her on the cheek.",
             possibleAnswers: [
               { title: "a. kissed", correctAnswer: true },
               { title: "b. kiss" },
@@ -180,10 +177,18 @@ export default function PastSimple() {
             userAnswer: "",
           },
           {
-            title: "They ___________ to the movies.",
+            title: "They ___________ to the store.",
             possibleAnswers: [
               { title: "a. wented" },
               { title: "b. went", correctAnswer: true },
+            ],
+            userAnswer: "",
+          },
+          {
+            title: "The car ___________ the tree.",
+            possibleAnswers: [
+              { title: "a. hit", correctAnswer: true },
+              { title: "b. hited" },
             ],
             userAnswer: "",
           },

@@ -10,7 +10,14 @@ export default function Home() {
         //   backgroundImage: `url(${boxingImage})`,
         // }}
       >
-        <div className="container h-100">
+        <div
+          className="container h-100"
+          style={{
+            backgroundImage: 'url("./images/banner.jpg")',
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
           <div className="banner-inner">
             <h1>
               Welcome to{" "}
