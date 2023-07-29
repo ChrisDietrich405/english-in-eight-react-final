@@ -1,4 +1,5 @@
 import Quiz from "../../../components/Quiz";
+//DONE
 
 export default function PresentPerfectContinuous() {
   return (
@@ -7,11 +8,12 @@ export default function PresentPerfectContinuous() {
         <h2>Present Perfect Continuous</h2>
       </div>
       <p className="grammar-explanation-paragraph">
-        The present perfect continuous tense (also known as the present perfect
-        progressive tense) shows that something started in the past and is
-        continuing at the present time. The present perfect continuous is formed
-        using the construction has/have been + the present participle (root +
-        -ing).
+        The present perfect continuous expresses an action or situation that
+        started in the past and is still continuing or has just recently stopped
+        at the present moment. It is used to emphasize the length of time.
+        {/* The
+        present perfect continuous is formed using the construction has/have
+        been + the present participle (root + -ing). */}
       </p>
 
       <div className="table-container">
@@ -75,41 +77,41 @@ export default function PresentPerfectContinuous() {
         </table>
       </div>
 
-      <h4>Unfinished actions</h4>
-
-      <ul className="page-examples">
-        <li>I've been living in Rabat for two years.</li>
-        <li>She's been working here since 2004.</li>
-        <li>We've been waiting for the bus for hours.</li>
-      </ul>
       <h4>For temporary habits or situations </h4>
       <ul className="page-examples">
-        <li>I've been going to the gym a lot recently.</li>
         <li>
-          They've been living with his mother while they look for a house.
+          She's been living with her sister while she looks for an apartment.
         </li>
-        <li>I've been reading a lot recently.</li>
+        <li>We've been studying a lot recently.</li>
+        <li>I've been eating a lot less sugar recently.</li>
       </ul>
-      <h4>Actions which have recently stopped</h4>
+      <h4>Ongoing actions</h4>
+
       <ul className="page-examples">
-        <li>I'm so tired, I've been studying for hours.</li>
-        <li>I've been running, so I'm really hot.</li>
-        <li>It's been raining so the pavement is wet.</li>
+        <li>I've been living in Rabat for five years.</li>
+        <li>They've been waiting for the doctor for hours.</li>
+        <li>She's been going to this same restaurant since 2014.</li>
+      </ul>
+      <h4>Actions which have very recently stopped</h4>
+      <ul className="page-examples">
+        <li>He's been running, so he's really hot.</li>
+        <li>It's been raining so now it's a little cooler.</li>
+        <li>I'm so tired, I've been working on this project for hours.</li>
       </ul>
 
       <Quiz
         title="Take a Quiz!"
         questions={[
           {
-            title: "He ___________________ (work) for this company since 1985.",
+            title: "She ____________________________ (study) all morning.",
             possibleAnswers: [
-              { title: "a. have worked" },
-              { title: "b. has been working", correctAnswer: true },
+              { title: "a. has been studying", correctAnswer: true },
+              { title: "b. has studied" },
             ],
             userAnswer: "",
           },
           {
-            title: "I _____________________ (wait) for you since two o'clock.",
+            title: "I _____________________ (wait) for you since three.",
             possibleAnswers: [
               { title: "a. has waited" },
               { title: "b. have been waiting", correctAnswer: true },
@@ -117,7 +119,7 @@ export default function PresentPerfectContinuous() {
             userAnswer: "",
           },
           {
-            title: "Mary ____________________(live) in Nairobi since 1992.",
+            title: "Nia ____________________(live) in Nairobi since 2002.",
             possibleAnswers: [
               { title: "a. have lived" },
               { title: "b. has been living", correctAnswer: true },
@@ -125,7 +127,7 @@ export default function PresentPerfectContinuous() {
             userAnswer: "",
           },
           {
-            title: "They _____________________ all day.",
+            title: "They _____________________ all week.",
             possibleAnswers: [
               { title: "a. have fought" },
               { title: "b. have been fighting", correctAnswer: true },
@@ -133,7 +135,8 @@ export default function PresentPerfectContinuous() {
             userAnswer: "",
           },
           {
-            title: "He ______________________ (play) tennis for five hours.",
+            title:
+              "He ______________________ (play) basketball for five hours.",
             possibleAnswers: [
               { title: "a. have played" },
               { title: "b. has been playing", correctAnswer: true },
@@ -141,7 +144,15 @@ export default function PresentPerfectContinuous() {
             userAnswer: "",
           },
           {
-            title: "How long ___________________ (learn / you)  English?",
+            title: "He ___________________ (work) for this library since 2002.",
+            possibleAnswers: [
+              { title: "a. have worked" },
+              { title: "b. has been working", correctAnswer: true },
+            ],
+            userAnswer: "",
+          },
+          {
+            title: "How long ___________________ (learn / you) Spanish?",
             possibleAnswers: [
               { title: "a. has you learned" },
               { title: "b. have you been learning", correctAnswer: true },
@@ -150,7 +161,7 @@ export default function PresentPerfectContinuous() {
           },
           {
             title:
-              "We ______________________ (look for) the highway for more than an hour.",
+              "We ______________________ (look for) your house for more than an .",
             possibleAnswers: [
               { title: "a. have been looking", correctAnswer: true },
               { title: "b. has looked" },
@@ -159,27 +170,19 @@ export default function PresentPerfectContinuous() {
           },
           {
             title:
-              "I ________________________ (live) without electricity for two weeks.",
+              "She ________________________ (live) without electricity for five days.",
             possibleAnswers: [
-              { title: "a. have been living", correctAnswer: true },
+              { title: "a. has been living", correctAnswer: true },
               { title: "b. has lived" },
             ],
             userAnswer: "",
           },
           {
             title:
-              "How long _______________________ (work / she) in the garden?",
+              "How long _______________________ (work / he) in the garage?",
             possibleAnswers: [
-              { title: "a. have she worked" },
-              { title: "b. has she been working", correctAnswer: true },
-            ],
-            userAnswer: "",
-          },
-          {
-            title: "I ____________________________ (study) all day.",
-            possibleAnswers: [
-              { title: "a. have been studying", correctAnswer: true },
-              { title: "b. has studied" },
+              { title: "a. have he worked" },
+              { title: "b. has he been working", correctAnswer: true },
             ],
             userAnswer: "",
           },

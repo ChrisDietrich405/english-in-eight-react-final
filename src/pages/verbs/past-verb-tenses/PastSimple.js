@@ -8,7 +8,7 @@ export default function PastSimple() {
 
   const fetchVerbs = async () => {
     const response = await axios.get("http://localhost:5000/simple-past");
-    console.log(response);
+    setVerbs(response.data);
   };
 
   useEffect(() => {
@@ -39,7 +39,16 @@ export default function PastSimple() {
             </tr>
           </thead>
           <tbody>
-            <tr>
+            {verbs.map((verb) => {
+              return (
+                <tr>
+                  <td>{verb.positive}</td>
+                  <td>{verb.negative}</td>
+                  <td>{verb.negativeShortForm}</td>
+                </tr>
+              );
+            })}
+            {/* <tr>
               <td>I walked</td>
               <td>I did not walk</td>
               <td>I didn't walk</td>
@@ -63,7 +72,7 @@ export default function PastSimple() {
               <td>They greeted</td>
               <td>They did not greet</td>
               <td>They didn't greet</td>
-            </tr>
+            </tr> */}
           </tbody>
         </table>
       </div>

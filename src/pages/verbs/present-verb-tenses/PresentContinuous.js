@@ -1,9 +1,28 @@
+import { useState, useEffect } from "react";
 import Quiz from "../../../components/Quiz";
 import "../../../styles/components/tables.scss";
+import axios from "axios";
 
 //DONE
 
 export default function PresentContinuous() {
+  const [verbs, setVerbs] = useState([]);
+
+  const handleGetVerbs = async () => {
+    const response = await axios.get(
+      "http://localhost:5000/present-progressive"
+    );
+    console.log(response.data.message);
+    setVerbs(response.data.message);
+  };
+
+  useEffect(() => {
+    async function fetchData() {
+      await handleGetVerbs();
+    }
+    fetchData();
+  }, []);
+
   return (
     <div className="page-body">
       <div className="page-title">
@@ -25,33 +44,25 @@ export default function PresentContinuous() {
               <tr>
                 <th>Positive</th>
                 <th>Positive Short Form</th>
+                <th>Negative</th>
+                <th>Negative Short Form</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>I am swimming</td>
-                <td>I'm swimming</td>
-              </tr>
-              <tr>
-                <td>You are working</td>
-                <td>You're working</td>
-              </tr>
-              <tr>
-                <td>She, he, it is fighting</td>
-                <td>She's he's it's fighting</td>
-              </tr>
-              <tr>
-                <td>We are talking</td>
-                <td>We're talking</td>
-              </tr>
-              <tr>
-                <td>They are dancing</td>
-                <td>They're dancing</td>
-              </tr>
+              {verbs.map((verb) => {
+                return (
+                  <tr>
+                    <td>{verb.positive}</td>
+                    <td>{verb.positiveShortForm}</td>
+                    <td>{verb.negative}</td>
+                    <td>{verb.negativeShortForm}</td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
-        <div className="table-container">
+        {/* <div className="table-container">
           <table className="table-body">
             <tr>
               <th>Negative</th>
@@ -78,7 +89,7 @@ export default function PresentContinuous() {
               <td>They're dancing</td>
             </tr>
           </table>
-        </div>
+        </div> */}
       </div>
       <Quiz
         title="Take a Quiz"

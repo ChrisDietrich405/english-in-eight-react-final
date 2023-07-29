@@ -1,5 +1,7 @@
 import Quiz from "../../../components/Quiz";
 
+//DONE
+
 export default function ComparativeAdjectives() {
   return (
     <div className="comparative-adjectives">
@@ -8,77 +10,74 @@ export default function ComparativeAdjectives() {
       </div>
       <div className="page-body">
         <p className="grammar-explanation-paragraph">
-          To make the comparative form (like 'bigger' or 'more expensive'),
-          first we need to know how many syllables are in the adjective.
+          To make the comparative form ('stronger' or 'more delicious'), the
+          first thing we need to know is the number of syllables in the
+          adjective.
         </p>
       </div>
       <div className="page-body">
-        <h5>Adjectives with one syllable</h5>
+        <h5>Adjectives with only one syllable</h5>
         <p>
-          Usually if an adjective has only one syllable, we add 'er' to make the
+          Normally if an adjective has one syllable, we add 'er' to make the
           comparative form.
         </p>
         <ul className="page-examples">
-          <li>clean → cleaner</li>
-          <li>small → smaller</li>
-          <li>young → younger</li>
+          <li>smart → smarter</li>
+          <li>fast → faster</li>
           <li>tall → taller</li>
+          <li>old → older</li>
         </ul>
         <p>
-          There are some spelling changes. If there is one vowel followed by one
-          consonant at the end of the adjective, we often double the consonant.
+          There are some spelling changes. If the adjective ends in 'e', we
+          don't add another 'e', just 'r'.
         </p>
         <ul className="page-examples">
-          <li>wet → wetter</li>
-          <li>big → bigger</li>
+          <li>brave → braver</li>
+          <li>safe → safer</li>
+        </ul>
+        <p>
+          If there is one vowel followed by one consonant at the end of the
+          adjective, we often double the consonant.
+        </p>
+        <ul className="page-examples">
+          <li>sad → sadder</li>
           <li>hot → hotter</li>
-          <li>thin → thinner</li>
+          <li>big → bigger</li>
         </ul>
-        <p>If the adjective ends in 'y', this often changes to 'i'.</p>
-        <ul className="page-examples">
-          <li>dry → drier</li>
-          <li>busy → busier</li>
-        </ul>
-        <p>If the adjective ends in 'e', we don't add another 'e', just 'r'.</p>
-        <ul className="page-examples">
-          <li>nice → nicer</li>
-          <li>large → larger</li>
-        </ul>
+
         <p>
-          There are a few adjectives that we have to use 'more' with, even
-          though they only have one syllable. We CAN'T add 'er' or 'est'.
+          There are some adjectives that we need to use 'more' with, even though
+          they only have one syllable. We CAN'T add 'er'.
         </p>
         <ul className="page-examples">
-          <li>fun → more fun (NOT funner)</li>
           <li>real → more real (NOT realer)</li>
-          <li>right → more right (NOT righter)</li>
-          <li>wrong → more wrong (NOT wronger)</li>
+          <li>fun → more fun (NOT funner)</li>
         </ul>
         <h5>Adjectives with two syllables</h5>
-        <p>For adjectives with two syllables we generally use 'more'.</p>
+        <p>Some adjectives with two syllables use 'more'.</p>
         <ul className="page-examples">
-          <li>careful → more careful</li>
-          <li>bored → more bored</li>
+          <li>thoughtful → more thoughtful</li>
+          <li>peaceful → more peaceful</li>
         </ul>
         <p>
           But some two syllable adjectives can take 'er'. It's also fine to use
           'more'.
         </p>
         <ul className="page-examples">
-          <li>clever → cleverer</li>
+          <li>quiet → quieter</li>
+          <li>cruel → crueler</li>
           <li>simple → simpler</li>
-          <li>narrow → narrower</li>
           <li>quiet → quieter</li>
         </ul>
         <p>
-          Adjectives with two syllables that end in 'y' usually can add 'er' (y
-          generally changes to i). It's also fine to use 'more'.
+          For adjectives with two syllables that end in 'y' we usually add 'er'
+          (y generally changes to i). It's also ok to use 'more'.
         </p>
         <ul className="page-examples">
-          <li>dirty → dirtier</li>
-          <li>pretty → prettier</li>
+          <li>funny → funnier</li>
           <li>happy → happier</li>
           <li>ugly → uglier</li>
+          <li>silly → sillier</li>
         </ul>
         <h5>Adjectives with more than two syllables</h5>
         <p>
@@ -86,10 +85,10 @@ export default function ComparativeAdjectives() {
           comparative by using 'more'.
         </p>
         <ul className="page-examples">
-          <li>beautiful → more beautiful</li>
-          <li>intelligent → more intelligent</li>
+          <li>delicious → more delicious</li>
           <li>interesting → more more interesting</li>
-          <li>expensive → more expensive</li>
+          <li>exotic → more exotic</li>
+          <li>intelligent → more intelligent</li>
         </ul>
         <p>Irregular adjectives</p>
         <p>
@@ -97,24 +96,26 @@ export default function ComparativeAdjectives() {
           forms.
         </p>
         <ul className="page-examples">
-          <li>good → better</li>
-          <li>bad → worse</li>
           <li>far → further</li>
           <li>little → less</li>
           <li>much → more</li>
+          <li>good → better</li>
+          <li>bad → worse</li>
         </ul>
       </div>
       <Quiz
         title="Take a Quiz!"
         questions={[
           {
-            title: "Dogs are _______________ (loyal) than cats",
+            title:
+              "My Latin class is ______________ (interesting) than my English class. ",
             possibleAnswers: [
-              { title: "more loyal", correctAnswer: true },
-              { title: "loyaler" },
+              { title: "more interesting", correctAnswer: true },
+              { title: "interestinger" },
             ],
             userAnswer: "",
           },
+
           {
             title: "Marcus is ______________ (old) than Nia.",
             possibleAnswers: [
@@ -124,7 +125,7 @@ export default function ComparativeAdjectives() {
             userAnswer: "",
           },
           {
-            title: "Samantha is ______________(quiet) than her brother.",
+            title: "She is ______________(quiet) than her brother.",
             possibleAnswers: [
               { title: "quietter" },
               { title: "quieter", correctAnswer: true },
@@ -132,28 +133,28 @@ export default function ComparativeAdjectives() {
             userAnswer: "",
           },
           {
-            title: "Whales are ________________ (large) than Elephants.",
+            title: "Buses are ________________ (large) than cars.",
             possibleAnswers: [
               { title: "largger" },
               { title: "larger", correctAnswer: true },
             ],
             userAnswer: "",
           },
+
           {
             title:
-              "My Latin class is ______________ (boring) than my English class. ",
+              "The roads here are  _______________ (narrow) than in Baltimore.",
             possibleAnswers: [
-              { title: "more boring", correctAnswer: true },
-              { title: "boringer" },
+              { title: "narrower", correctAnswer: true },
+              { title: "narroest" },
             ],
             userAnswer: "",
           },
           {
-            title:
-              "The streets here are  _______________ (narrow) than in Baltimore.",
+            title: "Dogs are _______________ (social) than cats",
             possibleAnswers: [
-              { title: "narrower", correctAnswer: true },
-              { title: "narroest" },
+              { title: "more social", correctAnswer: true },
+              { title: "socialer" },
             ],
             userAnswer: "",
           },
@@ -167,7 +168,7 @@ export default function ComparativeAdjectives() {
           },
           {
             title:
-              "Demetrius is ________________ (ambitious) than his colleagues.",
+              "Demetrius is ________________ (ambitious) than his friends.",
             possibleAnswers: [
               { title: "ambitiouser" },
               { title: "more ambitious", correctAnswer: true },
@@ -176,7 +177,7 @@ export default function ComparativeAdjectives() {
           },
           {
             title:
-              "My garden is  ________________  (colorful) than my neighbors.",
+              "My studio is  ________________  (colorful) than my art teacher's studio.",
             possibleAnswers: [
               { title: "colorfuler" },
               { title: "more colorful", correctAnswer: true },
@@ -184,7 +185,7 @@ export default function ComparativeAdjectives() {
             userAnswer: "",
           },
           {
-            title: "His house is _______________ (comfortable) than my house .",
+            title: "Her car is _______________ (comfortable) than my car.",
             possibleAnswers: [
               { title: "more comfortable", correctAnswer: true },
               { title: "comfortabler" },

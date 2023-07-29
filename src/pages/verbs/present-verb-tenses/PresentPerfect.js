@@ -1,9 +1,24 @@
+import { useState, useEffect } from "react";
+import axios from "axios";
 import Quiz from "../../../components/Quiz";
 
 //DONE
 
-
 export default function PresentPerfect() {
+  const [verbs, setVerbs] = useState([]);
+
+  const handleGetVerbs = async () => {
+    const response = await axios.get("http://localhost:5000/present-perfect");
+    console.log(response.data);
+    setVerbs(response.data);
+  };
+
+  useEffect(() => {
+    async function fetchData() {
+      await handleGetVerbs();
+    }
+    fetchData();
+  }, []);
   return (
     <div className="page-body">
       <div className="page-title">
@@ -21,36 +36,22 @@ export default function PresentPerfect() {
           <thead>
             <tr>
               <th>Positive</th>
+              <th>Positive short form</th>
               <th>Negative</th>
               <th>Negative short form</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>I have swum</td>
-              <td>I have not swum</td>
-              <td>I haven't swum</td>
-            </tr>
-            <tr>
-              <td>You have worked</td>
-              <td>You have not worked</td>
-              <td>You haven't worked</td>
-            </tr>
-            <tr>
-              <td>She, he, it has fought</td>
-              <td>She, he, it has not fought</td>
-              <td>She, he, it hasn't fought</td>
-            </tr>
-            <tr>
-              <td>We have talked</td>
-              <td>We have not talked</td>
-              <td>We haven't talked</td>
-            </tr>
-            <tr>
-              <td>They have danced</td>
-              <td>They have not danced</td>
-              <td>They haven't danced</td>
-            </tr>
+            {verbs.map((verb) => {
+              return (
+                <tr>
+                  <td>{verb.positive}</td>
+                  <td>{verb.positiveShortForm}</td>
+                  <td>{verb.negative}</td>
+                  <td>{verb.negativeShortForm}</td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>
@@ -86,17 +87,14 @@ export default function PresentPerfect() {
         Actions repeated in an unspecified period between the past and now
       </h4>
       <ul className="page-examples">
-     
         <li>He has gone to visit them frequently.</li>
         <li>It has thundered several times already.</li>
         <li>We have complained about that restaurant many times.</li>
       </ul>
-    
 
       <Quiz
         title="Take a Quiz!"
         questions={[
-          
           {
             title: "She ___________ (eat) tofu.",
             possibleAnswers: [
@@ -177,7 +175,6 @@ export default function PresentPerfect() {
             ],
             userAnswer: "",
           },
-     
         ]}
       ></Quiz>
     </div>

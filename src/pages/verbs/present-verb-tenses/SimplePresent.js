@@ -9,6 +9,7 @@ export default function SimplePresent() {
 
   const handleGetVerbs = async () => {
     const response = await axios.get("http://localhost:5000/simple-present");
+    console.log(response.data);
     setVerbs(response.data);
   };
 
