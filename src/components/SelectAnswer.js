@@ -13,8 +13,7 @@ const SelectAnswer = ({
   index,
   isAnswered,
 }) => {
-  console.log(selectedAnswerTexts);
-  console.log(possibleAnswer);
+ 
 
   const getTextColor = () => {
     if (!(i in answers)) {

@@ -1,6 +1,20 @@
+import { useEffect, useState } from "react";
+import axios from "axios";
+
 import Quiz from "../../../components/Quiz";
 //DONE
 export default function PastSimple() {
+  const [verbs, setVerbs] = useState([]);
+
+  const fetchVerbs = async () => {
+    const response = await axios.get("http://localhost:5000/simple-past");
+    console.log(response);
+  };
+
+  useEffect(() => {
+    fetchVerbs();
+  }, []);
+
   return (
     <>
       <div className="page-title">
@@ -95,8 +109,8 @@ export default function PastSimple() {
         </div>
         <p>
           {" "}
-          For other irregular verbs, the simple past forms are much different than
-          their infinitive forms:
+          For other irregular verbs, the simple past forms are much different
+          than their infinitive forms:
         </p>
         <ul className="page-examples">
           <li>buy changes to bought</li>
@@ -110,7 +124,6 @@ export default function PastSimple() {
       <Quiz
         title="Take a Quiz!"
         questions={[
-        
           {
             title: "I _____________ to the store.",
             possibleAnswers: [
@@ -119,7 +132,7 @@ export default function PastSimple() {
             ],
             userAnswer: "",
           },
-         
+
           {
             title: "They _____________ house very well.",
             possibleAnswers: [

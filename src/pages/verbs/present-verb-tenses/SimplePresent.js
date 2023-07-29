@@ -8,8 +8,7 @@ export default function SimplePresent() {
   const [verbs, setVerbs] = useState([]);
 
   const handleGetVerbs = async () => {
-    const response = await axios.get("http://localhost:5000/verb");
-    console.log(response.data);
+    const response = await axios.get("http://localhost:5000/simple-present");
     setVerbs(response.data);
   };
 
@@ -18,23 +17,20 @@ export default function SimplePresent() {
       await handleGetVerbs();
     }
     fetchData();
-  }, []); // Or [] if effect doesn't need props or state
+  }, []);
 
   return (
     <div className="page-body">
       <div className="page-title">
         <h2>Simple Present</h2>
       </div>
-      {verbs.map((verb) => {
-        return <h1>{verb.positive}</h1>;
-      })}
+
       <p className="grammar-explanation-paragraph">
-        The simple present tense in English is used to describe actions, events,
-        or states that are habitual, repeated, or generally true. It is one of
-        the basic tenses and is used when the action is happening in the present
-        time or when something is a permanent fact. The positive form for
-        regular verbs is really easy. It's just the verb with an extra 's' if
-        the subject is 'he', 'she', or 'it'.
+        The simple present is used to describe actions, events, or states that
+        are habitual, repeated, or generally true. It is used when the action is
+        happening in the present time or when something is a permanent fact. The
+        positive form for regular verbs is really easy. It's just the verb with
+        an extra 's' if the subject is 'he', 'she', or 'it'.
       </p>
       <div className="table-container">
         <table className="table-body">
@@ -45,38 +41,13 @@ export default function SimplePresent() {
           </tr>
           {verbs.map((verb) => {
             return (
-              <>
+              <tr>
                 <td>{verb.positive}</td>
                 <td>{verb.negative}</td>
                 <td>{verb.negativeShortForm}</td>
-              </>
+              </tr>
             );
           })}
-          <tr>
-            <td>I swim</td>
-            <td>I do not swim</td>
-            <td>I don't swim</td>
-          </tr>
-          <tr>
-            <td>You fight</td>
-            <td>You do not fight</td>
-            <td>You don't fight</td>
-          </tr>
-          <tr>
-            <td>She, he, it works</td>
-            <td>She, he, it does not work</td>
-            <td>She, he, it doesn't work</td>
-          </tr>
-          <tr>
-            <td>We talk</td>
-            <td>We do not talk</td>
-            <td>We don't talk</td>
-          </tr>
-          <tr>
-            <td>They dance</td>
-            <td>They do not dance</td>
-            <td>They don't dance</td>
-          </tr>
         </table>
       </div>
 
