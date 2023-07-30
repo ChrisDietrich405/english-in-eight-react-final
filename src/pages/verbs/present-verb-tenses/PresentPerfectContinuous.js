@@ -1,7 +1,23 @@
+import { useState, useEffect } from "react";
+import axios from "axios";
 import Quiz from "../../../components/Quiz";
 //DONE
 
 export default function PresentPerfectContinuous() {
+  const [verbs, setVerbs] = useState([]);
+
+  const handleGetVerbs = async () => {
+    const response = await axios.get("http://localhost:5000/present-perfect");
+    console.log(response.data);
+    setVerbs(response.data);
+  };
+
+  useEffect(() => {
+    async function fetchData() {
+      await handleGetVerbs();
+    }
+    fetchData();
+  }, []);
   return (
     <div className="page-body">
       <div className="page-title">
@@ -22,58 +38,22 @@ export default function PresentPerfectContinuous() {
             <tr>
               <th>Positive</th>
               <th>Positive Short Form</th>
+              <th>Negative</th>
+              <th>Negative Short Form</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>I have been swimming</td>
-              <td>I've been swimming</td>
-            </tr>
-            <tr>
-              <td>You have been working</td>
-              <td>You've been working</td>
-            </tr>
-            <tr>
-              <td>She, he, it has been fighting</td>
-              <td>She's he's it's been fighting</td>
-            </tr>
-            <tr>
-              <td>We have been talking</td>
-              <td>We've been talking</td>
-            </tr>
-            <tr>
-              <td>They have been dancing</td>
-              <td>They've been dancing</td>
-            </tr>
+            {verbs.map((verb) => {
+              return (
+                <tr>
+                  <td>{verb.positive}</td>
+                  <td>{verb.positiveShortForm}</td>
+                  <td>{verb.negative}</td>
+                  <td>{verb.negativeShortForm}</td>
+                </tr>
+              );
+            })}
           </tbody>
-        </table>
-      </div>
-      <div className="table-container">
-        <table className="table-body">
-          <tr>
-            <th>Negative</th>
-            <th>Negative Short Form</th>
-          </tr>
-          <tr>
-            <td>I have not been swimming</td>
-            <td>I haven't been swimming</td>
-          </tr>
-          <tr>
-            <td>You has not been working</td>
-            <td>You haven't been working</td>
-          </tr>
-          <tr>
-            <td>She, he, it has not been fighting</td>
-            <td>She, he, it hasn't been fighting</td>
-          </tr>
-          <tr>
-            <td>We have not been talking</td>
-            <td>We haven't been talking</td>
-          </tr>
-          <tr>
-            <td>They have not been dancing</td>
-            <td>They haven't been dancing</td>
-          </tr>
         </table>
       </div>
 

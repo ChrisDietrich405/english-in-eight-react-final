@@ -1,5 +1,7 @@
 import Quiz from "../../../components/Quiz";
 
+//DONE
+
 export default function PossessiveAdjectives() {
   return (
     <div className="page-body">
@@ -9,19 +11,21 @@ export default function PossessiveAdjectives() {
         </div>
         <div className="page-body">
           <p className="grammar-explanation-paragraph">
-            The possessive adjectives in English are: my, your, his, her, its,
-            our and their.
+            Possessive adjectives are words used to show ownership or
+            possession. They are placed before a noun to indicate that the noun
+            belongs to someone or something. Examples of possessive adjectives
+            include "my," "your," "his," "her," "its," "our," and "their."
           </p>
         </div>
 
         <ul className="page-examples">
-          <li>I have a bag - this is my bag.</li>
-          <li>You have a cat - that is your cat.</li>
-          <li>He has a car - it is his car.</li>
-          <li>She has a book - it is her book.</li>
-          <li>The car has four tires - its tires are red.</li>
-          <li>We have an apartment - it is our apartment.</li>
-          <li>They have a daughter - she is their daughter.</li>
+          <li>I have a car. This is <b>my</b> car.</li>
+          <li>You have a dog. That is <b>your</b>dog</li>
+          <li>He has a car. It is  <b>his</b> car</li>
+          <li>She has a laptop. It is <b>her</b>laptop.</li>
+          <li>The car has new tires. <b>Its</b> tires are new.</li>
+          <li>We have a motorcycle. It is <b>our</b> motorcycle.</li>
+          <li>They have a boat. That is <b>their</b> boat.</li>
         </ul>
       </div>
 
@@ -32,39 +36,32 @@ export default function PossessiveAdjectives() {
         title="Take a Quiz!"
         questions={[
           {
-            title: "Where is (I) _______________ book?",
+            title: "Bia loves (she) _____________ clothes!",
             possibleAnswers: [
-              { title: "my", correctAnswer: true },
-              { title: "your" },
+              { title: "her", correctAnswer: true },
+              { title: "their" },
             ],
             userAnswer: "",
           },
           {
-            title: "Where is (we) ________________  teacher?",
+            title: "Where is (they) ________________  professor?",
             possibleAnswers: [
               { title: "my" },
-              { title: "our", correctAnswer: true },
+              { title: "their", correctAnswer: true },
             ],
             userAnswer: "",
           },
           {
-            title: "She goes to school with (she) _____________brother.",
+            title: "He goes to school with (he) _____________ cousin.",
             possibleAnswers: [
               { title: "your" },
-              { title: "her", correctAnswer: true },
+              { title: "his", correctAnswer: true },
             ],
             userAnswer: "",
           },
+       
           {
-            title: "(They) ________________ father works in a factory.",
-            possibleAnswers: [
-              { title: "His" },
-              { title: "Their", correctAnswer: true },
-            ],
-            userAnswer: "",
-          },
-          {
-            title: "(You) ______________ laptop is very expensive.",
+            title: "(You) ______________ car is very old.",
             possibleAnswers: [
               { title: "Your", correctAnswer: true },
               { title: "My" },
@@ -72,7 +69,7 @@ export default function PossessiveAdjectives() {
             userAnswer: "",
           },
           {
-            title: "(He)  ________________favorite hobby is tennis.",
+            title: "(He)  ________________favorite hobby is running.",
             possibleAnswers: [
               { title: "Your" },
               { title: "His", correctAnswer: true },
@@ -80,7 +77,15 @@ export default function PossessiveAdjectives() {
             userAnswer: "",
           },
           {
-            title: "(I) _____________ husband wants to go to Abuja.",
+            title: "Where is (I) _______________ phone?",
+            possibleAnswers: [
+              { title: "my", correctAnswer: true },
+              { title: "your" },
+            ],
+            userAnswer: "",
+          },
+          {
+            title: "(I) _____________ husband is not feeling well.",
             possibleAnswers: [
               { title: "My", correctAnswer: true },
               { title: "Her" },
@@ -88,7 +93,7 @@ export default function PossessiveAdjectives() {
             userAnswer: "",
           },
           {
-            title: "We want to see (it) ________________ historical monuments.",
+            title: "They want to go to Egypt. They want to see (it) ________________ tourist attractions.",
             possibleAnswers: [
               { title: "its", correctAnswer: true },
               { title: "their" },
@@ -96,15 +101,16 @@ export default function PossessiveAdjectives() {
             userAnswer: "",
           },
           {
-            title: "Leila loves (she) _____________ dog!",
+            title: "(They) ________________ mother works in a restaurant.",
             possibleAnswers: [
-              { title: "her", correctAnswer: true },
-              { title: "their" },
+              { title: "His" },
+              { title: "Their", correctAnswer: true },
             ],
             userAnswer: "",
           },
+         
           {
-            title: "(He) _____________ name is Bobby.",
+            title: "(He) _____________ name is Tyrese.",
             possibleAnswers: [
               { title: "Her" },
               { title: "His", correctAnswer: true },
