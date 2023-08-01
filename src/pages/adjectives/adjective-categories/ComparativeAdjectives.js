@@ -47,7 +47,7 @@ export default function ComparativeAdjectives() {
 
         <p>
           There are some adjectives that we need to use 'more' with, even though
-          they only have one syllable. We CAN'T add 'er'.
+          they only have one syllable. Adding -er is incorrect for these verbs. 
         </p>
         <ul className="page-examples">
           <li>real → more real (NOT realer)</li>
@@ -60,8 +60,7 @@ export default function ComparativeAdjectives() {
           <li>peaceful → more peaceful</li>
         </ul>
         <p>
-          But some two syllable adjectives can take 'er'. It's also fine to use
-          'more'.
+          However, some two syllable adjectives can use 'er'. 
         </p>
         <ul className="page-examples">
           <li>quiet → quieter</li>
@@ -70,8 +69,8 @@ export default function ComparativeAdjectives() {
           <li>quiet → quieter</li>
         </ul>
         <p>
-          For adjectives with two syllables that end in 'y' we usually add 'er'
-          (y generally changes to i). It's also ok to use 'more'.
+          For adjectives with two syllables that end in 'y' we normally add 'er'
+          (y generally changes to i). 
         </p>
         <ul className="page-examples">
           <li>funny → funnier</li>
@@ -79,10 +78,10 @@ export default function ComparativeAdjectives() {
           <li>ugly → uglier</li>
           <li>silly → sillier</li>
         </ul>
-        <h5>Adjectives with more than two syllables</h5>
-        <p>
-          Adjectives with more than two syllables can only make their
-          comparative by using 'more'.
+        <h5>Adjectives that have more than two syllables</h5>
+         <p>
+          Adjectives that have more than two syllables 
+          need to use 'most' to form their comparative.
         </p>
         <ul className="page-examples">
           <li>delicious → more delicious</li>
@@ -92,15 +91,15 @@ export default function ComparativeAdjectives() {
         </ul>
         <p>Irregular adjectives</p>
         <p>
-          There are also some irregular adjectives. We just need to learn these
-          forms.
+          There are also some irregular adjectives. We simply need to memorize them. 
         </p>
         <ul className="page-examples">
+          <li>good → better</li>
+          <li>bad → worse</li>
           <li>far → further</li>
           <li>little → less</li>
           <li>much → more</li>
-          <li>good → better</li>
-          <li>bad → worse</li>
+          
         </ul>
       </div>
       <Quiz

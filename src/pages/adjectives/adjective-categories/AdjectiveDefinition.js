@@ -1,3 +1,5 @@
+//DONE
+
 export default function AdjectiveDefinition() {
   return (
     <>
@@ -7,8 +9,7 @@ export default function AdjectiveDefinition() {
       <div className="expressions-definition-body">
         <p className="grammar-explanation-paragraph">
           {" "}
-          An adjective is a word that tells us more about a noun. It "describes"
-          a noun. In these examples, the adjectives are in bold and the nouns
+          Adjectives are used to describe or modify nouns or pronouns, providing more information about their qualities, characteristics, or attributes.  In these examples, the adjectives are in bold and the nouns
           are in italics.
         </p>
       </div>

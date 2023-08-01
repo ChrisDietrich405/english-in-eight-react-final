@@ -48,31 +48,7 @@ export default function PastSimple() {
                 </tr>
               );
             })}
-            {/* <tr>
-              <td>I walked</td>
-              <td>I did not walk</td>
-              <td>I didn't walk</td>
-            </tr>
-            <tr>
-              <td>You kissed</td>
-              <td>You did not kiss</td>
-              <td>You didn't kiss</td>
-            </tr>
-            <tr>
-              <td>She, he, it worked</td>
-              <td>She, he, it did not work</td>
-              <td>She, he, it didn't work</td>
-            </tr>
-            <tr>
-              <td>We talked</td>
-              <td>We did not talk</td>
-              <td>We didn't talk</td>
-            </tr>
-            <tr>
-              <td>They greeted</td>
-              <td>They did not greet</td>
-              <td>They didn't greet</td>
-            </tr> */}
+         
           </tbody>
         </table>
       </div>

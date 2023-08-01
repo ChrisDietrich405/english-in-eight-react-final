@@ -37,7 +37,7 @@ export default function ContentPage(props) {
             );
           })}
         </Switch>
-      </div>
+      </div>y
     </div>
   );
 }

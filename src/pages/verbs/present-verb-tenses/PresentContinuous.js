@@ -31,12 +31,10 @@ export default function PresentContinuous() {
       <div className="page-body">
         <p className="grammar-explanation-paragraph">
           The present progressive tense is a verb form used to describe an
-          ongoing action or event that is happening at the current moment. It is
-          formed by using the auxiliary verb "to be" in the present tense,
-          followed by the main verb with "-ing" added to the end. For example,
-          in the sentence "She is reading a book," the present progressive tense
-          is "is reading," indicating that the action of reading is happening
-          right now.
+          ongoing action, event that is happening at the current moment or even
+          a future event. It is formed by using the auxiliary verb "to be" in
+          the present tense, followed by the main verb with "-ing" added to the
+          end.
         </p>
         <div className="table-container">
           <table className="table-body">
@@ -62,34 +60,19 @@ export default function PresentContinuous() {
             </tbody>
           </table>
         </div>
-        {/* <div className="table-container">
-          <table className="table-body">
-            <tr>
-              <th>Negative</th>
-              <th>Negative Short Form</th>
-            </tr>
-            <tr>
-              <td>I am not swimming</td>
-              <td>I'm not swimming</td>
-            </tr>
-            <tr>
-              <td>You are not working</td>
-              <td>You're not working</td>
-            </tr>
-            <tr>
-              <td>She, he's it's fighting</td>
-              <td>She's he's it's not fighting</td>
-            </tr>
-            <tr>
-              <td>We are talking</td>
-              <td>We're talking</td>
-            </tr>
-            <tr>
-              <td>They are dancing</td>
-              <td>They're dancing</td>
-            </tr>
-          </table>
-        </div> */}
+
+        <h4>Actions currently happening</h4>
+        <ul className="page-examples">
+          <li>He is working at the bar now.</li>
+          <li>We are having some problems with the software. Call me later.</li>
+          <li>She is eating lunch so she can't talk now</li>
+        </ul>
+        <h4>Future actions</h4>
+        <ul className="page-examples">
+          <li>I'm having dinner with my son this afternoon</li>
+          <li>You're coming to the party tonight right?</li>
+          <li>They are flying to Kenya this weekend</li>
+        </ul>
       </div>
       <Quiz
         title="Take a Quiz"

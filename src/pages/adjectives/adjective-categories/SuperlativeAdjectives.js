@@ -1,3 +1,5 @@
+//DONE
+
 import Quiz from "../../../components/Quiz";
 
 export default function SuperlativeAdjectives() {
@@ -8,93 +10,95 @@ export default function SuperlativeAdjectives() {
       </div>
       <div className="page-body">
         <p className="grammar-explanation-paragraph">
-          To make the superlative form (like 'biggest' or 'most expensive'),
-          first we need to know how many syllables are in the adjective.
+          Superlative adjectives are used to compare three or more nouns,
+          indicating the highest or most extreme degree of a particular quality.
+          They are used when you want to highlight the greatest level of a
+          certain characteristic within a group of items or individuals.
+          Superlative adjectives typically end in "-est" for one-syllable
+          adjectives or use "most" before the adjective for longer adjectives.
         </p>
       </div>
       <div className="page-body">
         <h5>Adjectives with one syllable</h5>
         <p>
-          Usually if an adjective has only one syllable, we add 'est' to make
-          the superlative form.
+          If an adjective has one syllable, we usually add 'est' to make the
+          superlative form.
         </p>
         <ul className="page-examples">
-          <li>clean → cleanest</li>
-          <li>small → smallest</li>
-          <li>young → youngest</li>
+          <li>smart → smartest</li>
+          <li>fast → fastest</li>
           <li>tall → tallest</li>
+          <li>old → oldest</li>
         </ul>
         <p>
-          There are some spelling changes. If there is one vowel followed by one
-          consonant at the end of the adjective, we often double the consonant.
+          There are some spelling changes. If the adjective ends in 'e', we
+          don't add another 'e', just 'r'.
         </p>
         <ul className="page-examples">
-          <li>wet → wettest</li>
-          <li>big → biggest</li>
-          <li>hot → hottest</li>
-          <li>thin → thinnest</li>
+          <li>brave → bravest</li>
+          <li>safe → safest</li>
         </ul>
-        <p>If the adjective ends in 'y', this often changes to 'i'.</p>
+        <p>
+          If there is one vowel followed by one consonant at the end of the
+          adjective, we often double the consonant.
+        </p>
         <ul className="page-examples">
-          <li>dry → driest</li>
-          <li>busy → busiest</li>
+          <li>sad → sadder</li>
+          <li>hot → hotter</li>
+          <li>big → bigger</li>
         </ul>
+
         <p>If the adjective ends in 'e', we don't add another 'e', just 'r'.</p>
         <ul className="page-examples">
-          <li>nice → nicest</li>
-          <li>large → largest</li>
+          <li>brave → bravest</li>
+          <li>safe → safest</li>
         </ul>
         <p>
-          There are a few adjectives that we have to use'most' with, even though
-          they only have one syllable. We CAN'T add 'er' or 'est'.
+          There are some adjectives that we need to use 'more' with, even though
+          they only have one syllable. Adding -er is incorrect for these verbs.
         </p>
         <ul className="page-examples">
-          <li>fun → most fun (NOT funnest)</li>
-          <li>real → most real (NOT realest)</li>
-          <li>right → most right (NOT rightest)</li>
-          <li>wrong → most wrong (NOT wrongest)</li>
+          <li>real → more real (NOT realer)</li>
+          <li>fun → more fun (NOT funner)</li>
         </ul>
         <h5>Adjectives with two syllables</h5>
-        <p>For adjectives with two syllables we generally use 'most'.</p>
+        <p>Some adjectives with two syllables use 'more'.</p>
         <ul className="page-examples">
-          <li>careful → most careful</li>
-          <li>bored → most bored</li>
+          <li>thoughtful → more thoughtful</li>
+          <li>peaceful → more peaceful</li>
         </ul>
-        <p>
-          But some two syllable adjectives can take 'est'. It's also fine to use
-          'most' (for the superlative).
-        </p>
+        <p>However, some two syllable adjectives can use 'est'.</p>
         <ul className="page-examples">
-          <li>clever → cleverest</li>
+          <li>quiet → quietest</li>
+          <li>cruel → cruelest</li>
           <li>simple → simplest</li>
-          <li>narrow → narrowest</li>
           <li>quiet → quietest</li>
         </ul>
         <p>
-          Adjectives with two syllables that end in 'y' usually can add or 'est'
-          (y generally changes to i). It's also fine to use 'more' or 'most'.
+          For adjectives with two syllables that end in 'y' we normally add 'er'
+          (y generally changes to i).
         </p>
         <ul className="page-examples">
-          <li>dirty → dirtiest</li>
-          <li>pretty → prettiest</li>
+          <li>funny → funniest</li>
           <li>happy → happiest</li>
           <li>ugly → ugliest</li>
+          <li>silly → silliest</li>
         </ul>
         <h5>Adjectives with more than two syllables</h5>
         <p>
-          Adjectives with more than two syllables can only make their
-          superlative by using 'most'.
+          Adjectives that have more than two syllables need to use 'most' to
+          form their superlative.
         </p>
         <ul className="page-examples">
-          <li>beautiful → most beautiful</li>
+          <li>delicious → most delicious</li>
+          <li>interesting → most interesting</li>
+          <li>exotic → most exotic</li>
           <li>intelligent → most intelligent</li>
-          <li>interesting → more most interesting</li>
-          <li>expensive → most expensive</li>
         </ul>
         <p>Irregular adjectives</p>
         <p>
-          There are also some irregular adjectives. We just need to learn these
-          forms.
+          There are also some irregular adjectives. We simply need to memorize
+          them.
         </p>
         <ul className="page-examples">
           <li>good → best</li>
@@ -108,15 +112,6 @@ export default function SuperlativeAdjectives() {
         title="Take a Quiz!"
         questions={[
           {
-            title:
-              "Dolphins are the ________________________(intelligent) animals.",
-            possibleAnswers: [
-              { title: "most intelligent", correctAnswer: true },
-              { title: "intelligentest" },
-            ],
-            userAnswer: "",
-          },
-          {
             title: "Nia is the ___________________ (old) daughter.",
             possibleAnswers: [
               { title: "oldest", correctAnswer: true },
@@ -126,40 +121,48 @@ export default function SuperlativeAdjectives() {
           },
           {
             title:
-              "Samantha is the _______________ (quiet) person in the class.",
+              "His car is the _______________ (comfortable) car I’ve ever driven.",
             possibleAnswers: [
-              { title: "quitest" },
+              { title: "most comfortable", correctAnswer: true },
+              { title: "comfortableist" },
+            ],
+            userAnswer: "",
+          },
+          {
+            title: "Bia is the _______________ (quiet) person I've ever met.",
+            possibleAnswers: [
               { title: "quietest", correctAnswer: true },
+              { title: "quitest" },
             ],
             userAnswer: "",
           },
           {
-            title: "Whales are the ________________ (large) animals.",
+            title: "This restaurant has the ________________ food",
             possibleAnswers: [
-              { title: "most large" },
-              { title: "largest", correctAnswer: true },
+              { title: "deliciouser" },
+              { title: "most delicious", correctAnswer: true },
             ],
             userAnswer: "",
           },
           {
-            title: "My Latin class is my ______________ (boring) class. ",
+            title: "My math class is my ______________ (hard) class. ",
             possibleAnswers: [
-              { title: "most boring", correctAnswer: true },
-              { title: "boringest" },
+              { title: "hardest", correctAnswer: true },
+              { title: "most hardest" },
             ],
             userAnswer: "",
           },
           {
             title:
-              "The streets here are the _______________ (narrow) in the city.",
+              "The roads in this neighborhood are the _______________ (narrow) in the city.",
             possibleAnswers: [
-              { title: "narrowest", correctAnswer: true },
               { title: "narroest" },
+              { title: "narrowest", correctAnswer: true },
             ],
             userAnswer: "",
           },
           {
-            title: "Malcolm is the _______________ (busy) man I know.",
+            title: "Malcolm is the _______________ (busy) man in his office.",
             possibleAnswers: [
               { title: "busiest", correctAnswer: true },
               { title: "busyest" },
@@ -168,7 +171,16 @@ export default function SuperlativeAdjectives() {
           },
           {
             title:
-              "Demetrius is the ________________ (ambitious) director at his company.",
+              "Pigs are the ________________________(intelligent) farm animals.",
+            possibleAnswers: [
+              { title: "most intelligent", correctAnswer: true },
+              { title: "intelligentest" },
+            ],
+            userAnswer: "",
+          },
+          {
+            title:
+              "Demetrius is the ________________ (ambitious) director at his production company.",
             possibleAnswers: [
               { title: "ambitiousest" },
               { title: "most ambitious", correctAnswer: true },
@@ -177,19 +189,10 @@ export default function SuperlativeAdjectives() {
           },
           {
             title:
-              "My garden is the  ________________  (colorful) garden in my neighborhood.",
+              "My dog is the  ________________  (cute) in my neighborhood.",
             possibleAnswers: [
-              { title: "colorfulest" },
-              { title: "most colorful", correctAnswer: true },
-            ],
-            userAnswer: "",
-          },
-          {
-            title:
-              "His house is the _______________ (comfortable) house I’ve ever been in.",
-            possibleAnswers: [
-              { title: "most comfortable", correctAnswer: true },
-              { title: "comfortableist" },
+              { title: "most cutest" },
+              { title: "cutest", correctAnswer: true },
             ],
             userAnswer: "",
           },
