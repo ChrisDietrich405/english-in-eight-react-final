@@ -1,8 +1,21 @@
+import { useEffect, useState } from "react";
+import axios from "axios";
 import Quiz from "../../../components/Quiz";
 
 //DONE
 
 export default function PastContinuous() {
+  const [verbs, setVerbs] = useState([]);
+
+  const getVerbs = async () => {
+    const response = await axios.get("http://localhost:5000/past-progressive");
+    setVerbs(response.data);
+  };
+
+  useEffect(() => {
+    getVerbs();
+  }, []);
+
   return (
     <>
       <div className="page-title">
@@ -25,7 +38,16 @@ export default function PastContinuous() {
             </tr>
           </thead>
           <tbody>
-            <tr>
+            {verbs.map((verb) => {
+              return (
+                <tr>
+                  <td>{verb.positive}</td>
+                  <td>{verb.negative}</td>
+                  <td>{verb.negativeShortForm}</td>
+                </tr>
+              );
+            })}
+            {/* <tr>
               <td>I was swimming</td>
               <td>I was not swimming</td>
               <td>I wasn't swimming</td>
@@ -49,7 +71,7 @@ export default function PastContinuous() {
               <td>They were dancing</td>
               <td>They were not dancing</td>
               <td>They weren't dancing</td>
-            </tr>
+            </tr> */}
           </tbody>
         </table>
       </div>

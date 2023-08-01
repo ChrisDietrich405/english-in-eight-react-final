@@ -1,8 +1,23 @@
+import { useState, useEffect } from "react";
 import Quiz from "../../../components/Quiz";
+import axios from "axios";
 
 //DONE
 
 export default function PastPerfectContinuous() {
+  const [verbs, setVerbs] = useState([]);
+
+  const getVerbs = async () => {
+    const response = await axios.get(
+      "http://localhost:5000/past-perfect-progressive"
+    );
+    setVerbs(response.data);
+  };
+
+  useEffect(() => {
+    getVerbs();
+  }, []);
+
   return (
     <div>
       <div className="page-title">
@@ -19,12 +34,24 @@ export default function PastPerfectContinuous() {
           <thead>
             <tr>
               <th>Positive</th>
+              <th>Positive short form</th>
               <th>Negative</th>
               <th>Negative short form</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
+            {verbs.map((verb) => {
+              return (
+                <tr>
+                  <td>{verb.positive}</td>
+                  <td>{verb.positiveShortForm}</td>
+                  <td>{verb.negative}</td>
+                  <td>{verb.negativeShortForm}</td>
+                </tr>
+              );
+            })}
+
+            {/* <tr>
               <td>I had been swimming</td>
               <td>I had not been swimming</td>
               <td>I hadn't been swimming</td>
@@ -48,7 +75,7 @@ export default function PastPerfectContinuous() {
               <td>They had been dancing</td>
               <td>They had not been dancing</td>
               <td>They hadn't been dancing</td>
-            </tr>
+            </tr> */}
           </tbody>
         </table>
       </div>
