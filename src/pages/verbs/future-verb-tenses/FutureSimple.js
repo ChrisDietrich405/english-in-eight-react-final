@@ -115,7 +115,7 @@ export default function FutureSimple() {
         </ul>
       </div>
 
-      <Quiz
+      {/* <Quiz
         title="Quiz"
         questions={[
        
@@ -206,7 +206,7 @@ export default function FutureSimple() {
             userAnswer: "",
           },
         ]}
-      ></Quiz>
+      ></Quiz> */}
     </main>
   );
 }
